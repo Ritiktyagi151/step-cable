@@ -1,0 +1,44 @@
+.slider-div ul{margin:0;}
+.bxslider li{background:url(../images/bx_loader.gif) center center no-repeat;}
+.slider-div{background:#ffffff none repeat scroll 0 0;margin:0 auto;overflow:hidden;width:100%;}
+.slider-div ul li{list-style:outside none none;}
+.slider-div ul li img{margin:0 auto;width:100%;}
+.bx-wrapper{position:relative;margin:0 auto 0px;padding:0;*zoom:1;}
+.bx-wrapper img{max-width:100%;display:block;}
+.bx-pager.bx-default-pager{display:none;}
+.full_text{width:100%;position:absolute;background:rgba(255, 255, 255, 0.6);padding:10px 60px;bottom:0;left:0px;right:0;}
+.full_text h2{color:#fff;font-family:'open_sansregular',Arial, Helvetica, sans-serif;font-size:26px;margin:0 0 15px;padding:0;text-align:center;text-decoration:none;text-transform:capitalize;}
+.full_text h5{color:#6b6b6b;float:left;font-family:'open_sansregular', Arial, Helvetica, sans-serif;font-size:16px;margin:0px 0px 0px;padding:0;text-align:left;text-decoration:none;text-transform:capitalize;width:60%;}
+.full_text h6{color:#633805;float:right;font-family:'antic_slabregular',Arial, Helvetica, sans-serif;font-size:18px;font-weight:normal;margin:0px 0px 0px;text-align:right;text-decoration:none;text-transform:capitalize;width:35%;}
+.full_text h6 img{float:right;height:15px !important;width:16px !important;}
+.slider7_banner{height:248px;margin:0 auto 20px;text-align:center;width:435px;}
+.slider7_banner img{height:100%;max-width:100%;border:10px solid #fff;}
+.slide{text-align:center;}
+.bx-wrapper .bx-viewport{-moz-box-shadow:0 0 0px #ccc;-webkit-box-shadow:0 0 0px #ccc;box-shadow:0 0 0px #ccc;border:0px solid #fff;left:0px;background:transparent;-webkit-transform:translatez(0);-moz-transform:translatez(0);-ms-transform:translatez(0);-o-transform:translatez(0);transform:translatez(0);}
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto{position:absolute;bottom:-20px;width:100%;}
+.bx-wrapper .bx-loading{min-height:50px;background:url(images/bx_loader.gif) center center no-repeat #fff;height:100%;width:100%;position:absolute;top:0;left:0;z-index:2000;}
+.bx-wrapper .bx-pager{text-align:center;font-size:.85em;font-family:Arial;font-weight:bold;color:#666;padding-top:20px;}
+.bx-wrapper .bx-pager .bx-pager-item,
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item{display:inline-block;*zoom:1;*display:inline;}
+.bx-wrapper .bx-pager.bx-default-pager a{background:#fff;text-indent:-9999px;display:block;width:10px;height:10px;margin:0 5px;outline:0;-moz-border-radius:50%;-webkit-border-radius:50%;border-radius:50%;}
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active{background:#202d74;}
+.bx-wrapper .bx-prev{left:20px;background:url(../images/icons/slider-lft.png) no-repeat 0px 0px;}
+.slide > img{margin:0 auto;}
+.bx-wrapper .bx-next{right:20px;background:url(../images/icons/slider-rgt.png) no-repeat 0px 0px;}
+.bx-wrapper .bx-prev:hover{background-position:0px 0px;}
+.bx-wrapper .bx-next:hover{background-position:0px 0px;}
+.bx-wrapper .bx-controls-direction a{position:absolute;top:50%;margin-top:-16px;outline:0;width:36px;height:60px;text-indent:-9999px;z-index:9999;}
+.bx-wrapper .bx-controls-direction a.disabled{display:none;}
+.bx-wrapper .bx-controls-auto{text-align:center;}
+.bx-wrapper .bx-controls-auto .bx-start{display:block;text-indent:-9999px;width:10px;height:11px;outline:0;background:url(images/controls.png) -86px -11px no-repeat;margin:0 3px;}
+.bx-wrapper .bx-controls-auto .bx-start:hover,
+.bx-wrapper .bx-controls-auto .bx-start.active{background-position:-86px 0;}
+.bx-wrapper .bx-controls-auto .bx-stop{display:block;text-indent:-9999px;width:9px;height:11px;outline:0;background:url(images/controls.png) -86px -44px no-repeat;margin:0 3px;}
+.bx-wrapper .bx-controls-auto .bx-stop:hover,
+.bx-wrapper .bx-controls-auto .bx-stop.active{background-position:-86px -33px;}
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager{text-align:left;width:80%;}
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto{right:0;width:35px;}
+.bx-wrapper .bx-caption{position:absolute;bottom:0;left:0;background:#666\9;background:rgba(80, 80, 80, 0.75);width:100%;}
+.bx-wrapper .bx-caption span{color:#fff;font-family:Arial;display:block;font-size:.85em;padding:10px;}

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+sitemap: https://www.stepcable.com/sitemap.xml
