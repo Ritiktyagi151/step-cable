@@ -1,13 +1,14 @@
 import Link from "next/link";
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaMapMarkerAlt, FaMobileAlt, FaPhoneAlt, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaMapMarkerAlt, FaMobileAlt, FaPhoneAlt, FaYoutube } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { footerLinks, mainNavLinks, navGroups, topNavLinks } from "@/lib/navigation";
 
 const socialLinks = [
-  { label: "Facebook", href: "https://facebook.com/stepCablesIndia/", Icon: FaFacebookF },
-  { label: "Twitter", href: "https://twitter.com/StepCablesIndia", Icon: FaTwitter },
-  { label: "LinkedIn", href: "https://www.linkedin.com/company/stepcablesindia/", Icon: FaLinkedinIn },
-  { label: "Instagram", href: "https://www.instagram.com/stepcablesofficial/", Icon: FaInstagram },
-  { label: "YouTube", href: "https://www.youtube.com/channel/UCEh0fNj2-IXT4uLsgJ8rjXw", Icon: FaYoutube }
+  { label: "Facebook", href: "https://facebook.com/stepCablesIndia/", Icon: FaFacebookF, className: "text-[#1877F2]" },
+  { label: "X", href: "https://twitter.com/StepCablesIndia", Icon: FaXTwitter, className: "text-black" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/company/stepcablesindia/", Icon: FaLinkedinIn, className: "text-[#0A66C2]" },
+  { label: "Instagram", href: "https://www.instagram.com/stepcablesofficial/", Icon: FaInstagram, className: "text-[#E4405F]" },
+  { label: "YouTube", href: "https://www.youtube.com/channel/UCEh0fNj2-IXT4uLsgJ8rjXw", Icon: FaYoutube, className: "text-[#FF0000]" }
 ];
 
 const businessLinks: Array<[string, string]> = navGroups.flatMap((group) =>
@@ -20,7 +21,7 @@ function FooterHeading({ children }: { children: React.ReactNode }) {
 
 function FooterLink({ href, label }: { href: string; label: string }) {
   return (
-    <Link href={href} className="text-sm leading-6 text-neutral-300 transition hover:text-white">
+    <Link href={href} className="text-sm leading-6 text-white/72 transition duration-300 hover:text-brand-teal">
       {label}
     </Link>
   );
@@ -28,7 +29,9 @@ function FooterLink({ href, label }: { href: string; label: string }) {
 
 export function SiteFooter() {
   return (
-    <footer className="bg-black text-white">
+    <footer className="relative overflow-hidden border-t border-brand-teal/15 bg-[url('/images/footer-bg.jpg')] bg-cover bg-center text-white lg:bg-fixed">
+      <div className="absolute inset-0 bg-black/72 backdrop-blur-[1px]" />
+      <div className="bg-[linear-gradient(rgba(91,192,187,0.08)_1px,transparent_1px),linear-gradient(90deg,rgba(91,192,187,0.08)_1px,transparent_1px)] bg-[size:44px_44px] absolute inset-0 opacity-45" />
       {/* <div className="border-b border-white/10">
         <div className="mx-auto grid max-w-[88rem] gap-6 px-4 py-8 sm:px-6 lg:grid-cols-3 lg:px-8">
           <div className="border border-white/10 p-5">
@@ -67,26 +70,26 @@ export function SiteFooter() {
         </div>
       </div> */}
 
-      <div className="mx-auto grid max-w-[88rem] gap-10 px-4 py-12 sm:px-6 md:grid-cols-2 lg:grid-cols-[1.25fr_0.75fr_0.95fr_0.95fr_1.2fr] lg:px-8">
+      <div className="relative mx-auto grid max-w-[88rem] gap-10 px-4 py-12 sm:px-6 md:grid-cols-2 lg:grid-cols-[1.25fr_0.75fr_0.95fr_0.95fr_1.2fr] lg:px-8">
         <div>
-          <img src="/assetshome/img/logo-step.png" alt="Step Cables" className="h-14 w-auto brightness-0 invert" />
-          <p className="mt-5 max-w-md text-sm leading-7 text-neutral-300">
+          <img src="/assetshome/img/logo-step.png" alt="Step Cables" className="h-14 w-auto" />
+          <p className="mt-5 max-w-md text-sm leading-7 text-white/78">
             Step Cables delivers wires, power cables, aluminum conductors and EPC business solutions for residential, industrial, utility and infrastructure applications.
           </p>
-          <p className="mt-4 max-w-md text-sm leading-7 text-neutral-400">
+          <p className="mt-4 max-w-md text-sm leading-7 text-white/65">
             Built around quality assurance, reliable manufacturing and project-ready support, the company serves customers across electrical distribution and construction segments.
           </p>
           <div className="mt-6 flex flex-wrap gap-2">
-            {socialLinks.map(({ label, href, Icon }) => (
+            {socialLinks.map(({ label, href, Icon, className }) => (
               <a
                 key={href}
                 href={href}
                 target="_blank"
                 rel="noreferrer"
                 aria-label={label}
-                className="flex h-9 w-9 items-center justify-center border border-white/20 text-white transition hover:border-white hover:bg-white hover:text-black"
+                className="flex h-9 w-9 items-center justify-center rounded-full border border-white/20 bg-white/90 transition duration-300 hover:-translate-y-0.5 hover:border-brand-teal/35 hover:bg-white"
               >
-                <Icon aria-hidden="true" />
+                <Icon aria-hidden="true" className={className} />
               </a>
             ))}
           </div>
@@ -121,7 +124,7 @@ export function SiteFooter() {
 
         <div>
           <FooterHeading>Contact Details</FooterHeading>
-          <div className="mt-5 grid gap-5 text-sm leading-6 text-neutral-300">
+          <div className="mt-5 grid gap-5 text-sm leading-6 text-white/72">
             <div>
               <p className="font-semibold text-white">Corporate Office</p>
               <p className="mt-1">1/61, Lane No-1, Vishwas Nagar, Delhi - 110032</p>
@@ -134,17 +137,17 @@ export function SiteFooter() {
               <p className="font-semibold text-white">Registered Office</p>
               <p className="mt-1">1/61, Lane No-1, Vishwas Nagar, Delhi - 110032</p>
             </div>
-            <div className="grid gap-2 border-t border-white/10 pt-5">
-              <a href="tel:01206849500" className="hover:text-white">
+            <div className="grid gap-2 border-t border-white/15 pt-5">
+              <a href="tel:01206849500" className="hover:text-brand-teal">
                 Phone: 0120 6849500-99 (100 lines)
               </a>
-              <a href="tel:+918448819330" className="hover:text-white">
+              <a href="tel:+918448819330" className="hover:text-brand-teal">
                 Mobile: +91 8448819330
               </a>
-              <a href="mailto:info@stepcable.com" className="hover:text-white">
+              <a href="mailto:info@stepcable.com" className="hover:text-brand-teal">
                 E-mail: info@stepcable.com
               </a>
-              <Link href="/contact" className="mt-2 inline-flex w-fit border border-white/20 px-4 py-2 text-xs font-semibold uppercase tracking-[0.14em] text-white transition hover:border-white hover:bg-white hover:text-black">
+              <Link href="/contact" className="rounded-full bg-gradient-to-r from-brand-teal to-brand-dark text-white shadow-lg shadow-brand-teal/25 transition duration-300 hover:-translate-y-0.5 mt-2 inline-flex w-fit px-4 py-2 text-xs font-semibold uppercase tracking-[0.14em]">
                 Contact Us
               </Link>
             </div>
@@ -152,20 +155,12 @@ export function SiteFooter() {
         </div>
       </div>
 
-      <div className="border-t border-white/10 px-4 py-5">
-        <div className="mx-auto flex max-w-[88rem] flex-col gap-3 text-xs text-neutral-400 sm:flex-row sm:items-center sm:justify-between">
+      <div className="relative border-t border-white/15 bg-black/45 px-4 py-5 backdrop-blur">
+        <div className="mx-auto flex max-w-[88rem] flex-col gap-3 text-xs text-white/72 sm:flex-row sm:items-center sm:justify-between">
           <p>© {new Date().getFullYear()} Step Cables. All rights reserved.</p>
-          <div className="flex flex-wrap gap-4">
-            <Link href="/privacy-policy" className="hover:text-white">
-              Privacy Policy
-            </Link>
-            <Link href="/terms-conditions" className="hover:text-white">
-              Terms & Conditions
-            </Link>
-            <Link href="/sitemap" className="hover:text-white">
-              Sitemap
-            </Link>
-          </div>
+          <p className="font-semibold text-white/82">Design and develop by <a href="https://www.jaikvik.com" target="_blank" rel="noopener noreferrer" className="hover:text-brand-teal">
+            Jaikvik Technology India Pvt Ltd
+          </a> </p>
         </div>
       </div>
     </footer>

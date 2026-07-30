@@ -32,12 +32,12 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
   const results = [...pageResults, ...blogResults].slice(0, 40);
 
   return (
-    <section className="bg-white px-4 py-16 sm:px-6 lg:px-8">
+    <section className="bg-slate-50/80 px-4 py-16 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-5xl">
-        <p className="text-sm font-bold uppercase tracking-[0.18em] text-neutral-500">Search</p>
-        <h1 className="mt-3 text-4xl font-black text-black">{query ? `Results for "${query}"` : "Search Step Cables"}</h1>
+        <p className="text-sm font-bold uppercase tracking-[0.18em] text-brand-dark">Search</p>
+        <h1 className="mt-3 text-4xl font-black text-slate-900">{query ? `Results for "${query}"` : "Search Step Cables"}</h1>
 
-        <form action="/search" className="mt-8 flex max-w-2xl gap-3">
+        <form action="/search" className="mt-8 flex max-w-2xl gap-3 rounded-[20px] border border-brand-teal/15 bg-white/78 p-3 shadow-xl shadow-slate-900/5 backdrop-blur-lg">
           <label htmlFor="search-page-input" className="sr-only">
             Search
           </label>
@@ -47,9 +47,9 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
             type="search"
             defaultValue={query}
             placeholder="Search products, pages, blogs"
-            className="min-w-0 flex-1 border border-neutral-300 px-4 py-3 text-sm text-black outline-none focus:border-black"
+            className="min-w-0 flex-1 rounded-full border border-brand-teal/15 bg-white px-4 py-3 text-sm text-slate-900 outline-none focus:border-brand-teal/35"
           />
-          <button type="submit" className="bg-black px-6 py-3 text-sm font-bold text-white transition hover:bg-neutral-800">
+          <button type="submit" className="rounded-full bg-gradient-to-r from-brand-teal to-brand-dark px-6 py-3 text-sm font-bold text-white shadow-lg shadow-brand-teal/25 transition duration-300 hover:-translate-y-0.5">
             Search
           </button>
         </form>
@@ -57,10 +57,10 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
         <div className="mt-10 grid gap-4">
           {query && results.length === 0 ? <p className="text-neutral-600">No results found.</p> : null}
           {results.map((result) => (
-            <Link key={`${result.type}-${result.url}`} href={result.url} className="border border-neutral-200 p-5 transition hover:border-black">
-              <span className="text-xs font-bold uppercase tracking-[0.16em] text-neutral-500">{result.type}</span>
-              <h2 className="mt-2 text-xl font-black text-black">{result.title}</h2>
-              <p className="mt-2 text-sm leading-6 text-neutral-600">{result.description}</p>
+            <Link key={`${result.type}-${result.url}`} href={result.url} className="rounded-[20px] border border-brand-teal/15 bg-white/78 p-5 shadow-xl shadow-slate-900/5 backdrop-blur-lg transition hover:-translate-y-1 hover:border-brand-teal/35 hover:bg-white/90">
+              <span className="text-xs font-bold uppercase tracking-[0.16em] text-brand-dark">{result.type}</span>
+              <h2 className="mt-2 text-xl font-black text-slate-900">{result.title}</h2>
+              <p className="mt-2 text-sm leading-6 text-slate-500">{result.description}</p>
             </Link>
           ))}
         </div>

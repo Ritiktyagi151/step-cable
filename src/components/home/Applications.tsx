@@ -1,55 +1,69 @@
-import { homeIndustries } from "./homeData";
-import { FaBolt, FaBuilding, FaCity, FaHardHat, FaIndustry, FaPlug } from "react-icons/fa";
+"use client";
 
-const applicationIcons = [FaBuilding, FaIndustry, FaHardHat, FaBolt, FaCity, FaPlug];
+import { useEffect, useRef, useState } from "react";
+import { homeIndustryApplications } from "./homeData";
 
 export function Applications() {
+  const leftColumn = homeIndustryApplications.slice(0, 5);
+  const rightColumn = homeIndustryApplications.slice(5);
+  const sectionRef = useRef<HTMLElement>(null);
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const section = sectionRef.current;
+    if (!section) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => setIsVisible(entry.isIntersecting),
+      { threshold: 0.25 }
+    );
+
+    observer.observe(section);
+    return () => observer.disconnect();
+  }, []);
+
   return (
-    <section className="overflow-hidden border-b border-neutral-200 bg-white">
-      <div className="mx-auto grid max-w-7xl gap-10 px-4 py-16 sm:px-6 lg:grid-cols-[0.75fr_1.25fr] lg:px-8">
-        <div className="flex flex-col justify-between border-l-4 border-black pl-6">
-          <div>
-            <p className="text-xs font-black uppercase tracking-[0.35em] text-neutral-500">Applications</p>
-            <h2 className="mt-4 text-4xl font-black leading-tight text-black">Built for every electrical environment.</h2>
-            <p className="mt-5 max-w-md text-base leading-8 text-neutral-600">
-              From housing networks to utility infrastructure, Step Cables supports dependable power movement across project types.
-            </p>
+    <section
+      ref={sectionRef}
+      id="applications"
+      className="relative min-h-[560px] overflow-hidden border-y border-brand-teal/15 bg-[url('/assets/img/epc.jpg')] bg-cover bg-center text-slate-900 lg:min-h-[640px] lg:bg-fixed"
+      aria-labelledby="industry-application-title"
+    >
+      <div className="relative mx-auto flex min-h-[560px] max-w-7xl items-center justify-end px-4 py-14 sm:px-6 lg:min-h-[640px] lg:px-8 lg:py-20">
+        <div className={`ml-auto w-full max-w-2xl text-left transition-all duration-1000 ease-out ${isVisible ? "translate-x-0 opacity-100" : "translate-x-20 opacity-0"}`}>
+          <div className="mb-6 h-1 w-20 rounded-full bg-brand-teal" />
+          <p className="text-[0.68rem] font-black uppercase tracking-[0.28em] text-brand-teal">Industry Application</p>
+          <h2 id="industry-application-title" className="mt-3 text-2xl font-black leading-tight text-white drop-shadow-lg sm:text-3xl lg:text-4xl">
+            Built for demanding
+            <span className="block text-brand-teal">industrial environments.</span>
+          </h2>
+
+          <div className="mt-9 grid gap-3 sm:grid-cols-2">
+            <div className="grid gap-3">
+              {leftColumn.map((item, index) => (
+                <p
+                  key={item}
+                  className={`flex min-h-12 items-center justify-start gap-3 rounded-[20px] border border-white/15 bg-black/35 px-4 py-3 text-left text-[0.68rem] font-black uppercase tracking-[0.08em] text-white shadow-lg shadow-slate-900/20 backdrop-blur-sm transition-all duration-700 ease-out hover:-translate-y-1 hover:border-brand-teal/45 hover:bg-black/45 sm:min-h-14 sm:gap-5 sm:text-xs sm:tracking-[0.12em] ${isVisible ? "translate-x-0 opacity-100" : "translate-x-12 opacity-0"}`}
+                  style={{ transitionDelay: `${index * 80}ms` }}
+                >
+                  <span className="text-[0.65rem] text-brand-teal">0{index + 1}</span>
+                  <span>{item}</span>
+                </p>
+              ))}
+            </div>
+            <div className="grid gap-3">
+              {rightColumn.map((item, index) => (
+                <p
+                  key={item}
+                  className={`flex min-h-12 items-center justify-start gap-3 rounded-[20px] border border-white/15 bg-black/35 px-4 py-3 text-left text-[0.68rem] font-black uppercase tracking-[0.08em] text-white shadow-lg shadow-slate-900/20 backdrop-blur-sm transition-all duration-700 ease-out hover:-translate-y-1 hover:border-brand-teal/45 hover:bg-black/45 sm:min-h-14 sm:gap-5 sm:text-xs sm:tracking-[0.12em] ${isVisible ? "translate-x-0 opacity-100" : "translate-x-12 opacity-0"}`}
+                  style={{ transitionDelay: `${(index + 5) * 80}ms` }}
+                >
+                  <span className="text-[0.65rem] text-brand-teal">0{index + 6}</span>
+                  <span>{item}</span>
+                </p>
+              ))}
+            </div>
           </div>
-          <a href="/clients1" className="mt-8 w-fit bg-black px-6 py-3 text-sm font-black uppercase tracking-wide text-white transition hover:bg-neutral-800">
-            View Clients
-          </a>
-        </div>
-
-        <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
-          {homeIndustries.map((item, index) => {
-            const Icon = applicationIcons[index % applicationIcons.length];
-            return (
-              <div
-                key={item}
-                className="application-card group relative min-h-40 overflow-hidden border border-neutral-200 bg-neutral-50 p-6 transition hover:border-black hover:bg-black hover:text-white"
-                style={{ animationDelay: `${index * 120}ms` }}
-              >
-                <div className="absolute right-4 top-4 text-5xl text-neutral-200 transition group-hover:text-white/10">
-                  <Icon aria-hidden="true" />
-                </div>
-                <div className="relative">
-                  <span className="text-xs font-black uppercase tracking-[0.25em] text-neutral-500 transition group-hover:text-white/55">0{index + 1}</span>
-                  <h3 className="mt-10 text-xl font-black uppercase tracking-wide text-black transition group-hover:text-white">{item}</h3>
-                  <div className="mt-5 h-1 w-10 bg-black transition group-hover:w-20 group-hover:bg-white" />
-                </div>
-              </div>
-            );
-          })}
-        </div>
-      </div>
-
-      <div className="border-t border-neutral-200 bg-black py-4 text-white">
-        <div className="application-marquee flex whitespace-nowrap text-xs font-black uppercase tracking-[0.35em] text-white/75">
-          {[...homeIndustries, ...homeIndustries].map((item, index) => (
-            <span key={`${item}-${index}`} className="mx-7">
-              {item}
-            </span>
-          ))}
         </div>
       </div>
     </section>

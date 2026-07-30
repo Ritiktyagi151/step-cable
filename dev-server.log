@@ -1,10 +1,21 @@
 
 > stepcable-next@1.0.0 dev
-> next dev --port 3010
+> next dev
 
    ▲ Next.js 15.5.20
-   - Local:        http://localhost:3010
-   - Network:      http://192.168.1.16:3010
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.1.11:3000
 
  ✓ Starting...
- ✓ Ready in 66.1s
+ ✓ Ready in 4.3s
+ ○ Compiling /[[...slug]] ...
+ ✓ Compiled /[[...slug]] in 5.7s (693 modules)
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 4.2s (698 modules)
+ ○ Compiling /_error ...
+ ✓ Compiled /search in 15.7s (1036 modules)
+ GET / 500 in 13881ms
+ GET /search 200 in 16143ms
+ GET / 200 in 17373ms
+ GET /favicon.ico 404 in 4496ms
+[?25h
