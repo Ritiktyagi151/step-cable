@@ -70,8 +70,8 @@ export function SiteFooter() {
         </div>
       </div> */}
 
-      <div className="relative mx-auto grid max-w-[88rem] gap-10 px-4 py-12 sm:px-6 md:grid-cols-2 lg:grid-cols-[1.25fr_0.75fr_0.95fr_0.95fr_1.2fr] lg:px-8">
-        <div>
+      <div className="relative mx-auto grid max-w-[88rem] grid-cols-2 gap-8 px-4 py-12 sm:px-6 md:gap-10 lg:grid-cols-[1.25fr_0.75fr_0.95fr_0.95fr_1.2fr] lg:px-8">
+        <div className="col-span-2 lg:col-span-1">
           <img src="/assetshome/img/logo-step.png" alt="Step Cables" className="h-14 w-auto" />
           <p className="mt-5 max-w-md text-sm leading-7 text-white/78">
             Step Cables delivers wires, power cables, aluminum conductors and EPC business solutions for residential, industrial, utility and infrastructure applications.
@@ -95,7 +95,7 @@ export function SiteFooter() {
           </div>
         </div>
 
-        <div>
+        <div className="col-span-1">
           <FooterHeading>Quick Links</FooterHeading>
           <div className="mt-5 grid gap-2">
             {[...mainNavLinks, ...topNavLinks].map(([label, href]) => (
@@ -104,7 +104,7 @@ export function SiteFooter() {
           </div>
         </div>
 
-        <div>
+        <div className="col-span-1">
           <FooterHeading>Products</FooterHeading>
           <div className="mt-5 grid gap-2">
             {footerLinks.map(([label, href]) => (
@@ -113,7 +113,7 @@ export function SiteFooter() {
           </div>
         </div>
 
-        <div>
+        <div className="col-span-2 sm:col-span-1 lg:col-span-1">
           <FooterHeading>Business</FooterHeading>
           <div className="mt-5 grid gap-2">
             {businessLinks.map(([label, href]) => (
@@ -122,7 +122,7 @@ export function SiteFooter() {
           </div>
         </div>
 
-        <div>
+        <div className="col-span-2 lg:col-span-1">
           <FooterHeading>Contact Details</FooterHeading>
           <div className="mt-5 grid gap-5 text-sm leading-6 text-white/72">
             <div>
