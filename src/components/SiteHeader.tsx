@@ -70,7 +70,7 @@ function HeaderLink({ href, label, onClick }: { href: string; label: string; onC
       href={href}
       onClick={onClick}
       aria-current={active ? "page" : undefined}
-      className={`whitespace-nowrap rounded-full px-3 py-2 text-sm font-semibold text-slate-700 transition duration-300 hover:bg-brand-teal/10 hover:text-brand-dark lg:px-2.5 lg:text-[13px] xl:px-3 xl:text-sm ${active ? "bg-brand-teal/10 text-brand-dark" : ""}`}
+      className={`whitespace-nowrap rounded-full px-3 py-2 text-sm font-semibold text-slate-700 transition duration-300 hover:bg-brand-teal/10 hover:text-brand-dark lg:px-2 lg:text-xs xl:px-2.5 xl:text-[13px] 2xl:px-3 2xl:text-sm ${active ? "bg-brand-teal/10 text-brand-dark" : ""}`}
     >
       {label}
     </Link>
@@ -100,7 +100,7 @@ function HeaderDropdown({ group }: { group: (typeof navGroups)[number] }) {
     <div className="group relative">
       <Link
         href={group.href}
-        className={`flex items-center gap-1.5 whitespace-nowrap rounded-full px-3 py-2 text-sm font-semibold text-slate-700 transition duration-300 hover:bg-brand-teal/10 hover:text-brand-dark lg:px-2.5 lg:text-[13px] xl:px-3 xl:text-sm ${active ? "bg-brand-teal/10 text-brand-dark" : ""}`}
+        className={`flex items-center gap-1.5 whitespace-nowrap rounded-full px-3 py-2 text-sm font-semibold text-slate-700 transition duration-300 hover:bg-brand-teal/10 hover:text-brand-dark lg:px-2 lg:text-xs xl:px-2.5 xl:text-[13px] 2xl:px-3 2xl:text-sm ${active ? "bg-brand-teal/10 text-brand-dark" : ""}`}
       >
         <span>{group.label}</span>
         <FaChevronDown aria-hidden="true" className="text-[10px] transition group-hover:rotate-180" />
@@ -327,9 +327,9 @@ export function SiteHeader() {
         </div>
       </div>
 
-      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-3 px-4 sm:px-6 lg:grid lg:h-auto lg:grid-cols-[170px_minmax(0,1fr)_170px] lg:gap-4 lg:px-6 lg:py-2 xl:grid-cols-[210px_minmax(0,1fr)_190px] xl:gap-5 xl:px-8 2xl:grid-cols-[240px_minmax(0,1fr)_210px]">
+      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-3 px-4 sm:px-6 lg:grid lg:h-auto lg:grid-cols-[135px_minmax(0,1fr)_150px] lg:gap-3 lg:px-5 lg:py-2 xl:grid-cols-[170px_minmax(0,1fr)_170px] xl:gap-4 xl:px-6 2xl:grid-cols-[220px_minmax(0,1fr)_200px] 2xl:gap-5 2xl:px-8">
         <Link href="/" className="flex min-w-0 items-center gap-3" onClick={closeMenu}>
-          <span className="flex h-12 w-[76px] items-center overflow-visible sm:w-[82px] lg:h-12 lg:w-[80px] xl:h-14 xl:w-[92px]">
+          <span className="flex h-12 w-[76px] items-center overflow-visible sm:w-[82px] lg:h-12 lg:w-[76px] xl:h-12 xl:w-[84px] 2xl:h-14 2xl:w-[92px]">
             <img
               src="/assetshome/img/logo-step.png"
               alt="Step Cables"
@@ -340,7 +340,7 @@ export function SiteHeader() {
           </span>
         </Link>
 
-        <nav aria-label="Main navigation" className="hidden min-w-0 items-center justify-center gap-1 xl:gap-3 2xl:gap-5 lg:flex">
+        <nav aria-label="Main navigation" className="hidden min-w-0 items-center justify-center gap-0.5 xl:gap-1.5 2xl:gap-3 lg:flex">
           {mainNavLinks.map(([label, href]) => {
             const group = dropdownGroups.find((item) => item.label === label);
             return group ? <HeaderDropdown key={label} group={group} /> : <HeaderLink key={href} href={href} label={label} />;

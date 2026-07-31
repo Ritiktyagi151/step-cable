@@ -79,6 +79,8 @@ export const mainNavLinks = [
   ["About", "/about-step-industry"],
   ["EPC Business", "/about-epc-business"],
   ["Step Cables", "/about-step-cables"],
+  ["Lincoln", "/step-lincoln"],
+  ["Cadillac", "/step-cadillac"],
   ["Conductor", "/all-aluminum-conductor"],
   ["Contact", "/contact"]
 ] as const;

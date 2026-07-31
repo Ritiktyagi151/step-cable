@@ -52,6 +52,9 @@ export type ContentLink = {
 export type ContentImage = {
   src: string;
   alt: string;
+  title?: string;
+  code?: string;
+  specs?: string[];
 };
 
 export type ContentFormField = {

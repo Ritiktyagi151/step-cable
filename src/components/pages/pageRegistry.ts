@@ -26,6 +26,8 @@ export const pageRegistry = {
     "multicore-wire-and-cable",
     "pvc-insulated-power-control-cable",
     "single-core-multicore-industrial-cables",
+    "step-cadillac",
+    "step-lincoln",
     "submersible-wire",
     "switch-plates",
     "three-core-pvc-insulated-flat-cable",

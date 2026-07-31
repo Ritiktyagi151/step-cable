@@ -1,11 +1,16 @@
 import Link from "next/link";
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaMapMarkerAlt, FaMobileAlt, FaPhoneAlt, FaYoutube } from "react-icons/fa";
+import { FaEnvelope, FaFacebookF, FaInstagram, FaLinkedinIn, FaMapMarkerAlt, FaMobileAlt, FaPhoneAlt, FaPinterestP, FaWhatsapp, FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { footerLinks, mainNavLinks, navGroups, topNavLinks } from "@/lib/navigation";
 
 const socialLinks = [
-  { label: "Facebook", href: "https://facebook.com/stepCablesIndia/", Icon: FaFacebookF, className: "text-[#1877F2]" },
+  { label: "Phone", href: "tel:01206849500", Icon: FaPhoneAlt, className: "text-brand-dark" },
+  { label: "E-mail", href: "mailto:info@stepcable.com", Icon: FaEnvelope, className: "text-[#EA4335]" },
+  { label: "WhatsApp", href: "https://wa.me/918448819330", Icon: FaWhatsapp, className: "text-[#25D366]" },
+  { label: "Pinterest", href: "https://www.pinterest.com/search/pins/?q=Step%20Cables", Icon: FaPinterestP, className: "text-[#E60023]" },
+  { label: "Location", href: "https://www.google.com/maps/search/?api=1&query=Stellar%20Okas%201425%203rd%20floor%20Noida%20Sector-142%20UP-201305", Icon: FaMapMarkerAlt, className: "text-[#34A853]" },
   { label: "X", href: "https://twitter.com/StepCablesIndia", Icon: FaXTwitter, className: "text-black" },
+  { label: "Facebook", href: "https://facebook.com/stepCablesIndia/", Icon: FaFacebookF, className: "text-[#1877F2]" },
   { label: "LinkedIn", href: "https://www.linkedin.com/company/stepcablesindia/", Icon: FaLinkedinIn, className: "text-[#0A66C2]" },
   { label: "Instagram", href: "https://www.instagram.com/stepcablesofficial/", Icon: FaInstagram, className: "text-[#E4405F]" },
   { label: "YouTube", href: "https://www.youtube.com/channel/UCEh0fNj2-IXT4uLsgJ8rjXw", Icon: FaYoutube, className: "text-[#FF0000]" }
@@ -79,7 +84,7 @@ export function SiteFooter() {
           <p className="mt-4 max-w-md text-sm leading-7 text-white/65">
             Built around quality assurance, reliable manufacturing and project-ready support, the company serves customers across electrical distribution and construction segments.
           </p>
-          <div className="mt-6 flex flex-wrap gap-2">
+          <div className="mt-6 grid w-fit grid-cols-5 gap-2">
             {socialLinks.map(({ label, href, Icon, className }) => (
               <a
                 key={href}

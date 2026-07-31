@@ -47,7 +47,7 @@ function getProductFallbackImage(page: SitePage) {
 
 export function ProductPage({ page }: ProductPageProps) {
   const pdfLinks = page.links.filter((link) => link.href.toLowerCase().endsWith(".pdf"));
-  const pageImages = page.images.filter((image) => image.src !== page.image).slice(0, 6);
+  const pageImages = page.images.filter((image) => image.src !== page.image);
   const productImage = page.image || page.images[0]?.src || getProductFallbackImage(page);
   const productImageAlt = page.images.find((image) => image.src === productImage)?.alt || page.h1 || page.title;
 
@@ -72,6 +72,31 @@ export function ProductPage({ page }: ProductPageProps) {
         <div className="mx-auto grid max-w-7xl gap-8 px-4 py-10 sm:px-6 sm:py-14 lg:grid-cols-[minmax(0,1fr)_18rem] lg:px-8">
           <div className="min-w-0">
             <CleanContent blocks={page.contentBlocks} />
+            {pageImages.length ? (
+              <div className="mt-10 rounded-[20px] border border-brand-teal/15 bg-white/78 p-4 shadow-xl shadow-slate-900/5 backdrop-blur-lg sm:p-5">
+                <h2 className="text-2xl font-black text-slate-900">Product Images</h2>
+                <div className="mt-5 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
+                  {pageImages.map((image, index) => (
+                    <figure key={`${image.src}-${index}`} className="overflow-hidden rounded-2xl border border-brand-teal/15 bg-white">
+                      <div className="flex aspect-[4/3] items-center justify-center bg-slate-50 p-3">
+                        <img src={image.src} alt={image.alt} className="max-h-full w-full object-contain" />
+                      </div>
+                      <figcaption className="border-t border-brand-teal/10 px-3 py-3">
+                        <h3 className="text-sm font-black leading-snug text-slate-900">{image.title || image.alt}</h3>
+                        {image.code ? <p className="mt-1 text-xs font-bold uppercase tracking-wide text-brand-dark">{image.code}</p> : null}
+                        {image.specs?.length ? (
+                          <ul className="mt-2 grid gap-1 text-xs leading-5 text-slate-500">
+                            {image.specs.map((spec) => (
+                              <li key={spec}>{spec}</li>
+                            ))}
+                          </ul>
+                        ) : null}
+                      </figcaption>
+                    </figure>
+                  ))}
+                </div>
+              </div>
+            ) : null}
           </div>
           <aside className="space-y-5">
             {pdfLinks.length ? (
@@ -82,16 +107,6 @@ export function ProductPage({ page }: ProductPageProps) {
                     <a key={link.href} href={link.href} target="_blank" className="rounded-2xl border border-brand-teal/15 bg-white/70 px-4 py-3 text-sm font-bold text-slate-800 transition duration-300 hover:border-brand-teal/35 hover:bg-brand-teal/10 hover:text-brand-dark">
                       {link.text || "View Details"}
                     </a>
-                  ))}
-                </div>
-              </div>
-            ) : null}
-            {pageImages.length ? (
-              <div className="rounded-[20px] border border-brand-teal/15 bg-white/78 p-5 shadow-xl shadow-slate-900/5 backdrop-blur-lg">
-                <h2 className="text-lg font-black text-slate-900">Product Media</h2>
-                <div className="mt-4 grid gap-3">
-                  {pageImages.map((image) => (
-                    <img key={image.src} src={image.src} alt={image.alt} className="rounded-2xl border border-brand-teal/15 bg-white p-2" />
                   ))}
                 </div>
               </div>
