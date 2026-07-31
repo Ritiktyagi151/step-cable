@@ -26,15 +26,15 @@ export function CertificationsStandards() {
   }, []);
 
   const sectionBgStyle = {
-    backgroundImage: `url(${homeCertificationsImages.sectionBg || "/assets/img/certification.jpg"})`,
+    backgroundImage: `url(${homeCertificationsImages.sectionBg || "/home-banner/cabel-bg.jpg"})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
   };
 
   return (
     <section ref={sectionRef} style={sectionBgStyle} className="relative overflow-hidden border-b border-brand-teal/15 text-slate-900">
-      <div className="absolute inset-0 bg-black/58" />
-      <div className="absolute inset-0 bg-[linear-gradient(rgba(91,192,187,0.10)_1px,transparent_1px),linear-gradient(90deg,rgba(91,192,187,0.10)_1px,transparent_1px)] bg-[size:46px_46px]" />
+      <div className="absolute inset-0 bg-black/40" />
+      {/* <div className="absolute inset-0 bg-[linear-gradient(rgba(91,192,187,0.10)_1px,transparent_1px),linear-gradient(90deg,rgba(91,192,187,0.10)_1px,transparent_1px)] bg-[size:46px_46px]" /> */}
       <div className="absolute -left-32 top-20 h-80 w-80 rounded-full bg-brand-teal/10 blur-3xl" />
       <div className="absolute -right-24 bottom-16 h-72 w-72 rounded-full bg-brand-teal/10 blur-3xl" />
       <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 sm:py-16 lg:px-8 lg:py-20">
