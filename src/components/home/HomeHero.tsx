@@ -2,7 +2,7 @@ const heroSlides = [
   "/home-banner/banner.png",
   "/home-banner/banner1.png",
   "/home-banner/banner2.png",
-  // "/home-banner/banner3.png",
+  "/home-banner/banner4.png",
   // "/assets/img/slider/Electric-Wires-Step-Cables.jpg",
   // "/assets/img/slider/Electric-Cables-Step-Cables.jpg",
   // "/assets/img/slider/Power-Cables-Step-Cables.jpg",
