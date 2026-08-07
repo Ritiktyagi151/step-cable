@@ -1,15 +1,22 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { FaBuilding, FaIndustry, FaStore, FaUserTie, FaUsersCog } from "react-icons/fa";
-import { homeNetworkStats } from "./homeData";
+import { FaBuilding, FaHeadset, FaStore, FaUserTie, FaUsersCog } from "react-icons/fa";
+
+const networkStats = [
+  ["900+", "Dealers & Distributors", "dealer"],
+  ["90", "Branch & Representative Offices", "branch"],
+  ["1100+", "Team Members", "workforce"],
+  ["85000+", "Retail Touchpoints", "retailer"],
+  ["100+", "Enquiry Support Lines", "support"],
+] as const;
 
 const statIcons = {
   dealer: FaUserTie,
   branch: FaBuilding,
   workforce: FaUsersCog,
   retailer: FaStore,
-  factory: FaIndustry
+  support: FaHeadset,
 } as const;
 
 function CountUpValue({ value, start }: { value: string; start: boolean }) {
@@ -79,11 +86,11 @@ export function NetworkStats() {
         </div>
       </div>
 
-      <div className="relative overflow-hidden bg-[url('/assets/img/fwdfinalplantimages/Step-Industries-Manufacturing-Plant3.jpg')] bg-cover bg-center lg:bg-fixed">
+      <div className="relative overflow-hidden bg-[url('/assets/img/Project-Monitoring-Step-Industries.jpg')] bg-cover bg-center lg:bg-fixed">
         <div className="absolute inset-0 bg-black/60 backdrop-blur-[2px]" />
         {/* <div className="absolute inset-0 bg-gradient-to-r from-white/90 via-white/72 to-white/86" /> */}
         <div ref={sectionRef} className="relative mx-auto grid max-w-7xl grid-cols-2 gap-4 gap-y-8 px-4 py-9 sm:px-6 md:grid-cols-5 lg:px-8">
-          {homeNetworkStats.map(([value, label, icon]) => {
+          {networkStats.map(([value, label, icon], index) => {
             const Icon = statIcons[icon];
 
             return (
@@ -92,7 +99,7 @@ export function NetworkStats() {
                 className={`flex flex-col items-center rounded-[20px] border border-brand-teal/15 bg-white/72 px-3 py-5 text-center shadow-lg shadow-slate-900/5 backdrop-blur-md transition-all duration-700 ease-out hover:-translate-y-1 hover:border-brand-teal/35 ${
                   startCount ? "translate-y-0 opacity-100" : "translate-y-12 opacity-0"
                 }`}
-                style={{ transitionDelay: `${homeNetworkStats.findIndex((item) => item[1] === label) * 90}ms` }}
+                style={{ transitionDelay: `${index * 90}ms` }}
               >
                 <Icon className="h-12 w-12 text-brand-dark drop-shadow-sm sm:h-14 sm:w-14" aria-hidden="true" />
                 <p className="mt-4 text-xl font-black leading-none text-slate-900">

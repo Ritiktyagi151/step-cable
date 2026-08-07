@@ -4,6 +4,7 @@ import { CompanyPage } from "@/components/company/CompanyPage";
 import { ContactPage } from "@/components/contact/ContactPage";
 import { EpcPage } from "@/components/epc/EpcPage";
 import { CareerPage } from "@/components/career/CareerPage";
+import { ConductorListingPage } from "@/components/conductor/ConductorListingPage";
 import { CurrentOpeningsPage } from "@/components/career/CurrentOpeningsPage";
 import { PolicyPage } from "@/components/policy/PolicyPage";
 import { ProductPage } from "@/components/product/ProductPage";
@@ -28,6 +29,8 @@ function renderPage(page: SitePage) {
       return <ContactPage page={page} />;
     case "product":
       return <ProductPage page={page} />;
+    case "conductor":
+      return <ConductorListingPage page={page} />;
     case "about":
       return <AboutPage page={page} />;
     case "epc":

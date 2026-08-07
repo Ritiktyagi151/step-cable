@@ -17,7 +17,7 @@ const socialLinks = [
 ];
 
 const businessLinks: Array<[string, string]> = navGroups.flatMap((group) =>
-  group.label === "Step Cables" || group.label === "Conductor" ? group.links.slice(0, 6).map(([label, href]) => [label, href] as [string, string]) : []
+  group.label === "Wire and Cables" || group.label === "Conductor" ? group.links.slice(0, 6).map(([label, href]) => [label, href] as [string, string]) : []
 );
 
 function FooterHeading({ children }: { children: React.ReactNode }) {
@@ -82,7 +82,7 @@ export function SiteFooter() {
             Step Cables delivers wires, power cables, aluminum conductors and EPC business solutions for residential, industrial, utility and infrastructure applications.
           </p>
           <p className="mt-4 max-w-md text-sm leading-7 text-white/65">
-            Built around quality assurance, reliable manufacturing and project-ready support, the company serves customers across electrical distribution and construction segments.
+            Built around quality assurance, reliable supply and project-ready support, the company serves customers across electrical distribution and construction segments.
           </p>
           <div className="mt-6 grid w-fit grid-cols-5 gap-2">
             {socialLinks.map(({ label, href, Icon, className }) => (
@@ -135,7 +135,7 @@ export function SiteFooter() {
               <p className="mt-1">1/61, Lane No-1, Vishwas Nagar, Delhi - 110032</p>
             </div>
             <div>
-              <p className="font-semibold text-white">Manufacturing Unit</p>
+              <p className="font-semibold text-white">Regional Office</p>
               <p className="mt-1">G-1/52 to 59, RIICO Industrial Area Shahjahanpur, Distt-Alwar, Rajasthan - 301706</p>
             </div>
             <div>

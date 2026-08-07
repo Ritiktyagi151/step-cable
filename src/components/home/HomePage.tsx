@@ -1,31 +1,33 @@
-import { Applications } from "./Applications";
-import { CertificationsStandards } from "./CertificationsStandards";
-import { ConnectPossibilities } from "./ConnectPossibilities";
-import { HomeHero } from "./HomeHero";
 import { NetworkStats } from "./NetworkStats";
-import { NumbersSpeak } from "./NumbersSpeak";
-import { OurClients } from "./OurClients";
-import { ProductRange } from "./ProductRange";
-import { ProjectWorkflow } from "./ProjectWorkflow";
-import { QualityApproach } from "./QualityApproach";
-import { ServicesOffered } from "./ServicesOffered";
-import { StepAdvantage } from "./StepAdvantage";
+import { PremiumAboutSection } from "./PremiumAboutSection";
+import { PremiumContactCta } from "./PremiumContactCta";
+import { PremiumDealerBanner } from "./PremiumDealerBanner";
+import { PremiumDistributionNetwork } from "./PremiumDistributionNetwork";
+import { PremiumFeaturedProducts } from "./PremiumFeaturedProducts";
+import { PremiumHeroSection } from "./PremiumHeroSection";
+import { PremiumProductCategories } from "./PremiumProductCategories";
+import { PremiumPromoGrid } from "./PremiumPromoGrid";
+import { PremiumScrollReveal } from "./PremiumScrollReveal";
+import { PremiumTestimonials } from "./PremiumTestimonials";
+import { PremiumTrustSection } from "./PremiumTrustSection";
+import { PremiumWhyChooseSection } from "./PremiumWhyChooseSection";
 
 export function HomePage() {
   return (
-    <>
-      <HomeHero />
+    <div className="step-premium-home bg-[#f5f4f1] text-[#171717]">
+      <PremiumScrollReveal />
+      <PremiumHeroSection />
       <NetworkStats />
-      <ConnectPossibilities />
-      {/* <NumbersSpeak /> */}
-      <ProductRange />
-      <ServicesOffered />
-      <StepAdvantage />
-      <CertificationsStandards />
-      <QualityApproach />
-      <Applications />
-      <ProjectWorkflow />
-      <OurClients />
-    </>
+      <PremiumProductCategories />
+      <PremiumAboutSection />
+      <PremiumPromoGrid />
+      <PremiumDistributionNetwork />
+      <PremiumWhyChooseSection />
+      {/* <PremiumFeaturedProducts /> */}
+      <PremiumDealerBanner />
+      {/* <PremiumTrustSection /> */}
+      <PremiumTestimonials />
+      <PremiumContactCta />
+    </div>
   );
 }

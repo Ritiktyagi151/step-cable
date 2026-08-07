@@ -1,6 +1,8 @@
 import { CleanContent } from "@/components/content/CleanContent";
 import { PageHero } from "@/components/PageHero";
 import { PageSummary } from "@/components/pages/PageSummary";
+import { CadillacListingPage } from "./CadillacProductPage";
+import { LincolnListingPage } from "./LincolnProductPage";
 import type { SitePage } from "@/lib/content";
 
 type ProductPageProps = {
@@ -46,6 +48,14 @@ function getProductFallbackImage(page: SitePage) {
 }
 
 export function ProductPage({ page }: ProductPageProps) {
+  if (page.slug === "step-cadillac") {
+    return <CadillacListingPage page={page} />;
+  }
+
+  if (page.slug === "step-lincoln") {
+    return <LincolnListingPage page={page} />;
+  }
+
   const pdfLinks = page.links.filter((link) => link.href.toLowerCase().endsWith(".pdf"));
   const pageImages = page.images.filter((image) => image.src !== page.image);
   const productImage = page.image || page.images[0]?.src || getProductFallbackImage(page);

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { SearchPageForm } from "@/components/search/SearchPageForm";
 import { getBlogPosts, getPages } from "@/lib/content";
 
 type SearchPageProps = {
@@ -37,22 +38,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
         <p className="text-sm font-bold uppercase tracking-[0.18em] text-brand-dark">Search</p>
         <h1 className="mt-3 text-4xl font-black text-slate-900">{query ? `Results for "${query}"` : "Search Step Cables"}</h1>
 
-        <form action="/search" className="mt-8 flex max-w-2xl gap-3 rounded-[20px] border border-brand-teal/15 bg-white/78 p-3 shadow-xl shadow-slate-900/5 backdrop-blur-lg">
-          <label htmlFor="search-page-input" className="sr-only">
-            Search
-          </label>
-          <input
-            id="search-page-input"
-            name="q"
-            type="search"
-            defaultValue={query}
-            placeholder="Search products, pages, blogs"
-            className="min-w-0 flex-1 rounded-full border border-brand-teal/15 bg-white px-4 py-3 text-sm text-slate-900 outline-none focus:border-brand-teal/35"
-          />
-          <button type="submit" className="rounded-full bg-gradient-to-r from-brand-teal to-brand-dark px-6 py-3 text-sm font-bold text-white shadow-lg shadow-brand-teal/25 transition duration-300 hover:-translate-y-0.5">
-            Search
-          </button>
-        </form>
+        <SearchPageForm query={query} />
 
         <div className="mt-10 grid gap-4">
           {query && results.length === 0 ? <p className="text-neutral-600">No results found.</p> : null}

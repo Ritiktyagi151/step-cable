@@ -1,0 +1,39 @@
+
+> stepcable-next@1.0.0 dev
+> next dev
+
+   ▲ Next.js 15.5.20
+   - Local:        http://localhost:3001
+   - Network:      http://192.168.1.27:3001
+
+ ✓ Starting...
+ ✓ Ready in 7.2s
+ ○ Compiling /[[...slug]] ...
+ ✓ Compiled /[[...slug]] in 3.1s (727 modules)
+ GET /step-cadillac/cadillac-p02-01 200 in 6265ms
+ GET /step-cadillac 200 in 7399ms
+ ✓ Compiled in 2.6s (741 modules)
+ ✓ Compiled in 794ms (276 modules)
+ ✓ Compiled in 481ms (276 modules)
+ ✓ Compiled in 1255ms (276 modules)
+ ✓ Compiled in 1352ms (276 modules)
+ ○ Compiling /[[...slug]] ...
+ ✓ Compiled /[[...slug]] in 866ms (465 modules)
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 6.4s (1074 modules)
+ GET /step-lincoln 500 in 15711ms
+ GET /step-lincoln/lincoln-p02-01 500 in 8461ms
+ ✓ Compiled in 2s (1088 modules)
+ ✓ Compiled in 977ms (536 modules)
+ ✓ Compiled in 645ms (428 modules)
+ ✓ Compiled in 528ms (428 modules)
+ ✓ Compiled in 442ms (428 modules)
+ ✓ Compiled in 489ms (428 modules)
+ ✓ Compiled in 439ms (428 modules)
+ ✓ Compiled in 274ms (428 modules)
+ ✓ Compiled in 556ms (428 modules)
+ ✓ Compiled in 521ms (428 modules)
+ ✓ Compiled in 604ms (428 modules)
+ ✓ Compiled in 660ms (428 modules)
+ ✓ Compiled in 513ms (428 modules)
+ ✓ Compiled in 445ms (428 modules)

@@ -4,14 +4,6 @@ export const homeStats = [
   ["Pan India", "Supply and project support"]
 ] as const;
 
-export const homeNetworkStats = [
-  ["900+", "Dealers & Distributors", "dealer"],
-  ["90", "Branch & Representative offices", "branch"],
-  ["1100+", "Workforce", "workforce"],
-  ["85000+", "Retailers", "retailer"],
-  ["7", "Manufacturing Units", "factory"]
-] as const;
-
 export const homeNumbersSpeak = [
   ["30+", "Years Experience", "experience"],
   ["900+", "Dealer Network", "network"],
@@ -24,6 +16,43 @@ export const homeProducts = [
   ["Industrial Cables", "Single-core and multicore cables for machinery, panels and industrial power use.", "/single-core-multicore-industrial-cables"],
   ["Power & Control", "PVC and XLPE insulated cables for dependable distribution and control circuits.", "/pvc-insulated-power-control-cable"],
   ["Conductors", "AAC, AAAC, ACSR, ACAR and AL-59 conductors for transmission and distribution.", "/all-aluminum-conductor"]
+] as const;
+
+export const retailCategories = [
+  {
+    title: "Home & Apartment Wiring",
+    description: "FR, FRLS and building wires for electricians, home owners and retail counters.",
+    href: "/housing-wiring-electrical-building-wire",
+    image: "/wiresforhome/Fire-Retardant-House-Wires.JPG",
+    tag: "Home safety",
+  },
+  {
+    title: "Pump & Submersible Cable",
+    description: "PVC and XLPE flat cables for pumps, farms, buildings and water systems.",
+    href: "/three-core-pvc-insulated-flat-cable",
+    image: "/wiresforhome/Best-Strong-Submersible-Cable-For-Pump.JPG",
+    tag: "Fast moving",
+  },
+  {
+    title: "Shop, Panel & Industrial Cable",
+    description: "Single-core, multicore, power and control cable options for daily projects.",
+    href: "/single-core-multicore-industrial-cables",
+    image: "/assets/img/cable.jpg",
+    tag: "Project ready",
+  },
+  {
+    title: "Retail Electrical Essentials",
+    description: "Modular switches, MCBs, plates, tapes and everyday electrical products.",
+    href: "/modular-switches",
+    image: "/images/seo-page-img/modular-switch-board.jpg",
+    tag: "Counter demand",
+  },
+] as const;
+
+export const retailSupportSteps = [
+  ["Find the right product", "Browse by application, cable type or retail product category."],
+  ["Connect with Step", "Send an enquiry for dealer support, availability or technical help."],
+  ["Buy with confidence", "Get genuine Step products backed by a large retail and dealer network."],
 ] as const;
 
 export const homeProcess = [

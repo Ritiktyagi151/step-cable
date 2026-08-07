@@ -1,10 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
-import { useEffect, useMemo, useRef, useState, type FormEvent } from "react";
+import { usePathname, useRouter } from "next/navigation";
+import { useEffect, useMemo, useState } from "react";
 import { createPortal } from "react-dom";
-import { FaBars, FaChevronDown, FaFacebookF, FaInstagram, FaLinkedinIn, FaMobileAlt, FaPhoneAlt, FaSearch, FaTimes, FaYoutube } from "react-icons/fa";
+import { useForm } from "react-hook-form";
+import { FaBars, FaChevronDown, FaDownload, FaFacebookF, FaInstagram, FaLinkedinIn, FaMobileAlt, FaPhoneAlt, FaSearch, FaTimes, FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import blogPostsData from "@/data/static-blog-posts.json";
 import pagesData from "@/data/static-pages.json";
@@ -17,6 +18,18 @@ const socialLinks = [
   { label: "Instagram", href: "https://www.instagram.com/stepcablesofficial/", Icon: FaInstagram, className: "text-[#E4405F]" },
   { label: "YouTube", href: "https://www.youtube.com/channel/UCEh0fNj2-IXT4uLsgJ8rjXw", Icon: FaYoutube, className: "text-[#FF0000]" }
 ];
+
+const brochureLinks = [
+  ["STEP Lincoln Brochure", "/pdf/STEP-LINCOLN.pdf"],
+  ["STEP Cadillac Price List 2026", "/pdf/STEP-Cadillac-Price-list-2026.pdf"],
+  ["STEP Cable Brochure", "/pdf/download.pdf"],
+  ["ACSR Conductor", "/pdf/Aluminium-Conductor-Steel-Reinforced-ACSR.pdf"],
+  ["ACAR Conductor", "/pdf/Aluminium-Conductor-Alloy-Reinforced-ACAR.pdf"],
+  ["AAC Conductor", "/pdf/All-Aluminium-Conductor-AAC.pdf"],
+  ["AAAC Conductor", "/pdf/All-Alloy-Aluminium-Conductors-AAAC.pdf"],
+  ["AACSR Conductor", "/pdf/All-Alloy-Aluminium-Conductor-Steel-Reinforced-AACSR.pdf"],
+  ["AL-59 Aluminium Alloy Conductor", "/pdf/AL-59-Aluminium-Alloy-Conductor.pdf"],
+] as const;
 
 const reachUsFields = [
   { label: "Name", name: "name", type: "text", required: true },
@@ -37,6 +50,18 @@ type SearchSuggestionListProps = {
   suggestions: SearchItem[];
   visible: boolean;
   onSelect: () => void;
+};
+
+type SearchFormValues = {
+  q: string;
+};
+
+type ReachFormValues = {
+  name: string;
+  email: string;
+  phone?: string;
+  subject: string;
+  message: string;
 };
 
 const searchItems: SearchItem[] = [
@@ -95,6 +120,26 @@ function TopBarLink({ href, label }: { href: string; label: string }) {
 function HeaderDropdown({ group }: { group: (typeof navGroups)[number] }) {
   const pathname = usePathname();
   const active = isActive(pathname, group.href) || group.links.some(([, href]) => isActive(pathname, href));
+  const switchAccessoryCards =
+    group.label === "Switch and Accessories"
+      ? [
+          {
+            label: "Lincoln",
+            href: "/step-lincoln",
+            image: "/nav-baar/lincoln-modular-swtiches.png",
+          },
+          {
+            label: "Cadillac",
+            href: "/step-cadillac",
+            image: "/nav-baar/cardilac-switches.png",
+          },
+          {
+            label: "Conductor",
+            href: "/conductor",
+            image: "/nav-baar/conductor.png",
+          },
+        ]
+      : null;
 
   return (
     <div className="group relative">
@@ -105,12 +150,61 @@ function HeaderDropdown({ group }: { group: (typeof navGroups)[number] }) {
         <span>{group.label}</span>
         <FaChevronDown aria-hidden="true" className="text-[10px] transition group-hover:rotate-180" />
       </Link>
-      <div className="invisible absolute left-0 top-full w-72 pt-4 opacity-0 transition duration-300 group-hover:visible group-hover:opacity-100">
-        <div className="rounded-[20px] border border-brand-teal/15 bg-white/78 shadow-xl shadow-slate-900/5 backdrop-blur-lg overflow-hidden py-2">
-          {group.links.map(([label, href]) => (
-            <Link key={href} href={href} className="block px-5 py-3 text-sm text-slate-600 transition duration-300 hover:bg-brand-teal/10 hover:text-brand-dark">
-              {label}
-            </Link>
+      <div className={`invisible absolute top-full pt-4 opacity-0 transition duration-300 group-hover:visible group-hover:opacity-100 ${switchAccessoryCards ? "left-1/2 w-[min(680px,calc(100vw-32px))] -translate-x-1/2" : "left-0 w-72"}`}>
+        <div className="overflow-hidden rounded-[20px] border border-brand-teal/15 bg-white/90 py-2 shadow-xl shadow-slate-900/5 backdrop-blur-lg">
+          {switchAccessoryCards ? (
+            <div className="grid grid-cols-3 gap-3 p-3">
+              {switchAccessoryCards.map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className="group/card overflow-hidden rounded-2xl border border-brand-teal/15 bg-slate-50 text-slate-900 transition duration-300 hover:-translate-y-0.5 hover:border-brand-teal/40 hover:bg-white hover:shadow-lg"
+                >
+                  <span className="block h-32 overflow-hidden bg-white">
+                    <img src={item.image} alt={item.label} className="h-full w-full object-contain p-3 transition duration-500 group-hover/card:scale-105" />
+                  </span>
+                  <span className="flex items-center justify-between px-4 py-3 text-sm font-black">
+                    {item.label}
+                    <FaChevronDown aria-hidden="true" className="-rotate-90 text-[10px] text-brand-dark" />
+                  </span>
+                </Link>
+              ))}
+            </div>
+          ) : (
+            group.links.map(([label, href]) => (
+              <Link key={href} href={href} className="block px-5 py-3 text-sm text-slate-600 transition duration-300 hover:bg-brand-teal/10 hover:text-brand-dark">
+                {label}
+              </Link>
+            ))
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function BrochureDropdown() {
+  return (
+    <div className="group relative">
+      <button
+        type="button"
+        className="flex items-center gap-1.5 whitespace-nowrap rounded-full px-3 py-2 text-sm font-semibold text-slate-700 transition duration-300 hover:bg-brand-teal/10 hover:text-brand-dark lg:px-2 lg:text-xs xl:px-2.5 xl:text-[13px] 2xl:px-3 2xl:text-sm"
+      >
+        <span>Brochure</span>
+        <FaChevronDown aria-hidden="true" className="text-[10px] transition group-hover:rotate-180" />
+      </button>
+      <div className="invisible absolute left-1/2 top-full w-[min(360px,calc(100vw-32px))] -translate-x-1/2 pt-4 opacity-0 transition duration-300 group-hover:visible group-hover:opacity-100">
+        <div className="max-h-[70vh] overflow-y-auto rounded-[20px] border border-brand-teal/15 bg-white/95 py-2 shadow-xl shadow-slate-900/5 backdrop-blur-lg">
+          {brochureLinks.map(([label, href]) => (
+            <a
+              key={href}
+              href={href}
+              download
+              className="flex items-center justify-between gap-3 px-5 py-3 text-sm text-slate-600 transition duration-300 hover:bg-brand-teal/10 hover:text-brand-dark"
+            >
+              <span>{label}</span>
+              <FaDownload aria-hidden="true" className="shrink-0 text-xs text-brand-dark" />
+            </a>
           ))}
         </div>
       </div>
@@ -145,17 +239,29 @@ function SearchSuggestionList({ suggestions, visible, onSelect }: SearchSuggesti
 }
 
 export function SiteHeader() {
+  const router = useRouter();
   const [open, setOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
   const [desktopSearchOpen, setDesktopSearchOpen] = useState(false);
   const [mobileSearchOpen, setMobileSearchOpen] = useState(false);
   const [reachFormOpen, setReachFormOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
   const [openGroups, setOpenGroups] = useState<Record<string, boolean>>({});
-  const [search, setSearch] = useState("");
   const [searchFocused, setSearchFocused] = useState(false);
-  const desktopSearchInputRef = useRef<HTMLInputElement>(null);
-  const mobileSearchInputRef = useRef<HTMLInputElement>(null);
-  const dropdownGroups = navGroups.filter((group) => ["About", "EPC Business", "Step Cables", "Conductor"].includes(group.label));
+  const { register: registerSearch, handleSubmit: handleSearchSubmit, watch: watchSearch, setFocus: setSearchFocus } = useForm<SearchFormValues>({
+    defaultValues: { q: "" },
+  });
+  const { register: registerReach, handleSubmit: handleReachSubmit, reset: resetReach } = useForm<ReachFormValues>({
+    defaultValues: {
+      name: "",
+      email: "",
+      phone: "",
+      subject: "",
+      message: "",
+    },
+  });
+  const dropdownGroups = navGroups.filter((group) => ["About", "EPC Business", "Wire and Cables", "Switch and Accessories", "Conductor"].includes(group.label));
+  const search = watchSearch("q") || "";
   const query = search.trim().toLowerCase();
   const suggestions = useMemo(() => {
     if (query.length < 2) return [];
@@ -197,29 +303,53 @@ export function SiteHeader() {
   const toggleGroup = (label: string) => {
     setOpenGroups((current) => ({ ...current, [label]: !current[label] }));
   };
-  const submitSearch = (event: FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
-  };
+  const submitSearch = handleSearchSubmit(({ q }) => {
+    const term = q.trim();
+    if (!term) return;
+    closeSearch();
+    router.push(`/search?q=${encodeURIComponent(term)}`);
+  });
   const openReachForm = () => {
     closeMenu();
     setReachFormOpen(true);
   };
-  const submitReachForm = (event: FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
+  const submitReachForm = handleReachSubmit(async (values) => {
+    const formData = new FormData();
+    Object.entries(values).forEach(([key, value]) => {
+      formData.set(key, String(value || "").trim());
+    });
+
+    const response = await fetch("/api/contact", {
+      method: "POST",
+      body: formData,
+    });
+
+    if (!response.ok) return;
+    resetReach();
     setReachFormOpen(false);
-  };
+  });
 
   useEffect(() => {
     setMounted(true);
   }, []);
 
   useEffect(() => {
-    if (mobileSearchOpen) mobileSearchInputRef.current?.focus();
-  }, [mobileSearchOpen]);
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 16);
+    };
+
+    handleScroll();
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   useEffect(() => {
-    if (desktopSearchOpen) desktopSearchInputRef.current?.focus();
-  }, [desktopSearchOpen]);
+    if (mobileSearchOpen) setSearchFocus("q");
+  }, [mobileSearchOpen, setSearchFocus]);
+
+  useEffect(() => {
+    if (desktopSearchOpen) setSearchFocus("q");
+  }, [desktopSearchOpen, setSearchFocus]);
 
   const reachFormModal = reachFormOpen ? (
     <div className="fixed inset-0 z-[9999] overflow-y-auto bg-black/65 px-4 py-6 backdrop-blur-sm sm:py-10">
@@ -241,7 +371,7 @@ export function SiteHeader() {
               <div className="inline-flex rounded-2xl bg-white/90 p-3 shadow-xl shadow-black/20">
                 <img src="/assetshome/img/logo-step.png" alt="Step Cables" className="h-12 w-auto" />
               </div>
-              <p className="mt-8 text-xs font-black uppercase tracking-[0.32em] text-brand-teal">Wire & Conductor Manufacturing</p>
+              <p className="mt-8 text-xs font-black uppercase tracking-[0.32em] text-brand-teal">Wire & Conductor Supply</p>
               <h2 className="mt-4 text-3xl font-black leading-tight sm:text-4xl">Connect with Step Cables</h2>
             </div>
 
@@ -269,9 +399,8 @@ export function SiteHeader() {
                   {field.label}
                   {field.required ? " *" : ""}
                   <input
-                    name={field.name}
+                    {...registerReach(field.name, { required: field.required })}
                     type={field.type}
-                    required={field.required}
                     className="rounded-2xl border border-brand-teal/15 bg-white px-4 py-3 text-base font-normal text-slate-900 outline-none transition focus:border-brand-teal/35 focus:shadow-[0_0_0_4px_rgba(91,192,187,0.12)]"
                   />
                 </label>
@@ -279,7 +408,7 @@ export function SiteHeader() {
             </div>
             <label className="grid gap-2 text-sm font-bold text-slate-900">
               Message *
-              <textarea name="message" required rows={4} className="rounded-2xl border border-brand-teal/15 bg-white px-4 py-3 text-base font-normal text-slate-900 outline-none transition focus:border-brand-teal/35 focus:shadow-[0_0_0_4px_rgba(91,192,187,0.12)]" />
+              <textarea {...registerReach("message", { required: true })} rows={4} className="rounded-2xl border border-brand-teal/15 bg-white px-4 py-3 text-base font-normal text-slate-900 outline-none transition focus:border-brand-teal/35 focus:shadow-[0_0_0_4px_rgba(91,192,187,0.12)]" />
             </label>
             <button type="submit" className="w-fit rounded-full bg-gradient-to-r from-brand-teal to-brand-dark px-6 py-3 text-sm font-black uppercase tracking-wide text-white shadow-lg shadow-brand-teal/25 transition duration-300 hover:-translate-y-0.5">
               Submit
@@ -292,9 +421,9 @@ export function SiteHeader() {
 
   return (
     <>
-    <header className="fixed inset-x-0 top-0 z-50 border-b border-brand-teal/15 bg-white/90 shadow-sm shadow-slate-900/5 backdrop-blur-xl">
-      <div className="hidden border-b border-brand-teal/10 bg-gray-600 text-white backdrop-blur-xl lg:block">
-        <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-8 py-2 text-sm">
+    <header className={`fixed inset-x-0 top-0 z-50 w-full border-b backdrop-blur-xl transition-all duration-300 ${scrolled ? "border-brand-teal/15 bg-white/90 shadow-sm shadow-slate-900/5" : "site-header-over-media border-white/30 bg-white/42 shadow-sm shadow-slate-900/10"}`}>
+      <div className={`hidden overflow-hidden border-b text-white backdrop-blur-xl transition-all duration-300 lg:block ${scrolled ? "max-h-0 border-brand-teal/10 bg-gray-600 opacity-0" : "max-h-12 border-black/10 bg-slate-950/62 opacity-100"}`}>
+        <div className="flex w-full items-center justify-between gap-3 px-4 py-2 text-sm xl:px-6 2xl:px-8">
           <div className="flex flex-wrap items-center gap-4">
             <a href="tel:01206849500" className="flex items-center gap-2 transition duration-300 hover:text-brand-dark">
               <FaPhoneAlt aria-hidden="true" className="text-xs text-brand-dark" />
@@ -327,7 +456,7 @@ export function SiteHeader() {
         </div>
       </div>
 
-      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-3 px-4 sm:px-6 lg:grid lg:h-auto lg:grid-cols-[135px_minmax(0,1fr)_150px] lg:gap-3 lg:px-5 lg:py-2 xl:grid-cols-[170px_minmax(0,1fr)_170px] xl:gap-4 xl:px-6 2xl:grid-cols-[220px_minmax(0,1fr)_200px] 2xl:gap-5 2xl:px-8">
+      <div className="flex h-16 w-full items-center justify-between gap-3 pl-3 pr-3 sm:pl-4 sm:pr-4 lg:grid lg:h-auto lg:grid-cols-[135px_minmax(0,1fr)_150px] lg:gap-3 lg:pl-5 lg:pr-4 lg:py-2 xl:grid-cols-[170px_minmax(0,1fr)_170px] xl:gap-4 xl:pl-6 xl:pr-5 2xl:grid-cols-[220px_minmax(0,1fr)_200px] 2xl:gap-5 2xl:pl-8 2xl:pr-6">
         <Link href="/" className="flex min-w-0 items-center gap-3" onClick={closeMenu}>
           <span className="flex h-12 w-[76px] items-center overflow-visible sm:w-[82px] lg:h-12 lg:w-[76px] xl:h-12 xl:w-[84px] 2xl:h-14 2xl:w-[92px]">
             <img
@@ -343,6 +472,15 @@ export function SiteHeader() {
         <nav aria-label="Main navigation" className="hidden min-w-0 items-center justify-center gap-0.5 xl:gap-1.5 2xl:gap-3 lg:flex">
           {mainNavLinks.map(([label, href]) => {
             const group = dropdownGroups.find((item) => item.label === label);
+            if (label === "Contact") {
+              return (
+                <div key={href} className="flex items-center">
+                  <BrochureDropdown />
+                  <HeaderLink href={href} label={label} />
+                </div>
+              );
+            }
+
             return group ? <HeaderDropdown key={label} group={group} /> : <HeaderLink key={href} href={href} label={label} />;
           })}
         </nav>
@@ -398,14 +536,11 @@ export function SiteHeader() {
               Search
             </label>
             <input
-              ref={desktopSearchInputRef}
               id="desktop-site-search"
-              name="q"
+              {...registerSearch("q")}
               type="search"
-              value={search}
               onFocus={() => setSearchFocused(true)}
               onBlur={() => setTimeout(() => setSearchFocused(false), 120)}
-              onChange={(event) => setSearch(event.target.value)}
               placeholder="Search products, pages, blogs"
               className="h-12 w-full rounded-full border border-brand-teal/20 bg-white pl-11 pr-4 text-sm text-slate-700 outline-none transition duration-300 placeholder:text-slate-400 focus:border-brand-teal/50 focus:shadow-[0_0_0_4px_rgba(91,192,187,0.12)]"
             />
@@ -424,14 +559,11 @@ export function SiteHeader() {
               Search
             </label>
             <input
-              ref={mobileSearchInputRef}
               id="mobile-header-search"
-              name="q"
+              {...registerSearch("q")}
               type="search"
-              value={search}
               onFocus={() => setSearchFocused(true)}
               onBlur={() => setTimeout(() => setSearchFocused(false), 120)}
-              onChange={(event) => setSearch(event.target.value)}
               placeholder="Search products, pages, blogs"
               className="h-11 min-w-0 flex-1 rounded-full border border-brand-teal/15 bg-white pl-10 pr-3 text-sm text-slate-700 outline-none transition placeholder:text-slate-400 focus:border-brand-teal/50"
             />
@@ -477,12 +609,10 @@ export function SiteHeader() {
               </label>
               <input
                 id="mobile-site-search"
-                name="q"
+                {...registerSearch("q")}
                 type="search"
-                value={search}
                 onFocus={() => setSearchFocused(true)}
                 onBlur={() => setTimeout(() => setSearchFocused(false), 120)}
-                onChange={(event) => setSearch(event.target.value)}
                 placeholder="Search"
                 className="h-11 w-full rounded-full border border-brand-teal/15 bg-white pl-10 pr-3 text-sm text-slate-700 outline-none transition placeholder:text-slate-400 focus:border-brand-teal/50"
               />
@@ -523,6 +653,25 @@ export function SiteHeader() {
                 </div>
               );
             })}
+            <div className="border-b border-brand-teal/15 py-1">
+              <button
+                type="button"
+                aria-expanded={Boolean(openGroups.Brochure)}
+                onClick={() => toggleGroup("Brochure")}
+                className="flex w-full items-center justify-between rounded-xl px-3 py-3 text-left text-sm font-semibold text-slate-800"
+              >
+                <span>Brochure</span>
+                <FaChevronDown aria-hidden="true" className={`text-xs transition ${openGroups.Brochure ? "rotate-180" : ""}`} />
+              </button>
+              <div className={`${openGroups.Brochure ? "grid" : "hidden"} gap-1 pb-3 pl-4`}>
+                {brochureLinks.map(([label, href]) => (
+                  <a key={href} href={href} download onClick={closeMenu} className="flex items-center justify-between gap-3 py-2 pr-3 text-sm text-slate-600">
+                    <span>{label}</span>
+                    <FaDownload aria-hidden="true" className="shrink-0 text-xs text-brand-dark" />
+                  </a>
+                ))}
+              </div>
+            </div>
             <button type="button" onClick={openReachForm} className="mt-2 rounded-full bg-gradient-to-r from-brand-teal to-brand-dark px-4 py-3 text-center text-sm font-semibold text-white shadow-lg shadow-brand-teal/25 transition duration-300 hover:-translate-y-0.5">
               Reach Us
             </button>

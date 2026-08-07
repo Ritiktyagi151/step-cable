@@ -22,7 +22,7 @@ export const navGroups = [
     ]
   },
   {
-    label: "Step Cables",
+    label: "Wire and Cables",
     href: "/about-step-cables",
     links: [
       ["About Step Cables", "/about-step-cables"],
@@ -53,12 +53,21 @@ export const navGroups = [
     ]
   },
   {
+    label: "Switch and Accessories",
+    href: "/modular-switches",
+    links: [
+      ["Lincoln", "/step-lincoln"],
+      ["Cadillac", "/step-cadillac"],
+      ["Conductor", "/conductor"]
+    ]
+  },
+  {
     label: "Company",
     href: "/certification",
     links: [
       ["Certifications", "/certification"],
       ["Clientele", "/clients1"],
-      ["Manufacturing Plant", "/manufacturing-plant"],
+      ["Quality & Standards", "/certification"],
       ["Career", "/current-openings"],
       ["Reach Us", "/contact"],
       ["Blog", "/blog"]
@@ -69,19 +78,15 @@ export const navGroups = [
 export const topNavLinks = [
   ["Certifications", "/certification"],
   ["Clientele", "/clients1"],
-  ["Manufacturing Plant", "/manufacturing-plant"],
-  ["Career", "/current-openings"],
-  ["Blog", "/blog"]
+  ["Quality & Standards", "/certification"]
 ] as const;
 
 export const mainNavLinks = [
   ["Home", "/"],
   ["About", "/about-step-industry"],
   ["EPC Business", "/about-epc-business"],
-  ["Step Cables", "/about-step-cables"],
-  ["Lincoln", "/step-lincoln"],
-  ["Cadillac", "/step-cadillac"],
-  ["Conductor", "/all-aluminum-conductor"],
+  ["Wire and Cables", "/about-step-cables"],
+  ["Switch and Accessories", "/modular-switches"],
   ["Contact", "/contact"]
 ] as const;
 

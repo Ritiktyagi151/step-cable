@@ -35,6 +35,9 @@ export const pageRegistry = {
     "wire-and-cable",
     "xlpe-insulated-power-control-cable",
   ],
+  conductor: [
+    "conductor",
+  ],
   about: [
     "about-step-cables",
     "about-step-industry",

@@ -1,4 +1,5 @@
 import { PageHero } from "@/components/PageHero";
+import { ContactForm } from "@/components/contact/ContactForm";
 import type { SitePage } from "@/lib/content";
 
 const offices = [
@@ -37,13 +38,6 @@ const quickDetails = [
   ["Response", "Quick email assistance"]
 ] as const;
 
-const contactFields = [
-  { label: "Name", name: "name", type: "text", required: true },
-  { label: "E-mail", name: "email", type: "email", required: true },
-  { label: "Phone Number", name: "phone", type: "tel", required: false },
-  { label: "Subject", name: "subject", type: "text", required: true }
-];
-
 type ContactPageProps = {
   page: SitePage;
 };
@@ -81,29 +75,7 @@ export function ContactPage({ page }: ContactPageProps) {
           <div className="rounded-[20px] border border-brand-teal/15 bg-white/78 p-5 shadow-xl shadow-slate-900/5 backdrop-blur-lg sm:p-6">
             <p className="text-xs font-black uppercase tracking-[0.22em] text-brand-dark sm:tracking-[0.35em]">Write To Us</p>
             <h2 className="mt-4 text-3xl font-black leading-tight text-slate-900 sm:text-4xl">Send your enquiry</h2>
-            <form className="mt-8 grid gap-4">
-              <div className="grid gap-4 sm:grid-cols-2">
-                {contactFields.map((field) => (
-                  <label key={field.name} className="grid gap-2 text-sm font-bold text-slate-900">
-                    {field.label}
-                    {field.required ? " *" : ""}
-                    <input
-                      name={field.name}
-                      type={field.type}
-                      required={field.required}
-                      className="rounded-2xl border border-brand-teal/15 bg-white/80 px-4 py-3 text-base font-normal text-slate-900 outline-none transition focus:border-brand-teal/35 focus:shadow-[0_0_0_4px_rgba(91,192,187,0.12)]"
-                    />
-                  </label>
-                ))}
-              </div>
-              <label className="grid gap-2 text-sm font-bold text-slate-900">
-                Message *
-                <textarea name="message" required rows={6} className="rounded-2xl border border-brand-teal/15 bg-white/80 px-4 py-3 text-base font-normal text-slate-900 outline-none transition focus:border-brand-teal/35 focus:shadow-[0_0_0_4px_rgba(91,192,187,0.12)]" />
-              </label>
-              <button type="submit" className="w-full rounded-full bg-gradient-to-r from-brand-teal to-brand-dark px-6 py-3 text-sm font-black uppercase tracking-wide text-white shadow-lg shadow-brand-teal/25 transition duration-300 hover:-translate-y-0.5 sm:w-fit">
-                Submit
-              </button>
-            </form>
+            <ContactForm />
           </div>
           </div>
 

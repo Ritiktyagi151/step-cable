@@ -67,6 +67,24 @@ export type ContentFormField = {
 
 const dataDir = path.join(process.cwd(), "src", "data");
 
+const generatedPages: SitePage[] = [
+  {
+    slug: "conductor",
+    url: "/conductor",
+    title: "Conductor Products | AAC, AAAC, ACSR, ACAR, AL-59 - Step Cables",
+    description: "Explore Step Cable conductor products including AAC, AAAC, ACSR, ACAR, AACSR, AL-59 and AACSR/AW conductors.",
+    keywords: "conductor, aluminium conductor, aac conductor, aaac conductor, acsr conductor, acar conductor, al-59 conductor",
+    canonical: "https://www.stepcable.com/conductor",
+    image: "/assets/img/banner/aluminium-conductor-manufacturer.jpg",
+    h1: "Conductor Products",
+    contentText: "Explore Step Cable conductor products including AAC, AAAC, ACSR, ACAR, AACSR, AL-59 and AACSR/AW conductors.",
+    contentBlocks: [],
+    links: [],
+    images: [],
+    schema: [],
+  },
+];
+
 function readJson<T>(file: string, fallback: T): T {
   const target = path.join(dataDir, file);
   if (!fs.existsSync(target)) return fallback;
@@ -74,7 +92,8 @@ function readJson<T>(file: string, fallback: T): T {
 }
 
 export function getPages() {
-  return readJson<SitePage[]>("static-pages.json", []);
+  const pages = readJson<SitePage[]>("static-pages.json", []);
+  return [...generatedPages, ...pages];
 }
 
 export function getPageBySlug(slug: string) {
