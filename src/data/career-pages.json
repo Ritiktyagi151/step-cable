@@ -1,0 +1,342 @@
+[
+  {
+    "slug": "application-form",
+    "url": "/application-form",
+    "title": "Job Application Form - STEP CABLES",
+    "description": "Looking for jobs in cable industry? we are hiring! Come let us know how talented you are.",
+    "keywords": "sales jobs, jobs in cable industry, jobs in epc company, epc engineer jobs, electrical sales jobs",
+    "canonical": "https://www.stepcable.com/application-form",
+    "image": "",
+    "h1": "Application Form",
+    "schema": [],
+    "contentText": "Application Form First Name Last Name Email Enter Address Here.. City select exampleInputFile checkbox Apply DO THE JOB QUICKLY Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Integer blandit nulla quis fermentum hendrerit. Vestibulum eu libero volutpat, portas quam acc, tempus sem. Donec sodales quam id lorem lobortis, vitae interdum nisl vehicula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam suscipit, elit quis facilisis dictum, diam justo volutpat dui. Cras id justo eget sapien scelerisque lacinia non a eros. HR Philosophy Current Openings Application Form",
+    "contentBlocks": [
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Application Form"
+      },
+      {
+        "type": "form",
+        "fields": [
+          {
+            "label": "First Name",
+            "name": "fname",
+            "type": "f_name",
+            "placeholder": "First Name",
+            "required": true
+          },
+          {
+            "label": "Last Name",
+            "name": "lname",
+            "type": "l_name",
+            "placeholder": "Last Name",
+            "required": true
+          },
+          {
+            "label": "Email",
+            "name": "email",
+            "type": "input",
+            "placeholder": "Email",
+            "required": true
+          },
+          {
+            "label": "Enter Address Here..",
+            "name": "Enter Address Here..",
+            "type": "textarea",
+            "placeholder": "Enter Address Here..",
+            "required": true
+          },
+          {
+            "label": "City",
+            "name": "city",
+            "type": "input",
+            "placeholder": "City",
+            "required": true
+          },
+          {
+            "label": "select",
+            "name": "select",
+            "type": "select",
+            "placeholder": "",
+            "required": false
+          },
+          {
+            "label": "exampleInputFile",
+            "name": "exampleInputFile",
+            "type": "file",
+            "placeholder": "",
+            "required": false
+          },
+          {
+            "label": "checkbox",
+            "name": "checkbox",
+            "type": "checkbox",
+            "placeholder": "",
+            "required": true
+          }
+        ],
+        "buttons": [
+          "Apply"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "DO THE JOB QUICKLY"
+      },
+      {
+        "type": "paragraph",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Integer blandit nulla quis fermentum hendrerit. Vestibulum eu libero volutpat, portas quam acc, tempus sem. Donec sodales quam id lorem lobortis, vitae interdum nisl vehicula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam suscipit, elit quis facilisis dictum, diam justo volutpat dui. Cras id justo eget sapien scelerisque lacinia non a eros."
+      },
+      {
+        "type": "list",
+        "items": [
+          "HR Philosophy",
+          "Current Openings",
+          "Application Form"
+        ]
+      }
+    ],
+    "links": [
+      {
+        "href": "hr-philosophy",
+        "text": "HR Philosophy"
+      },
+      {
+        "href": "current-openings",
+        "text": "Current Openings"
+      }
+    ],
+    "images": []
+  },
+  {
+    "slug": "current-openings",
+    "url": "/current-openings",
+    "title": "Current job openings - STEP CABLES",
+    "description": "The organisation offers a proficient work environment where individuals are nurtured to grow as professionals on a regular basis",
+    "keywords": "sales jobs, jobs in cable industry, jobs in epc company, epc engineer jobs, electrical sales jobs",
+    "canonical": "https://www.stepcable.com/current-openings",
+    "image": "",
+    "h1": "Current Openings",
+    "schema": [],
+    "contentText": "Working at Step Cables The organisation offers a proficient work environment where individuals are nurtured to grow as professionals on a regular basis. With the belief that an organisation grows when its people do, Step Cable regularly conducts learning and development programmes for its employees. Round the year, Step Cables advertises job openings. The current vacancies have been listed alongside. Do visit us again if there are no current vacancies suiting your profile. LOCATION: Haryana, Uttar Pradesh, Maharashtra, Madhya Pradesh, Rajasthan, Karnataka. Business Development: Exploring new markets and generating new business leads. Potential market information to be generated - Research on new areas to be tapped. Maintain a Daily MIS report along with other weekly reports to track the Business activities. Target Industries: Retailers, Dealers, etc. Job Responsibility: The primary purpose of the position is to deliver accelerated and profitable business growth Via Channel and retail Sales To handle sales for Electrical Goods, lighting products & Luminaries (Electrical/FMEG/ Wires & Cables) through Chanel and retail sales. Appointing & monitoring Channel Partner, Dealer network & to handle sales Distributors in assigned location. Handle Assigned territory, achieve budgeted Sales target Through Channel & Retail sales Promoting new products and any special deals in the assigned location. Builds market position by locating, developing, defining, negotiating, and closing business relationships. Keep track of competition activity in the market i.e. Competitor Mapping. Customer Relationship management with Dealer, retailers. Sales forecasting and control. Preparation / designing of Sales / Collection Budget for the State Product / Territory wise looking into organizational (product) strength and Market Potential. Managing complete business operations inclusive of total turnaround with accountability for profitability & executing pre-designated targets in given time frame. The primary purpose of the position is to deliver accelerated and profitable business growth Via Channel and retail Sales Through with dealer distribution network sales Achieve sales target and revenue targets within time frame allotted. Managing the receivables and ensuring timely payments from dealers and customers Qualifications and Skills Requirements Any Graduate/ Undergraduate who can handle channel Sales & retail sales. Able to cultivate lasting relationship with key decision makers. Interpersonal skills and skilful organization of tasks; ability to work with little or no supervision. Good negotiation skills; Confidant personality. Industry Preference: Electrical Products namely lighting based, Cables & Wires, Switchgear, Job Type: Full-time Salary: Negotiable/Best in Industry/No bar for deserving candidate. Required education: Essential Qualification: B.E/B. Tech Desired Qualification: MBA/PGDM Required experience: Work: 4+ years of experience in the same industry. Apply Now HR Philosophy Current Openings Application Form",
+    "contentBlocks": [
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Working at Step Cables"
+      },
+      {
+        "type": "paragraph",
+        "text": "The organisation offers a proficient work environment where individuals are nurtured to grow as professionals on a regular basis. With the belief that an organisation grows when its people do, Step Cable regularly conducts learning and development programmes for its employees."
+      },
+      {
+        "type": "paragraph",
+        "text": "Round the year, Step Cables advertises job openings. The current vacancies have been listed alongside. Do visit us again if there are no current vacancies suiting your profile."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "LOCATION:"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Haryana,"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Uttar Pradesh,"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Maharashtra,"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Madhya Pradesh,"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Rajasthan,"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Karnataka."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Exploring new markets and generating new business leads.",
+          "Potential market information to be generated - Research on new areas to be tapped.",
+          "Maintain a Daily MIS report along with other weekly reports to track the Business activities.",
+          "Target Industries: Retailers, Dealers, etc."
+        ]
+      },
+      {
+        "type": "list",
+        "items": [
+          "The primary purpose of the position is to deliver accelerated and profitable business growth Via Channel and retail Sales",
+          "To handle sales for Electrical Goods, lighting products & Luminaries (Electrical/FMEG/ Wires & Cables) through Chanel and retail sales.",
+          "Appointing & monitoring Channel Partner, Dealer network & to handle sales Distributors in assigned location.",
+          "Handle Assigned territory, achieve budgeted Sales target Through Channel & Retail sales",
+          "Promoting new products and any special deals in the assigned location.",
+          "Builds market position by locating, developing, defining, negotiating, and closing business relationships.",
+          "Keep track of competition activity in the market i.e. Competitor Mapping.",
+          "Customer Relationship management with Dealer, retailers.",
+          "Sales forecasting and control.",
+          "Preparation / designing of Sales / Collection Budget for the State Product / Territory wise looking into organizational (product) strength and Market Potential.",
+          "Managing complete business operations inclusive of total turnaround with accountability for profitability & executing pre-designated targets in given time frame.",
+          "The primary purpose of the position is to deliver accelerated and profitable business growth Via Channel and retail Sales",
+          "Through with dealer distribution network sales Achieve sales target and revenue targets within time frame allotted.",
+          "Managing the receivables and ensuring timely payments from dealers and customers"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Any Graduate/ Undergraduate who can handle channel Sales & retail sales. Able to cultivate lasting relationship with key decision makers. Interpersonal skills and skilful organization of tasks; ability to work with little or no supervision. Good negotiation skills; Confidant personality."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Electrical Products namely lighting based, Cables & Wires, Switchgear,"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Job Type:"
+      },
+      {
+        "type": "paragraph",
+        "text": "Full-time"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Salary:"
+      },
+      {
+        "type": "paragraph",
+        "text": "Negotiable/Best in Industry/No bar for deserving candidate."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Desired Qualification: MBA/PGDM"
+        ]
+      },
+      {
+        "type": "list",
+        "items": [
+          "Work: 4+ years of experience in the same industry."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Apply Now"
+      }
+    ],
+    "links": [
+      {
+        "href": "#collapse1",
+        "text": "Business Development:"
+      },
+      {
+        "href": "#collapse2",
+        "text": "Job Responsibility:"
+      },
+      {
+        "href": "#collapse3",
+        "text": "Qualifications and Skills Requirements"
+      },
+      {
+        "href": "#collapse4",
+        "text": "Industry Preference:"
+      },
+      {
+        "href": "#collapse5",
+        "text": "Required education:"
+      },
+      {
+        "href": "#collapse6",
+        "text": "Required experience:"
+      },
+      {
+        "href": "/hr-philosophy",
+        "text": "HR Philosophy"
+      },
+      {
+        "href": "/current-openings",
+        "text": "Current Openings"
+      },
+      {
+        "href": "/application-form",
+        "text": "Application Form"
+      }
+    ],
+    "images": []
+  },
+  {
+    "slug": "hr-philosophy",
+    "url": "/hr-philosophy",
+    "title": "HR Philosphy - STEP CABLES",
+    "description": "The success at Step Cables is attributed to its people, who lie at the epitome of its operations.",
+    "keywords": "sales jobs, jobs in cable industry, jobs in epc company, epc engineer jobs, electrical sales jobs",
+    "canonical": "https://www.stepcable.com/hr-philosophy",
+    "image": "",
+    "h1": "HR Philosophy",
+    "schema": [],
+    "contentText": "HR Philosophy The success at Step Cables is attributed to its people, who lie at the epitome of its operations. A culture of learning is extended to the employees for enhancing the skills, personally or professionally. DO THE JOB QUICKLY Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Integer blandit nulla quis fermentum hendrerit. Vestibulum eu libero volutpat, portas quam acc, tempus sem. Donec sodales quam id lorem lobortis, vitae interdum nisl vehicula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam suscipit, elit quis facilisis dictum, diam justo volutpat dui. Cras id justo eget sapien scelerisque lacinia non a eros. HR Philosophy Current Openings Application Form",
+    "contentBlocks": [
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "HR Philosophy"
+      },
+      {
+        "type": "paragraph",
+        "text": "The success at Step Cables is attributed to its people, who lie at the epitome of its operations. A culture of learning is extended to the employees for enhancing the skills, personally or professionally."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "DO THE JOB QUICKLY"
+      },
+      {
+        "type": "paragraph",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Integer blandit nulla quis fermentum hendrerit. Vestibulum eu libero volutpat, portas quam acc, tempus sem. Donec sodales quam id lorem lobortis, vitae interdum nisl vehicula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam suscipit, elit quis facilisis dictum, diam justo volutpat dui. Cras id justo eget sapien scelerisque lacinia non a eros."
+      },
+      {
+        "type": "list",
+        "items": [
+          "HR Philosophy",
+          "Current Openings",
+          "Application Form"
+        ]
+      }
+    ],
+    "links": [
+      {
+        "href": "hr-philosophy",
+        "text": "HR Philosophy"
+      },
+      {
+        "href": "current-openings",
+        "text": "Current Openings"
+      },
+      {
+        "href": "application-form",
+        "text": "Application Form"
+      }
+    ],
+    "images": []
+  }
+]

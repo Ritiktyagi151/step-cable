@@ -1,7 +1,9 @@
 export const pageRegistry = {
   product: [
     "ab-cable",
+    "about-step-cables",
     "advantages-of-insulated-power-cable",
+    "conductor",
     "al-conductor",
     "all-alloy-aluminum-conductor-steel-reinforced-aluminum-wires",
     "all-alloy-aluminum-conductor-steel-reinforced",
@@ -89,6 +91,8 @@ const pageGroupSets = Object.fromEntries(
 export function getPageGroup(slug: string): PageGroup | "home" | "contact" | "standard" {
   if (slug === "") return "home";
   if (slug === "contact") return "contact";
+  if (slug === "conductor") return "conductor";
+  if (slug === "about-step-cables") return "product";
 
   for (const group of Object.keys(pageGroupSets) as PageGroup[]) {
     if (pageGroupSets[group].has(slug)) return group;

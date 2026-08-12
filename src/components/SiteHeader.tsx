@@ -7,9 +7,35 @@ import { createPortal } from "react-dom";
 import { useForm } from "react-hook-form";
 import { FaBars, FaChevronDown, FaDownload, FaFacebookF, FaInstagram, FaLinkedinIn, FaMobileAlt, FaPhoneAlt, FaSearch, FaTimes, FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import aboutPages from "@/data/about-pages.json";
+import careerPages from "@/data/career-pages.json";
+import clientsPages from "@/data/clients-pages.json";
+import companyPages from "@/data/company-pages.json";
+import conductors from "@/data/conductors.json";
+import contactPage from "@/data/contact-page.json";
+import epcPages from "@/data/epc-pages.json";
+import homePage from "@/data/home-page.json";
+import policyPages from "@/data/policy-pages.json";
+import sitemapPages from "@/data/sitemap-pages.json";
 import blogPostsData from "@/data/static-blog-posts.json";
-import pagesData from "@/data/static-pages.json";
+import switchesAndAccessories from "@/data/switches-and-accessories.json";
+import wireAndCables from "@/data/wire-and-cables.json";
 import { mainNavLinks, navGroups, topNavLinks } from "@/lib/navigation";
+
+const pagesData = [
+  ...homePage,
+  ...contactPage,
+  ...aboutPages,
+  ...epcPages,
+  ...companyPages,
+  ...clientsPages,
+  ...careerPages,
+  ...policyPages,
+  ...sitemapPages,
+  ...wireAndCables,
+  ...switchesAndAccessories,
+  ...conductors,
+];
 
 const socialLinks = [
   { label: "Facebook", href: "https://facebook.com/stepCablesIndia/", Icon: FaFacebookF, className: "text-[#1877F2]" },
@@ -434,11 +460,13 @@ export function SiteHeader() {
               <span>+91 8448819330</span>
             </a>
           </div>
-          <nav aria-label="Top navigation" className="hidden items-center gap-5 lg:flex">
-            {topNavLinks.map(([label, href]) => (
-              <TopBarLink key={href} href={href} label={label} />
-            ))}
-          </nav>
+          {topNavLinks.length ? (
+            <nav aria-label="Top navigation" className="hidden items-center gap-5 lg:flex">
+              {topNavLinks.map(([label, href]) => (
+                <TopBarLink key={href} href={href} label={label} />
+              ))}
+            </nav>
+          ) : null}
           <div className="flex items-center gap-2">
             {socialLinks.map(({ label, href, Icon, className }) => (
               <a
@@ -467,7 +495,7 @@ export function SiteHeader() {
               className="block h-auto max-h-12 w-full object-contain xl:max-h-14"
             />
           </span>
-        </Link>
+        </Link> 
 
         <nav aria-label="Main navigation" className="hidden min-w-0 items-center justify-center gap-0.5 xl:gap-1.5 2xl:gap-3 lg:flex">
           {mainNavLinks.map(([label, href]) => {
@@ -475,8 +503,8 @@ export function SiteHeader() {
             if (label === "Contact") {
               return (
                 <div key={href} className="flex items-center">
-                  <BrochureDropdown />
                   <HeaderLink href={href} label={label} />
+                  <BrochureDropdown />
                 </div>
               );
             }
@@ -619,11 +647,13 @@ export function SiteHeader() {
               <FaSearch aria-hidden="true" className="absolute left-4 top-1/2 -translate-y-1/2 text-sm text-brand-dark" />
               <SearchSuggestionList suggestions={suggestions} visible={showSuggestions} onSelect={closeSearch} />
             </form>
-            <div className="grid gap-1 border-b border-brand-teal/15 pb-3">
-              {topNavLinks.map(([label, href]) => (
-                <HeaderLink key={href} href={href} label={label} onClick={closeMenu} />
-              ))}
-            </div>
+            {topNavLinks.length ? (
+              <div className="grid gap-1 border-b border-brand-teal/15 pb-3">
+                {topNavLinks.map(([label, href]) => (
+                  <HeaderLink key={href} href={href} label={label} onClick={closeMenu} />
+                ))}
+              </div>
+            ) : null}
             {mainNavLinks.map(([label, href]) => {
               const group = dropdownGroups.find((item) => item.label === label);
               if (!group) return <HeaderLink key={href} href={href} label={label} onClick={closeMenu} />;

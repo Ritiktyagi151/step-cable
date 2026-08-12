@@ -77,3 +77,290 @@
  ⨯ [TypeError: __webpack_modules__[moduleId] is not a function] {
   page: '/step-lincoln/lincoln-p02-01'
 }
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'F:\JAIKVIK-PROJECTS\stepcable\stepcable\.next\cache\webpack\client-development\2.pack.gz_' -> 'F:\JAIKVIK-PROJECTS\stepcable\stepcable\.next\cache\webpack\client-development\2.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'F:\JAIKVIK-PROJECTS\stepcable\stepcable\.next\cache\webpack\client-development\7.pack.gz_' -> 'F:\JAIKVIK-PROJECTS\stepcable\stepcable\.next\cache\webpack\client-development\7.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'F:\JAIKVIK-PROJECTS\stepcable\stepcable\.next\cache\webpack\client-development\0.pack.gz_' -> 'F:\JAIKVIK-PROJECTS\stepcable\stepcable\.next\cache\webpack\client-development\0.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'F:\JAIKVIK-PROJECTS\stepcable\stepcable\.next\cache\webpack\client-development\0.pack.gz_' -> 'F:\JAIKVIK-PROJECTS\stepcable\stepcable\.next\cache\webpack\client-development\0.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'F:\JAIKVIK-PROJECTS\stepcable\stepcable\.next\cache\webpack\client-development\0.pack.gz_' -> 'F:\JAIKVIK-PROJECTS\stepcable\stepcable\.next\cache\webpack\client-development\0.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'F:\JAIKVIK-PROJECTS\stepcable\stepcable\.next\cache\webpack\client-development\0.pack.gz_' -> 'F:\JAIKVIK-PROJECTS\stepcable\stepcable\.next\cache\webpack\client-development\0.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'F:\JAIKVIK-PROJECTS\stepcable\stepcable\.next\cache\webpack\client-development\0.pack.gz_' -> 'F:\JAIKVIK-PROJECTS\stepcable\stepcable\.next\cache\webpack\client-development\0.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'F:\JAIKVIK-PROJECTS\stepcable\stepcable\.next\cache\webpack\client-development\0.pack.gz_' -> 'F:\JAIKVIK-PROJECTS\stepcable\stepcable\.next\cache\webpack\client-development\0.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'F:\JAIKVIK-PROJECTS\stepcable\stepcable\.next\cache\webpack\client-development\0.pack.gz_' -> 'F:\JAIKVIK-PROJECTS\stepcable\stepcable\.next\cache\webpack\client-development\0.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'F:\JAIKVIK-PROJECTS\stepcable\stepcable\.next\cache\webpack\client-development\2.pack.gz_' -> 'F:\JAIKVIK-PROJECTS\stepcable\stepcable\.next\cache\webpack\client-development\2.pack.gz'
+ ⨯ ./src/components/home/PremiumDealerBanner.tsx
+Error:   [31mx[0m Expected ';', '}' or <eof>
+    ,-[[36;1;4mF:\JAIKVIK-PROJECTS\stepcable\stepcable\src\components\home\PremiumDealerBanner.tsx[0m:1:1]
+ [2m 1[0m | [35;1m,[0m[35;1m-[0m[35;1m>[0m ```tsx
+ [2m 2[0m | [35;1m|[0m   "use client";
+ [2m 3[0m | [35;1m|[0m   
+ [2m 4[0m | [35;1m|[0m   import { useState } from "react";
+ [2m 5[0m | [35;1m|[0m   import { useForm } from "react-hook-form";
+ [2m 6[0m | [35;1m|[0m   import {
+ [2m 7[0m | [35;1m|[0m     FaHeadset,
+ [2m 8[0m | [35;1m|[0m     FaNetworkWired,
+ [2m 9[0m | [35;1m|[0m     FaPaperPlane,
+ [2m10[0m | [35;1m|[0m     FaStore,
+ [2m11[0m | [35;1m|[0m     FaTruckFast,
+ [2m12[0m | [35;1m|[0m   } from "react-icons/fa6";
+ [2m13[0m | [35;1m|[0m   
+ [2m14[0m | [35;1m|[0m   const retailerBenefits = [
+ [2m15[0m | [35;1m|[0m     [FaStore, "Retail-ready range"],
+ [2m16[0m | [35;1m|[0m     [FaTruckFast, "Dispatch support"],
+ [2m17[0m | [35;1m|[0m     [FaHeadset, "Enquiry assistance"],
+ [2m18[0m | [35;1m|[0m   ] as const;
+ [2m19[0m | [35;1m|[0m   
+ [2m20[0m | [35;1m|[0m   type DealerFormValues = {
+ [2m21[0m | [35;1m|[0m     name: string;
+ [2m22[0m | [35;1m|[0m     phone: string;
+ [2m23[0m | [35;1m|[0m     email: string;
+ [2m24[0m | [35;1m|[0m     businessType: "Retailer" | "Distributor";
+ [2m25[0m | [35;1m|[0m     city?: string;
+ [2m26[0m | [35;1m|[0m     message: string;
+ [2m27[0m | [35;1m|[0m   };
+ [2m28[0m | [35;1m|[0m   
+ [2m29[0m | [35;1m|[0m   export function PremiumDealerBanner() {
+ [2m30[0m | [35;1m|[0m     const [status, setStatus] = useState<
+ [2m31[0m | [35;1m|[0m       "idle" | "sending" | "success" | "error"
+ [2m32[0m | [35;1m|[0m     >("idle");
+ [2m33[0m | [35;1m|[0m   
+ [2m34[0m | [35;1m|[0m     const { register, handleSubmit, reset } = useForm<DealerFormValues>({
+ [2m35[0m | [35;1m|[0m       defaultValues: {
+ [2m36[0m | [35;1m|[0m         name: "",
+ [2m37[0m | [35;1m|[0m         phone: "",
+ [2m38[0m | [35;1m|[0m         email: "",
+ [2m39[0m | [35;1m|[0m         businessType: "Retailer",
+ [2m40[0m | [35;1m|[0m         city: "",
+ [2m41[0m | [35;1m|[0m         message: "",
+ [2m42[0m | [35;1m|[0m       },
+ [2m43[0m | [35;1m|[0m     });
+ [2m44[0m | [35;1m|[0m   
+ [2m45[0m | [35;1m|[0m     const submitDealerForm = handleSubmit(async (values) => {
+ [2m46[0m | [35;1m|[0m       setStatus("sending");
+ [2m47[0m | [35;1m|[0m   
+ [2m48[0m | [35;1m|[0m       try {
+ [2m49[0m | [35;1m|[0m         const formData = new FormData();
+ [2m50[0m | [35;1m|[0m         const city = values.city?.trim() || "";
+ [2m51[0m | [35;1m|[0m         const message = values.message.trim();
+ [2m52[0m | [35;1m|[0m         const businessType = values.businessType || "Retailer";
+ [2m53[0m | [35;1m|[0m   
+ [2m54[0m | [35;1m|[0m[35;1m-[0m[35;1m>[0m       formData.set("subject", `Become a ${businessType} Enquiry`);
+    : [35;1m`[0m[35;1m---[0m[33;1m                               ^^^^^^[0m
+    : [35;1m`[0m[35;1m---[0m[35;1m-[0m [35;1mThis is the expression part of an expression statement[0m
+ [2m55[0m |           formData.set("name", values.name.trim());
+ [2m56[0m |           formData.set("phone", values.phone.trim());
+ [2m57[0m |           formData.set("email", values.email.trim());
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/home/PremiumDealerBanner.tsx
+ ⨯ ./src/components/home/PremiumDealerBanner.tsx
+Error:   [31mx[0m Expected ';', '}' or <eof>
+    ,-[[36;1;4mF:\JAIKVIK-PROJECTS\stepcable\stepcable\src\components\home\PremiumDealerBanner.tsx[0m:1:1]
+ [2m 1[0m | [35;1m,[0m[35;1m-[0m[35;1m>[0m ```tsx
+ [2m 2[0m | [35;1m|[0m   "use client";
+ [2m 3[0m | [35;1m|[0m   
+ [2m 4[0m | [35;1m|[0m   import { useState } from "react";
+ [2m 5[0m | [35;1m|[0m   import { useForm } from "react-hook-form";
+ [2m 6[0m | [35;1m|[0m   import {
+ [2m 7[0m | [35;1m|[0m     FaHeadset,
+ [2m 8[0m | [35;1m|[0m     FaNetworkWired,
+ [2m 9[0m | [35;1m|[0m     FaPaperPlane,
+ [2m10[0m | [35;1m|[0m     FaStore,
+ [2m11[0m | [35;1m|[0m     FaTruckFast,
+ [2m12[0m | [35;1m|[0m   } from "react-icons/fa6";
+ [2m13[0m | [35;1m|[0m   
+ [2m14[0m | [35;1m|[0m   const retailerBenefits = [
+ [2m15[0m | [35;1m|[0m     [FaStore, "Retail-ready range"],
+ [2m16[0m | [35;1m|[0m     [FaTruckFast, "Dispatch support"],
+ [2m17[0m | [35;1m|[0m     [FaHeadset, "Enquiry assistance"],
+ [2m18[0m | [35;1m|[0m   ] as const;
+ [2m19[0m | [35;1m|[0m   
+ [2m20[0m | [35;1m|[0m   type DealerFormValues = {
+ [2m21[0m | [35;1m|[0m     name: string;
+ [2m22[0m | [35;1m|[0m     phone: string;
+ [2m23[0m | [35;1m|[0m     email: string;
+ [2m24[0m | [35;1m|[0m     businessType: "Retailer" | "Distributor";
+ [2m25[0m | [35;1m|[0m     city?: string;
+ [2m26[0m | [35;1m|[0m     message: string;
+ [2m27[0m | [35;1m|[0m   };
+ [2m28[0m | [35;1m|[0m   
+ [2m29[0m | [35;1m|[0m   export function PremiumDealerBanner() {
+ [2m30[0m | [35;1m|[0m     const [status, setStatus] = useState<
+ [2m31[0m | [35;1m|[0m       "idle" | "sending" | "success" | "error"
+ [2m32[0m | [35;1m|[0m     >("idle");
+ [2m33[0m | [35;1m|[0m   
+ [2m34[0m | [35;1m|[0m     const { register, handleSubmit, reset } = useForm<DealerFormValues>({
+ [2m35[0m | [35;1m|[0m       defaultValues: {
+ [2m36[0m | [35;1m|[0m         name: "",
+ [2m37[0m | [35;1m|[0m         phone: "",
+ [2m38[0m | [35;1m|[0m         email: "",
+ [2m39[0m | [35;1m|[0m         businessType: "Retailer",
+ [2m40[0m | [35;1m|[0m         city: "",
+ [2m41[0m | [35;1m|[0m         message: "",
+ [2m42[0m | [35;1m|[0m       },
+ [2m43[0m | [35;1m|[0m     });
+ [2m44[0m | [35;1m|[0m   
+ [2m45[0m | [35;1m|[0m     const submitDealerForm = handleSubmit(async (values) => {
+ [2m46[0m | [35;1m|[0m       setStatus("sending");
+ [2m47[0m | [35;1m|[0m   
+ [2m48[0m | [35;1m|[0m       try {
+ [2m49[0m | [35;1m|[0m         const formData = new FormData();
+ [2m50[0m | [35;1m|[0m         const city = values.city?.trim() || "";
+ [2m51[0m | [35;1m|[0m         const message = values.message.trim();
+ [2m52[0m | [35;1m|[0m         const businessType = values.businessType || "Retailer";
+ [2m53[0m | [35;1m|[0m   
+ [2m54[0m | [35;1m|[0m[35;1m-[0m[35;1m>[0m       formData.set("subject", `Become a ${businessType} Enquiry`);
+    : [35;1m`[0m[35;1m---[0m[33;1m                               ^^^^^^[0m
+    : [35;1m`[0m[35;1m---[0m[35;1m-[0m [35;1mThis is the expression part of an expression statement[0m
+ [2m55[0m |           formData.set("name", values.name.trim());
+ [2m56[0m |           formData.set("phone", values.phone.trim());
+ [2m57[0m |           formData.set("email", values.email.trim());
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/home/PremiumDealerBanner.tsx
+ ⨯ ./src/components/home/PremiumDealerBanner.tsx
+Error:   [31mx[0m Expected ';', '}' or <eof>
+    ,-[[36;1;4mF:\JAIKVIK-PROJECTS\stepcable\stepcable\src\components\home\PremiumDealerBanner.tsx[0m:1:1]
+ [2m 1[0m | [35;1m,[0m[35;1m-[0m[35;1m>[0m ```tsx
+ [2m 2[0m | [35;1m|[0m   "use client";
+ [2m 3[0m | [35;1m|[0m   
+ [2m 4[0m | [35;1m|[0m   import { useState } from "react";
+ [2m 5[0m | [35;1m|[0m   import { useForm } from "react-hook-form";
+ [2m 6[0m | [35;1m|[0m   import {
+ [2m 7[0m | [35;1m|[0m     FaHeadset,
+ [2m 8[0m | [35;1m|[0m     FaNetworkWired,
+ [2m 9[0m | [35;1m|[0m     FaPaperPlane,
+ [2m10[0m | [35;1m|[0m     FaStore,
+ [2m11[0m | [35;1m|[0m     FaTruckFast,
+ [2m12[0m | [35;1m|[0m   } from "react-icons/fa6";
+ [2m13[0m | [35;1m|[0m   
+ [2m14[0m | [35;1m|[0m   const retailerBenefits = [
+ [2m15[0m | [35;1m|[0m     [FaStore, "Retail-ready range"],
+ [2m16[0m | [35;1m|[0m     [FaTruckFast, "Dispatch support"],
+ [2m17[0m | [35;1m|[0m     [FaHeadset, "Enquiry assistance"],
+ [2m18[0m | [35;1m|[0m   ] as const;
+ [2m19[0m | [35;1m|[0m   
+ [2m20[0m | [35;1m|[0m   type DealerFormValues = {
+ [2m21[0m | [35;1m|[0m     name: string;
+ [2m22[0m | [35;1m|[0m     phone: string;
+ [2m23[0m | [35;1m|[0m     email: string;
+ [2m24[0m | [35;1m|[0m     businessType: "Retailer" | "Distributor";
+ [2m25[0m | [35;1m|[0m     city?: string;
+ [2m26[0m | [35;1m|[0m     message: string;
+ [2m27[0m | [35;1m|[0m   };
+ [2m28[0m | [35;1m|[0m   
+ [2m29[0m | [35;1m|[0m   export function PremiumDealerBanner() {
+ [2m30[0m | [35;1m|[0m     const [status, setStatus] = useState<
+ [2m31[0m | [35;1m|[0m       "idle" | "sending" | "success" | "error"
+ [2m32[0m | [35;1m|[0m     >("idle");
+ [2m33[0m | [35;1m|[0m   
+ [2m34[0m | [35;1m|[0m     const { register, handleSubmit, reset } = useForm<DealerFormValues>({
+ [2m35[0m | [35;1m|[0m       defaultValues: {
+ [2m36[0m | [35;1m|[0m         name: "",
+ [2m37[0m | [35;1m|[0m         phone: "",
+ [2m38[0m | [35;1m|[0m         email: "",
+ [2m39[0m | [35;1m|[0m         businessType: "Retailer",
+ [2m40[0m | [35;1m|[0m         city: "",
+ [2m41[0m | [35;1m|[0m         message: "",
+ [2m42[0m | [35;1m|[0m       },
+ [2m43[0m | [35;1m|[0m     });
+ [2m44[0m | [35;1m|[0m   
+ [2m45[0m | [35;1m|[0m     const submitDealerForm = handleSubmit(async (values) => {
+ [2m46[0m | [35;1m|[0m       setStatus("sending");
+ [2m47[0m | [35;1m|[0m   
+ [2m48[0m | [35;1m|[0m       try {
+ [2m49[0m | [35;1m|[0m         const formData = new FormData();
+ [2m50[0m | [35;1m|[0m         const city = values.city?.trim() || "";
+ [2m51[0m | [35;1m|[0m         const message = values.message.trim();
+ [2m52[0m | [35;1m|[0m         const businessType = values.businessType || "Retailer";
+ [2m53[0m | [35;1m|[0m   
+ [2m54[0m | [35;1m|[0m[35;1m-[0m[35;1m>[0m       formData.set("subject", `Become a ${businessType} Enquiry`);
+    : [35;1m`[0m[35;1m---[0m[33;1m                               ^^^^^^[0m
+    : [35;1m`[0m[35;1m---[0m[35;1m-[0m [35;1mThis is the expression part of an expression statement[0m
+ [2m55[0m |           formData.set("name", values.name.trim());
+ [2m56[0m |           formData.set("phone", values.phone.trim());
+ [2m57[0m |           formData.set("email", values.email.trim());
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/home/PremiumDealerBanner.tsx
+ ⨯ ./src/components/home/PremiumDealerBanner.tsx
+Error:   [31mx[0m Expected ';', '}' or <eof>
+    ,-[[36;1;4mF:\JAIKVIK-PROJECTS\stepcable\stepcable\src\components\home\PremiumDealerBanner.tsx[0m:1:1]
+ [2m 1[0m | [35;1m,[0m[35;1m-[0m[35;1m>[0m ```tsx
+ [2m 2[0m | [35;1m|[0m   "use client";
+ [2m 3[0m | [35;1m|[0m   
+ [2m 4[0m | [35;1m|[0m   import { useState } from "react";
+ [2m 5[0m | [35;1m|[0m   import { useForm } from "react-hook-form";
+ [2m 6[0m | [35;1m|[0m   import {
+ [2m 7[0m | [35;1m|[0m     FaHeadset,
+ [2m 8[0m | [35;1m|[0m     FaNetworkWired,
+ [2m 9[0m | [35;1m|[0m     FaPaperPlane,
+ [2m10[0m | [35;1m|[0m     FaStore,
+ [2m11[0m | [35;1m|[0m     FaTruckFast,
+ [2m12[0m | [35;1m|[0m   } from "react-icons/fa6";
+ [2m13[0m | [35;1m|[0m   
+ [2m14[0m | [35;1m|[0m   const retailerBenefits = [
+ [2m15[0m | [35;1m|[0m     [FaStore, "Retail-ready range"],
+ [2m16[0m | [35;1m|[0m     [FaTruckFast, "Dispatch support"],
+ [2m17[0m | [35;1m|[0m     [FaHeadset, "Enquiry assistance"],
+ [2m18[0m | [35;1m|[0m   ] as const;
+ [2m19[0m | [35;1m|[0m   
+ [2m20[0m | [35;1m|[0m   type DealerFormValues = {
+ [2m21[0m | [35;1m|[0m     name: string;
+ [2m22[0m | [35;1m|[0m     phone: string;
+ [2m23[0m | [35;1m|[0m     email: string;
+ [2m24[0m | [35;1m|[0m     businessType: "Retailer" | "Distributor";
+ [2m25[0m | [35;1m|[0m     city?: string;
+ [2m26[0m | [35;1m|[0m     message: string;
+ [2m27[0m | [35;1m|[0m   };
+ [2m28[0m | [35;1m|[0m   
+ [2m29[0m | [35;1m|[0m   export function PremiumDealerBanner() {
+ [2m30[0m | [35;1m|[0m     const [status, setStatus] = useState<
+ [2m31[0m | [35;1m|[0m       "idle" | "sending" | "success" | "error"
+ [2m32[0m | [35;1m|[0m     >("idle");
+ [2m33[0m | [35;1m|[0m   
+ [2m34[0m | [35;1m|[0m     const { register, handleSubmit, reset } = useForm<DealerFormValues>({
+ [2m35[0m | [35;1m|[0m       defaultValues: {
+ [2m36[0m | [35;1m|[0m         name: "",
+ [2m37[0m | [35;1m|[0m         phone: "",
+ [2m38[0m | [35;1m|[0m         email: "",
+ [2m39[0m | [35;1m|[0m         businessType: "Retailer",
+ [2m40[0m | [35;1m|[0m         city: "",
+ [2m41[0m | [35;1m|[0m         message: "",
+ [2m42[0m | [35;1m|[0m       },
+ [2m43[0m | [35;1m|[0m     });
+ [2m44[0m | [35;1m|[0m   
+ [2m45[0m | [35;1m|[0m     const submitDealerForm = handleSubmit(async (values) => {
+ [2m46[0m | [35;1m|[0m       setStatus("sending");
+ [2m47[0m | [35;1m|[0m   
+ [2m48[0m | [35;1m|[0m       try {
+ [2m49[0m | [35;1m|[0m         const formData = new FormData();
+ [2m50[0m | [35;1m|[0m         const city = values.city?.trim() || "";
+ [2m51[0m | [35;1m|[0m         const message = values.message.trim();
+ [2m52[0m | [35;1m|[0m         const businessType = values.businessType || "Retailer";
+ [2m53[0m | [35;1m|[0m   
+ [2m54[0m | [35;1m|[0m[35;1m-[0m[35;1m>[0m       formData.set("subject", `Become a ${businessType} Enquiry`);
+    : [35;1m`[0m[35;1m---[0m[33;1m                               ^^^^^^[0m
+    : [35;1m`[0m[35;1m---[0m[35;1m-[0m [35;1mThis is the expression part of an expression statement[0m
+ [2m55[0m |           formData.set("name", values.name.trim());
+ [2m56[0m |           formData.set("phone", values.phone.trim());
+ [2m57[0m |           formData.set("email", values.email.trim());
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/home/PremiumDealerBanner.tsx
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'F:\JAIKVIK-PROJECTS\stepcable\stepcable\.next\cache\webpack\client-development\1.pack.gz_' -> 'F:\JAIKVIK-PROJECTS\stepcable\stepcable\.next\cache\webpack\client-development\1.pack.gz'

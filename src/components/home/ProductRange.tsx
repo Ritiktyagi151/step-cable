@@ -3,12 +3,15 @@
 import { useEffect, useRef, useState } from "react";
 import { FaBolt, FaIndustry, FaLayerGroup, FaLongArrowAltRight } from "react-icons/fa";
 import { pageRegistry } from "@/components/pages/pageRegistry";
-import staticProducts from "@/data/static-products.json";
+import conductors from "@/data/conductors.json";
+import switchesAndAccessories from "@/data/switches-and-accessories.json";
+import wireAndCables from "@/data/wire-and-cables.json";
 import { homeProducts } from "./homeData";
 
 const productIcons = [FaBolt, FaIndustry, FaLayerGroup, FaLongArrowAltRight];
 const productSlugSet = new Set<string>(pageRegistry.product);
-const productMarqueeItems = staticProducts
+const productPages = [...wireAndCables, ...conductors, ...switchesAndAccessories];
+const productMarqueeItems = productPages
   .filter((product) => productSlugSet.has(product.slug))
   .map((product) => ({
     title: product.h1 || product.title.replace(/\s*\|.*$/, "").replace(/\s*-\s*STEP.*$/, ""),

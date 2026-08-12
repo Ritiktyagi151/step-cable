@@ -4,7 +4,7 @@ import { CompanyPage } from "@/components/company/CompanyPage";
 import { ContactPage } from "@/components/contact/ContactPage";
 import { EpcPage } from "@/components/epc/EpcPage";
 import { CareerPage } from "@/components/career/CareerPage";
-import { ConductorListingPage } from "@/components/conductor/ConductorListingPage";
+import { ConductorListingPage } from "@/components/product/conductor/ConductorListingPage";
 import { CurrentOpeningsPage } from "@/components/career/CurrentOpeningsPage";
 import { PolicyPage } from "@/components/policy/PolicyPage";
 import { ProductPage } from "@/components/product/ProductPage";

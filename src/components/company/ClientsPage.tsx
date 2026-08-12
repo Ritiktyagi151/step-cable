@@ -11,7 +11,7 @@ export function ClientsPage({ page }: ClientsPageProps) {
 
   return (
     <>
-      <PageHero title={page.h1 || page.title} description={page.description} image={page.image} />
+      <PageHero slug={page.slug} title={page.h1 || page.title} description={page.description} image={page.image} />
       <section className="bg-slate-50/80">
         <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
           <CleanContent blocks={introBlocks} />

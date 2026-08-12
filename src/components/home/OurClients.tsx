@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import staticPages from "@/data/static-pages.json";
+import clientsPages from "@/data/clients-pages.json";
 import type { ContentBlock } from "@/lib/content";
 
 type ImageBlock = Extract<ContentBlock, { type: "image" }>;
@@ -14,7 +14,7 @@ function isImageBlock(block: ContentBlock): block is ImageBlock {
 export function OurClients() {
   const sectionRef = useRef<HTMLElement>(null);
   const [isVisible, setIsVisible] = useState(false);
-  const clientsPage = staticPages.find((page) => page.slug === "clients1");
+  const clientsPage = clientsPages.find((page) => page.slug === "clients1");
   const logos = ((clientsPage?.contentBlocks || []) as ContentBlock[])
     .filter(isImageBlock)
     .map((block) => ({ src: block.src, alt: block.alt }))

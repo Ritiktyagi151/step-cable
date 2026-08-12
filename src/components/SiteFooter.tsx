@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaEnvelope, FaFacebookF, FaInstagram, FaLinkedinIn, FaMapMarkerAlt, FaMobileAlt, FaPhoneAlt, FaPinterestP, FaWhatsapp, FaYoutube } from "react-icons/fa";
+import { FaEnvelope, FaFacebookF, FaInstagram, FaLinkedinIn, FaMapMarkerAlt, FaMobileAlt, FaPhoneAlt, FaWhatsapp, FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { footerLinks, mainNavLinks, navGroups, topNavLinks } from "@/lib/navigation";
 
@@ -7,8 +7,6 @@ const socialLinks = [
   { label: "Phone", href: "tel:01206849500", Icon: FaPhoneAlt, className: "text-brand-dark" },
   { label: "E-mail", href: "mailto:info@stepcable.com", Icon: FaEnvelope, className: "text-[#EA4335]" },
   { label: "WhatsApp", href: "https://wa.me/918448819330", Icon: FaWhatsapp, className: "text-[#25D366]" },
-  { label: "Pinterest", href: "https://www.pinterest.com/search/pins/?q=Step%20Cables", Icon: FaPinterestP, className: "text-[#E60023]" },
-  { label: "Location", href: "https://www.google.com/maps/search/?api=1&query=Stellar%20Okas%201425%203rd%20floor%20Noida%20Sector-142%20UP-201305", Icon: FaMapMarkerAlt, className: "text-[#34A853]" },
   { label: "X", href: "https://twitter.com/StepCablesIndia", Icon: FaXTwitter, className: "text-black" },
   { label: "Facebook", href: "https://facebook.com/stepCablesIndia/", Icon: FaFacebookF, className: "text-[#1877F2]" },
   { label: "LinkedIn", href: "https://www.linkedin.com/company/stepcablesindia/", Icon: FaLinkedinIn, className: "text-[#0A66C2]" },
@@ -19,6 +17,17 @@ const socialLinks = [
 const businessLinks: Array<[string, string]> = navGroups.flatMap((group) =>
   group.label === "Wire and Cables" || group.label === "Conductor" ? group.links.slice(0, 6).map(([label, href]) => [label, href] as [string, string]) : []
 );
+
+const quickFooterLinks: Array<[string, string]> = [
+  ...mainNavLinks.map(([label, href]) => [label, href] as [string, string]),
+  ...topNavLinks.map(([label, href]) => [label, href] as [string, string]),
+  ["Blog", "/blog"],
+  ["Manufacturing Plant", "/manufacturing-plant"],
+  // ["Manufacturing Plant 2", "/manufacturing-plant-2"],
+  // ["Clients", "/clients"],
+  // ["Our Satisfied Clients", "/clients1"],
+  ["Clientele", "/clients2"]
+];
 
 function FooterHeading({ children }: { children: React.ReactNode }) {
   return <h2 className="text-sm font-bold uppercase tracking-[0.18em] text-white">{children}</h2>;
@@ -84,7 +93,7 @@ export function SiteFooter() {
           <p className="mt-4 max-w-md text-sm leading-7 text-white/65">
             Built around quality assurance, reliable supply and project-ready support, the company serves customers across electrical distribution and construction segments.
           </p>
-          <div className="mt-6 grid w-fit grid-cols-5 gap-2">
+          <div className="mt-6 grid w-fit grid-cols-4 gap-2">
             {socialLinks.map(({ label, href, Icon, className }) => (
               <a
                 key={href}
@@ -103,7 +112,7 @@ export function SiteFooter() {
         <div className="col-span-1">
           <FooterHeading>Quick Links</FooterHeading>
           <div className="mt-5 grid gap-2">
-            {[...mainNavLinks, ...topNavLinks].map(([label, href]) => (
+            {quickFooterLinks.map(([label, href]) => (
               <FooterLink key={`${label}-${href}`} href={href} label={label} />
             ))}
           </div>

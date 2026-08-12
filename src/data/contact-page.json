@@ -1,0 +1,141 @@
+[
+  {
+    "slug": "contact",
+    "url": "/contact",
+    "title": "Get in touch with us - STEP CABLES",
+    "description": "You are going to talk to a human, we dont have a long waiting time and we reply on emails real quick",
+    "keywords": "step industries, step cables, epc company, epc engineering, wires and cables, wire distributor, cable distributor, house wire,",
+    "canonical": "https://www.stepcable.com/contact",
+    "image": "",
+    "h1": "CONTACT US",
+    "schema": [],
+    "contentText": "CONTACT US Cras id justo eget sapien scelerisque lacinia non a eros. In a volutpat magna. Vivamus pretium urna at condimentum porta. Phasellus mollis mauris dolor, a tincidunt mauris fringilla. Phasellus lobortis tortor urna, vitae venenatis dui bibendum at. Corporate Office Address: 1/61, Lane No-1, Vishwas Nagar, Delhi - 110032, . Phone: 0120 6849500-99 ( 100 lines) E-mail: info@stepcable.com Company Manufacturing Unit Address: G-1/52 to 59, RIICO Industrial Area Shahjahanpur, Distt-Alwar Rajasthan- 301706 Phone: 0120 6849500-99 ( 100 lines) E-mail: info@stepcable.com Registered Office Address: 1/61, Lane No-1, Vishwas Nagar, Delhi - 110032 Phone: 0120 6849500-99 ( 100 lines) E-mail: info@stepcable.com WRITE TO US Name * E-mail * Phone Number Subject * Message SEND MESSAGE Corporate Office Address: K-10/40, Lower Ground Floor DLF City Phase-II Gurugram, Haryana-122008 India. Phone: 011- 49771108-09-10 Company Manufacturing Unit Address: G-1/52 to 59, RIICO Industrial Area Shahjahanpur, Distt-Alwar Rajasthan- 301706 Phone: 01494235422 Registered Office Address: 1/61, Lane No-1, Delhi-110032",
+    "contentBlocks": [
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "CONTACT US"
+      },
+      {
+        "type": "paragraph",
+        "text": "Cras id justo eget sapien scelerisque lacinia non a eros. In a volutpat magna. Vivamus pretium urna at condimentum porta. Phasellus mollis mauris dolor, a tincidunt mauris fringilla. Phasellus lobortis tortor urna, vitae venenatis dui bibendum at."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Corporate Office"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Address: 1/61, Lane No-1, Vishwas Nagar, Delhi - 110032, .",
+          "Phone: 0120 6849500-99 ( 100 lines)",
+          "E-mail: info@stepcable.com"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Company Manufacturing Unit"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Address: G-1/52 to 59, RIICO Industrial Area Shahjahanpur, Distt-Alwar Rajasthan- 301706",
+          "Phone: 0120 6849500-99 ( 100 lines)",
+          "E-mail: info@stepcable.com"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Registered Office"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Address: 1/61, Lane No-1, Vishwas Nagar, Delhi - 110032",
+          "Phone: 0120 6849500-99 ( 100 lines)",
+          "E-mail: info@stepcable.com"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "WRITE TO US"
+      },
+      {
+        "type": "form",
+        "fields": [
+          {
+            "label": "Name *",
+            "name": "name",
+            "type": "text",
+            "placeholder": "Name *",
+            "required": true
+          },
+          {
+            "label": "E-mail *",
+            "name": "email",
+            "type": "email",
+            "placeholder": "E-mail *",
+            "required": true
+          },
+          {
+            "label": "Phone Number",
+            "name": "phone",
+            "type": "text",
+            "placeholder": "Phone Number",
+            "required": false
+          },
+          {
+            "label": "Subject *",
+            "name": "subject",
+            "type": "text",
+            "placeholder": "Subject *",
+            "required": true
+          },
+          {
+            "label": "Message",
+            "name": "message",
+            "type": "textarea",
+            "placeholder": "Message",
+            "required": true
+          }
+        ],
+        "buttons": [
+          "SEND MESSAGE"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Corporate Office"
+      },
+      {
+        "type": "paragraph",
+        "text": "Address: K-10/40, Lower Ground Floor DLF City Phase-II Gurugram, Haryana-122008 India. Phone: 011- 49771108-09-10"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Company Manufacturing Unit"
+      },
+      {
+        "type": "paragraph",
+        "text": "Address: G-1/52 to 59, RIICO Industrial Area Shahjahanpur, Distt-Alwar Rajasthan- 301706 Phone: 01494235422"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Registered Office"
+      },
+      {
+        "type": "paragraph",
+        "text": "Address: 1/61, Lane No-1, Delhi-110032"
+      }
+    ],
+    "links": [],
+    "images": []
+  }
+]

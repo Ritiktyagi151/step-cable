@@ -229,7 +229,7 @@ export function CompanyPage({ page }: CompanyPageProps) {
 
   return (
     <>
-      <PageHero title={page.h1 || page.title} description={page.description} image={page.image} />
+      <PageHero slug={page.slug} title={page.h1 || page.title} description={page.description} image={page.image} />
       <PageBody blocks={page.contentBlocks} />
     </>
   );

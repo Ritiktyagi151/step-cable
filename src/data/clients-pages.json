@@ -1,0 +1,2935 @@
+[
+  {
+    "slug": "clients",
+    "url": "/clients",
+    "title": "STEP CABLES",
+    "description": "Template built for Construction Company, Building Services, Architecture, Engineering, Cleaning Service and other Construction related services",
+    "keywords": "architecture, builder, building, building company, cleaning services, construction, construction business, construction company",
+    "canonical": "https://www.stepcable.com/clients",
+    "image": "",
+    "h1": "OUR CLIENTELE",
+    "schema": [],
+    "contentText": "OUR CLIENTELE Cras id justo eget sapien scelerisque lacinia non a eros. In a volutpat magna. Vivamus pretium urna at condimentum porta. Phasellus mollis mauris dolor, a tincidunt mauris fringilla. All Govt. Organization Corporate clients Banking sector Builders & Contractors Exporters JNPT Govt. Organization SHAPOORJI PALLANJI Builders & Contractors LOKHANDWALA INFRASTRUCTURE Builders & Contractors RUSTOMJEE Builders & Contractors CHAMUNDA Builders & Contractors HAWARE Builders & Contractors NHPC Govt. Organization CITI BANK Banking sector HSBC Banking sector PNB Banking sector YES BANK Banking sector ABN AMRO Banking sector BPC Exporters SUGAR CORPORATION Exporters LUXURY BUILDINGS Exporters BHEL Govt. Organization KELTRON Govt. Organization NTPC Govt. Organization BARC Govt. Organization SAIL Govt. Organization HUDA Govt. Organization CENTRAL RAILWAY Govt. Organization JNPT Govt. Organization BSNL Govt. Organization RVUN Govt. Organization INDIAN OIL Govt. Organization JNPT Govt. Organization LUXURY BUILDINGS Govt. Organization LUPIN Corporate clients TATA POWER Corporate clients AIR INDIA Corporate clients TERMAX CORPORATION Corporate clients VOLTAS Corporate clients ESPN Corporate clients KODAK Corporate clients MAHINDRA Corporate clients RELIANCE Corporate clients ELEVATORS Step Cable COCA-COLA Corporate clients KILOSKAR ELECTRIC Corporate clients ITC Corporate clients SCI Corporate clients CUMMINS Corporate clients SUZLON Corporate clients BALCO Corporate clients HAL Corporate clients SAPKO JUHLAVUOSI Corporate clients MSP GROUP Corporate clients VIRAJ Corporate clients AMBUJA CEMENT Corporate clients THYSSENKRUPP Corporate clients NLC Corporate clients ULTRATECH CEMENT Corporate clients MANIKGARH CEMENT Corporate clients",
+    "contentBlocks": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "OUR CLIENTELE"
+      },
+      {
+        "type": "paragraph",
+        "text": "Cras id justo eget sapien scelerisque lacinia non a eros. In a volutpat magna. Vivamus pretium urna at condimentum porta. Phasellus mollis mauris dolor, a tincidunt mauris fringilla."
+      },
+      {
+        "type": "paragraph",
+        "text": "All Govt. Organization Corporate clients Banking sector Builders & Contractors Exporters"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/as.png",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "JNPT"
+      },
+      {
+        "type": "paragraph",
+        "text": "Govt. Organization"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/as1.png",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "SHAPOORJI PALLANJI"
+      },
+      {
+        "type": "paragraph",
+        "text": "Builders & Contractors"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/build1.png",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "LOKHANDWALA INFRASTRUCTURE"
+      },
+      {
+        "type": "paragraph",
+        "text": "Builders & Contractors"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/as2.png",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "RUSTOMJEE"
+      },
+      {
+        "type": "paragraph",
+        "text": "Builders & Contractors"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/as3.png",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "CHAMUNDA"
+      },
+      {
+        "type": "paragraph",
+        "text": "Builders & Contractors"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/as4.png",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "HAWARE"
+      },
+      {
+        "type": "paragraph",
+        "text": "Builders & Contractors"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/as5.png",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "NHPC"
+      },
+      {
+        "type": "paragraph",
+        "text": "Govt. Organization"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/16.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "CITI BANK"
+      },
+      {
+        "type": "paragraph",
+        "text": "Banking sector"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/17.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "HSBC"
+      },
+      {
+        "type": "paragraph",
+        "text": "Banking sector"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/18.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "PNB"
+      },
+      {
+        "type": "paragraph",
+        "text": "Banking sector"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/19.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "YES BANK"
+      },
+      {
+        "type": "paragraph",
+        "text": "Banking sector"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/20.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "ABN AMRO"
+      },
+      {
+        "type": "paragraph",
+        "text": "Banking sector"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/21.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "BPC"
+      },
+      {
+        "type": "paragraph",
+        "text": "Exporters"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/22.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "SUGAR CORPORATION"
+      },
+      {
+        "type": "paragraph",
+        "text": "Exporters"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/23.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "LUXURY BUILDINGS"
+      },
+      {
+        "type": "paragraph",
+        "text": "Exporters"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/3.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "BHEL"
+      },
+      {
+        "type": "paragraph",
+        "text": "Govt. Organization"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/4.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "KELTRON"
+      },
+      {
+        "type": "paragraph",
+        "text": "Govt. Organization"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/5.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "NTPC"
+      },
+      {
+        "type": "paragraph",
+        "text": "Govt. Organization"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/6.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "BARC"
+      },
+      {
+        "type": "paragraph",
+        "text": "Govt. Organization"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/7.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "SAIL"
+      },
+      {
+        "type": "paragraph",
+        "text": "Govt. Organization"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/8.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "HUDA"
+      },
+      {
+        "type": "paragraph",
+        "text": "Govt. Organization"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/9.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "CENTRAL RAILWAY"
+      },
+      {
+        "type": "paragraph",
+        "text": "Govt. Organization"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/10.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "JNPT"
+      },
+      {
+        "type": "paragraph",
+        "text": "Govt. Organization"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/11.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "BSNL"
+      },
+      {
+        "type": "paragraph",
+        "text": "Govt. Organization"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/12.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "RVUN"
+      },
+      {
+        "type": "paragraph",
+        "text": "Govt. Organization"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/13.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "INDIAN OIL"
+      },
+      {
+        "type": "paragraph",
+        "text": "Govt. Organization"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/14.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "JNPT"
+      },
+      {
+        "type": "paragraph",
+        "text": "Govt. Organization"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/15.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "LUXURY BUILDINGS"
+      },
+      {
+        "type": "paragraph",
+        "text": "Govt. Organization"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/24.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "LUPIN"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/25.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "TATA POWER"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/26.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "AIR INDIA"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/27.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "TERMAX CORPORATION"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/28.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "VOLTAS"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/29.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "ESPN"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/30.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "KODAK"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/31.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "MAHINDRA"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/32.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "RELIANCE"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/33.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "ELEVATORS"
+      },
+      {
+        "type": "paragraph",
+        "text": "Step Cable"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/34.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "COCA-COLA"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/35.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "KILOSKAR ELECTRIC"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/36.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "ITC"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/37.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "SCI"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/38.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "CUMMINS"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/39.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "SUZLON"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/40.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "BALCO"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/46.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "HAL"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/47.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "SAPKO JUHLAVUOSI"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/48.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "MSP GROUP"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/49.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "VIRAJ"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/50.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "AMBUJA CEMENT"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/51.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "THYSSENKRUPP"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/52.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "NLC"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/53.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "ULTRATECH CEMENT"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/54.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "MANIKGARH CEMENT"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      }
+    ],
+    "links": [
+      {
+        "href": "#",
+        "text": "JNPT"
+      },
+      {
+        "href": "#",
+        "text": "SHAPOORJI PALLANJI"
+      },
+      {
+        "href": "#",
+        "text": "LOKHANDWALA INFRASTRUCTURE"
+      },
+      {
+        "href": "#",
+        "text": "RUSTOMJEE"
+      },
+      {
+        "href": "#",
+        "text": "CHAMUNDA"
+      },
+      {
+        "href": "#",
+        "text": "HAWARE"
+      },
+      {
+        "href": "#",
+        "text": "NHPC"
+      },
+      {
+        "href": "#",
+        "text": "CITI BANK"
+      },
+      {
+        "href": "#",
+        "text": "HSBC"
+      },
+      {
+        "href": "#",
+        "text": "PNB"
+      },
+      {
+        "href": "#",
+        "text": "YES BANK"
+      },
+      {
+        "href": "#",
+        "text": "ABN AMRO"
+      },
+      {
+        "href": "#",
+        "text": "BPC"
+      },
+      {
+        "href": "#",
+        "text": "SUGAR CORPORATION"
+      },
+      {
+        "href": "#",
+        "text": "LUXURY BUILDINGS"
+      },
+      {
+        "href": "#",
+        "text": "BHEL"
+      },
+      {
+        "href": "#",
+        "text": "KELTRON"
+      },
+      {
+        "href": "#",
+        "text": "NTPC"
+      },
+      {
+        "href": "#",
+        "text": "BARC"
+      },
+      {
+        "href": "#",
+        "text": "SAIL"
+      },
+      {
+        "href": "#",
+        "text": "HUDA"
+      },
+      {
+        "href": "#",
+        "text": "CENTRAL RAILWAY"
+      },
+      {
+        "href": "#",
+        "text": "BSNL"
+      },
+      {
+        "href": "#",
+        "text": "RVUN"
+      },
+      {
+        "href": "#",
+        "text": "INDIAN OIL"
+      },
+      {
+        "href": "#",
+        "text": "LUPIN"
+      },
+      {
+        "href": "#",
+        "text": "TATA POWER"
+      },
+      {
+        "href": "#",
+        "text": "AIR INDIA"
+      },
+      {
+        "href": "#",
+        "text": "TERMAX CORPORATION"
+      },
+      {
+        "href": "#",
+        "text": "VOLTAS"
+      },
+      {
+        "href": "#",
+        "text": "ESPN"
+      },
+      {
+        "href": "#",
+        "text": "KODAK"
+      },
+      {
+        "href": "#",
+        "text": "MAHINDRA"
+      },
+      {
+        "href": "#",
+        "text": "RELIANCE"
+      },
+      {
+        "href": "#",
+        "text": "ELEVATORS"
+      },
+      {
+        "href": "#",
+        "text": "COCA-COLA"
+      },
+      {
+        "href": "#",
+        "text": "KILOSKAR ELECTRIC"
+      },
+      {
+        "href": "#",
+        "text": "ITC"
+      },
+      {
+        "href": "#",
+        "text": "SCI"
+      },
+      {
+        "href": "#",
+        "text": "CUMMINS"
+      },
+      {
+        "href": "#",
+        "text": "SUZLON"
+      },
+      {
+        "href": "#",
+        "text": "BALCO"
+      },
+      {
+        "href": "#",
+        "text": "HAL"
+      },
+      {
+        "href": "#",
+        "text": "SAPKO JUHLAVUOSI"
+      },
+      {
+        "href": "#",
+        "text": "MSP GROUP"
+      },
+      {
+        "href": "#",
+        "text": "VIRAJ"
+      },
+      {
+        "href": "#",
+        "text": "AMBUJA CEMENT"
+      },
+      {
+        "href": "#",
+        "text": "THYSSENKRUPP"
+      },
+      {
+        "href": "#",
+        "text": "NLC"
+      },
+      {
+        "href": "#",
+        "text": "ULTRATECH CEMENT"
+      },
+      {
+        "href": "#",
+        "text": "MANIKGARH CEMENT"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/img/projects/as.png",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/as1.png",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/build1.png",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/as2.png",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/as3.png",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/as4.png",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/as5.png",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/16.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/17.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/18.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/19.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/20.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/21.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/22.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/23.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/3.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/4.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/5.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/6.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/7.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/8.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/9.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/10.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/11.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/12.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/13.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/14.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/15.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/24.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/25.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/26.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/27.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/28.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/29.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/30.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/31.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/32.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/33.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/34.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/35.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/36.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/37.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/38.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/39.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/40.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/46.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/47.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/48.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/49.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/50.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/51.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/52.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/53.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/54.jpg",
+        "alt": "image"
+      }
+    ]
+  },
+  {
+    "slug": "clients1",
+    "url": "/clients1",
+    "title": "Our Satisfied Clients - STEP INDUSTRIES",
+    "description": "Some of the satisfied National and International Clients of Step Industries from different sectors.",
+    "keywords": "fireproof wires, armoured cable, industrial cable manufacturers, 3 core cable, flame resistant, power control cable, PEC Company, EPC Clients, Electrification Company, Electrification work, building wire, control cable",
+    "canonical": "https://www.stepcable.com/clients1",
+    "image": "",
+    "h1": "OUR CLIENTELE",
+    "schema": [],
+    "contentText": "OUR CLIENTELE Some of our satisfied National and International Clients Jawaharlal Nehru Port Trust Bhabha Atomic Research Centre Haware Engineers and Builders Rustomjee-Constructions Chamunda Infrastructures Steel Authority of India Limited National Hydroelectric Power Corporation Citibank HSBC Punjab National Bank Yes Bank ABN-Amro-Bank Bhutan Power Corporation Sugar-Corporation-Ethiopia MIT-Egypt BHEL KELTRON NTPC Shapoorji-Pallonji Lokhandwala Infrastructure HUDA Central Railway UPPCL BSNL RVUN Indian-Oil Visakhapatnam Port Trust GIPCL Lupin Pharma TATA Power Air India Termax-Corporation VOLTAS ESPN Kodak Mahindra Reliance Life Sciences ECE-Elevators Coca Cola Kirloskar-Electric ITC Limited Shipping Corporation of India Cummins SUZLON BALCO HAL SaPKo Finland MSP Group Viraj PEB Ambuja Cement Thyssenkrupp Neyveli Lignite Corporation Ultratech Cement Manikgarh Cement 1 2",
+    "contentBlocks": [
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "OUR CLIENTELE"
+      },
+      {
+        "type": "paragraph",
+        "text": "Some of our satisfied National and International Clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/Jawaharlal-Nehru-Port-Trust.jpg",
+        "alt": "Jawaharlal Nehru Port Trust"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/Bhabha Atomic Research Centre.jpg",
+        "alt": "Bhabha Atomic Research Centre"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/Haware-Engineers-and-Builders.jpg",
+        "alt": "Haware Engineers and Builders"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/Rustomjee-Constructions.jpg",
+        "alt": "Rustomjee-Constructions"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/Chamunda-Infrastructures.jpg",
+        "alt": "Chamunda Infrastructures"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/Steel-Authority-of-India-Limited.jpg",
+        "alt": "Steel Authority of India Limited"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/National-Hydroelectric-Power-Corporation.jpg",
+        "alt": "National Hydroelectric Power Corporation"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/Citibank.jpg",
+        "alt": "Citibank"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/HSBC.jpg",
+        "alt": "HSBC"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/Punjab-National-Bank.jpg",
+        "alt": "Punjab National Bank"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/Yes-Bank.jpg",
+        "alt": "Yes Bank"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/ABN-Amro-Bank.jpg",
+        "alt": "ABN-Amro-Bank"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/Bhutan-Power-Corporation.jpg",
+        "alt": "Bhutan Power Corporation"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/Sugar-Corporation-Ethiopia.jpg",
+        "alt": "Sugar-Corporation-Ethiopia"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/MIT-Egypt.jpg",
+        "alt": "MIT-Egypt"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/BHEL.jpg",
+        "alt": "BHEL"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/KELTRON.jpg",
+        "alt": "KELTRON"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/NTPC.jpg",
+        "alt": "NTPC"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/Shapoorji-Pallonji.jpg",
+        "alt": "Shapoorji-Pallonji"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/Lokhandwala-Infrastructure.jpg",
+        "alt": "Lokhandwala Infrastructure"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/HUDA.jpg",
+        "alt": "HUDA"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/Central-Railway.jpg",
+        "alt": "Central Railway"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/UPPCL.jpg",
+        "alt": "UPPCL"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/BSNL.jpg",
+        "alt": "BSNL"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/RVUN.jpg",
+        "alt": "RVUN"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/Indian-Oil.jpg",
+        "alt": "Indian-Oil"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/Visakhapatnam-Port-Trust.jpg",
+        "alt": "Visakhapatnam Port Trust"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/GIPCL.jpg",
+        "alt": "GIPCL"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/Lupin-Pharma.jpg",
+        "alt": "Lupin Pharma"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/TATA-Power.jpg",
+        "alt": "TATA Power"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/Air-India.jpg",
+        "alt": "Air India"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/Termax-Corporation.jpg",
+        "alt": "Termax-Corporation"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/VOLTAS.jpg",
+        "alt": "VOLTAS"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/ESPN.jpg",
+        "alt": "ESPN"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/Kodak.jpg",
+        "alt": "Kodak"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/Mahindra.jpg",
+        "alt": "Mahindra"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/Reliance-Life-Sciences.jpg",
+        "alt": "Reliance Life Sciences"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/ECE-Elevators.jpg",
+        "alt": "ECE-Elevators"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/Coca-Cola.jpg",
+        "alt": "Coca Cola"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/Kirloskar-Electric.jpg",
+        "alt": "Kirloskar-Electric"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/ITC-Limited.jpg",
+        "alt": "ITC Limited"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/Shipping-Corporation-of-India.jpg",
+        "alt": "Shipping Corporation of India"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/Cummins.jpg",
+        "alt": "Cummins"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/SUZLON.jpg",
+        "alt": "SUZLON"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/BALCO.jpg",
+        "alt": "BALCO"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/HAL.jpg",
+        "alt": "HAL"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/SaPKo-Finland.jpg",
+        "alt": "SaPKo Finland"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/MSP-Group.jpg",
+        "alt": "MSP Group"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/Viraj-PEB.jpg",
+        "alt": "Viraj PEB"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/Ambuja-Cement.jpg",
+        "alt": "Ambuja Cement"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/Thyssenkrupp.jpg",
+        "alt": "Thyssenkrupp"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/Neyveli-Lignite-Corporation.jpg",
+        "alt": "Neyveli Lignite Corporation"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/Ultratech-Cement.jpg",
+        "alt": "Ultratech Cement"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/Manikgarh-Cement.jpg",
+        "alt": "Manikgarh Cement"
+      },
+      {
+        "type": "list",
+        "items": [
+          "1",
+          "2"
+        ]
+      }
+    ],
+    "links": [],
+    "images": [
+      {
+        "src": "/assets/img/projects/Jawaharlal-Nehru-Port-Trust.jpg",
+        "alt": "Jawaharlal Nehru Port Trust"
+      },
+      {
+        "src": "/assets/img/projects/Bhabha Atomic Research Centre.jpg",
+        "alt": "Bhabha Atomic Research Centre"
+      },
+      {
+        "src": "/assets/img/projects/Haware-Engineers-and-Builders.jpg",
+        "alt": "Haware Engineers and Builders"
+      },
+      {
+        "src": "/assets/img/projects/Rustomjee-Constructions.jpg",
+        "alt": "Rustomjee-Constructions"
+      },
+      {
+        "src": "/assets/img/projects/Chamunda-Infrastructures.jpg",
+        "alt": "Chamunda Infrastructures"
+      },
+      {
+        "src": "/assets/img/projects/Steel-Authority-of-India-Limited.jpg",
+        "alt": "Steel Authority of India Limited"
+      },
+      {
+        "src": "/assets/img/projects/National-Hydroelectric-Power-Corporation.jpg",
+        "alt": "National Hydroelectric Power Corporation"
+      },
+      {
+        "src": "/assets/img/projects/Citibank.jpg",
+        "alt": "Citibank"
+      },
+      {
+        "src": "/assets/img/projects/HSBC.jpg",
+        "alt": "HSBC"
+      },
+      {
+        "src": "/assets/img/projects/Punjab-National-Bank.jpg",
+        "alt": "Punjab National Bank"
+      },
+      {
+        "src": "/assets/img/projects/Yes-Bank.jpg",
+        "alt": "Yes Bank"
+      },
+      {
+        "src": "/assets/img/projects/ABN-Amro-Bank.jpg",
+        "alt": "ABN-Amro-Bank"
+      },
+      {
+        "src": "/assets/img/projects/Bhutan-Power-Corporation.jpg",
+        "alt": "Bhutan Power Corporation"
+      },
+      {
+        "src": "/assets/img/projects/Sugar-Corporation-Ethiopia.jpg",
+        "alt": "Sugar-Corporation-Ethiopia"
+      },
+      {
+        "src": "/assets/img/projects/MIT-Egypt.jpg",
+        "alt": "MIT-Egypt"
+      },
+      {
+        "src": "/assets/img/projects/BHEL.jpg",
+        "alt": "BHEL"
+      },
+      {
+        "src": "/assets/img/projects/KELTRON.jpg",
+        "alt": "KELTRON"
+      },
+      {
+        "src": "/assets/img/projects/NTPC.jpg",
+        "alt": "NTPC"
+      },
+      {
+        "src": "/assets/img/projects/Shapoorji-Pallonji.jpg",
+        "alt": "Shapoorji-Pallonji"
+      },
+      {
+        "src": "/assets/img/projects/Lokhandwala-Infrastructure.jpg",
+        "alt": "Lokhandwala Infrastructure"
+      },
+      {
+        "src": "/assets/img/projects/HUDA.jpg",
+        "alt": "HUDA"
+      },
+      {
+        "src": "/assets/img/projects/Central-Railway.jpg",
+        "alt": "Central Railway"
+      },
+      {
+        "src": "/assets/img/projects/UPPCL.jpg",
+        "alt": "UPPCL"
+      },
+      {
+        "src": "/assets/img/projects/BSNL.jpg",
+        "alt": "BSNL"
+      },
+      {
+        "src": "/assets/img/projects/RVUN.jpg",
+        "alt": "RVUN"
+      },
+      {
+        "src": "/assets/img/projects/Indian-Oil.jpg",
+        "alt": "Indian-Oil"
+      },
+      {
+        "src": "/assets/img/projects/Visakhapatnam-Port-Trust.jpg",
+        "alt": "Visakhapatnam Port Trust"
+      },
+      {
+        "src": "/assets/img/projects/GIPCL.jpg",
+        "alt": "GIPCL"
+      },
+      {
+        "src": "/assets/img/projects/Lupin-Pharma.jpg",
+        "alt": "Lupin Pharma"
+      },
+      {
+        "src": "/assets/img/projects/TATA-Power.jpg",
+        "alt": "TATA Power"
+      },
+      {
+        "src": "/assets/img/projects/Air-India.jpg",
+        "alt": "Air India"
+      },
+      {
+        "src": "/assets/img/projects/Termax-Corporation.jpg",
+        "alt": "Termax-Corporation"
+      },
+      {
+        "src": "/assets/img/projects/VOLTAS.jpg",
+        "alt": "VOLTAS"
+      },
+      {
+        "src": "/assets/img/projects/ESPN.jpg",
+        "alt": "ESPN"
+      },
+      {
+        "src": "/assets/img/projects/Kodak.jpg",
+        "alt": "Kodak"
+      },
+      {
+        "src": "/assets/img/projects/Mahindra.jpg",
+        "alt": "Mahindra"
+      },
+      {
+        "src": "/assets/img/projects/Reliance-Life-Sciences.jpg",
+        "alt": "Reliance Life Sciences"
+      },
+      {
+        "src": "/assets/img/projects/ECE-Elevators.jpg",
+        "alt": "ECE-Elevators"
+      },
+      {
+        "src": "/assets/img/projects/Coca-Cola.jpg",
+        "alt": "Coca Cola"
+      },
+      {
+        "src": "/assets/img/projects/Kirloskar-Electric.jpg",
+        "alt": "Kirloskar-Electric"
+      },
+      {
+        "src": "/assets/img/projects/ITC-Limited.jpg",
+        "alt": "ITC Limited"
+      },
+      {
+        "src": "/assets/img/projects/Shipping-Corporation-of-India.jpg",
+        "alt": "Shipping Corporation of India"
+      },
+      {
+        "src": "/assets/img/projects/Cummins.jpg",
+        "alt": "Cummins"
+      },
+      {
+        "src": "/assets/img/projects/SUZLON.jpg",
+        "alt": "SUZLON"
+      },
+      {
+        "src": "/assets/img/projects/BALCO.jpg",
+        "alt": "BALCO"
+      },
+      {
+        "src": "/assets/img/projects/HAL.jpg",
+        "alt": "HAL"
+      },
+      {
+        "src": "/assets/img/projects/SaPKo-Finland.jpg",
+        "alt": "SaPKo Finland"
+      },
+      {
+        "src": "/assets/img/projects/MSP-Group.jpg",
+        "alt": "MSP Group"
+      },
+      {
+        "src": "/assets/img/projects/Viraj-PEB.jpg",
+        "alt": "Viraj PEB"
+      },
+      {
+        "src": "/assets/img/projects/Ambuja-Cement.jpg",
+        "alt": "Ambuja Cement"
+      },
+      {
+        "src": "/assets/img/projects/Thyssenkrupp.jpg",
+        "alt": "Thyssenkrupp"
+      },
+      {
+        "src": "/assets/img/projects/Neyveli-Lignite-Corporation.jpg",
+        "alt": "Neyveli Lignite Corporation"
+      },
+      {
+        "src": "/assets/img/projects/Ultratech-Cement.jpg",
+        "alt": "Ultratech Cement"
+      },
+      {
+        "src": "/assets/img/projects/Manikgarh-Cement.jpg",
+        "alt": "Manikgarh Cement"
+      }
+    ]
+  },
+  {
+    "slug": "clients2",
+    "url": "/clients2",
+    "title": "STEP CABLES",
+    "description": "Template built for Construction Company, Building Services, Architecture, Engineering, Cleaning Service and other Construction related services",
+    "keywords": "architecture, builder, building, building company, cleaning services, construction, construction business, construction company",
+    "canonical": "https://www.stepcable.com/clients2",
+    "image": "",
+    "h1": "OUR CLIENTELE",
+    "schema": [],
+    "contentText": "OUR CLIENTELE Cras id justo eget sapien scelerisque lacinia non a eros. In a volutpat magna. Vivamus pretium urna at condimentum porta. Phasellus mollis mauris dolor, a tincidunt mauris fringilla. All Govt. Organization Corporate clients Banking sector Builders & Contractors Exporters JNPT Govt. Organization SHAPOORJI PALLANJI Builders & Contractors LOKHANDWALA INFRASTRUCTURE Builders & Contractors RUSTOMJEE Builders & Contractors CHAMUNDA Builders & Contractors HAWARE Builders & Contractors NHPC Govt. Organization CITI BANK Banking sector HSBC Banking sector PNB Banking sector YES BANK Banking sector ABN AMRO Banking sector BPC Exporters SUGAR CORPORATION Exporters LUXURY BUILDINGS Exporters BHEL Govt. Organization KELTRON Govt. Organization NTPC Govt. Organization BARC Govt. Organization SAIL Govt. Organization HUDA Govt. Organization CENTRAL RAILWAY Govt. Organization JNPT Govt. Organization BSNL Govt. Organization RVUN Govt. Organization INDIAN OIL Govt. Organization JNPT Govt. Organization LUXURY BUILDINGS Govt. Organization LUPIN Corporate clients TATA POWER Corporate clients AIR INDIA Corporate clients TERMAX CORPORATION Corporate clients VOLTAS Corporate clients ESPN Corporate clients KODAK Corporate clients MAHINDRA Corporate clients RELIANCE Corporate clients ELEVATORS Step Cable COCA-COLA Corporate clients KILOSKAR ELECTRIC Corporate clients ITC Corporate clients SCI Corporate clients CUMMINS Corporate clients SUZLON Corporate clients BALCO Corporate clients HAL Corporate clients SAPKO JUHLAVUOSI Corporate clients MSP GROUP Corporate clients VIRAJ Corporate clients AMBUJA CEMENT Corporate clients THYSSENKRUPP Corporate clients NLC Corporate clients ULTRATECH CEMENT Corporate clients MANIKGARH CEMENT Corporate clients",
+    "contentBlocks": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "OUR CLIENTELE"
+      },
+      {
+        "type": "paragraph",
+        "text": "Cras id justo eget sapien scelerisque lacinia non a eros. In a volutpat magna. Vivamus pretium urna at condimentum porta. Phasellus mollis mauris dolor, a tincidunt mauris fringilla."
+      },
+      {
+        "type": "paragraph",
+        "text": "All Govt. Organization Corporate clients Banking sector Builders & Contractors Exporters"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/as.png",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "JNPT"
+      },
+      {
+        "type": "paragraph",
+        "text": "Govt. Organization"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/as1.png",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "SHAPOORJI PALLANJI"
+      },
+      {
+        "type": "paragraph",
+        "text": "Builders & Contractors"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/build1.png",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "LOKHANDWALA INFRASTRUCTURE"
+      },
+      {
+        "type": "paragraph",
+        "text": "Builders & Contractors"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/as2.png",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "RUSTOMJEE"
+      },
+      {
+        "type": "paragraph",
+        "text": "Builders & Contractors"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/as3.png",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "CHAMUNDA"
+      },
+      {
+        "type": "paragraph",
+        "text": "Builders & Contractors"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/as4.png",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "HAWARE"
+      },
+      {
+        "type": "paragraph",
+        "text": "Builders & Contractors"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/as5.png",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "NHPC"
+      },
+      {
+        "type": "paragraph",
+        "text": "Govt. Organization"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/16.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "CITI BANK"
+      },
+      {
+        "type": "paragraph",
+        "text": "Banking sector"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/17.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "HSBC"
+      },
+      {
+        "type": "paragraph",
+        "text": "Banking sector"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/18.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "PNB"
+      },
+      {
+        "type": "paragraph",
+        "text": "Banking sector"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/19.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "YES BANK"
+      },
+      {
+        "type": "paragraph",
+        "text": "Banking sector"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/20.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "ABN AMRO"
+      },
+      {
+        "type": "paragraph",
+        "text": "Banking sector"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/21.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "BPC"
+      },
+      {
+        "type": "paragraph",
+        "text": "Exporters"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/22.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "SUGAR CORPORATION"
+      },
+      {
+        "type": "paragraph",
+        "text": "Exporters"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/23.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "LUXURY BUILDINGS"
+      },
+      {
+        "type": "paragraph",
+        "text": "Exporters"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/3.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "BHEL"
+      },
+      {
+        "type": "paragraph",
+        "text": "Govt. Organization"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/4.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "KELTRON"
+      },
+      {
+        "type": "paragraph",
+        "text": "Govt. Organization"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/5.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "NTPC"
+      },
+      {
+        "type": "paragraph",
+        "text": "Govt. Organization"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/6.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "BARC"
+      },
+      {
+        "type": "paragraph",
+        "text": "Govt. Organization"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/7.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "SAIL"
+      },
+      {
+        "type": "paragraph",
+        "text": "Govt. Organization"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/8.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "HUDA"
+      },
+      {
+        "type": "paragraph",
+        "text": "Govt. Organization"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/9.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "CENTRAL RAILWAY"
+      },
+      {
+        "type": "paragraph",
+        "text": "Govt. Organization"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/10.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "JNPT"
+      },
+      {
+        "type": "paragraph",
+        "text": "Govt. Organization"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/11.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "BSNL"
+      },
+      {
+        "type": "paragraph",
+        "text": "Govt. Organization"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/12.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "RVUN"
+      },
+      {
+        "type": "paragraph",
+        "text": "Govt. Organization"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/13.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "INDIAN OIL"
+      },
+      {
+        "type": "paragraph",
+        "text": "Govt. Organization"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/14.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "JNPT"
+      },
+      {
+        "type": "paragraph",
+        "text": "Govt. Organization"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/15.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "LUXURY BUILDINGS"
+      },
+      {
+        "type": "paragraph",
+        "text": "Govt. Organization"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/24.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "LUPIN"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/25.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "TATA POWER"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/26.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "AIR INDIA"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/27.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "TERMAX CORPORATION"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/28.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "VOLTAS"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/29.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "ESPN"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/30.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "KODAK"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/31.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "MAHINDRA"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/32.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "RELIANCE"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/33.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "ELEVATORS"
+      },
+      {
+        "type": "paragraph",
+        "text": "Step Cable"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/34.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "COCA-COLA"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/35.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "KILOSKAR ELECTRIC"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/36.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "ITC"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/37.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "SCI"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/38.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "CUMMINS"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/39.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "SUZLON"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/40.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "BALCO"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/46.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "HAL"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/47.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "SAPKO JUHLAVUOSI"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/48.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "MSP GROUP"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/49.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "VIRAJ"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/50.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "AMBUJA CEMENT"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/51.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "THYSSENKRUPP"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/52.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "NLC"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/53.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "ULTRATECH CEMENT"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/projects/54.jpg",
+        "alt": "image"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "MANIKGARH CEMENT"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate clients"
+      }
+    ],
+    "links": [
+      {
+        "href": "#",
+        "text": "JNPT"
+      },
+      {
+        "href": "#",
+        "text": "SHAPOORJI PALLANJI"
+      },
+      {
+        "href": "#",
+        "text": "LOKHANDWALA INFRASTRUCTURE"
+      },
+      {
+        "href": "#",
+        "text": "RUSTOMJEE"
+      },
+      {
+        "href": "#",
+        "text": "CHAMUNDA"
+      },
+      {
+        "href": "#",
+        "text": "HAWARE"
+      },
+      {
+        "href": "#",
+        "text": "NHPC"
+      },
+      {
+        "href": "#",
+        "text": "CITI BANK"
+      },
+      {
+        "href": "#",
+        "text": "HSBC"
+      },
+      {
+        "href": "#",
+        "text": "PNB"
+      },
+      {
+        "href": "#",
+        "text": "YES BANK"
+      },
+      {
+        "href": "#",
+        "text": "ABN AMRO"
+      },
+      {
+        "href": "#",
+        "text": "BPC"
+      },
+      {
+        "href": "#",
+        "text": "SUGAR CORPORATION"
+      },
+      {
+        "href": "#",
+        "text": "LUXURY BUILDINGS"
+      },
+      {
+        "href": "#",
+        "text": "BHEL"
+      },
+      {
+        "href": "#",
+        "text": "KELTRON"
+      },
+      {
+        "href": "#",
+        "text": "NTPC"
+      },
+      {
+        "href": "#",
+        "text": "BARC"
+      },
+      {
+        "href": "#",
+        "text": "SAIL"
+      },
+      {
+        "href": "#",
+        "text": "HUDA"
+      },
+      {
+        "href": "#",
+        "text": "CENTRAL RAILWAY"
+      },
+      {
+        "href": "#",
+        "text": "BSNL"
+      },
+      {
+        "href": "#",
+        "text": "RVUN"
+      },
+      {
+        "href": "#",
+        "text": "INDIAN OIL"
+      },
+      {
+        "href": "#",
+        "text": "LUPIN"
+      },
+      {
+        "href": "#",
+        "text": "TATA POWER"
+      },
+      {
+        "href": "#",
+        "text": "AIR INDIA"
+      },
+      {
+        "href": "#",
+        "text": "TERMAX CORPORATION"
+      },
+      {
+        "href": "#",
+        "text": "VOLTAS"
+      },
+      {
+        "href": "#",
+        "text": "ESPN"
+      },
+      {
+        "href": "#",
+        "text": "KODAK"
+      },
+      {
+        "href": "#",
+        "text": "MAHINDRA"
+      },
+      {
+        "href": "#",
+        "text": "RELIANCE"
+      },
+      {
+        "href": "#",
+        "text": "ELEVATORS"
+      },
+      {
+        "href": "#",
+        "text": "COCA-COLA"
+      },
+      {
+        "href": "#",
+        "text": "KILOSKAR ELECTRIC"
+      },
+      {
+        "href": "#",
+        "text": "ITC"
+      },
+      {
+        "href": "#",
+        "text": "SCI"
+      },
+      {
+        "href": "#",
+        "text": "CUMMINS"
+      },
+      {
+        "href": "#",
+        "text": "SUZLON"
+      },
+      {
+        "href": "#",
+        "text": "BALCO"
+      },
+      {
+        "href": "#",
+        "text": "HAL"
+      },
+      {
+        "href": "#",
+        "text": "SAPKO JUHLAVUOSI"
+      },
+      {
+        "href": "#",
+        "text": "MSP GROUP"
+      },
+      {
+        "href": "#",
+        "text": "VIRAJ"
+      },
+      {
+        "href": "#",
+        "text": "AMBUJA CEMENT"
+      },
+      {
+        "href": "#",
+        "text": "THYSSENKRUPP"
+      },
+      {
+        "href": "#",
+        "text": "NLC"
+      },
+      {
+        "href": "#",
+        "text": "ULTRATECH CEMENT"
+      },
+      {
+        "href": "#",
+        "text": "MANIKGARH CEMENT"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/img/projects/as.png",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/as1.png",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/build1.png",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/as2.png",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/as3.png",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/as4.png",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/as5.png",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/16.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/17.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/18.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/19.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/20.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/21.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/22.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/23.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/3.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/4.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/5.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/6.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/7.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/8.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/9.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/10.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/11.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/12.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/13.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/14.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/15.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/24.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/25.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/26.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/27.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/28.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/29.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/30.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/31.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/32.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/33.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/34.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/35.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/36.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/37.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/38.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/39.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/40.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/46.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/47.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/48.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/49.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/50.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/51.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/52.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/53.jpg",
+        "alt": "image"
+      },
+      {
+        "src": "/assets/img/projects/54.jpg",
+        "alt": "image"
+      }
+    ]
+  }
+]

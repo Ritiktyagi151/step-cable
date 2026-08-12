@@ -1,8 +1,8 @@
 import { notFound, redirect } from "next/navigation";
 import type { Metadata } from "next";
-import { CadillacProductDetailPage } from "@/components/product/CadillacProductDetailPage";
-import { LincolnProductDetailPage } from "@/components/product/LincolnProductDetailPage";
-import { getCadillacProductBySlug, getCadillacProducts, getLincolnProductBySlug, getLincolnProducts } from "@/components/product/cadillacProducts";
+import { CadillacProductDetailPage } from "@/components/product/cadillac/CadillacProductDetailPage";
+import { LincolnProductDetailPage } from "@/components/product/lincoln/LincolnProductDetailPage";
+import { getCadillacProductBySlug, getCadillacProducts, getLincolnProductBySlug, getLincolnProducts } from "@/components/product/rangeProducts";
 import { SitePageRenderer } from "@/components/pages/SitePageRenderer";
 import { SiteShell } from "@/components/SiteShell";
 import { getPageBySlug, getPages } from "@/lib/content";

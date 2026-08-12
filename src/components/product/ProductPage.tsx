@@ -1,8 +1,9 @@
 import { CleanContent } from "@/components/content/CleanContent";
 import { PageHero } from "@/components/PageHero";
 import { PageSummary } from "@/components/pages/PageSummary";
-import { CadillacListingPage } from "./CadillacProductPage";
-import { LincolnListingPage } from "./LincolnProductPage";
+import { CadillacListingPage } from "./cadillac/CadillacProductPage";
+import { LincolnListingPage } from "./lincoln/LincolnProductPage";
+import { WireAndCableListingPage } from "./wire-and-cable/WireAndCableListingPage";
 import type { SitePage } from "@/lib/content";
 
 type ProductPageProps = {
@@ -56,6 +57,10 @@ export function ProductPage({ page }: ProductPageProps) {
     return <LincolnListingPage page={page} />;
   }
 
+  if (page.slug === "about-step-cables") {
+    return <WireAndCableListingPage page={page} />;
+  }
+
   const pdfLinks = page.links.filter((link) => link.href.toLowerCase().endsWith(".pdf"));
   const pageImages = page.images.filter((image) => image.src !== page.image);
   const productImage = page.image || page.images[0]?.src || getProductFallbackImage(page);
@@ -63,7 +68,7 @@ export function ProductPage({ page }: ProductPageProps) {
 
   return (
     <>
-      <PageHero title={page.h1 || page.title} description={page.description} image={page.image} />
+      <PageHero slug={page.slug} title={page.h1 || page.title} description={page.description} image={page.image} />
       <PageSummary page={page} eyebrow="Product Detail" />
       <section className="bg-slate-50/80">
         <div className="mx-auto max-w-7xl px-4 pt-10 sm:px-6 sm:pt-14 lg:px-8">

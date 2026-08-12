@@ -65,9 +65,6 @@ export const navGroups = [
     label: "Company",
     href: "/certification",
     links: [
-      ["Certifications", "/certification"],
-      ["Clientele", "/clients1"],
-      ["Quality & Standards", "/certification"],
       ["Career", "/current-openings"],
       ["Reach Us", "/contact"],
       ["Blog", "/blog"]
@@ -75,11 +72,7 @@ export const navGroups = [
   }
 ] as const;
 
-export const topNavLinks = [
-  ["Certifications", "/certification"],
-  ["Clientele", "/clients1"],
-  ["Quality & Standards", "/certification"]
-] as const;
+export const topNavLinks: readonly (readonly [string, string])[] = [];
 
 export const mainNavLinks = [
   ["Home", "/"],

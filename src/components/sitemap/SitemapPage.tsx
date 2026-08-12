@@ -9,7 +9,7 @@ type SitemapPageProps = {
 export function SitemapPage({ page }: SitemapPageProps) {
   return (
     <>
-      <PageHero title={page.h1 || page.title} description="Browse Step Cables pages and important website links." image={page.image} />
+      <PageHero slug={page.slug} title={page.h1 || page.title} description="Browse Step Cables pages and important website links." image={page.image} />
       <PageBody blocks={page.contentBlocks} />
     </>
   );

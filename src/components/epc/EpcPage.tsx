@@ -10,7 +10,7 @@ type EpcPageProps = {
 export function EpcPage({ page }: EpcPageProps) {
   return (
     <>
-      <PageHero title={page.h1 || page.title} description={page.description} image={page.image} />
+      <PageHero slug={page.slug} title={page.h1 || page.title} description={page.description} image={page.image} />
       <PageSummary page={page} eyebrow="EPC Business" />
       <PageBody blocks={page.contentBlocks} />
     </>

@@ -1,16 +1,55 @@
+import pageHeroBanners from "@/data/page-hero-banners.json";
+
+type HeroBannerConfig =
+  | string
+  | {
+      desktop?: string;
+      mobile?: string;
+    };
+
 type PageHeroProps = {
+  slug?: string;
   title: string;
   description?: string;
   image?: string;
 };
 
-export function PageHero({ title, description, image }: PageHeroProps) {
-  const heroImage = image && image.startsWith("/") ? image : "/assets/img/cable-wires.jpg";
+const heroBannerMap = pageHeroBanners as Record<string, HeroBannerConfig>;
+const emptyHeroBanner = getHeroBanner();
+
+function getValidHeroImage(image?: string) {
+  return image && image.startsWith("/") ? image : undefined;
+}
+
+function getHeroBanner(config?: HeroBannerConfig) {
+  if (typeof config === "string") {
+    const image = getValidHeroImage(config);
+    return {
+      desktop: image,
+      mobile: image,
+    };
+  }
+
+  return {
+    desktop: getValidHeroImage(config?.desktop),
+    mobile: getValidHeroImage(config?.mobile),
+  };
+}
+
+export function PageHero({ slug, title, description, image }: PageHeroProps) {
+  const configuredBanner = slug ? getHeroBanner(heroBannerMap[slug]) : emptyHeroBanner;
+  const fallbackBanner = getHeroBanner(heroBannerMap._default);
+  const propImage = getValidHeroImage(image);
+  const desktopImage = configuredBanner.desktop || propImage || fallbackBanner.desktop || "/assets/img/cable-wires.jpg";
+  const mobileImage = configuredBanner.mobile || configuredBanner.desktop || propImage || fallbackBanner.mobile || fallbackBanner.desktop || desktopImage;
 
   return (
     <section className="relative overflow-hidden border-b border-brand-teal/15 bg-white text-slate-900">
       <div className="absolute inset-0 opacity-45">
-        <img src={heroImage} alt="" className="h-full w-full object-fill" />
+        <picture className="block h-full w-full">
+          <source media="(max-width: 767px)" srcSet={mobileImage} />
+          <img src={desktopImage} alt="" className="h-full w-full object-cover" />
+        </picture>
       </div>
       <div className="absolute inset-0 bg-gradient-to-r from-black/30 via-transparent to-transparent" />
       <div className="absolute inset-0 bg-[linear-gradient(rgba(91,192,187,0.08)_1px,transparent_1px),linear-gradient(90deg,rgba(91,192,187,0.08)_1px,transparent_1px)] bg-[size:44px_44px]" />

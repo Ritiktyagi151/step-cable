@@ -45,7 +45,7 @@ type ContactPageProps = {
 export function ContactPage({ page }: ContactPageProps) {
   return (
     <>
-      <PageHero title={page.h1 || "Contact Us"} description="Connect with Step Cables for product enquiries, project support and business communication." image={page.image} />
+      <PageHero slug={page.slug} title={page.h1 || "Contact Us"} description="Connect with Step Cables for product enquiries, project support and business communication." image={page.image} />
       <section className="bg-slate-50/80">
         <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 sm:py-14 lg:px-8">
           <div className="mb-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
@@ -86,10 +86,11 @@ export function ContactPage({ page }: ContactPageProps) {
             </div>
             <iframe
               title="Step Cables location map"
-              src="https://www.google.com/maps?q=K-10%2F40%2C%20Lower%20Ground%20Floor%20DLF%20City%20Phase-II%20Gurugram%2C%20Haryana%20122008%20India&output=embed"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3332.7336973094566!2d77.41126787528401!3d28.503074175735698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce956f0d8c11b%3A0x902f2d78535f0aef!2sStellar%201425!5e1!3m2!1sen!2sin!4v1786172442589!5m2!1sen!2sin"
               className="h-[300px] w-full rounded-2xl border-0 sm:h-[420px]"
+              allowFullScreen
               loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
+              referrerPolicy="strict-origin-when-cross-origin"
             />
           </div>
         </div>

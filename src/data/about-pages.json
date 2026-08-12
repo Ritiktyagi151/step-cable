@@ -1,0 +1,471 @@
+[
+  {
+    "slug": "about-step-industry",
+    "url": "/about-step-industry",
+    "title": "Leading Electrical EPC Company in India - STEP INDUSTRIES",
+    "description": "A Leading Electric EPC Company Moving towards Future through fulfilling the needs of the domestic as well as international clientele.",
+    "keywords": "EPC Company, Electrification company, wire company, conductor manufacturer, best wire company, fire proof wires",
+    "canonical": "https://www.stepcable.com/about-step-industry",
+    "image": "",
+    "h1": "About Step Industries",
+    "schema": [
+      "{\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"WebPage\",\n    \"name\": \"About Step Industries\",\n    \"description\": \"Learn about Step Industries and it's Products and Services \",\n    \"publisher\": {\n        \"@type\": \"ProfilePage\",\n        \"name\": \"Step Industries\"\n    }\n}"
+    ],
+    "contentText": "Step Industries was formulated by likeminded individuals who came forward to join hands with the ideology of being MILES AHEAD of competition, Step Group has been lighting the world of countless satisfied customers. The proportion of experience of the core management team and the experience of the promoters, from diversified fields as CA, CS and engineering has positioned STEP as the leading pioneering brand in the electrical circuit. On the back of acumen gathered over the last three decades, Step group is always hunting and innovating new cost and energy saving electrical solutions. Everyone at the group stands firm for the vision of the company. The team at Step Industries comprises of Mr. Sunil Tayal, with an experience of more than 30 years in various diversified sectors, Mr. Rajeev Goel, who has 30 years of experience in Cable & Wire Industry, Mr. Ankit Tayal, a first generation entrepreneur, a qualified Chartered Accountant and Company Secretary with a diversified experience of various industries and Mr. Deepanshu tayal, a great visionary. This Step group will change the scenario of Cable Wire sector with a motto: Moving towards Future through fulfilling the needs of the domestic as well as international clientele. About Step Industries Our Leadership Vision & Mission Philosophy CSR Activity",
+    "contentBlocks": [
+      {
+        "type": "paragraph",
+        "text": "Step Industries was formulated by likeminded individuals who came forward to join hands with the ideology of being MILES AHEAD of competition, Step Group has been lighting the world of countless satisfied customers."
+      },
+      {
+        "type": "paragraph",
+        "text": "The proportion of experience of the core management team and the experience of the promoters, from diversified fields as CA, CS and engineering has positioned STEP as the leading pioneering brand in the electrical circuit."
+      },
+      {
+        "type": "paragraph",
+        "text": "On the back of acumen gathered over the last three decades, Step group is always hunting and innovating new cost and energy saving electrical solutions. Everyone at the group stands firm for the vision of the company."
+      },
+      {
+        "type": "paragraph",
+        "text": "The team at Step Industries comprises of Mr. Sunil Tayal, with an experience of more than 30 years in various diversified sectors, Mr. Rajeev Goel, who has 30 years of experience in Cable & Wire Industry, Mr. Ankit Tayal, a first generation entrepreneur, a qualified Chartered Accountant and Company Secretary with a diversified experience of various industries and Mr. Deepanshu tayal, a great visionary."
+      },
+      {
+        "type": "paragraph",
+        "text": "This Step group will change the scenario of Cable Wire sector with a motto: Moving towards Future through fulfilling the needs of the domestic as well as international clientele."
+      }
+    ],
+    "links": [
+      {
+        "href": "/about-step-industry",
+        "text": "About Step Industries"
+      },
+      {
+        "href": "/our-leadership",
+        "text": "Our Leadership"
+      },
+      {
+        "href": "/vision-misiion",
+        "text": "Vision & Mission"
+      },
+      {
+        "href": "/philosophy",
+        "text": "Philosophy"
+      },
+      {
+        "href": "/csr-activity",
+        "text": "CSR Activity"
+      }
+    ],
+    "images": []
+  },
+  {
+    "slug": "core-values",
+    "url": "/core-values",
+    "title": "STEP CABLES",
+    "description": "Template built for Construction Company, Building Services, Architecture, Engineering, Cleaning Service and other Construction related services",
+    "keywords": "architecture, builder, building, building company, cleaning services, construction, construction business, construction company",
+    "canonical": "https://www.stepcable.com/core-values",
+    "image": "",
+    "h1": "CORE VALUES",
+    "schema": [],
+    "contentText": "CORE VALUES Coming Soon DO THE JOB QUICKLY Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Integer blandit nulla quis fermentum hendrerit. Vestibulum eu libero volutpat, portas quam acc, tempus sem. Donec sodales quam id lorem lobortis, vitae interdum nisl vehicula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam suscipit, elit quis facilisis dictum, diam justo volutpat dui. Cras id justo eget sapien scelerisque lacinia non a eros. About Step Industries Our Leadership Our Message Vision & Mission Core Values Philosophy",
+    "contentBlocks": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "CORE VALUES"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Coming Soon"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "DO THE JOB QUICKLY"
+      },
+      {
+        "type": "paragraph",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Integer blandit nulla quis fermentum hendrerit. Vestibulum eu libero volutpat, portas quam acc, tempus sem. Donec sodales quam id lorem lobortis, vitae interdum nisl vehicula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam suscipit, elit quis facilisis dictum, diam justo volutpat dui. Cras id justo eget sapien scelerisque lacinia non a eros."
+      },
+      {
+        "type": "list",
+        "items": [
+          "About Step Industries",
+          "Our Leadership",
+          "Our Message",
+          "Vision & Mission",
+          "Core Values",
+          "Philosophy"
+        ]
+      }
+    ],
+    "links": [
+      {
+        "href": "about-step-industry",
+        "text": "About Step Industries"
+      },
+      {
+        "href": "our-leadership",
+        "text": "Our Leadership"
+      },
+      {
+        "href": "our-message",
+        "text": "Our Message"
+      },
+      {
+        "href": "vision-misiion",
+        "text": "Vision & Mission"
+      },
+      {
+        "href": "core-values",
+        "text": "Core Values"
+      },
+      {
+        "href": "philosophy",
+        "text": "Philosophy"
+      }
+    ],
+    "images": []
+  },
+  {
+    "slug": "csr-activity",
+    "url": "/csr-activity",
+    "title": "Our CSR Policy and Commitment - STEP INDUSTRIES",
+    "description": "We are committed in all our actions to benefit the economic development of the country and work towards making India a developed nation by developing backward areas and the environment around it.",
+    "keywords": "step cables, step industries, about step industries, about step cables,",
+    "canonical": "https://www.stepcable.com/csr-activity",
+    "image": "",
+    "h1": "CSR ACTIVITY",
+    "schema": [],
+    "contentText": "The Company is committed in all its actions to benefit the economic development of the country and work towards making India a developed nation by developing backward areas and the environment around it. Step Industries will work towards achieving success in a sustainable society while fulfilling its business purpose. CSR policy functions as a self-regulatory mechanism whereby a business monitors and ensures its active compliance with the spirit of the law, ethical standards and national or international norms. The Company shall conduct its business affairs in accordance with the economic development, foreign policies, objectives and priorities of the nation and shall strive to make a positive contribution to the achievement of such goals at the regional, national and international levels. About Step Industries Our Leadership Vision & Mission Philosophy CSR Activity",
+    "contentBlocks": [
+      {
+        "type": "paragraph",
+        "text": "The Company is committed in all its actions to benefit the economic development of the country and work towards making India a developed nation by developing backward areas and the environment around it. Step Industries will work towards achieving success in a sustainable society while fulfilling its business purpose."
+      },
+      {
+        "type": "paragraph",
+        "text": "CSR policy functions as a self-regulatory mechanism whereby a business monitors and ensures its active compliance with the spirit of the law, ethical standards and national or international norms."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Company shall conduct its business affairs in accordance with the economic development, foreign policies, objectives and priorities of the nation and shall strive to make a positive contribution to the achievement of such goals at the regional, national and international levels."
+      }
+    ],
+    "links": [
+      {
+        "href": "/about-step-industry",
+        "text": "About Step Industries"
+      },
+      {
+        "href": "/our-leadership",
+        "text": "Our Leadership"
+      },
+      {
+        "href": "/vision-misiion",
+        "text": "Vision & Mission"
+      },
+      {
+        "href": "/philosophy",
+        "text": "Philosophy"
+      },
+      {
+        "href": "/csr-activity",
+        "text": "CSR Activity"
+      }
+    ],
+    "images": []
+  },
+  {
+    "slug": "our-leadership",
+    "url": "/our-leadership",
+    "title": "Our Leadership - STEP INDUSTRIES",
+    "description": "We are backed up and guided by Intellectual and Talented industry leaders.",
+    "keywords": "Step Industries, Step Cables, Ankit Tayal, Bhrimson, Z+ cables, Chlorine free smoke",
+    "canonical": "https://www.stepcable.com/our-leadership",
+    "image": "",
+    "h1": "OUR LEADERSHIP",
+    "schema": [
+      "{\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"WebPage\",\n    \"name\": \"Our Leadership - Step Industries\",\n    \"description\": \"Learn about The Directors of Step Industries and their leadership\",\n    \"publisher\": {\n        \"@type\": \"ProfilePage\",\n        \"name\": \"Step Industries\"\n    }\n}"
+    ],
+    "contentText": "Mr. Sunil Tayal, Director A Graduate in B.Com from Delhi University, the Step Industries Director Mr. Sunil Tayal, one of those few entrepreneurs in the Indian business landscape who can mark his career with the growth pace of the country. He exhibited his entrepreneurial bent of mind early in his youth and his acumen in forging joint ventures made numerous global brands accessible to the Indian masses. Mr. Tayal's ideals of total precision and mutual growth gives Step Industries an edge in forging business relationships in the new millennium. He has steered Step Industries to what it is now, also it has emerged as a custodian of companies that together influence the Groups exemplary equity in knowledge, best practices, and technical expertise. Apart from cable manufacturing, Step Industries comprises of other businesses, including heavy engineering, hospitality and lifestyle sectors that drive the Indian economy - a conglomerate with a turnover in excess of INR 100 Crores. Mr. Rajeev Goel, Director Mr Goel has been responsible for the daily operations of the company and further he looks into the diverse affairs of the organization on a regular basis. Rajeev is a recognized and an accomplished expert in the Indian cable and wire Industry with an experience of more than 30 years. A man known for his straightforwardness and respect for mutual growth, Mr. Goel's ideals of Total Transparency gives Step Industries an edge in forging business relationships in the new Millennium. He plays a vital role in strategic planning and financial analysis for the Group in addition to maintaining and nurturing business and investor relations. Known as the trouble shooter he comes to the rescue as and when there is a serious issue that the organization faces. He has been a firm believer in technology since the very beginning. Mr. Ankit Tayal, Director A fellow member of ICAI and a qualified Chartered Accountant, has set his strategic goal and vision to direct the Step Industries as a front runner in the cable & wire industry. His focal point is to establish the overall brand proposition and positioning of the group keeping in mind its core business values, exploring new growth avenues for developing a market leadership. Ankit realized the power of technology in the coming future, with lots of techs being innovated, Cable & Wire industry was one of the first to adopt the technology, which impelled Ankit to found Step Industries & Wire in Backed by an organized team of professionals, and their clairvoyant outlook, Ankit assessed and realized the potential of the B2B market. He has diligently proved himself as one of the main pillars on which Step Industries is standing today. It's the result of his direction and astonishing management skills that the truly Indian company is one of India's largest B2B Cable & Wire Company proudly serving nearly 3,000 Cable & Wire Dealers across 150 Cities in India for their requirements. Mr. Deepanshu Tayal, Director A Director with Step Industries, is a symbol of performance, drive and affirmation with zeal to always excel. An expert in numerous management methods, he influences the internal and external dynamics of the organization, synergizing them with success. A passionate leader, Mr. Deepanshu Tayal, inspiring people through a shared vision and creating an environment where people feel valued and fulfilled, make a positive difference in the world. He constantly works towards delivering competitive advantage to the organization by leveraging competencies, global scale, and standard ways of working with local capabilities. Step Industries provides competitive edge for its customers by having the right skills, available on the right time and at the right place. According to Deepanshu, the only way one can keep growing as a leader is through the constant cycle of learning, unlearning and relearning. The ability to put this knowledge and information into perspective is what helps a leader to mature. Mr. Sumit Tayal, CEO, Step Cables Mr Tayal has been responsible for managing the strategic marketing for several products of the company. Sumit has an outgoing, gregarious and spontaneous nature. His expertise lies in his approaches to strategic direction and marketing within the organization. He also assists the organization with the role of leading the strategic process and preparing for implementation. He has a dream of taking the company to newer heights. The first thing that clients get from Sumit is Transparency. That's where the faith and trust between two people begins. Their clients are always looking for them to solve their most complex business challenges. Moving the discussions away from headcount to business challenges was perhaps the biggest step forward that Sumit has been able to contribute along with his teams. Sumit believes that a leader should embrace everyone equally, but allow them to explore their individual capacities by giving them freedom and flexibility. Sumit has always leaned on books to learn, and of course, advisors from various backgrounds also helped him maneuver the course of his company during crisis situations or road blocks. About Step Industries Our Leadership Vision & Mission Philosophy CSR Activity",
+    "contentBlocks": [
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Mr. Sunil Tayal, Director"
+      },
+      {
+        "type": "paragraph",
+        "text": "A Graduate in B.Com from Delhi University, the Step Industries Director Mr. Sunil Tayal, one of those few entrepreneurs in the Indian business landscape who can mark his career with the growth pace of the country. He exhibited his entrepreneurial bent of mind early in his youth and his acumen in forging joint ventures made numerous global brands accessible to the Indian masses."
+      },
+      {
+        "type": "paragraph",
+        "text": "Mr. Tayal's ideals of total precision and mutual growth gives Step Industries an edge in forging business relationships in the new millennium. He has steered Step Industries to what it is now, also it has emerged as a custodian of companies that together influence the Groups exemplary equity in knowledge, best practices, and technical expertise."
+      },
+      {
+        "type": "paragraph",
+        "text": "Apart from cable manufacturing, Step Industries comprises of other businesses, including heavy engineering, hospitality and lifestyle sectors that drive the Indian economy - a conglomerate with a turnover in excess of INR 100 Crores."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Mr. Rajeev Goel, Director"
+      },
+      {
+        "type": "paragraph",
+        "text": "Mr Goel has been responsible for the daily operations of the company and further he looks into the diverse affairs of the organization on a regular basis. Rajeev is a recognized and an accomplished expert in the Indian cable and wire Industry with an experience of more than 30 years."
+      },
+      {
+        "type": "paragraph",
+        "text": "A man known for his straightforwardness and respect for mutual growth, Mr. Goel's ideals of Total Transparency gives Step Industries an edge in forging business relationships in the new Millennium. He plays a vital role in strategic planning and financial analysis for the Group in addition to maintaining and nurturing business and investor relations. Known as the trouble shooter he comes to the rescue as and when there is a serious issue that the organization faces. He has been a firm believer in technology since the very beginning."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Mr. Ankit Tayal, Director"
+      },
+      {
+        "type": "paragraph",
+        "text": "A fellow member of ICAI and a qualified Chartered Accountant, has set his strategic goal and vision to direct the Step Industries as a front runner in the cable & wire industry."
+      },
+      {
+        "type": "paragraph",
+        "text": "His focal point is to establish the overall brand proposition and positioning of the group keeping in mind its core business values, exploring new growth avenues for developing a market leadership. Ankit realized the power of technology in the coming future, with lots of techs being innovated, Cable & Wire industry was one of the first to adopt the technology, which impelled Ankit to found Step Industries & Wire in"
+      },
+      {
+        "type": "paragraph",
+        "text": "Backed by an organized team of professionals, and their clairvoyant outlook, Ankit assessed and realized the potential of the B2B market. He has diligently proved himself as one of the main pillars on which Step Industries is standing today. It's the result of his direction and astonishing management skills that the truly Indian company is one of India's largest B2B Cable & Wire Company proudly serving nearly 3,000 Cable & Wire Dealers across 150 Cities in India for their requirements."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Mr. Deepanshu Tayal, Director"
+      },
+      {
+        "type": "paragraph",
+        "text": "A Director with Step Industries, is a symbol of performance, drive and affirmation with zeal to always excel. An expert in numerous management methods, he influences the internal and external dynamics of the organization, synergizing them with success."
+      },
+      {
+        "type": "paragraph",
+        "text": "A passionate leader, Mr. Deepanshu Tayal, inspiring people through a shared vision and creating an environment where people feel valued and fulfilled, make a positive difference in the world."
+      },
+      {
+        "type": "paragraph",
+        "text": "He constantly works towards delivering competitive advantage to the organization by leveraging competencies, global scale, and standard ways of working with local capabilities. Step Industries provides competitive edge for its customers by having the right skills, available on the right time and at the right place."
+      },
+      {
+        "type": "paragraph",
+        "text": "According to Deepanshu, the only way one can keep growing as a leader is through the constant cycle of learning, unlearning and relearning. The ability to put this knowledge and information into perspective is what helps a leader to mature."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Mr. Sumit Tayal, CEO, Step Cables"
+      },
+      {
+        "type": "paragraph",
+        "text": "Mr Tayal has been responsible for managing the strategic marketing for several products of the company. Sumit has an outgoing, gregarious and spontaneous nature."
+      },
+      {
+        "type": "paragraph",
+        "text": "His expertise lies in his approaches to strategic direction and marketing within the organization. He also assists the organization with the role of leading the strategic process and preparing for implementation. He has a dream of taking the company to newer heights. The first thing that clients get from Sumit is Transparency. That's where the faith and trust between two people begins."
+      },
+      {
+        "type": "paragraph",
+        "text": "Their clients are always looking for them to solve their most complex business challenges. Moving the discussions away from headcount to business challenges was perhaps the biggest step forward that Sumit has been able to contribute along with his teams. Sumit believes that a leader should embrace everyone equally, but allow them to explore their individual capacities by giving them freedom and flexibility. Sumit has always leaned on books to learn, and of course, advisors from various backgrounds also helped him maneuver the course of his company during crisis situations or road blocks."
+      }
+    ],
+    "links": [
+      {
+        "href": "/about-step-industry",
+        "text": "About Step Industries"
+      },
+      {
+        "href": "/our-leadership",
+        "text": "Our Leadership"
+      },
+      {
+        "href": "/vision-misiion",
+        "text": "Vision & Mission"
+      },
+      {
+        "href": "/philosophy",
+        "text": "Philosophy"
+      },
+      {
+        "href": "/csr-activity",
+        "text": "CSR Activity"
+      }
+    ],
+    "images": []
+  },
+  {
+    "slug": "philosophy",
+    "url": "/philosophy",
+    "title": "Our Core Philosophy - STEP INDUSTRIES",
+    "description": "Our core philosophy is to become a Secure & Sustainable Company, with safety performance that improves consistently, aiming the final aim of zero incidents.",
+    "keywords": "company philosophy, philosophy of step indutries, epc company philosophy, cable manufacturer philosophy, step industries director, step industries, step cables",
+    "canonical": "https://www.stepcable.com/philosophy",
+    "image": "",
+    "h1": "PHILOSOPHY",
+    "schema": [
+      "{\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"WebPage\",\n    \"name\": \"Company Philosophy - Step Industries\",\n    \"description\": \"Step Industries core philosophy is to become a Secure & Sustainable Company, with safety performance that improves consistently, aiming the final aim of zero incidents.\",\n    \"publisher\": {\n        \"@type\": \"ProfilePage\",\n        \"name\": \"Step Industries\"\n    }\n}"
+    ],
+    "contentText": "Step Industries core philosophy is to become a Secure & Sustainable Company, with safety performance that improves consistently, aiming the final aim of zero incidents. The provider's leadership position is due to a steady management plan, which is further surrounded by product development, product diversity, geographical reach and product integration. We are committed to providing value-added and personalized solutions against the specific customer needs, which play an essential role in our success. We collaborate carefully to evolve & develop products that are in accord with the changing requirements. Our People: We are the employer of choice as we foster teamwork, nurture talent, believe in improved leadership functions and execute policies with commitment & excellence. The organisation's innovation i.e. cutting edge solutions in technology, processes, and products speak for themselves. Step Industries cares for our communities and demonstrates high ethical Standards. They have offices pan geographies through a wide network of authorized distributors and traders to concentrate on all customer segments in India and overseas. Our Vision: Our vision is to operate by inspiring our people to constantly innovate and bring increased value to our customers and surrounding environment we operate in, thereby enhancing stakeholder value. About Step Industries Our Leadership Vision & Mission Philosophy CSR Activity",
+    "contentBlocks": [
+      {
+        "type": "paragraph",
+        "text": "Step Industries core philosophy is to become a Secure & Sustainable Company, with safety performance that improves consistently, aiming the final aim of zero incidents. The provider's leadership position is due to a steady management plan, which is further surrounded by product development, product diversity, geographical reach and product integration."
+      },
+      {
+        "type": "paragraph",
+        "text": "We are committed to providing value-added and personalized solutions against the specific customer needs, which play an essential role in our success. We collaborate carefully to evolve & develop products that are in accord with the changing requirements."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Our People:"
+      },
+      {
+        "type": "paragraph",
+        "text": "We are the employer of choice as we foster teamwork, nurture talent, believe in improved leadership functions and execute policies with commitment & excellence."
+      },
+      {
+        "type": "paragraph",
+        "text": "The organisation's innovation i.e. cutting edge solutions in technology, processes, and products speak for themselves. Step Industries cares for our communities and demonstrates high ethical Standards. They have offices pan geographies through a wide network of authorized distributors and traders to concentrate on all customer segments in India and overseas."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Our Vision:"
+      },
+      {
+        "type": "paragraph",
+        "text": "Our vision is to operate by inspiring our people to constantly innovate and bring increased value to our customers and surrounding environment we operate in, thereby enhancing stakeholder value."
+      }
+    ],
+    "links": [
+      {
+        "href": "/about-step-industry",
+        "text": "About Step Industries"
+      },
+      {
+        "href": "/our-leadership",
+        "text": "Our Leadership"
+      },
+      {
+        "href": "/vision-misiion",
+        "text": "Vision & Mission"
+      },
+      {
+        "href": "/philosophy",
+        "text": "Philosophy"
+      },
+      {
+        "href": "/csr-activity",
+        "text": "CSR Activity"
+      }
+    ],
+    "images": []
+  },
+  {
+    "slug": "vision-misiion",
+    "url": "/vision-misiion",
+    "title": "Our Vision & Mission - STEP INDUSTRIES",
+    "description": "Our vision is to inspire people to innovate constantly and provide increased value to each of our customers, which sets out on an ambitious undertaking of achieving a sale of crores in the coming decade.",
+    "keywords": "epc company in india, epc companies in india, epc company in delhi,",
+    "canonical": "https://www.stepcable.com/vision-misiion",
+    "image": "",
+    "h1": "VISION & MISSION",
+    "schema": [
+      "{\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"WebPage\",\n    \"name\": \"Vision and Mission - Step Industries\",\n    \"description\": \"We have also streamlined our efficient manufacturing capabilities to withstand the winds of change. But, we're aware that we will have to be even more proactive, agile and client centric.\",\n    \"publisher\": {\n        \"@type\": \"ProfilePage\",\n        \"name\": \"Step Industries\"\n    }\n}"
+    ],
+    "contentText": "Step Industries envisions acquiring an identity as the best cables and wires manufacturers in India along with a strong global presence. Step Industries has always strived to offer finest quality products to the Marketplace on time. In order to achieve this, Step Industries has set up manufacturing plants in two areas in India, where it's products have been engineered to endure harshest of environments like the crushing, high pressure of the sea or sweltering heat or cold of arid lands. Aside from advanced technology at these two units, their ideas contribute to positively power lives daily. Our vision at Step Industries would be to inspire people to innovate constantly and provide increased value to each of our customers, which sets out on an ambitious undertaking of achieving a sale of crores in the coming decade. We have revamped our new design and we've got a brand new promise that truly brings to life Step Industries branding in consumer's minds - 'Miles Ahead'. This is not just a statement but is a manifestation of how we connect to our customers for now and forever. Research & Development At Step Industries company, innovation is a constant process and our research in cooperation with a group of highly skilled professionals we're breaking down barriers which have controlled inventions to be a struggle. Thanks to a close knit staff with exceptional skills and expertise that commission research and deploy the best technologies, we are able to develop unrivalled and innovative products that are safer and more dependable for our customers. Commitment We will show commitment by focussing on company objectives and the requirements of our clients. We honour and recognize people for each of their attempts and participation. We take complete possession of consequences and at the same time we trust and enable our people to deliver benefits. A young and energetic work environment, full of innovation and ideas which lead or contribute to strong relationships with mutual respect. It's the unconditional support of all our customers and sales partners who have made this journey so fruitful and fulfilling. Thanks to all of them, we have left no stone unturned to make this journey a cherished and exciting one, during these four decades. As we gear up for the future, sectors driving requirement for wires and cables are slated to grow fast, we have established our well-recognized marketplace presence with a strong product portfolio. We have also streamlined our efficient manufacturing capabilities to withstand the winds of change. But, we're aware that we will have to be even more proactive, agile and client centric. Our flexibility and openness to new market trends and changing technology are our driving force. The core values of teamwork, trust amongst people and customer focus have given us a unique status in the Indian business. We would attempt to get the entire ecosystem set for the same and get going. I'm confident that this can keep us ahead and winning in our effort to be the preferred brand in this market. We pledge to enhance each day to serve you better. About Step Industries Our Leadership Vision & Mission Philosophy CSR Activity",
+    "contentBlocks": [
+      {
+        "type": "paragraph",
+        "text": "Step Industries envisions acquiring an identity as the best cables and wires manufacturers in India along with a strong global presence. Step Industries has always strived to offer finest quality products to the Marketplace on time."
+      },
+      {
+        "type": "paragraph",
+        "text": "In order to achieve this, Step Industries has set up manufacturing plants in two areas in India, where it's products have been engineered to endure harshest of environments like the crushing, high pressure of the sea or sweltering heat or cold of arid lands. Aside from advanced technology at these two units, their ideas contribute to positively power lives daily."
+      },
+      {
+        "type": "paragraph",
+        "text": "Our vision at Step Industries would be to inspire people to innovate constantly and provide increased value to each of our customers, which sets out on an ambitious undertaking of achieving a sale of crores in the coming decade."
+      },
+      {
+        "type": "paragraph",
+        "text": "We have revamped our new design and we've got a brand new promise that truly brings to life Step Industries branding in consumer's minds - 'Miles Ahead'. This is not just a statement but is a manifestation of how we connect to our customers for now and forever."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Research & Development"
+      },
+      {
+        "type": "paragraph",
+        "text": "At Step Industries company, innovation is a constant process and our research in cooperation with a group of highly skilled professionals we're breaking down barriers which have controlled inventions to be a struggle."
+      },
+      {
+        "type": "paragraph",
+        "text": "Thanks to a close knit staff with exceptional skills and expertise that commission research and deploy the best technologies, we are able to develop unrivalled and innovative products that are safer and more dependable for our customers."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Commitment"
+      },
+      {
+        "type": "paragraph",
+        "text": "We will show commitment by focussing on company objectives and the requirements of our clients. We honour and recognize people for each of their attempts and participation. We take complete possession of consequences and at the same time we trust and enable our people to deliver benefits. A young and energetic work environment, full of innovation and ideas which lead or contribute to strong relationships with mutual respect."
+      },
+      {
+        "type": "paragraph",
+        "text": "It's the unconditional support of all our customers and sales partners who have made this journey so fruitful and fulfilling. Thanks to all of them, we have left no stone unturned to make this journey a cherished and exciting one, during these four decades."
+      },
+      {
+        "type": "paragraph",
+        "text": "As we gear up for the future, sectors driving requirement for wires and cables are slated to grow fast, we have established our well-recognized marketplace presence with a strong product portfolio."
+      },
+      {
+        "type": "paragraph",
+        "text": "We have also streamlined our efficient manufacturing capabilities to withstand the winds of change. But, we're aware that we will have to be even more proactive, agile and client centric."
+      },
+      {
+        "type": "paragraph",
+        "text": "Our flexibility and openness to new market trends and changing technology are our driving force. The core values of teamwork, trust amongst people and customer focus have given us a unique status in the Indian business. We would attempt to get the entire ecosystem set for the same and get going."
+      },
+      {
+        "type": "paragraph",
+        "text": "I'm confident that this can keep us ahead and winning in our effort to be the preferred brand in this market. We pledge to enhance each day to serve you better."
+      }
+    ],
+    "links": [
+      {
+        "href": "/about-step-industry",
+        "text": "About Step Industries"
+      },
+      {
+        "href": "/our-leadership",
+        "text": "Our Leadership"
+      },
+      {
+        "href": "/vision-misiion",
+        "text": "Vision & Mission"
+      },
+      {
+        "href": "/philosophy",
+        "text": "Philosophy"
+      },
+      {
+        "href": "/csr-activity",
+        "text": "CSR Activity"
+      }
+    ],
+    "images": []
+  }
+]

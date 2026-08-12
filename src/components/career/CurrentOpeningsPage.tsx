@@ -10,7 +10,7 @@ type CurrentOpeningsPageProps = {
 export function CurrentOpeningsPage({ page }: CurrentOpeningsPageProps) {
   return (
     <>
-      <PageHero title={page.h1 || "Current Openings"} description="Career opportunities at Step Cables for sales, business development and electrical industry professionals." image={page.image} />
+      <PageHero slug={page.slug} title={page.h1 || "Current Openings"} description="Career opportunities at Step Cables for sales, business development and electrical industry professionals." image={page.image} />
       <section className="bg-slate-50/80">
         <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 sm:py-14 lg:px-8">
           <div className="grid gap-8 lg:grid-cols-[0.7fr_1.3fr] lg:gap-10">

@@ -9,7 +9,7 @@ type CareerPageProps = {
 export function CareerPage({ page }: CareerPageProps) {
   return (
     <>
-      <PageHero title={page.h1 || page.title} description="Explore career information and application details at Step Cables." image={page.image} />
+      <PageHero slug={page.slug} title={page.h1 || page.title} description="Explore career information and application details at Step Cables." image={page.image} />
       <PageBody blocks={page.contentBlocks} />
     </>
   );
