@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 const slides = [
   {
     type: "video",
-    src: "/video/stepcable-video.mp4",
+    src: "/video/stepcables.mp4",
     // poster: "/home-banner/banner1.png",
     label: "Step Cable presence video",
   },

@@ -1,8 +1,9 @@
 import Link from "next/link";
-import { FaArrowLeft, FaArrowRight, FaBolt, FaBoxOpen, FaLayerGroup, FaShieldHalved } from "react-icons/fa6";
+import { FaArrowLeft, FaBolt, FaBoxOpen, FaLayerGroup, FaShieldHalved } from "react-icons/fa6";
 import type { SitePage } from "@/lib/content";
 import type { CadillacProduct } from "../rangeProducts";
 import { getCadillacProducts } from "../rangeProducts";
+import { MoreProductsSlider } from "../MoreProductsSlider";
 
 const cadillacDetailFeatures = [
   [FaLayerGroup, "Modular range"],
@@ -15,29 +16,8 @@ type CadillacProductDetailPageProps = {
   product: CadillacProduct;
 };
 
-function CadillacProductCard({ product }: { product: CadillacProduct }) {
-  return (
-    <Link
-      href={`/step-cadillac/${product.slug}`}
-      className="group flex min-h-[360px] flex-col overflow-hidden rounded-[8px] border border-slate-200 bg-white shadow-lg shadow-slate-900/5 transition duration-300 hover:-translate-y-1 hover:border-[#0877ff]/35 hover:shadow-2xl hover:shadow-blue-500/10"
-    >
-      <div className="flex aspect-[4/3] items-center justify-center bg-[#f7f8fb] p-5">
-        <img src={product.src} alt={product.alt} loading="lazy" className="max-h-full w-full object-contain transition duration-500 group-hover:scale-105" />
-      </div>
-      <div className="flex flex-1 flex-col p-5">
-        <p className="text-[11px] font-black uppercase tracking-[0.2em] text-[#0877ff]">{product.code || "STEP Cadillac"}</p>
-        <h3 className="mt-3 text-lg font-black leading-snug text-slate-950">{product.title || product.alt}</h3>
-        {product.specs?.length ? <p className="mt-3 line-clamp-2 text-sm leading-6 text-slate-600">{product.specs[0]}</p> : null}
-        <span className="mt-auto inline-flex items-center gap-2 pt-5 text-sm font-black text-slate-950">
-          View Details <FaArrowRight aria-hidden="true" className="text-xs transition group-hover:translate-x-1" />
-        </span>
-      </div>
-    </Link>
-  );
-}
-
 export function CadillacProductDetailPage({ page, product }: CadillacProductDetailPageProps) {
-  const products = getCadillacProducts(page).filter((item) => item.slug !== product.slug).slice(0, 4);
+  const products = getCadillacProducts(page).filter((item) => item.slug !== product.slug);
 
   return (
     <main className="bg-[#f5f4f1]">
@@ -78,18 +58,7 @@ export function CadillacProductDetailPage({ page, product }: CadillacProductDeta
         </div>
       </section>
 
-      {products.length ? (
-        <section className="px-4 pb-16 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-7xl">
-            <h2 className="text-2xl font-black text-slate-950">More Cadillac Products</h2>
-            <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-              {products.map((item) => (
-                <CadillacProductCard key={item.slug} product={item} />
-              ))}
-            </div>
-          </div>
-        </section>
-      ) : null}
+      <MoreProductsSlider products={products} title="More Cadillac Products" basePath="/step-cadillac" fallbackCode="STEP Cadillac" />
     </main>
   );
 }

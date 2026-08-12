@@ -48,6 +48,10 @@ function getProductFallbackImage(page: SitePage) {
   return "/assets/img/cable-wires.jpg";
 }
 
+function getValidPageImages(page: SitePage) {
+  return page.images.filter((image) => Boolean(image && typeof image.src === "string" && image.src.trim()));
+}
+
 export function ProductPage({ page }: ProductPageProps) {
   if (page.slug === "step-cadillac") {
     return <CadillacListingPage page={page} />;
@@ -62,9 +66,10 @@ export function ProductPage({ page }: ProductPageProps) {
   }
 
   const pdfLinks = page.links.filter((link) => link.href.toLowerCase().endsWith(".pdf"));
-  const pageImages = page.images.filter((image) => image.src !== page.image);
-  const productImage = page.image || page.images[0]?.src || getProductFallbackImage(page);
-  const productImageAlt = page.images.find((image) => image.src === productImage)?.alt || page.h1 || page.title;
+  const validImages = getValidPageImages(page);
+  const pageImages = validImages.filter((image) => image.src !== page.image);
+  const productImage = page.image || validImages[0]?.src || getProductFallbackImage(page);
+  const productImageAlt = validImages.find((image) => image.src === productImage)?.alt || page.h1 || page.title;
 
   return (
     <>

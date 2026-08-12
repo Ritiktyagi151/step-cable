@@ -7,6 +7,7 @@ import { PremiumFeaturedProducts } from "./PremiumFeaturedProducts";
 import { PremiumHeroSection } from "./PremiumHeroSection";
 import { PremiumProductCategories } from "./PremiumProductCategories";
 import { PremiumPromoGrid } from "./PremiumPromoGrid";
+import { PremiumReelsSection } from "./PremiumReelsSection";
 import { PremiumScrollReveal } from "./PremiumScrollReveal";
 import { PremiumTestimonials } from "./PremiumTestimonials";
 import { PremiumTrustSection } from "./PremiumTrustSection";
@@ -19,6 +20,7 @@ export function HomePage() {
       <PremiumHeroSection />
       <NetworkStats />
       <PremiumProductCategories />
+      <PremiumReelsSection />
       <PremiumAboutSection />
       <PremiumPromoGrid />
       <PremiumDistributionNetwork />
