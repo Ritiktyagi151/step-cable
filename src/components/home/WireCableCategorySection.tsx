@@ -5,7 +5,7 @@ const wireCableCategories: GalleryCategory[] = [
     title: "House & Building Wires",
     eyebrow: "FR / FRLS / Z+",
     href: "/housing-wiring-electrical-building-wire",
-    image: "/homepage-img/catogory-img/house-wire.png",
+    image: "/homepage-img/catogory-img/house-and-buildingwire.png",
   },
   {
     title: "Industrial Cables",

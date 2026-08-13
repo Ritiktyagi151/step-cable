@@ -11,19 +11,19 @@ const switchAccessoryCategories: GalleryCategory[] = [
     title: "STEP Lincoln",
     eyebrow: "Premium Modular",
     href: "/step-lincoln",
-    image: "/homepage-img/catogory-img/switches-accessories.png",
+    image: "/homepage-img/switchs-banner/modular-switches.png",
   },
   {
     title: "STEP Cadillac",
     eyebrow: "Switches & Plates",
     href: "/step-cadillac",
-    image: "/images/seo-page-img/modular-switch-board.jpg",
+    image: "/homepage-img/switchs-banner/switches-plates.png",
   },
   {
     title: "MCB & Switchgear",
     eyebrow: "Protection",
     href: "/mcb",
-    image: "/images/seo-page-img/mcb-manufacture.jpg",
+    image: "/homepage-img/switchs-banner/mcb-switchgear.png",
   },
   // {
   //   title: "Switch Plates",
