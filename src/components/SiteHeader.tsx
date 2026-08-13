@@ -448,8 +448,8 @@ export function SiteHeader() {
   return (
     <>
     <header className={`fixed inset-x-0 top-0 z-50 w-full border-b backdrop-blur-xl transition-all duration-300 ${scrolled ? "border-brand-teal/15 bg-white/90 shadow-sm shadow-slate-900/5" : "site-header-over-media border-white/30 bg-white/42 shadow-sm shadow-slate-900/10"}`}>
-      <div className={`hidden overflow-hidden border-b text-white backdrop-blur-xl transition-all duration-300 lg:block ${scrolled ? "max-h-0 border-brand-teal/10 bg-gray-600 opacity-0" : "max-h-12 border-black/10 bg-slate-950/62 opacity-100"}`}>
-        <div className="flex w-full items-center justify-between gap-3 px-4 py-2 text-sm xl:px-6 2xl:px-8">
+      <div className={`hidden overflow-hidden border-b text-white backdrop-blur-xl transition-all duration-300 lg:block ${scrolled ? "max-h-0 border-brand-teal/10 bg-gray-600 opacity-0" : "max-h-10 border-black/10 bg-slate-950/62 opacity-100"}`}>
+        <div className="flex w-full items-center justify-between gap-3 px-4 py-1 text-xs xl:px-6 2xl:px-8">
           <div className="flex flex-wrap items-center gap-4">
             <a href="tel:01206849500" className="flex items-center gap-2 transition duration-300 hover:text-brand-dark">
               <FaPhoneAlt aria-hidden="true" className="text-xs text-brand-dark" />
@@ -475,7 +475,7 @@ export function SiteHeader() {
                 target="_blank"
                 rel="noreferrer"
                 aria-label={label}
-                className="flex h-8 w-8 items-center justify-center rounded-full border border-brand-teal/15 bg-white/90 shadow-sm transition duration-300 hover:-translate-y-0.5 hover:border-brand-teal/35 hover:bg-white"
+                className="flex h-7 w-7 items-center justify-center rounded-full border border-brand-teal/15 bg-white/90 text-xs shadow-sm transition duration-300 hover:-translate-y-0.5 hover:border-brand-teal/35 hover:bg-white"
               >
                 <Icon aria-hidden="true" className={className} />
               </a>
@@ -484,15 +484,15 @@ export function SiteHeader() {
         </div>
       </div>
 
-      <div className="flex h-16 w-full items-center justify-between gap-3 pl-3 pr-3 sm:pl-4 sm:pr-4 lg:grid lg:h-auto lg:grid-cols-[135px_minmax(0,1fr)_150px] lg:gap-3 lg:pl-5 lg:pr-4 lg:py-2 xl:grid-cols-[170px_minmax(0,1fr)_170px] xl:gap-4 xl:pl-6 xl:pr-5 2xl:grid-cols-[220px_minmax(0,1fr)_200px] 2xl:gap-5 2xl:pl-8 2xl:pr-6">
+      <div className="flex h-14 w-full items-center justify-between gap-3 pl-3 pr-3 sm:pl-4 sm:pr-4 lg:grid lg:h-auto lg:grid-cols-[135px_minmax(0,1fr)_150px] lg:gap-3 lg:pl-5 lg:pr-4 lg:py-1 xl:grid-cols-[170px_minmax(0,1fr)_170px] xl:gap-4 xl:pl-6 xl:pr-5 2xl:grid-cols-[220px_minmax(0,1fr)_200px] 2xl:gap-5 2xl:pl-8 2xl:pr-6">
         <Link href="/" className="flex min-w-0 items-center gap-3" onClick={closeMenu}>
-          <span className="flex h-12 w-[76px] items-center overflow-visible sm:w-[82px] lg:h-12 lg:w-[76px] xl:h-12 xl:w-[84px] 2xl:h-14 2xl:w-[92px]">
+          <span className="flex h-10 w-[70px] items-center overflow-visible sm:w-[76px] lg:h-10 lg:w-[72px] xl:h-11 xl:w-[80px] 2xl:h-12 2xl:w-[88px]">
             <img
               src="/assetshome/img/logo-step.png"
               alt="Step Cables"
               width={126}
               height={80}
-              className="block h-auto max-h-12 w-full object-contain xl:max-h-14"
+              className="block h-auto max-h-10 w-full object-contain xl:max-h-11 2xl:max-h-12"
             />
           </span>
         </Link> 
@@ -519,11 +519,11 @@ export function SiteHeader() {
             aria-label="Open search"
             aria-expanded={desktopSearchOpen}
             onClick={toggleDesktopSearch}
-            className="flex h-12 w-12 items-center justify-center rounded-full border border-brand-teal/20 bg-white/85 text-brand-dark shadow-sm transition hover:border-brand-teal/40 hover:bg-brand-teal/10"
+            className="flex h-10 w-10 items-center justify-center rounded-full border border-brand-teal/20 bg-white/85 text-brand-dark shadow-sm transition hover:border-brand-teal/40 hover:bg-brand-teal/10"
           >
             {desktopSearchOpen ? <FaTimes aria-hidden="true" className="text-sm" /> : <FaSearch aria-hidden="true" className="text-sm" />}
           </button>
-          <button type="button" onClick={openReachForm} className="rounded-full bg-gradient-to-r from-brand-teal to-brand-dark px-4 py-3 text-sm font-semibold text-white shadow-lg shadow-brand-teal/25 transition duration-300 hover:-translate-y-0.5 xl:px-6">
+          <button type="button" onClick={openReachForm} className="rounded-full bg-gradient-to-r from-brand-teal to-brand-dark px-4 py-2 text-sm font-semibold text-white shadow-lg shadow-brand-teal/25 transition duration-300 hover:-translate-y-0.5 xl:px-5">
             Reach Us
           </button>
         </div>

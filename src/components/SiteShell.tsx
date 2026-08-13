@@ -6,7 +6,7 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
   return (
     <div className="min-h-screen overflow-x-hidden bg-white text-slate-800">
       <SiteHeader />
-      <main className="pt-16 lg:pt-[104px]">{children}</main>
+      <main className="pt-14 lg:pt-[78px]">{children}</main>
       <SiteFooter />
       <a
         href="https://wa.me/918448819330"
