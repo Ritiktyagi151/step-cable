@@ -4,6 +4,7 @@ import { PageSummary } from "@/components/pages/PageSummary";
 import { CadillacListingPage } from "./cadillac/CadillacProductPage";
 import { LincolnListingPage } from "./lincoln/LincolnProductPage";
 import { WireAndCableListingPage } from "./wire-and-cable/WireAndCableListingPage";
+import { isWireAndCablePage, WireAndCableProductPage } from "./wire-and-cable/WireAndCableProductPage";
 import type { SitePage } from "@/lib/content";
 
 type ProductPageProps = {
@@ -63,6 +64,10 @@ export function ProductPage({ page }: ProductPageProps) {
 
   if (page.slug === "about-step-cables") {
     return <WireAndCableListingPage page={page} />;
+  }
+
+  if (isWireAndCablePage(page.slug)) {
+    return <WireAndCableProductPage page={page} fallbackImage={getProductFallbackImage(page)} />;
   }
 
   const pdfLinks = page.links.filter((link) => link.href.toLowerCase().endsWith(".pdf"));

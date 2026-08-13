@@ -86,7 +86,7 @@ export function PremiumDealerBanner() {
 
   return (
     <section>
-      <div className="grid overflow-hidden rounded-[8px] lg:grid-cols-[1fr_1.05fr]">
+      <div className="grid overflow-hidden  lg:grid-cols-[1fr_1.05fr]">
         {/* Left Content */}
         <div className="relative bg-[#101820] p-6 text-white sm:p-8 lg:p-10">
           <div className="relative z-10 flex h-full flex-col justify-between gap-10">

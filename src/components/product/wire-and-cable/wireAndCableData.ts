@@ -63,3 +63,23 @@ export const wireAndCableProducts = [
     description: "Aerial bunched cables for overhead power distribution.",
   },
 ] as const;
+
+export const wireAndCablePageSlugs = [
+  "ab-cable",
+  "advantages-of-insulated-power-cable",
+  "armoured-cable",
+  "electrical-building-wire",
+  "elevator-escalator-cable",
+  "fireproof-wire",
+  "frls-wires",
+  "house-wire",
+  "housing-wiring-electrical-building-wire",
+  "multicore-wire-and-cable",
+  "pvc-insulated-power-control-cable",
+  "single-core-multicore-industrial-cables",
+  "submersible-wire",
+  "three-core-pvc-insulated-flat-cable",
+  "three-core-xlpe-insulated-flat-cable",
+  "wire-and-cable",
+  "xlpe-insulated-power-control-cable",
+] as const;

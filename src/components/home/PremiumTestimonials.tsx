@@ -97,7 +97,7 @@ export function PremiumTestimonials() {
             <p className="text-xs font-black uppercase tracking-[0.32em] text-[#0877ff]">
               Testimonials
             </p>
-            <h2 className="mt-5 max-w-xl text-3xl font-black leading-tight sm:text-5xl">
+            <h2 className="mt-5 max-w-xl text-3xl font-black md:text-4xl">
               Trusted by people who sell, source and specify.
             </h2>
           </div>

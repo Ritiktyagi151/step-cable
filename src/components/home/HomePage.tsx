@@ -20,16 +20,16 @@ export function HomePage() {
       <PremiumHeroSection />
       <NetworkStats />
       <PremiumProductCategories />
-      <PremiumReelsSection />
       <PremiumAboutSection />
+      <PremiumReelsSection /> 
       <PremiumPromoGrid />
       <PremiumDistributionNetwork />
       <PremiumWhyChooseSection />
       {/* <PremiumFeaturedProducts /> */}
-      <PremiumDealerBanner />
       {/* <PremiumTrustSection /> */}
       <PremiumTestimonials />
-      <PremiumContactCta />
+      {/* <PremiumContactCta /> */}
+      <PremiumDealerBanner />
     </div>
   );
 }
