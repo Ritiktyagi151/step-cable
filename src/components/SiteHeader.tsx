@@ -41,7 +41,7 @@ const socialLinks = [
   { label: "Facebook", href: "https://facebook.com/stepCablesIndia/", Icon: FaFacebookF, className: "text-[#1877F2]" },
   { label: "X", href: "https://twitter.com/StepCablesIndia", Icon: FaXTwitter, className: "text-black" },
   { label: "LinkedIn", href: "https://www.linkedin.com/company/stepcablesindia/", Icon: FaLinkedinIn, className: "text-[#0A66C2]" },
-  { label: "Instagram", href: "https://www.instagram.com/stepcablesofficial/", Icon: FaInstagram, className: "text-[#E4405F]" },
+  { label: "Instagram", href: "https://www.instagram.com/stepcables/", Icon: FaInstagram, className: "text-[#E4405F]" },
   { label: "YouTube", href: "https://www.youtube.com/channel/UCEh0fNj2-IXT4uLsgJ8rjXw", Icon: FaYoutube, className: "text-[#FF0000]" }
 ];
 

@@ -7,10 +7,10 @@ const socialLinks = [
   { label: "Phone", href: "tel:01206849500", Icon: FaPhoneAlt, className: "text-brand-dark" },
   { label: "E-mail", href: "mailto:info@stepcable.com", Icon: FaEnvelope, className: "text-[#EA4335]" },
   { label: "WhatsApp", href: "https://wa.me/918448819330", Icon: FaWhatsapp, className: "text-[#25D366]" },
-  { label: "X", href: "https://twitter.com/StepCablesIndia", Icon: FaXTwitter, className: "text-black" },
-  { label: "Facebook", href: "https://facebook.com/stepCablesIndia/", Icon: FaFacebookF, className: "text-[#1877F2]" },
-  { label: "LinkedIn", href: "https://www.linkedin.com/company/stepcablesindia/", Icon: FaLinkedinIn, className: "text-[#0A66C2]" },
-  { label: "Instagram", href: "https://www.instagram.com/stepcablesofficial/", Icon: FaInstagram, className: "text-[#E4405F]" },
+  { label: "X", href: "https://x.com/stepcablesindia?lang=ar", Icon: FaXTwitter, className: "text-black" },
+  { label: "Facebook", href: "https://www.facebook.com/StepCablesPrivateLimited/", Icon: FaFacebookF, className: "text-[#1877F2]" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/company/stepcableprivatelimited/", Icon: FaLinkedinIn, className: "text-[#0A66C2]" },
+  { label: "Instagram", href: "https://www.instagram.com/stepcables/", Icon: FaInstagram, className: "text-[#E4405F]" },
   { label: "YouTube", href: "https://www.youtube.com/channel/UCEh0fNj2-IXT4uLsgJ8rjXw", Icon: FaYoutube, className: "text-[#FF0000]" }
 ];
 
@@ -45,8 +45,7 @@ export function SiteFooter() {
   return (
     <footer className="relative overflow-hidden border-t border-brand-teal/15 bg-[url('/images/footer-bg.jpg')] bg-cover bg-center text-white lg:bg-fixed">
       <div className="absolute inset-0 bg-black/72 backdrop-blur-[1px]" />
-      <div className="bg-[linear-gradient(rgba(91,192,187,0.08)_1px,transparent_1px),linear-gradient(90deg,rgba(91,192,187,0.08)_1px,transparent_1px)] bg-[size:44px_44px] absolute inset-0 opacity-45" />
-      {/* <div className="border-b border-white/10">
+           {/* <div className="border-b border-white/10">
         <div className="mx-auto grid max-w-[88rem] gap-6 px-4 py-8 sm:px-6 lg:grid-cols-3 lg:px-8">
           <div className="border border-white/10 p-5">
             <div className="flex items-center gap-3">

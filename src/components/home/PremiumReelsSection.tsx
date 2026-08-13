@@ -40,8 +40,8 @@ export function PremiumReelsSection() {
               Step Cable in motion
             </h2>
           </div>
-          <a
-            href="/contact"
+          <a target="_blank"
+            href="https://www.instagram.com/stepcables/"
             className="inline-flex w-fit items-center gap-2 rounded-full bg-[#0877ff] px-5 py-3 text-xs font-black uppercase tracking-[0.16em] text-white shadow-lg shadow-blue-500/20 transition hover:-translate-y-0.5 hover:bg-[#005fd0]"
           >
             <FaInstagram aria-hidden="true" />
