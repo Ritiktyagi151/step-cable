@@ -37,7 +37,7 @@ export function MoreProductsSlider({ products, title, basePath, fallbackCode }: 
               type="button"
               aria-label="Previous products"
               onClick={() => scrollSlider("left")}
-              className="inline-flex size-11 items-center justify-center rounded-[8px] border border-slate-200 bg-white text-slate-950 shadow-sm transition hover:border-[#0877ff]/40 hover:text-[#0877ff]"
+              className="inline-flex size-11 items-center justify-center rounded-[8px] border border-slate-200 bg-white text-slate-950 shadow-sm transition hover:border-[#5BC0BB]/40 hover:text-[#5BC0BB]"
             >
               <FaArrowLeft aria-hidden="true" className="text-sm" />
             </button>
@@ -45,7 +45,7 @@ export function MoreProductsSlider({ products, title, basePath, fallbackCode }: 
               type="button"
               aria-label="Next products"
               onClick={() => scrollSlider("right")}
-              className="inline-flex size-11 items-center justify-center rounded-[8px] border border-slate-200 bg-white text-slate-950 shadow-sm transition hover:border-[#0877ff]/40 hover:text-[#0877ff]"
+              className="inline-flex size-11 items-center justify-center rounded-[8px] border border-slate-200 bg-white text-slate-950 shadow-sm transition hover:border-[#5BC0BB]/40 hover:text-[#5BC0BB]"
             >
               <FaArrowRight aria-hidden="true" className="text-sm" />
             </button>
@@ -60,13 +60,13 @@ export function MoreProductsSlider({ products, title, basePath, fallbackCode }: 
             <Link
               key={product.slug}
               href={`${basePath}/${product.slug}`}
-              className="group flex min-h-[360px] w-[82vw] shrink-0 snap-start flex-col overflow-hidden rounded-[8px] border border-slate-200 bg-white shadow-lg shadow-slate-900/5 transition duration-300 hover:-translate-y-1 hover:border-[#0877ff]/35 hover:shadow-2xl hover:shadow-blue-500/10 sm:w-[45%] lg:w-[calc((100%_-_3.75rem)/4)]"
+              className="group flex min-h-[360px] w-[82vw] shrink-0 snap-start flex-col overflow-hidden rounded-[8px] border border-slate-200 bg-white shadow-lg shadow-slate-900/5 transition duration-300 hover:-translate-y-1 hover:border-[#5BC0BB]/35 hover:shadow-2xl hover:shadow-[#5BC0BB]/10 sm:w-[45%] lg:w-[calc((100%_-_3.75rem)/4)]"
             >
               <div className="flex aspect-[4/3] items-center justify-center bg-[#f7f8fb] p-5">
                 <img src={product.src} alt={product.alt} loading="lazy" className="max-h-full w-full object-contain transition duration-500 group-hover:scale-105" />
               </div>
               <div className="flex flex-1 flex-col p-5">
-                <p className="text-[11px] font-black uppercase tracking-[0.2em] text-[#0877ff]">{product.code || fallbackCode}</p>
+                <p className="text-[11px] font-black uppercase tracking-[0.2em] text-[#5BC0BB]">{product.code || fallbackCode}</p>
                 <h3 className="mt-3 text-lg font-black leading-snug text-slate-950">{product.title || product.alt}</h3>
                 {product.specs?.length ? <p className="mt-3 line-clamp-2 text-sm leading-6 text-slate-600">{product.specs[0]}</p> : null}
                 <span className="mt-auto inline-flex items-center gap-2 pt-5 text-sm font-black text-slate-950">

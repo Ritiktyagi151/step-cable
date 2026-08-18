@@ -57,8 +57,7 @@ export const navGroups = [
     href: "/modular-switches",
     links: [
       ["Lincoln", "/step-lincoln"],
-      ["Cadillac", "/step-cadillac"],
-      ["Conductor", "/conductor"]
+      ["Cadillac", "/step-cadillac"]
     ]
   },
   {
@@ -75,12 +74,12 @@ export const navGroups = [
 export const topNavLinks: readonly (readonly [string, string])[] = [];
 
 export const mainNavLinks = [
-  ["Home", "/"],
   ["About", "/about-step-industry"],
   ["EPC Business", "/about-epc-business"],
   ["Wire and Cables", "/about-step-cables"],
-  ["Switch and Accessories", "/modular-switches"],
-  ["Contact", "/contact"]
+  ["Conductor", "/conductor"],
+  ["Switch and Accessories", "/modular-switches"]
+  // ["Contact", "/contact"]
 ] as const;
 
 export const footerLinks = [

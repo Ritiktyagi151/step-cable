@@ -1,5 +1,6 @@
-import { FaArrowRight, FaBolt, FaDownload, FaLayerGroup, FaShieldHalved } from "react-icons/fa6";
+import { FaBolt, FaDownload, FaLayerGroup, FaShieldHalved } from "react-icons/fa6";
 import type { ContentBlock, SitePage } from "@/lib/content";
+import { ProductQuoteButton } from "../ProductQuoteButton";
 import { wireAndCablePageSlugs, wireAndCableProducts } from "./wireAndCableData";
 
 type WireAndCableProductPageProps = {
@@ -113,7 +114,7 @@ export function WireAndCableProductPage({ page, fallbackImage }: WireAndCablePro
 
         <div className="relative mx-auto grid max-w-7xl gap-8 lg:grid-cols-[minmax(0,1fr)_420px] lg:items-center">
           <div className="wire-page-rise">
-            <p className="text-xs font-black uppercase tracking-[0.28em] text-[#5bd6ff]">Wire & Cable</p>
+            <p className="text-xs font-black uppercase tracking-[0.28em] text-[#5BC0BB]">Wire & Cable</p>
             <h1 className="mt-4 max-w-4xl text-4xl font-black leading-[1.04] sm:text-5xl lg:text-6xl">{page.h1 || page.title}</h1>
             {page.description ? <p className="mt-6 max-w-3xl text-base font-medium leading-8 text-white/78 sm:text-lg">{page.description}</p> : null}
             <div className="mt-8 flex flex-wrap gap-3">
@@ -125,7 +126,7 @@ export function WireAndCableProductPage({ page, fallbackImage }: WireAndCablePro
             </div>
           </div>
 
-          <div className="wire-page-rise wire-page-float overflow-hidden rounded-[8px] border border-white/15 bg-white p-4 shadow-2xl shadow-blue-500/10 [animation-delay:120ms]">
+          <div className="wire-page-rise wire-page-float overflow-hidden rounded-[8px] border border-white/15 bg-white p-4 shadow-2xl shadow-[#5BC0BB]/10 [animation-delay:120ms]">
             <div className="flex aspect-[4/3] items-center justify-center bg-[#f7f8fb] p-4">
               <img src={heroImage} alt={page.h1 || page.title} className="max-h-full w-full object-contain" />
             </div>
@@ -138,7 +139,7 @@ export function WireAndCableProductPage({ page, fallbackImage }: WireAndCablePro
           <div className="min-w-0 space-y-7">
             {intro && intro.type === "paragraph" ? (
               <div className="wire-page-rise rounded-[8px] border border-slate-200 bg-white p-6 shadow-xl shadow-slate-900/5 sm:p-8">
-                <p className="text-xs font-black uppercase tracking-[0.24em] text-[#0877ff]">Overview</p>
+                <p className="text-xs font-black uppercase tracking-[0.24em] text-[#5BC0BB]">Overview</p>
                 <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base sm:leading-8">{intro.text}</p>
               </div>
             ) : null}
@@ -148,7 +149,7 @@ export function WireAndCableProductPage({ page, fallbackImage }: WireAndCablePro
                 <img src={heroImage} alt={page.h1 || page.title} loading="lazy" className="max-h-full w-full object-contain" />
               </div>
               <figcaption className="pt-4">
-                <p className="text-xs font-black uppercase tracking-[0.22em] text-[#0877ff]">Product Image</p>
+                <p className="text-xs font-black uppercase tracking-[0.22em] text-[#5BC0BB]">Product Image</p>
                 <h2 className="mt-2 text-xl font-black leading-tight text-slate-950">{page.h1 || page.title}</h2>
               </figcaption>
             </figure>
@@ -173,10 +174,10 @@ export function WireAndCableProductPage({ page, fallbackImage }: WireAndCablePro
 
           <aside className="space-y-5 lg:sticky lg:top-24 lg:self-start">
             <div className="wire-page-rise rounded-[8px] border border-slate-200 bg-white p-5 shadow-xl shadow-slate-900/5 [animation-delay:160ms]">
-              <p className="text-xs font-black uppercase tracking-[0.22em] text-[#0877ff]">Quick Actions</p>
-              <a href="/contact" className="mt-5 inline-flex w-full items-center justify-between rounded-[8px] bg-[#0877ff] px-4 py-3 text-sm font-black text-white transition hover:-translate-y-0.5 hover:bg-[#005fd0]">
-                Ask for Quote <FaArrowRight aria-hidden="true" />
-              </a>
+              <p className="text-xs font-black uppercase tracking-[0.22em] text-[#5BC0BB]">Quick Actions</p>
+              <div className="mt-5">
+                <ProductQuoteButton productName={page.h1 || page.title} />
+              </div>
             </div>
 
             <div className="wire-page-rise grid gap-3 [animation-delay:230ms]">
@@ -186,7 +187,7 @@ export function WireAndCableProductPage({ page, fallbackImage }: WireAndCablePro
                 [FaLayerGroup, "Wide range"],
               ].map(([Icon, label]) => (
                 <div key={label as string} className="rounded-[8px] border border-slate-200 bg-white p-4 shadow-lg shadow-slate-900/5">
-                  <Icon aria-hidden="true" className="text-[#0877ff]" />
+                  <Icon aria-hidden="true" className="text-[#5BC0BB]" />
                   <p className="mt-3 text-sm font-black text-slate-950">{label as string}</p>
                 </div>
               ))}
@@ -197,7 +198,7 @@ export function WireAndCableProductPage({ page, fallbackImage }: WireAndCablePro
                 <h2 className="text-lg font-black text-slate-950">Downloads</h2>
                 <div className="mt-4 grid gap-3">
                   {pdfLinks.map((link) => (
-                    <a key={link.href} href={link.href} target="_blank" className="inline-flex items-center justify-between gap-3 rounded-[8px] border border-slate-200 bg-[#f7f8fb] px-4 py-3 text-sm font-bold text-slate-700 transition hover:border-[#0877ff]/35 hover:text-[#0877ff]">
+                    <a key={link.href} href={link.href} target="_blank" className="inline-flex items-center justify-between gap-3 rounded-[8px] border border-slate-200 bg-[#f7f8fb] px-4 py-3 text-sm font-bold text-slate-700 transition hover:border-[#5BC0BB]/35 hover:text-[#5BC0BB]">
                       {link.text || "View Details"}
                       <FaDownload aria-hidden="true" className="shrink-0 text-xs" />
                     </a>

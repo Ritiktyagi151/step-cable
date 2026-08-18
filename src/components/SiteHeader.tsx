@@ -159,13 +159,15 @@ function HeaderDropdown({ group }: { group: (typeof navGroups)[number] }) {
             href: "/step-cadillac",
             image: "/nav-baar/cardilac-switches.png",
           },
-          {
-            label: "Conductor",
-            href: "/conductor",
-            image: "/nav-baar/conductor.png",
-          },
         ]
       : null;
+  const dropdownWidth =
+    group.label === "Wire and Cables"
+      ? "w-[min(620px,calc(100vw-32px))]"
+      : group.label === "Conductor"
+        ? "w-[min(420px,calc(100vw-32px))]"
+        : "w-[min(380px,calc(100vw-32px))]";
+  const linkGridClass = group.links.length > 6 ? "grid-cols-2" : "grid-cols-1";
 
   return (
     <div className="group relative">
@@ -176,15 +178,15 @@ function HeaderDropdown({ group }: { group: (typeof navGroups)[number] }) {
         <span>{group.label}</span>
         <FaChevronDown aria-hidden="true" className="text-[10px] transition group-hover:rotate-180" />
       </Link>
-      <div className={`invisible absolute top-full pt-4 opacity-0 transition duration-300 group-hover:visible group-hover:opacity-100 ${switchAccessoryCards ? "left-1/2 w-[min(680px,calc(100vw-32px))] -translate-x-1/2" : "left-0 w-72"}`}>
-        <div className="overflow-hidden rounded-[20px] border border-brand-teal/15 bg-white/90 py-2 shadow-xl shadow-slate-900/5 backdrop-blur-lg">
+      <div className={`invisible absolute top-full pt-3 opacity-0 transition duration-300 group-hover:visible group-hover:opacity-100 ${switchAccessoryCards ? "left-1/2 w-[min(460px,calc(100vw-32px))] -translate-x-1/2" : `left-1/2 ${dropdownWidth} -translate-x-1/2`}`}>
+        <div className={`overflow-hidden border bg-white shadow-2xl shadow-slate-900/12 ${switchAccessoryCards ? "rounded-[18px] border-brand-teal/15 py-2 backdrop-blur-lg" : "rounded-[14px] border-slate-200/80 p-2.5"}`}>
           {switchAccessoryCards ? (
-            <div className="grid grid-cols-3 gap-3 p-3">
+            <div className="grid grid-cols-2 gap-3 p-3">
               {switchAccessoryCards.map((item) => (
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="group/card overflow-hidden rounded-2xl border border-brand-teal/15 bg-slate-50 text-slate-900 transition duration-300 hover:-translate-y-0.5 hover:border-brand-teal/40 hover:bg-white hover:shadow-lg"
+                  className="group/card overflow-hidden rounded-[12px] border border-brand-teal/15 bg-slate-50 text-slate-900 transition duration-300 hover:-translate-y-0.5 hover:border-brand-teal/40 hover:bg-white hover:shadow-lg"
                 >
                   <span className="block h-32 overflow-hidden bg-white">
                     <img src={item.image} alt={item.label} className="h-full w-full object-contain p-3 transition duration-500 group-hover/card:scale-105" />
@@ -197,11 +199,31 @@ function HeaderDropdown({ group }: { group: (typeof navGroups)[number] }) {
               ))}
             </div>
           ) : (
-            group.links.map(([label, href]) => (
-              <Link key={href} href={href} className="block px-5 py-3 text-sm text-slate-600 transition duration-300 hover:bg-brand-teal/10 hover:text-brand-dark">
-                {label}
+            <>
+              <Link
+                href={group.href}
+                className="group/head relative flex items-center justify-between overflow-hidden rounded-[10px] bg-[#5BC0BB] px-4 py-3 text-sm font-black !text-white transition duration-300 hover:bg-[#3AA9A4]"
+              >
+                <span className="absolute inset-y-0 left-0 w-1 bg-white/40" />
+                <span className="!text-white">{group.label}</span>
+                <FaChevronDown aria-hidden="true" className="-rotate-90 text-[10px] text-white/75 transition group-hover/head:translate-x-0.5" />
               </Link>
-            ))
+              <div className={`mt-2 grid max-h-[60vh] gap-1 overflow-y-auto ${linkGridClass}`}>
+                {group.links.map(([label, href]) => (
+                  <Link
+                    key={href}
+                    href={href}
+                    className="group/item flex min-h-10 items-center justify-between gap-3 rounded-[8px] border border-transparent px-3 py-2 text-sm font-semibold text-slate-700 transition duration-300 hover:border-brand-teal/20 hover:bg-brand-teal/10 hover:text-brand-dark hover:shadow-sm"
+                  >
+                    <span className="leading-snug">{label}</span>
+                    <FaChevronDown
+                      aria-hidden="true"
+                      className="-rotate-90 text-[9px] text-slate-300 transition duration-300 group-hover/item:translate-x-0.5 group-hover/item:text-brand-dark"
+                    />
+                  </Link>
+                ))}
+              </div>
+            </>
           )}
         </div>
       </div>
@@ -436,7 +458,7 @@ export function SiteHeader() {
               Message *
               <textarea {...registerReach("message", { required: true })} rows={4} className="rounded-2xl border border-brand-teal/15 bg-white px-4 py-3 text-base font-normal text-slate-900 outline-none transition focus:border-brand-teal/35 focus:shadow-[0_0_0_4px_rgba(91,192,187,0.12)]" />
             </label>
-            <button type="submit" className="w-fit rounded-full bg-gradient-to-r from-brand-teal to-brand-dark px-6 py-3 text-sm font-black uppercase tracking-wide text-white shadow-lg shadow-brand-teal/25 transition duration-300 hover:-translate-y-0.5">
+            <button type="submit" className="w-fit rounded-full bg-[#5BC0BB] px-6 py-3 text-sm font-black uppercase tracking-wide text-white shadow-lg shadow-[#5BC0BB]/25 transition duration-300 hover:-translate-y-0.5 hover:bg-[#3AA9A4]">
               Submit
             </button>
           </form>
@@ -500,17 +522,10 @@ export function SiteHeader() {
         <nav aria-label="Main navigation" className="hidden min-w-0 items-center justify-center gap-0.5 xl:gap-1.5 2xl:gap-3 lg:flex">
           {mainNavLinks.map(([label, href]) => {
             const group = dropdownGroups.find((item) => item.label === label);
-            if (label === "Contact") {
-              return (
-                <div key={href} className="flex items-center">
-                  <HeaderLink href={href} label={label} />
-                  <BrochureDropdown />
-                </div>
-              );
-            }
 
             return group ? <HeaderDropdown key={label} group={group} /> : <HeaderLink key={href} href={href} label={label} />;
           })}
+          <BrochureDropdown />
         </nav>
 
         <div className="hidden min-w-0 items-center justify-end gap-2 xl:gap-3 lg:flex">
@@ -523,7 +538,7 @@ export function SiteHeader() {
           >
             {desktopSearchOpen ? <FaTimes aria-hidden="true" className="text-sm" /> : <FaSearch aria-hidden="true" className="text-sm" />}
           </button>
-          <button type="button" onClick={openReachForm} className="rounded-full bg-gradient-to-r from-brand-teal to-brand-dark px-4 py-2 text-sm font-semibold text-white shadow-lg shadow-brand-teal/25 transition duration-300 hover:-translate-y-0.5 xl:px-5">
+          <button type="button" onClick={openReachForm} className="rounded-full bg-[#5BC0BB] px-4 py-2 text-sm font-semibold text-white shadow-lg shadow-[#5BC0BB]/25 transition duration-300 hover:-translate-y-0.5 hover:bg-[#3AA9A4] xl:px-5">
             Reach Us
           </button>
         </div>
@@ -702,7 +717,7 @@ export function SiteHeader() {
                 ))}
               </div>
             </div>
-            <button type="button" onClick={openReachForm} className="mt-2 rounded-full bg-gradient-to-r from-brand-teal to-brand-dark px-4 py-3 text-center text-sm font-semibold text-white shadow-lg shadow-brand-teal/25 transition duration-300 hover:-translate-y-0.5">
+            <button type="button" onClick={openReachForm} className="mt-2 rounded-full bg-[#5BC0BB] px-4 py-3 text-center text-sm font-semibold text-white shadow-lg shadow-[#5BC0BB]/25 transition duration-300 hover:-translate-y-0.5 hover:bg-[#3AA9A4]">
               Reach Us
             </button>
           </div>

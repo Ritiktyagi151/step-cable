@@ -1,8 +1,55 @@
 "use client";
 
+import { ReactNode, useEffect, useRef, useState } from "react";
 import { ConductorCategorySection } from "./ConductorCategorySection";
 import { SwitchAccessoryCategorySection } from "./SwitchAccessoryCategorySection";
 import { WireCableCategorySection } from "./WireCableCategorySection";
+
+function useInView<T extends HTMLElement>(threshold = 0.12) {
+  const ref = useRef<T | null>(null);
+  const [inView, setInView] = useState(false);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const entry = entries[0];
+        setInView(entry.isIntersecting);
+      },
+      { rootMargin: "0px 0px -10% 0px", threshold }
+    );
+
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, [threshold]);
+
+  return { ref, inView };
+}
+
+function ProductCategoryReveal({
+  children,
+  delay = 0,
+}: {
+  children: ReactNode;
+  delay?: number;
+}) {
+  const { ref, inView } = useInView<HTMLDivElement>();
+
+  return (
+    <div
+      ref={ref}
+      className={
+        "transition-all duration-1000 ease-out will-change-transform " +
+        (inView ? "translate-y-0 opacity-100" : "translate-y-14 opacity-0")
+      }
+      style={{ transitionDelay: inView ? `${delay}ms` : "0ms" }}
+    >
+      {children}
+    </div>
+  );
+}
 
 export function PremiumProductCategories() {
   return (
@@ -17,10 +64,16 @@ export function PremiumProductCategories() {
         #products .font-mono { font-family: 'IBM Plex Mono', ui-monospace, monospace; }
       `}</style>
 
-      <div className="relative mx-auto grid max-w-7xl gap-14">
-        <WireCableCategorySection />
-        <SwitchAccessoryCategorySection />
-        <ConductorCategorySection />
+      <div className="relative mx-auto grid max-w-8xl gap-14">
+        <ProductCategoryReveal>
+          <WireCableCategorySection />
+        </ProductCategoryReveal>
+        <ProductCategoryReveal delay={120}>
+          <SwitchAccessoryCategorySection />
+        </ProductCategoryReveal>
+        <ProductCategoryReveal delay={240}>
+          <ConductorCategorySection />
+        </ProductCategoryReveal>
       </div>
     </section>
   );

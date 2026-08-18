@@ -14,13 +14,13 @@ function LincolnProductCard({ product }: { product: CadillacProduct }) {
   return (
     <Link
       href={`/step-lincoln/${product.slug}`}
-      className="group flex min-h-[360px] flex-col overflow-hidden rounded-[8px] border border-slate-200 bg-white shadow-lg shadow-slate-900/5 transition duration-300 hover:-translate-y-1 hover:border-[#0877ff]/35 hover:shadow-2xl hover:shadow-blue-500/10"
+      className="group flex min-h-[360px] flex-col overflow-hidden rounded-[8px] border border-slate-200 bg-white shadow-lg shadow-slate-900/5 transition duration-300 hover:-translate-y-1 hover:border-[#5BC0BB]/35 hover:shadow-2xl hover:shadow-[#5BC0BB]/10"
     >
       <div className="flex aspect-[4/3] items-center justify-center bg-[#f7f8fb] p-5">
         <img src={product.src} alt={product.alt} loading="lazy" className="max-h-full w-full object-contain transition duration-500 group-hover:scale-105" />
       </div>
       <div className="flex flex-1 flex-col p-5">
-        <p className="text-[11px] font-black uppercase tracking-[0.2em] text-[#0877ff]">{product.code || "STEP Lincoln"}</p>
+        <p className="text-[11px] font-black uppercase tracking-[0.2em] text-[#5BC0BB]">{product.code || "STEP Lincoln"}</p>
         <h3 className="mt-3 text-lg font-black leading-snug text-slate-950">{product.title || product.alt}</h3>
         {product.specs?.length ? <p className="mt-3 line-clamp-2 text-sm leading-6 text-slate-600">{product.specs[0]}</p> : null}
         <span className="mt-auto inline-flex items-center gap-2 pt-5 text-sm font-black text-slate-950">
@@ -43,7 +43,7 @@ export function LincolnListingPage({ page }: LincolnListingPageProps) {
         <div className="mx-auto max-w-7xl">
           <div className="flex flex-col gap-6 border-b border-slate-300/70 pb-8 lg:flex-row lg:items-end lg:justify-between">
             <div>
-              <p className="text-xs font-black uppercase tracking-[0.28em] text-[#0877ff]">Product List</p>
+              <p className="text-xs font-black uppercase tracking-[0.28em] text-[#5BC0BB]">Product List</p>
               <h2 className="mt-4 max-w-3xl text-2xl font-black  text-slate-950 md:text-3xl ">
                 STEP Lincoln switches, sockets, plates and accessories.
               </h2>
@@ -81,7 +81,7 @@ export function LincolnListingPage({ page }: LincolnListingPageProps) {
                 <h2 className="text-lg font-black text-slate-950">Downloads</h2>
                 <div className="mt-4 grid gap-3">
                   {pdfLinks.map((link) => (
-                    <a key={link.href} href={link.href} target="_blank" className="inline-flex items-center justify-between gap-3 rounded-[8px] border border-slate-200 bg-white px-4 py-3 text-sm font-bold text-slate-800 transition hover:border-[#0877ff]/35 hover:text-[#0877ff]">
+                    <a key={link.href} href={link.href} target="_blank" className="inline-flex items-center justify-between gap-3 rounded-[8px] border border-slate-200 bg-white px-4 py-3 text-sm font-bold text-slate-800 transition hover:border-[#5BC0BB]/35 hover:text-[#5BC0BB]">
                       {link.text || "View Details"}
                       <FaDownload aria-hidden="true" className="shrink-0 text-xs" />
                     </a>

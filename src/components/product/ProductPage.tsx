@@ -2,7 +2,9 @@ import { CleanContent } from "@/components/content/CleanContent";
 import { PageHero } from "@/components/PageHero";
 import { PageSummary } from "@/components/pages/PageSummary";
 import { CadillacListingPage } from "./cadillac/CadillacProductPage";
+import { ConductorProductPage, isConductorProductPage } from "./conductor/ConductorProductPage";
 import { LincolnListingPage } from "./lincoln/LincolnProductPage";
+import { ProductQuoteButton } from "./ProductQuoteButton";
 import { WireAndCableListingPage } from "./wire-and-cable/WireAndCableListingPage";
 import { isWireAndCablePage, WireAndCableProductPage } from "./wire-and-cable/WireAndCableProductPage";
 import type { SitePage } from "@/lib/content";
@@ -35,7 +37,7 @@ function getProductFallbackImage(page: SitePage) {
   }
 
   if (value.includes("conductor") || value.includes("aac") || value.includes("aaac") || value.includes("acsr") || value.includes("acar") || value.includes("al-59")) {
-    return "/assets/img/conductor.jpg";
+    return "/new-product-img/conductor/aac.png";
   }
 
   if (value.includes("power") || value.includes("control") || value.includes("xlpe") || value.includes("pvc")) {
@@ -70,6 +72,10 @@ export function ProductPage({ page }: ProductPageProps) {
     return <WireAndCableProductPage page={page} fallbackImage={getProductFallbackImage(page)} />;
   }
 
+  if (isConductorProductPage(page.slug)) {
+    return <ConductorProductPage page={page} />;
+  }
+
   const pdfLinks = page.links.filter((link) => link.href.toLowerCase().endsWith(".pdf"));
   const validImages = getValidPageImages(page);
   const pageImages = validImages.filter((image) => image.src !== page.image);
@@ -90,6 +96,12 @@ export function ProductPage({ page }: ProductPageProps) {
               <p className="text-xs font-black uppercase tracking-[0.22em] text-brand-dark sm:tracking-[0.32em]">Product Image</p>
               <h2 className="mt-4 text-2xl font-black leading-tight sm:text-3xl lg:text-4xl">{page.h1 || page.title}</h2>
               {page.description ? <p className="mt-5 text-sm leading-7 text-slate-600 sm:text-base sm:leading-8">{page.description}</p> : null}
+              <div className="mt-7">
+                <ProductQuoteButton
+                  productName={page.h1 || page.title}
+                  className="inline-flex w-fit items-center justify-center gap-2 rounded-full bg-[#5BC0BB] px-6 py-3 text-sm font-black text-white shadow-lg shadow-[#5BC0BB]/20 transition hover:-translate-y-0.5 hover:bg-[#3AA9A4]"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -124,6 +136,13 @@ export function ProductPage({ page }: ProductPageProps) {
             ) : null}
           </div>
           <aside className="space-y-5">
+            <div className="rounded-[20px] border border-brand-teal/15 bg-white/78 p-5 shadow-xl shadow-slate-900/5 backdrop-blur-lg">
+              <h2 className="text-lg font-black text-slate-900">Need Pricing?</h2>
+              <p className="mt-2 text-sm leading-6 text-slate-600">Share your requirement and our team will connect with product pricing and availability.</p>
+              <div className="mt-4">
+                <ProductQuoteButton productName={page.h1 || page.title} />
+              </div>
+            </div>
             {pdfLinks.length ? (
               <div className="rounded-[20px] border border-brand-teal/15 bg-white/78 p-5 shadow-xl shadow-slate-900/5 backdrop-blur-lg">
                 <h2 className="text-lg font-black text-slate-900">Downloads</h2>
