@@ -21,13 +21,13 @@ export function HomePage() {
       <NetworkStats />
       <PremiumProductCategories />
       <PremiumAboutSection />
-      <PremiumReelsSection /> 
       <PremiumPromoGrid />
       <PremiumDistributionNetwork />
       <PremiumWhyChooseSection />
+      <PremiumReelsSection /> 
       {/* <PremiumFeaturedProducts /> */}
       {/* <PremiumTrustSection /> */}
-      <PremiumTestimonials />
+      {/* <PremiumTestimonials /> */}
       {/* <PremiumContactCta /> */}
       {/* <PremiumDealerBanner /> */}
     </div>

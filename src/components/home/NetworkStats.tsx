@@ -80,9 +80,9 @@ export function NetworkStats() {
           What&apos;s New
         </h2>
         <div className="relative flex min-w-0 flex-1 overflow-hidden whitespace-nowrap">
-          <p className="network-news-marquee py-4 text-base font-semibold text-slate-600">
-            Introducing a complete range of wires, cables and conductors crafted for modern homes, industries, utilities and EPC projects.
-          </p>
+         <p className="network-news-marquee py-4 text-base font-semibold text-slate-600">
+  STEP Cable delivers a comprehensive range of high-quality wires, cables and conductors engineered for reliable performance, superior durability and safe power transmission across residential, commercial, industrial, utility, infrastructure and EPC projects. Our products are designed to meet diverse electrical requirements while ensuring consistent quality, efficiency and long-lasting performance.
+</p>
         </div>
       </div>
 

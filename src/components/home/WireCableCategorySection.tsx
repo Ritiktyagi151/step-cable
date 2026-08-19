@@ -5,7 +5,7 @@ const wireCableCategories: GalleryCategory[] = [
     title: "House & Building Wires",
     eyebrow: "FR / FRLS / Z+",
     href: "/housing-wiring-electrical-building-wire",
-    image: "/homepage-img/catogory-img/house-and-buildingwire.png",
+    image: "/homepage-img/catogory-img/house_wiring_930x260.png",
   },
   {
     title: "Industrial Cables",
@@ -29,7 +29,7 @@ const wireCableCategories: GalleryCategory[] = [
     title: "Aerial Bunched Cables",
     eyebrow: "ABC / XLPE",
     href: "/ab-cable",
-    image: "/assets/img/cable-wires.jpg",
+    image: "/homepage-img/catogory-img/aerial-bunched-cables.png",
   },
 ];
 

@@ -14,7 +14,6 @@ export const navGroups = [
     label: "EPC Business",
     href: "/about-epc-business",
     links: [
-      ["About EPC Business", "/about-epc-business"],
       ["Design & Engineering", "/design-engineering-capabilities"],
       ["Quality Assurance", "/quality-assurance-system"],
       ["Safety Management", "/safety-management-pratice"],
@@ -25,7 +24,6 @@ export const navGroups = [
     label: "Wire and Cables",
     href: "/about-step-cables",
     links: [
-      ["About Step Cables", "/about-step-cables"],
       ["Housing Wiring", "/housing-wiring-electrical-building-wire"],
       ["Z+ Security Wire", "/electrical-building-wire"],
       ["Industrial Cables", "/single-core-multicore-industrial-cables"],
@@ -77,8 +75,8 @@ export const mainNavLinks = [
   ["About", "/about-step-industry"],
   ["EPC Business", "/about-epc-business"],
   ["Wire and Cables", "/about-step-cables"],
-  ["Conductor", "/conductor"],
-  ["Switch and Accessories", "/modular-switches"]
+  ["Switch and Accessories", "/modular-switches"],
+  ["Conductor", "/conductor"]
   // ["Contact", "/contact"]
 ] as const;
 
