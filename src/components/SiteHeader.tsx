@@ -417,7 +417,7 @@ export function SiteHeader() {
           <div className="relative z-10 flex h-full flex-col justify-between gap-10">
             <div>
               <div className="inline-flex rounded-2xl bg-white/90 p-3 shadow-xl shadow-black/20">
-                <img src="/assetshome/img/logo-step.png" alt="Step Cables" className="h-12 w-auto" />
+                <img src="/new-logo.png" alt="Step Cables" className="h-12 w-auto" />
               </div>
               <p className="mt-8 text-xs font-black uppercase tracking-[0.32em] text-brand-teal">Wire & Conductor Supply</p>
               <h2 className="mt-4 text-3xl font-black leading-tight sm:text-4xl">Connect with Step Cables</h2>
@@ -510,7 +510,7 @@ export function SiteHeader() {
         <Link href="/" className="flex min-w-0 items-center gap-3" onClick={closeMenu}>
           <span className="flex h-10 w-[70px] items-center overflow-visible sm:w-[76px] lg:h-10 lg:w-[72px] xl:h-11 xl:w-[80px] 2xl:h-12 2xl:w-[88px]">
             <img
-              src="/assetshome/img/logo-step.png"
+              src="/new-logo.png"
               alt="Step Cables"
               width={126}
               height={80}

@@ -85,7 +85,7 @@ export function SiteFooter() {
 
       <div className="relative mx-auto grid max-w-[88rem] grid-cols-2 gap-8 px-4 py-12 sm:px-6 md:gap-10 lg:grid-cols-[1.25fr_0.75fr_0.95fr_0.95fr_1.2fr] lg:px-8">
         <div className="col-span-2 lg:col-span-1">
-          <img src="/assetshome/img/logo-step.png" alt="Step Cables" className="h-14 w-auto" />
+          <img src="/new-logo.png" alt="Step Cables" className="h-11 w-auto" />
           <p className="mt-5 max-w-md text-sm leading-7 text-white/78">
             Step Cables delivers wires, power cables, aluminum conductors and EPC business solutions for residential, industrial, utility and infrastructure applications.
           </p>

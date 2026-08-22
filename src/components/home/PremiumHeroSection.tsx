@@ -58,8 +58,8 @@ export function PremiumHeroSection() {
   }, [activeSlide]);
 
   return (
-    <section className="relative min-h-[80vh] overflow-hidden bg-[#f5f4f1]">
-      <div className="relative min-h-[80vh]">
+    <section className="relative min-h-[81vh] overflow-hidden bg-[#f5f4f1]">
+      <div className="relative min-h-[81vh]">
         {slides.map((slide, index) => {
           const isActive = index === activeSlide;
 

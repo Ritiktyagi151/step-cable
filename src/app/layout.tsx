@@ -6,9 +6,9 @@ export const metadata: Metadata = {
   title: "Step Cables",
   description: "Step Cables website",
   icons: {
-    icon: "/favicon.png",
-    shortcut: "/favicon.png",
-    apple: "/favicon.png"
+    icon: "/new-logo.png",
+    shortcut: "/new-logo.png",
+    apple: "/new-logo.png"
   }
 };
 
