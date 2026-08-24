@@ -79,6 +79,8 @@ const pageDataFiles = [
   "sitemap-pages.json",
   "wire-and-cables.json",
   "switches-and-accessories.json",
+  "step-lincoln.json",
+  "step-cadillac.json",
   "conductors.json",
 ] as const;
 

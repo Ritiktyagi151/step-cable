@@ -4,13 +4,15 @@ import { useEffect, useRef, useState } from "react";
 import { FaBolt, FaIndustry, FaLayerGroup, FaLongArrowAltRight } from "react-icons/fa";
 import { pageRegistry } from "@/components/pages/pageRegistry";
 import conductors from "@/data/conductors.json";
+import stepCadillac from "@/data/step-cadillac.json";
+import stepLincoln from "@/data/step-lincoln.json";
 import switchesAndAccessories from "@/data/switches-and-accessories.json";
 import wireAndCables from "@/data/wire-and-cables.json";
 import { homeProducts } from "./homeData";
 
 const productIcons = [FaBolt, FaIndustry, FaLayerGroup, FaLongArrowAltRight];
 const productSlugSet = new Set<string>(pageRegistry.product);
-const productPages = [...wireAndCables, ...conductors, ...switchesAndAccessories];
+const productPages = [...wireAndCables, ...conductors, ...switchesAndAccessories, ...stepLincoln, ...stepCadillac];
 const productMarqueeItems = productPages
   .filter((product) => productSlugSet.has(product.slug))
   .map((product) => ({

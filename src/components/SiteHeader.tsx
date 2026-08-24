@@ -18,6 +18,8 @@ import homePage from "@/data/home-page.json";
 import policyPages from "@/data/policy-pages.json";
 import sitemapPages from "@/data/sitemap-pages.json";
 import blogPostsData from "@/data/static-blog-posts.json";
+import stepCadillac from "@/data/step-cadillac.json";
+import stepLincoln from "@/data/step-lincoln.json";
 import switchesAndAccessories from "@/data/switches-and-accessories.json";
 import wireAndCables from "@/data/wire-and-cables.json";
 import { mainNavLinks, navGroups, topNavLinks } from "@/lib/navigation";
@@ -34,6 +36,8 @@ const pagesData = [
   ...sitemapPages,
   ...wireAndCables,
   ...switchesAndAccessories,
+  ...stepLincoln,
+  ...stepCadillac,
   ...conductors,
 ];
 
