@@ -1,10 +1,12 @@
 import { SiteFooter } from "./SiteFooter";
 import { SiteHeader } from "./SiteHeader";
+import { SiteLoader } from "./SiteLoader";
 import { FaWhatsapp } from "react-icons/fa";
 
 export function SiteShell({ children }: { children: React.ReactNode }) {
   return (
     <div className="min-h-screen overflow-x-hidden bg-white text-slate-800">
+      <SiteLoader />
       <SiteHeader />
       <main className="pt-14 lg:pt-[78px]">{children}</main>
       <SiteFooter />

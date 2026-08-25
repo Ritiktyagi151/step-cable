@@ -32,11 +32,47 @@ const aboutImages: Record<string, string> = {
   "csr-activity": "/assets/img/Step-Industries-CSR-Policy.jpg",
 };
 
+const aboutContentImages: Record<string, string> = {
+  "about-step-industry": "/assets/img/fwdfinalplantimages/Step-Industries-Manufacturing-Plant3.jpg",
+  "vision-misiion": "/about-page/vision-misiion.png",
+  philosophy: "/about-page/philosophy.png",
+  "csr-activity": "/about-page/csr-activity.png",
+  "core-values": "/assets/img/Step-Cables-HR-Philosophy.jpg",
+};
+
 const galleryImages = [
   "/assets/img/fwdfinalplantimages/Step-Cables-manufacturing-unit1.jpg",
   "/assets/img/fwdfinalplantimages/Wires-Cables-Quality-Control.jpg",
   "/assets/img/fwdfinalplantimages/Power-and-Control-Cables-Manufacturing-Unit.jpg",
 ] as const;
+
+const aboutGalleryImages: Record<string, readonly string[]> = {
+  "about-step-industry": [
+    "/assets/img/Step-Cables-Manufacturing-Plant.jpg",
+    "/assets/img/fwdfinalplantimages/Step-Industries-Manufacturing-Plant3.jpg",
+    "/assets/img/Client-of-Step-Industries.jpg",
+  ],
+  "vision-misiion": [
+    "/assets/img/banner/Step-Industries-Vision-Mission.jpg",
+    "/assets/img/fwdfinalplantimages/Step-Cables-Quality-Control.jpg",
+    "/assets/img/Project-Monitoring-Step-Industries.jpg",
+  ],
+  philosophy: [
+    "/assets/img/philosophy.jpg",
+    "/assets/img/fwdfinalplantimages/Wires-Cables-Quality-Control.jpg",
+    "/assets/img/fwdfinalplantimages/Step-Industries-manufacturing-plant5.jpg",
+  ],
+  "csr-activity": [
+    "/assets/img/Step-Industries-CSR-Policy.jpg",
+    "/assets/img/clients.jpg",
+    "/assets/img/clientss.jpg",
+  ],
+  "core-values": [
+    "/assets/img/Step-Cables-HR-Philosophy.jpg",
+    "/assets/img/hr-philosophy.jpg",
+    "/assets/img/Step-Industries-CSR-Policy.jpg",
+  ],
+};
 
 const aboutHighlights = [
   [FaAward, "30+ Years", "Electrical industry experience"],
@@ -54,6 +90,10 @@ const leadershipImage = "/assets/img/leadership.jpg";
 function getPageImage(page: SitePage) {
   if (page.image?.startsWith("/")) return page.image;
   return aboutImages[page.slug] || "/assets/img/Step-Cables-Manufacturing-Plant-LR.jpg";
+}
+
+function getContentImage(page: SitePage) {
+  return page.images[0]?.src || aboutContentImages[page.slug] || getPageImage(page);
 }
 
 function getLeadershipProfiles(blocks: SitePage["contentBlocks"]) {
@@ -236,9 +276,10 @@ function AboutBodyContent({ blocks }: { blocks: ContentBlock[] }) {
 
 export function AboutPage({ page }: AboutPageProps) {
   const heroImage = getPageImage(page);
+  const contentImage = getContentImage(page);
   const isLeadershipPage = page.slug === "our-leadership";
   const summaryParagraphs = page.contentBlocks.filter((block) => block.type === "paragraph").slice(0, 2);
-  const pageGallery = page.images.length ? page.images.slice(0, 3).map((image) => image.src) : galleryImages;
+  const pageGallery = page.images.length ? page.images.slice(0, 3).map((image) => image.src) : aboutGalleryImages[page.slug] || galleryImages;
   const sectionLinks = page.links.filter((link) => link.href && link.text).slice(0, 6);
   const leadershipProfiles = isLeadershipPage ? getLeadershipProfiles(page.contentBlocks) : [];
   const bodyBlocks = page.contentBlocks.filter((block) => !(block.type === "paragraph" && summaryParagraphs.some((summary) => summary.text === block.text)));
@@ -309,7 +350,7 @@ export function AboutPage({ page }: AboutPageProps) {
         <section className="overflow-hidden border-b border-brand-teal/15 bg-[#f7faf9]">
           <div className="mx-auto grid max-w-7xl gap-6 px-4 py-8 sm:px-6 sm:py-12 lg:grid-cols-[0.82fr_1.18fr] lg:px-8">
             <Reveal direction="left" className="relative min-h-[230px] overflow-hidden rounded-[18px] border border-brand-teal/15 bg-slate-950 shadow-2xl shadow-slate-900/10 sm:min-h-[340px]">
-              <img src={heroImage} alt="" className="absolute inset-0 h-full w-full object-cover opacity-88 transition duration-700 hover:scale-105" />
+              <img src={contentImage} alt="" className="absolute inset-0 h-full w-full object-cover opacity-88 transition duration-700 hover:scale-105" />
               <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-slate-950/86 to-transparent p-6">
                 <p className="text-xs font-black uppercase tracking-[0.24em] text-brand-teal">About Step</p>
                 <h2 className="mt-3 text-2xl font-black text-white">Miles ahead with dependable electrical solutions.</h2>

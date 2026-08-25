@@ -175,13 +175,13 @@ function HeaderDropdown({ group }: { group: (typeof navGroups)[number] }) {
 
   return (
     <div className="group relative">
-      <Link
-        href={group.href}
+      <button
+        type="button"
         className={`flex items-center gap-1.5 whitespace-nowrap rounded-full px-3 py-2 text-sm font-semibold text-slate-700 transition duration-300 hover:bg-brand-teal/10 hover:text-brand-dark lg:px-2 lg:text-xs xl:px-2.5 xl:text-[13px] 2xl:px-3 2xl:text-sm ${active ? "bg-brand-teal/10 text-brand-dark" : ""}`}
       >
         <span>{group.label}</span>
         <FaChevronDown aria-hidden="true" className="text-[10px] transition group-hover:rotate-180" />
-      </Link>
+      </button>
       <div className={`invisible absolute top-full pt-3 opacity-0 transition duration-300 group-hover:visible group-hover:opacity-100 ${switchAccessoryCards ? "left-1/2 w-[min(460px,calc(100vw-32px))] -translate-x-1/2" : `left-1/2 ${dropdownWidth} -translate-x-1/2`}`}>
         <div className={`overflow-hidden border bg-white shadow-2xl shadow-slate-900/12 ${switchAccessoryCards ? "rounded-[18px] border-brand-teal/15 py-2 backdrop-blur-lg" : "rounded-[14px] border-slate-200/80 p-2.5"}`}>
           {switchAccessoryCards ? (

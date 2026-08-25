@@ -19,9 +19,9 @@ type RevealProps = {
 
 const epcImages: Record<string, string> = {
   "about-epc-business": "/assets/img/slider/EPC-Companies-Step-Industries.jpg",
-  "design-engineering-capabilities": "/assets/img/banner/Step-Industries-Design-and-Engineering.jpg",
-  "quality-assurance-system": "/assets/img/banner/Quality-Assurance-Step-Industries.jpg",
-  "safety-management-pratice": "/assets/img/Safety-Management-Practice.jpg",
+  "design-engineering-capabilities": "/epc-business/design-engineering-capabilities.png",
+  "quality-assurance-system": "/epc-business/quality-assurance-system.png",
+  "safety-management-pratice": "/epc-business/safety-management-pratice.png",
   "project-monitoring": "/assets/img/Project-Monitoring-Step-Industries.jpg",
 };
 
@@ -76,12 +76,11 @@ export function EpcPage({ page }: EpcPageProps) {
 
   return (
     <>
-      <section className="relative isolate overflow-hidden bg-slate-950 text-white">
-        <img src={heroImage} alt="" className="epc-hero-image absolute inset-0 -z-30 h-full w-full object-cover opacity-62" />
-        <div className="absolute inset-0 -z-20 bg-[linear-gradient(110deg,rgba(4,20,27,0.97),rgba(4,20,27,0.76)_52%,rgba(91,192,187,0.30))]" />
-        <div className="absolute inset-0 -z-10 bg-[linear-gradient(rgba(255,255,255,0.07)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.07)_1px,transparent_1px)] bg-[size:50px_50px]" />
+      <section className="relative isolate overflow-hidden  text-white">
+        <img src={heroImage} alt="" className="absolute inset-0 -z-30 h-full w-full scale-[1.03] object-fill" />
+        <div className="absolute inset-0 -z-20 bg-gradient-to-t from-slate-950/88 to-transparent" />
 
-        <div className="mx-auto grid min-h-[420px] max-w-7xl items-end gap-8 px-4 pb-8 pt-24 sm:px-6 sm:pb-10 lg:grid-cols-[minmax(0,1fr)_340px] lg:px-8 lg:pb-12">
+        <div className="mx-auto grid min-h-[350px] max-w-7xl items-end gap-8 px-4 pb-8 pt-24 sm:px-6 sm:pb-10 lg:grid-cols-[minmax(0,1fr)_340px] lg:px-8 lg:pb-12">
           <Reveal direction="left" className="max-w-5xl">
             <div className="mb-5 flex items-center gap-3">
               <span className="h-1 w-14 rounded-full bg-brand-teal" />
@@ -93,7 +92,7 @@ export function EpcPage({ page }: EpcPageProps) {
           </Reveal>
 
           <Reveal direction="right" delay={140} className="hidden lg:block">
-            <div className="epc-float-panel rounded-[18px] border border-white/18 bg-white/12 p-4 shadow-2xl shadow-black/20 backdrop-blur-xl">
+            <div className="rounded-[18px] border border-white/18 bg-white/12 p-4 shadow-2xl shadow-black/20 backdrop-blur-xl">
               <p className="text-xs font-black uppercase tracking-[0.24em] text-[#7ee0da]">Core Scope</p>
               <div className="mt-4 grid gap-3">
                 {epcHighlights.map(([Icon, title, text]) => (

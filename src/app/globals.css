@@ -1239,14 +1239,6 @@ main {
   animation: about-gallery-card 780ms ease both;
 }
 
-.epc-hero-image {
-  animation: epc-hero-image 15s ease-in-out infinite alternate;
-}
-
-.epc-float-panel {
-  animation: epc-float-panel 5.2s ease-in-out infinite;
-}
-
 .product-reveal {
   opacity: 0;
   transform: translateY(28px);
@@ -1394,25 +1386,6 @@ main {
   }
 }
 
-@keyframes epc-hero-image {
-  from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(1.07);
-  }
-}
-
-@keyframes epc-float-panel {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-8px);
-  }
-}
-
 @media (prefers-reduced-motion: reduce) {
   .hero-slide,
   .application-card,
@@ -1422,9 +1395,7 @@ main {
   .network-news-marquee,
   .about-hero-image,
   .about-float-panel,
-  .about-gallery-card,
-  .epc-hero-image,
-  .epc-float-panel {
+  .about-gallery-card {
     animation: none;
   }
 

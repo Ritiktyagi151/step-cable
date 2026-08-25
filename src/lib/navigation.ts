@@ -3,7 +3,6 @@ export const navGroups = [
     label: "About",
     href: "/about-step-industry",
     links: [
-      ["About Step Industries", "/about-step-industry"],
       ["Our Leadership", "/our-leadership"],
       ["Vision & Mission", "/vision-misiion"],
       ["Philosophy", "/philosophy"],
@@ -38,7 +37,7 @@ export const navGroups = [
   },
   {
     label: "Conductor",
-    href: "/all-aluminum-conductor",
+    href: "/conductor",
     links: [
       ["AAC", "/all-aluminum-conductor"],
       ["AAAC", "/all-alloy-aluminum-conductor"],

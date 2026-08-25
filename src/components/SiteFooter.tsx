@@ -21,6 +21,7 @@ const businessLinks: Array<[string, string]> = navGroups.flatMap((group) =>
 const quickFooterLinks: Array<[string, string]> = [
   ...mainNavLinks.map(([label, href]) => [label, href] as [string, string]),
   ...topNavLinks.map(([label, href]) => [label, href] as [string, string]),
+  ["Contact Us", "/contact"],
   ["Blog", "/blog"],
   ["Manufacturing Plant", "/manufacturing-plant"],
   // ["Manufacturing Plant 2", "/manufacturing-plant-2"],
