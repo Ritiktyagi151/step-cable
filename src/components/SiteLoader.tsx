@@ -17,17 +17,34 @@ function isInternalNavigation(anchor: HTMLAnchorElement) {
   return nextUrl.pathname !== currentUrl.pathname || nextUrl.search !== currentUrl.search;
 }
 
+function isHomeHref(anchor: HTMLAnchorElement) {
+  const nextUrl = new URL(anchor.href);
+  return nextUrl.pathname === "/";
+}
+
 export function SiteLoader() {
   const pathname = usePathname();
+  const isHomePage = pathname === "/";
   const [visible, setVisible] = useState(true);
   const timeoutRef = useRef<number | null>(null);
 
   useEffect(() => {
+    if (!isHomePage) {
+      setVisible(false);
+      return;
+    }
+
+    setVisible(true);
     const timer = window.setTimeout(() => setVisible(false), 650);
     return () => window.clearTimeout(timer);
-  }, []);
+  }, [isHomePage]);
 
   useEffect(() => {
+    if (!isHomePage) {
+      setVisible(false);
+      return;
+    }
+
     if (timeoutRef.current) {
       window.clearTimeout(timeoutRef.current);
     }
@@ -39,7 +56,7 @@ export function SiteLoader() {
         window.clearTimeout(timeoutRef.current);
       }
     };
-  }, [pathname]);
+  }, [isHomePage, pathname]);
 
   useEffect(() => {
     const handleClick = (event: MouseEvent) => {
@@ -48,11 +65,16 @@ export function SiteLoader() {
       const target = event.target instanceof Element ? event.target.closest("a") : null;
       if (!(target instanceof HTMLAnchorElement)) return;
       if (!isInternalNavigation(target)) return;
+      if (!isHomeHref(target)) return;
 
       setVisible(true);
     };
 
-    const handleBeforeUnload = () => setVisible(true);
+    const handleBeforeUnload = () => {
+      if (window.location.pathname === "/") {
+        setVisible(true);
+      }
+    };
 
     document.addEventListener("click", handleClick, true);
     window.addEventListener("beforeunload", handleBeforeUnload);
@@ -62,6 +84,8 @@ export function SiteLoader() {
       window.removeEventListener("beforeunload", handleBeforeUnload);
     };
   }, []);
+
+  if (!isHomePage) return null;
 
   return (
     <div
