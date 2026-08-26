@@ -12,6 +12,9 @@ type LincolnListingPageProps = {
 };
 
 function getProductCategory(product: CadillacProduct) {
+  const categorySpec = product.specs?.find((spec) => spec.startsWith("Category: "))?.replace("Category: ", "");
+  if (categorySpec) return categorySpec;
+
   const title = product.title || product.alt || "";
   const code = product.code || "";
 

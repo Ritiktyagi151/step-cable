@@ -5,6 +5,7 @@ import type { CadillacProduct } from "../rangeProducts";
 import { getLincolnProducts } from "../rangeProducts";
 import { MoreProductsSlider } from "../MoreProductsSlider";
 import { ProductQuoteButton } from "../ProductQuoteButton";
+import { ProductPrintButton } from "../ProductPrintButton";
 
 const lincolnDetailFeatures = [
   [FaLayerGroup, "Modular range"],
@@ -36,11 +37,20 @@ export function LincolnProductDetailPage({ page, product }: LincolnProductDetail
               <p className="text-xs font-black uppercase tracking-[0.28em] text-[#5BC0BB]">STEP Lincoln Product</p>
               <h1 className="mt-4 text-3xl font-black leading-tight text-slate-950 sm:text-5xl">{product.title || product.alt}</h1>
               {product.code ? <p className="mt-5 inline-flex w-fit rounded-full bg-[#5BC0BB]/10 px-4 py-2 text-sm font-black text-[#5BC0BB]">{product.code}</p> : null}
-              <div className="mt-6">
+              <div className="mt-6 flex flex-wrap gap-3">
                 <ProductQuoteButton
                   productName={product.title || product.alt}
                   productCode={product.code}
                   className="inline-flex w-fit items-center justify-center gap-2 rounded-full bg-[#5BC0BB] px-6 py-3 text-sm font-black text-white shadow-lg shadow-[#5BC0BB]/20 transition hover:-translate-y-0.5 hover:bg-[#3AA9A4]"
+                />
+                <ProductPrintButton
+                  productName={product.title || product.alt}
+                  productCode={product.code}
+                  productImage={product.src}
+                  productAlt={product.alt}
+                  specs={product.specs}
+                  printClassName="inline-flex w-fit items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-6 py-3 text-sm font-black text-slate-900 shadow-sm transition hover:-translate-y-0.5 hover:border-[#5BC0BB]/40 hover:text-[#5BC0BB]"
+                  downloadClassName="inline-flex w-fit items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-6 py-3 text-sm font-black text-slate-900 shadow-sm transition hover:-translate-y-0.5 hover:border-[#5BC0BB]/40 hover:text-[#5BC0BB]"
                 />
               </div>
               {product.specs?.length ? (
