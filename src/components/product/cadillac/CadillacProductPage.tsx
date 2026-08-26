@@ -5,10 +5,23 @@ import { PageHero } from "@/components/PageHero";
 import type { SitePage } from "@/lib/content";
 import type { CadillacProduct } from "../rangeProducts";
 import { getCadillacProducts } from "../rangeProducts";
+import { CadillacGroupSelect } from "./CadillacGroupSelect";
 
 type CadillacListingPageProps = {
   page: SitePage;
 };
+
+function getProductCategory(product: CadillacProduct) {
+  return product.specs?.find((spec) => spec.startsWith("Category: "))?.replace("Category: ", "") || "STEP Cadillac";
+}
+
+function slugifyGroup(value: string) {
+  return value
+    .toLowerCase()
+    .replace(/&/g, "and")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
 
 function CadillacProductCard({ product }: { product: CadillacProduct }) {
   return (
@@ -34,6 +47,18 @@ function CadillacProductCard({ product }: { product: CadillacProduct }) {
 export function CadillacListingPage({ page }: CadillacListingPageProps) {
   const products = getCadillacProducts(page);
   const pdfLinks = page.links.filter((link) => link.href.toLowerCase().endsWith(".pdf"));
+  const productGroups = products.reduce<{ category: string; products: CadillacProduct[] }[]>((groups, product) => {
+    const category = getProductCategory(product);
+    const group = groups.find((item) => item.category === category);
+
+    if (group) {
+      group.products.push(product);
+      return groups;
+    }
+
+    return [...groups, { category, products: [product] }];
+  }, []);
+  const groupCount = productGroups.length;
 
   return (
     <>
@@ -50,8 +75,8 @@ export function CadillacListingPage({ page }: CadillacListingPageProps) {
             </div>
             <div className="grid grid-cols-3 gap-3 text-center sm:min-w-[360px]">
               {[
-                [`${products.length}+`, "Items"],
-                ["12", "Groups"],
+                [`${products.length}`, "Items"],
+                [`${groupCount || 1}`, "Groups"],
                 ["2026", "Price List"],
               ].map(([value, label]) => (
                 <div key={label} className="rounded-[8px] border border-slate-200 bg-white p-4 shadow-sm">
@@ -62,9 +87,24 @@ export function CadillacListingPage({ page }: CadillacListingPageProps) {
             </div>
           </div>
 
-          <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-            {products.map((product) => (
-              <CadillacProductCard key={product.slug} product={product} />
+          <CadillacGroupSelect groups={productGroups.map((group) => ({ category: group.category, count: group.products.length, id: slugifyGroup(group.category) }))} />
+
+          <div className="mt-10 space-y-12">
+            {productGroups.map((group) => (
+              <section key={group.category} id={slugifyGroup(group.category)} className="scroll-mt-24">
+                <div className="mb-5 flex flex-col gap-2 border-b border-slate-300/70 pb-4 sm:flex-row sm:items-end sm:justify-between">
+                  <div>
+                    <p className="text-xs font-black uppercase tracking-[0.24em] text-[#5BC0BB]">Cadillac Group</p>
+                    <h3 className="mt-2 text-2xl font-black text-slate-950">{group.category}</h3>
+                  </div>
+                  <p className="text-sm font-bold text-slate-600">{group.products.length} products</p>
+                </div>
+                <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                  {group.products.map((product) => (
+                    <CadillacProductCard key={product.slug} product={product} />
+                  ))}
+                </div>
+              </section>
             ))}
           </div>
         </div>
