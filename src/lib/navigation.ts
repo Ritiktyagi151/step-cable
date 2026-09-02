@@ -61,7 +61,7 @@ export const navGroups = [
     label: "Company",
     href: "/certification",
     links: [
-      ["Career", "/current-openings"],
+      ["Career", "/career"],
       ["Reach Us", "/contact"],
       ["Blog", "/blog"]
     ]

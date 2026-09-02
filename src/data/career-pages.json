@@ -1,15 +1,15 @@
 [
   {
-    "slug": "application-form",
-    "url": "/application-form",
-    "title": "Job Application Form - STEP CABLES",
-    "description": "Looking for jobs in cable industry? we are hiring! Come let us know how talented you are.",
-    "keywords": "sales jobs, jobs in cable industry, jobs in epc company, epc engineer jobs, electrical sales jobs",
-    "canonical": "https://www.stepcable.com/application-form",
-    "image": "",
-    "h1": "Application Form",
+    "slug": "career",
+    "url": "/career",
+    "title": "Career - STEP CABLES",
+    "description": "Explore career opportunities at Step Cables across sales, operations, quality, production, and business support roles.",
+    "keywords": "Step Cable career, Step Cables jobs, electrical industry jobs, cable industry jobs, sales jobs, manufacturing jobs",
+    "canonical": "https://www.stepcable.com/career",
+    "image": "/assets/img/hr-philosophy.jpg",
+    "h1": "Career",
     "schema": [],
-    "contentText": "Application Form First Name Last Name Email Enter Address Here.. City select exampleInputFile checkbox Apply DO THE JOB QUICKLY Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Integer blandit nulla quis fermentum hendrerit. Vestibulum eu libero volutpat, portas quam acc, tempus sem. Donec sodales quam id lorem lobortis, vitae interdum nisl vehicula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam suscipit, elit quis facilisis dictum, diam justo volutpat dui. Cras id justo eget sapien scelerisque lacinia non a eros. HR Philosophy Current Openings Application Form",
+    "contentText": "Application Form Build your career with Step Cables, a growing electrical products and cable manufacturing company serving residential, industrial, utility, and infrastructure markets. We look for people who bring ownership, discipline, customer focus, and a willingness to learn. Our teams work across sales, channel development, operations, quality, production, engineering support, and business coordination. Why Work With Step Cables Professional work environment with regular learning and development. Opportunities to work with wires, cables, switchgear, lighting products, and electrical accessories. Exposure to channel sales, retail sales, dealer networks, project support, and manufacturing operations. A culture focused on quality, reliability, customer service, and long-term growth. Career Opportunities Business development and sales roles. Channel partner and dealer network management. Production, quality, and operations support. Technical and project coordination roles. Corporate and administrative roles based on current requirements. Apply Visit the Current Openings page to view available roles, or submit your details through the Application Form for future opportunities with Step Cables. Current Openings: /current-openings Application Form: /application-form",
     "contentBlocks": [
       {
         "type": "heading",
@@ -20,64 +20,219 @@
         "type": "form",
         "fields": [
           {
-            "label": "First Name",
-            "name": "fname",
-            "type": "f_name",
-            "placeholder": "First Name",
-            "required": true
-          },
-          {
-            "label": "Last Name",
-            "name": "lname",
-            "type": "l_name",
-            "placeholder": "Last Name",
+            "label": "Full Name",
+            "name": "name",
+            "type": "text",
+            "placeholder": "Enter your full name",
             "required": true
           },
           {
             "label": "Email",
             "name": "email",
-            "type": "input",
-            "placeholder": "Email",
+            "type": "email",
+            "placeholder": "Enter your email address",
             "required": true
           },
           {
-            "label": "Enter Address Here..",
-            "name": "Enter Address Here..",
-            "type": "textarea",
-            "placeholder": "Enter Address Here..",
+            "label": "Phone Number",
+            "name": "phone",
+            "type": "tel",
+            "placeholder": "Enter your phone number",
+            "required": false
+          },
+          {
+            "label": "Position Applied For",
+            "name": "subject",
+            "type": "text",
+            "placeholder": "Sales Executive, Production, Quality, etc.",
             "required": true
           },
           {
             "label": "City",
             "name": "city",
-            "type": "input",
-            "placeholder": "City",
-            "required": true
-          },
-          {
-            "label": "select",
-            "name": "select",
-            "type": "select",
-            "placeholder": "",
+            "type": "text",
+            "placeholder": "Enter your city",
             "required": false
           },
           {
-            "label": "exampleInputFile",
-            "name": "exampleInputFile",
+            "label": "Upload Resume",
+            "name": "resume",
             "type": "file",
             "placeholder": "",
             "required": false
           },
           {
-            "label": "checkbox",
-            "name": "checkbox",
+            "label": "Message",
+            "name": "message",
+            "type": "textarea",
+            "placeholder": "Tell us about your experience",
+            "required": true
+          },
+          {
+            "label": "I agree to be contacted by Step Cables regarding this application.",
+            "name": "consent",
             "type": "checkbox",
             "placeholder": "",
             "required": true
           }
         ],
         "buttons": [
-          "Apply"
+          "Submit Application"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Build your career with Step Cables, a growing electrical products and cable manufacturing company serving residential, industrial, utility, and infrastructure markets."
+      },
+      {
+        "type": "paragraph",
+        "text": "We look for people who bring ownership, discipline, customer focus, and a willingness to learn. Our teams work across sales, channel development, operations, quality, production, engineering support, and business coordination."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Why Work With Step Cables"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Professional work environment with regular learning and development.",
+          "Opportunities to work with wires, cables, switchgear, lighting products, and electrical accessories.",
+          "Exposure to channel sales, retail sales, dealer networks, project support, and manufacturing operations.",
+          "A culture focused on quality, reliability, customer service, and long-term growth."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Career Opportunities"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Business development and sales roles.",
+          "Channel partner and dealer network management.",
+          "Production, quality, and operations support.",
+          "Technical and project coordination roles.",
+          "Corporate and administrative roles based on current requirements."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Apply"
+      },
+      {
+        "type": "paragraph",
+        "text": "Visit the Current Openings page to view available roles, or submit your details through the Application Form for future opportunities with Step Cables."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Current Openings: /current-openings",
+          "Application Form: /application-form"
+        ]
+      }
+    ],
+    "links": [
+      {
+        "href": "/career",
+        "text": "Career"
+      },
+      {
+        "href": "/hr-philosophy",
+        "text": "HR Philosophy"
+      },
+      {
+        "href": "/current-openings",
+        "text": "Current Openings"
+      },
+      {
+        "href": "/application-form",
+        "text": "Application Form"
+      }
+    ],
+    "images": []
+  },
+  {
+    "slug": "application-form",
+    "url": "/application-form",
+    "title": "Job Application Form - STEP CABLES",
+    "description": "Looking for jobs in cable industry? we are hiring! Come let us know how talented you are.",
+    "keywords": "sales jobs, jobs in cable industry, jobs in epc company, epc engineer jobs, electrical sales jobs",
+    "canonical": "https://www.stepcable.com/application-form",
+    "image": "",
+    "h1": "Application Form",
+    "schema": [],
+    "contentText": "Application Form DO THE JOB QUICKLY Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Integer blandit nulla quis fermentum hendrerit. Vestibulum eu libero volutpat, portas quam acc, tempus sem. Donec sodales quam id lorem lobortis, vitae interdum nisl vehicula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam suscipit, elit quis facilisis dictum, diam justo volutpat dui. Cras id justo eget sapien scelerisque lacinia non a eros. HR Philosophy Current Openings Application Form",
+    "contentBlocks": [
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Application Form"
+      },
+      {
+        "type": "form",
+        "fields": [
+          {
+            "label": "Full Name",
+            "name": "name",
+            "type": "text",
+            "placeholder": "Enter your full name",
+            "required": true
+          },
+          {
+            "label": "Email",
+            "name": "email",
+            "type": "email",
+            "placeholder": "Enter your email address",
+            "required": true
+          },
+          {
+            "label": "Phone Number",
+            "name": "phone",
+            "type": "tel",
+            "placeholder": "Enter your phone number",
+            "required": false
+          },
+          {
+            "label": "Position Applied For",
+            "name": "subject",
+            "type": "text",
+            "placeholder": "Sales Executive, Production, Quality, etc.",
+            "required": true
+          },
+          {
+            "label": "City",
+            "name": "city",
+            "type": "text",
+            "placeholder": "Enter your city",
+            "required": false
+          },
+          {
+            "label": "Upload Resume",
+            "name": "resume",
+            "type": "file",
+            "placeholder": "",
+            "required": false
+          },
+          {
+            "label": "Message",
+            "name": "message",
+            "type": "textarea",
+            "placeholder": "Tell us about your experience",
+            "required": true
+          },
+          {
+            "label": "I agree to be contacted by Step Cables regarding this application.",
+            "name": "consent",
+            "type": "checkbox",
+            "placeholder": "",
+            "required": true
+          }
+        ],
+        "buttons": [
+          "Submit Application"
         ]
       },
       {
@@ -100,12 +255,20 @@
     ],
     "links": [
       {
-        "href": "hr-philosophy",
+        "href": "/career",
+        "text": "Career"
+      },
+      {
+        "href": "/hr-philosophy",
         "text": "HR Philosophy"
       },
       {
-        "href": "current-openings",
+        "href": "/current-openings",
         "text": "Current Openings"
+      },
+      {
+        "href": "/application-form",
+        "text": "Application Form"
       }
     ],
     "images": []
@@ -246,28 +409,8 @@
     ],
     "links": [
       {
-        "href": "#collapse1",
-        "text": "Business Development:"
-      },
-      {
-        "href": "#collapse2",
-        "text": "Job Responsibility:"
-      },
-      {
-        "href": "#collapse3",
-        "text": "Qualifications and Skills Requirements"
-      },
-      {
-        "href": "#collapse4",
-        "text": "Industry Preference:"
-      },
-      {
-        "href": "#collapse5",
-        "text": "Required education:"
-      },
-      {
-        "href": "#collapse6",
-        "text": "Required experience:"
+        "href": "/career",
+        "text": "Career"
       },
       {
         "href": "/hr-philosophy",
@@ -325,15 +468,19 @@
     ],
     "links": [
       {
-        "href": "hr-philosophy",
+        "href": "/career",
+        "text": "Career"
+      },
+      {
+        "href": "/hr-philosophy",
         "text": "HR Philosophy"
       },
       {
-        "href": "current-openings",
+        "href": "/current-openings",
         "text": "Current Openings"
       },
       {
-        "href": "application-form",
+        "href": "/application-form",
         "text": "Application Form"
       }
     ],

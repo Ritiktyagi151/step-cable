@@ -1,9 +1,9 @@
-[
+﻿[
   {
     "slug": "step-cadillac",
     "url": "/step-cadillac",
     "title": "STEP Cadillac Modular Switches and Accessories - Step Cables",
-    "description": "STEP Cadillac modular switches and accessories product list from Step Cables, updated with all 195 Cadillac products including switches, sockets, regulators, MCBs, boxes, plates, tape and fittings.",
+    "description": "STEP Cadillac modular switches and accessories product list from Step Cables, updated with all 196 Cadillac products including switches, sockets, regulators, MCBs, boxes, plates, tape and fittings.",
     "keywords": "STEP Cadillac, Cadillac switches, modular switches, Cadillac product list, Rover switches, Phoenix switches, Maximus switches, MCB, modular plates, Step Cables",
     "canonical": "https://www.stepcable.com/step-cadillac",
     "image": "/images/seo-page-img/modular-switch-board.jpg",
@@ -11,7 +11,7 @@
     "schema": [
       "{\"@context\":\"https://schema.org\",\"@type\":\"Product\",\"name\":\"STEP Cadillac Modular Switches\",\"brand\":{\"@type\":\"Brand\",\"name\":\"STEP\"},\"description\":\"STEP Cadillac modular switches and electrical accessories from Step Cables.\"}"
     ],
-    "contentText": "STEP Cadillac Modular Switches STEP Cadillac is a modular electrical accessories range from Step Cables. This page lists all 195 Cadillac products from the latest supplied website product data. Product categories include Rover Switches, Phoenix Flat, Phoenix Oval, Maximus, 6A / 16A Sockets, Communication Accessories, Support Accessories, Garnet - Dimmers & Regulators, Tiffany - Dimmers & Regulators, Storm - Dimmers & Regulators, PVC Insulated Tape, Motor Starter, Modular MCB, Miniature Circuit Breaker (SP), Miniature Circuit Breaker (DP), Changeover (DP), Isolator (DP), Aston MCB Distribution Box, Royce Ceiling Rose, Royce Round Angle/Batten, Zircon Surface Gang Box, LED Foot Light, Stellar Modular Plates, Taycan Modular Plates, Altair Modular Plates, Electrical Modular Box (GI), Combined Box. For price, scheme and packaging changes, use the official PDF in the Downloads section.",
+    "contentText": "STEP Cadillac Modular Switches STEP Cadillac is a modular electrical accessories range from Step Cables. This page lists all 196 Cadillac products from the latest supplied website product data. Product categories include Rover Switches, Phoenix Flat, Phoenix Oval, Maximus, 6A / 16A Sockets, Communication Accessories, Support Accessories, Garnet - Dimmers & Regulators, Tiffany - Dimmers & Regulators, Storm - Dimmers & Regulators, PVC Insulated Tape, Motor Starter, Modular MCB, Miniature Circuit Breaker (SP), Miniature Circuit Breaker (DP), Changeover (DP), Isolator (DP), Aston MCB Distribution Box, Royce Ceiling Rose, Royce Round Angle/Batten, Zircon Surface Gang Box, LED Foot Light, Stellar Modular Plates - White, Stellar Modular Plates - Chrome, Stellar Modular Plates - Black, Taycan Modular Plates - White, Taycan Modular Plates - Wooden, Altair Modular Plates, Electrical Modular Box (GI), Combined Box. For price, scheme and packaging changes, use the official PDF in the Downloads section.",
     "contentBlocks": [
       {
         "type": "paragraph",
@@ -39,7 +39,7 @@
           ],
           [
             "Phoenix Oval",
-            "4"
+            "5"
           ],
           [
             "Maximus",
@@ -118,12 +118,24 @@
             "3"
           ],
           [
-            "Stellar Modular Plates",
-            "30"
+            "Stellar Modular Plates - White",
+            "10"
           ],
           [
-            "Taycan Modular Plates",
-            "20"
+            "Stellar Modular Plates - Chrome",
+            "10"
+          ],
+          [
+            "Stellar Modular Plates - Black",
+            "10"
+          ],
+          [
+            "Taycan Modular Plates - White",
+            "10"
+          ],
+          [
+            "Taycan Modular Plates - Wooden",
+            "10"
           ],
           [
             "Altair Modular Plates",
@@ -325,24 +337,30 @@
             "Phoenix Oval",
             "White",
             "CAD-W3-001",
-            "6A. 1way Switch"
+            "6A.1way Switch"
           ],
           [
             "Phoenix Oval",
             "White",
             "CAD-W3-002",
-            "6A. 2way Switch"
+            "6A.2way Switch"
           ],
           [
             "Phoenix Oval",
             "White",
             "CAD-W3-003",
-            "16A.1way Switch"
+            "6A.Bell Push"
           ],
           [
             "Phoenix Oval",
             "White",
             "CAD-W3-004",
+            "16A.1way Switch"
+          ],
+          [
+            "Phoenix Oval",
+            "White",
+            "CAD-W3-005",
             "16A.2way Switch"
           ],
           [
@@ -838,301 +856,301 @@
             "Foot Light White Colour - 2M"
           ],
           [
-            "Stellar Modular Plates",
+            "Stellar Modular Plates - White",
             "White",
             "CAD-ST-001",
             "STELLAR Cover Plate White 1M"
           ],
           [
-            "Stellar Modular Plates",
+            "Stellar Modular Plates - White",
             "White",
             "CAD-ST-002",
             "STELLAR Cover Plate White 2M"
           ],
           [
-            "Stellar Modular Plates",
+            "Stellar Modular Plates - White",
             "White",
             "CAD-ST-003",
             "STELLAR Cover Plate White 3M"
           ],
           [
-            "Stellar Modular Plates",
+            "Stellar Modular Plates - White",
             "White",
             "CAD-ST-004",
             "STELLAR Cover Plate White 4M"
           ],
           [
-            "Stellar Modular Plates",
+            "Stellar Modular Plates - White",
             "White",
             "CAD-ST-005",
             "STELLAR Cover Plate White 6M"
           ],
           [
-            "Stellar Modular Plates",
+            "Stellar Modular Plates - White",
             "White",
             "CAD-ST-006",
             "STELLAR Cover Plate White 8M (H)"
           ],
           [
-            "Stellar Modular Plates",
+            "Stellar Modular Plates - White",
             "White",
             "CAD-ST-007",
             "STELLAR Cover Plate White 8M (V)"
           ],
           [
-            "Stellar Modular Plates",
+            "Stellar Modular Plates - White",
             "White",
             "CAD-ST-008",
             "STELLAR Cover Plate White 12M"
           ],
           [
-            "Stellar Modular Plates",
+            "Stellar Modular Plates - White",
             "White",
             "CAD-ST-009",
             "STELLAR Cover Plate White 16M"
           ],
           [
-            "Stellar Modular Plates",
+            "Stellar Modular Plates - White",
             "White",
             "CAD-ST-010",
             "STELLAR Cover Plate White 18M"
           ],
           [
-            "Stellar Modular Plates",
+            "Stellar Modular Plates - Chrome",
             "Chrome",
             "CAD-ST-001",
             "STELLAR Cover Plate Chrome 1M"
           ],
           [
-            "Stellar Modular Plates",
+            "Stellar Modular Plates - Chrome",
             "Chrome",
             "CAD-ST-002",
             "STELLAR Cover Plate Chrome 2M"
           ],
           [
-            "Stellar Modular Plates",
+            "Stellar Modular Plates - Chrome",
             "Chrome",
             "CAD-ST-003",
             "STELLAR Cover Plate Chrome 3M"
           ],
           [
-            "Stellar Modular Plates",
+            "Stellar Modular Plates - Chrome",
             "Chrome",
             "CAD-ST-004",
             "STELLAR Cover Plate Chrome 4M"
           ],
           [
-            "Stellar Modular Plates",
+            "Stellar Modular Plates - Chrome",
             "Chrome",
             "CAD-ST-005",
             "STELLAR Cover Plate Chrome 6M"
           ],
           [
-            "Stellar Modular Plates",
+            "Stellar Modular Plates - Chrome",
             "Chrome",
             "CAD-ST-006",
             "STELLAR Cover Plate Chrome 8M (H)"
           ],
           [
-            "Stellar Modular Plates",
+            "Stellar Modular Plates - Chrome",
             "Chrome",
             "CAD-ST-007",
             "STELLAR Cover Plate Chrome 8M (V)"
           ],
           [
-            "Stellar Modular Plates",
+            "Stellar Modular Plates - Chrome",
             "Chrome",
             "CAD-ST-008",
             "STELLAR Cover Plate Chrome 12M"
           ],
           [
-            "Stellar Modular Plates",
+            "Stellar Modular Plates - Chrome",
             "Chrome",
             "CAD-ST-009",
             "STELLAR Cover Plate Chrome 16M"
           ],
           [
-            "Stellar Modular Plates",
+            "Stellar Modular Plates - Chrome",
             "Chrome",
             "CAD-ST-010",
             "STELLAR Cover Plate Chrome 18M"
           ],
           [
-            "Stellar Modular Plates",
+            "Stellar Modular Plates - Black",
             "Black",
             "CAD-ST-001BL",
             "STELLAR Cover Plate Black 1M"
           ],
           [
-            "Stellar Modular Plates",
+            "Stellar Modular Plates - Black",
             "Black",
             "CAD-ST-002BL",
             "STELLAR Cover Plate Black 2M"
           ],
           [
-            "Stellar Modular Plates",
+            "Stellar Modular Plates - Black",
             "Black",
             "CAD-ST-003BL",
             "STELLAR Cover Plate Black 3M"
           ],
           [
-            "Stellar Modular Plates",
+            "Stellar Modular Plates - Black",
             "Black",
             "CAD-ST-004BL",
             "STELLAR Cover Plate Black 4M"
           ],
           [
-            "Stellar Modular Plates",
+            "Stellar Modular Plates - Black",
             "Black",
             "CAD-ST-005BL",
             "STELLAR Cover Plate Black 6M"
           ],
           [
-            "Stellar Modular Plates",
+            "Stellar Modular Plates - Black",
             "Black",
             "CAD-ST-006BL",
             "STELLAR Cover Plate Black 8M (H)"
           ],
           [
-            "Stellar Modular Plates",
+            "Stellar Modular Plates - Black",
             "Black",
             "CAD-ST-007BL",
             "STELLAR Cover Plate Black 8M (V)"
           ],
           [
-            "Stellar Modular Plates",
+            "Stellar Modular Plates - Black",
             "Black",
             "CAD-ST-008BL",
             "STELLAR Cover Plate Black 12M"
           ],
           [
-            "Stellar Modular Plates",
+            "Stellar Modular Plates - Black",
             "Black",
             "CAD-ST-009BL",
             "STELLAR Cover Plate Black 16M"
           ],
           [
-            "Stellar Modular Plates",
+            "Stellar Modular Plates - Black",
             "Black",
             "CAD-ST-010BL",
             "STELLAR Cover Plate Black 18M"
           ],
           [
-            "Taycan Modular Plates",
+            "Taycan Modular Plates - White",
             "White",
             "CAD-TAY-001",
             "TAYCAN Cover Plate White 1M"
           ],
           [
-            "Taycan Modular Plates",
+            "Taycan Modular Plates - White",
             "White",
             "CAD-TAY-002",
             "TAYCAN Cover Plate White 2M"
           ],
           [
-            "Taycan Modular Plates",
+            "Taycan Modular Plates - White",
             "White",
             "CAD-TAY-003",
             "TAYCAN Cover Plate White 3M"
           ],
           [
-            "Taycan Modular Plates",
+            "Taycan Modular Plates - White",
             "White",
             "CAD-TAY-004",
             "TAYCAN Cover Plate White 4M"
           ],
           [
-            "Taycan Modular Plates",
+            "Taycan Modular Plates - White",
             "White",
             "CAD-TAY-005",
             "TAYCAN Cover Plate White 6M"
           ],
           [
-            "Taycan Modular Plates",
+            "Taycan Modular Plates - White",
             "White",
             "CAD-TAY-006",
             "TAYCAN Cover Plate White 8M (H)"
           ],
           [
-            "Taycan Modular Plates",
+            "Taycan Modular Plates - White",
             "White",
             "CAD-TAY-007",
             "TAYCAN Cover Plate White 8M (V)"
           ],
           [
-            "Taycan Modular Plates",
+            "Taycan Modular Plates - White",
             "White",
             "CAD-TAY-008",
             "TAYCAN Cover Plate White 12M"
           ],
           [
-            "Taycan Modular Plates",
+            "Taycan Modular Plates - White",
             "White",
             "CAD-TAY-009",
             "TAYCAN Cover Plate White 16M"
           ],
           [
-            "Taycan Modular Plates",
+            "Taycan Modular Plates - White",
             "White",
             "CAD-TAY-010",
             "TAYCAN Cover Plate White 18M"
           ],
           [
-            "Taycan Modular Plates",
+            "Taycan Modular Plates - Wooden",
             "Wooden",
             "CAD-TAY-001",
             "TAYCAN Cover Plate Wood Texture 1M"
           ],
           [
-            "Taycan Modular Plates",
+            "Taycan Modular Plates - Wooden",
             "Wooden",
             "CAD-TAY-002",
             "TAYCAN Cover Plate Wood Texture 2M"
           ],
           [
-            "Taycan Modular Plates",
+            "Taycan Modular Plates - Wooden",
             "Wooden",
             "CAD-TAY-003",
             "TAYCAN Cover Plate Wood Texture 3M"
           ],
           [
-            "Taycan Modular Plates",
+            "Taycan Modular Plates - Wooden",
             "Wooden",
             "CAD-TAY-004",
             "TAYCAN Cover Plate Wood Texture 4M"
           ],
           [
-            "Taycan Modular Plates",
+            "Taycan Modular Plates - Wooden",
             "Wooden",
             "CAD-TAY-005",
             "TAYCAN Cover Plate Wood Texture 6M"
           ],
           [
-            "Taycan Modular Plates",
+            "Taycan Modular Plates - Wooden",
             "Wooden",
             "CAD-TAY-006",
             "TAYCAN Cover Plate Wood Texture 8M (H)"
           ],
           [
-            "Taycan Modular Plates",
+            "Taycan Modular Plates - Wooden",
             "Wooden",
             "CAD-TAY-007",
             "TAYCAN Cover Plate Wood Texture 8M (V)"
           ],
           [
-            "Taycan Modular Plates",
+            "Taycan Modular Plates - Wooden",
             "Wooden",
             "CAD-TAY-008",
             "TAYCAN Cover Plate Wood Texture 12M"
           ],
           [
-            "Taycan Modular Plates",
+            "Taycan Modular Plates - Wooden",
             "Wooden",
             "CAD-TAY-009",
             "TAYCAN Cover Plate Wood Texture 16M"
           ],
           [
-            "Taycan Modular Plates",
+            "Taycan Modular Plates - Wooden",
             "Wooden",
             "CAD-TAY-010",
             "TAYCAN Cover Plate Wood Texture 18M"
@@ -1710,51 +1728,63 @@
         ]
       },
       {
-        "src": "/product-images/cadillac/cadillac-p03-01.png",
-        "alt": "Phoenix Oval 6A. 1way Switch - White",
-        "title": "Phoenix Oval 6A. 1way Switch - White",
+        "src": "/new-product-img/step-cadillac/Phoenix Oval/phoenix-oval-6a-1way-switch-white.png",
+        "alt": "Phoenix Oval 6A.1way Switch - White",
+        "title": "Phoenix Oval 6A.1way Switch - White",
         "code": "CAD-W3-001",
         "specs": [
-          "6A. 1way Switch",
+          "6A.1way Switch",
           "Category: Phoenix Oval",
           "Variant: White",
           "Product code: CAD-W3-001"
         ]
       },
       {
-        "src": "/product-images/cadillac/cadillac-p03-02.png",
-        "alt": "Phoenix Oval 6A. 2way Switch - White",
-        "title": "Phoenix Oval 6A. 2way Switch - White",
+        "src": "/new-product-img/step-cadillac/Phoenix Oval/phoenix-oval-6a-2way-switch-white.png",
+        "alt": "Phoenix Oval 6A.2way Switch - White",
+        "title": "Phoenix Oval 6A.2way Switch - White",
         "code": "CAD-W3-002",
         "specs": [
-          "6A. 2way Switch",
+          "6A.2way Switch",
           "Category: Phoenix Oval",
           "Variant: White",
           "Product code: CAD-W3-002"
         ]
       },
       {
-        "src": "/product-images/cadillac/cadillac-p03-04.png",
-        "alt": "Phoenix Oval 16A.1way Switch - White",
-        "title": "Phoenix Oval 16A.1way Switch - White",
+        "src": "/new-product-img/step-cadillac/Phoenix Oval/phoenix-oval-6a-bell-push-white.png",
+        "alt": "Phoenix Oval 6A.Bell Push - White",
+        "title": "Phoenix Oval 6A.Bell Push - White",
         "code": "CAD-W3-003",
         "specs": [
-          "16A.1way Switch",
+          "6A.Bell Push",
           "Category: Phoenix Oval",
           "Variant: White",
           "Product code: CAD-W3-003"
         ]
       },
       {
-        "src": "/product-images/cadillac/cadillac-p03-05.png",
+        "src": "/new-product-img/step-cadillac/Phoenix Oval/phoenix-oval-16a-1way-switch-white.png",
+        "alt": "Phoenix Oval 16A.1way Switch - White",
+        "title": "Phoenix Oval 16A.1way Switch - White",
+        "code": "CAD-W3-004",
+        "specs": [
+          "16A.1way Switch",
+          "Category: Phoenix Oval",
+          "Variant: White",
+          "Product code: CAD-W3-004"
+        ]
+      },
+      {
+        "src": "/new-product-img/step-cadillac/Phoenix Oval/phoenix-oval-16a-2way-switch-white.png",
         "alt": "Phoenix Oval 16A.2way Switch - White",
         "title": "Phoenix Oval 16A.2way Switch - White",
-        "code": "CAD-W3-004",
+        "code": "CAD-W3-005",
         "specs": [
           "16A.2way Switch",
           "Category: Phoenix Oval",
           "Variant: White",
-          "Product code: CAD-W3-004"
+          "Product code: CAD-W3-005"
         ]
       },
       {
@@ -2742,601 +2772,601 @@
         ]
       },
       {
-        "src": "/product-images/cadillac/cadillac-p09-05.png",
-        "alt": "Stellar Modular Plates STELLAR Cover Plate White 1M - White",
-        "title": "Stellar Modular Plates STELLAR Cover Plate White 1M - White",
+        "src": "/new-product-img/step-cadillac/Stellar Modular Plates - White/stellar-modular-plates-white-1m.png",
+        "alt": "Stellar Modular Plates - White 1M",
+        "title": "Stellar Modular Plates - White 1M",
         "code": "CAD-ST-001",
         "specs": [
           "STELLAR Cover Plate White 1M",
-          "Category: Stellar Modular Plates",
+          "Category: Stellar Modular Plates - White",
           "Variant: White",
           "Product code: CAD-ST-001"
         ]
       },
       {
-        "src": "/product-images/cadillac/cadillac-p09-05.png",
-        "alt": "Stellar Modular Plates STELLAR Cover Plate White 2M - White",
-        "title": "Stellar Modular Plates STELLAR Cover Plate White 2M - White",
+        "src": "/new-product-img/step-cadillac/Stellar Modular Plates - White/stellar-modular-plates-white-2m.png",
+        "alt": "Stellar Modular Plates - White 2M",
+        "title": "Stellar Modular Plates - White 2M",
         "code": "CAD-ST-002",
         "specs": [
           "STELLAR Cover Plate White 2M",
-          "Category: Stellar Modular Plates",
+          "Category: Stellar Modular Plates - White",
           "Variant: White",
           "Product code: CAD-ST-002"
         ]
       },
       {
-        "src": "/product-images/cadillac/cadillac-p09-05.png",
-        "alt": "Stellar Modular Plates STELLAR Cover Plate White 3M - White",
-        "title": "Stellar Modular Plates STELLAR Cover Plate White 3M - White",
+        "src": "/new-product-img/step-cadillac/Stellar Modular Plates - White/stellar-modular-plates-white-3m.png",
+        "alt": "Stellar Modular Plates - White 3M",
+        "title": "Stellar Modular Plates - White 3M",
         "code": "CAD-ST-003",
         "specs": [
           "STELLAR Cover Plate White 3M",
-          "Category: Stellar Modular Plates",
+          "Category: Stellar Modular Plates - White",
           "Variant: White",
           "Product code: CAD-ST-003"
         ]
       },
       {
-        "src": "/product-images/cadillac/cadillac-p09-05.png",
-        "alt": "Stellar Modular Plates STELLAR Cover Plate White 4M - White",
-        "title": "Stellar Modular Plates STELLAR Cover Plate White 4M - White",
+        "src": "/new-product-img/step-cadillac/Stellar Modular Plates - White/stellar-modular-plates-white-4m.png",
+        "alt": "Stellar Modular Plates - White 4M",
+        "title": "Stellar Modular Plates - White 4M",
         "code": "CAD-ST-004",
         "specs": [
           "STELLAR Cover Plate White 4M",
-          "Category: Stellar Modular Plates",
+          "Category: Stellar Modular Plates - White",
           "Variant: White",
           "Product code: CAD-ST-004"
         ]
       },
       {
-        "src": "/product-images/cadillac/cadillac-p09-05.png",
-        "alt": "Stellar Modular Plates STELLAR Cover Plate White 6M - White",
-        "title": "Stellar Modular Plates STELLAR Cover Plate White 6M - White",
+        "src": "/new-product-img/step-cadillac/Stellar Modular Plates - White/stellar-modular-plates-white-6m.png",
+        "alt": "Stellar Modular Plates - White 6M",
+        "title": "Stellar Modular Plates - White 6M",
         "code": "CAD-ST-005",
         "specs": [
           "STELLAR Cover Plate White 6M",
-          "Category: Stellar Modular Plates",
+          "Category: Stellar Modular Plates - White",
           "Variant: White",
           "Product code: CAD-ST-005"
         ]
       },
       {
-        "src": "/product-images/cadillac/cadillac-p09-05.png",
-        "alt": "Stellar Modular Plates STELLAR Cover Plate White 8M (H) - White",
-        "title": "Stellar Modular Plates STELLAR Cover Plate White 8M (H) - White",
+        "src": "/new-product-img/step-cadillac/Stellar Modular Plates - White/stellar-modular-plates-white-8m-h.png",
+        "alt": "Stellar Modular Plates - White 8M (H)",
+        "title": "Stellar Modular Plates - White 8M (H)",
         "code": "CAD-ST-006",
         "specs": [
           "STELLAR Cover Plate White 8M (H)",
-          "Category: Stellar Modular Plates",
+          "Category: Stellar Modular Plates - White",
           "Variant: White",
           "Product code: CAD-ST-006"
         ]
       },
       {
-        "src": "/product-images/cadillac/cadillac-p09-08.png",
-        "alt": "Stellar Modular Plates STELLAR Cover Plate White 8M (V) - White",
-        "title": "Stellar Modular Plates STELLAR Cover Plate White 8M (V) - White",
+        "src": "/new-product-img/step-cadillac/Stellar Modular Plates - White/stellar-modular-plates-white-8m-v.png",
+        "alt": "Stellar Modular Plates - White 8M (V)",
+        "title": "Stellar Modular Plates - White 8M (V)",
         "code": "CAD-ST-007",
         "specs": [
           "STELLAR Cover Plate White 8M (V)",
-          "Category: Stellar Modular Plates",
+          "Category: Stellar Modular Plates - White",
           "Variant: White",
           "Product code: CAD-ST-007"
         ]
       },
       {
-        "src": "/product-images/cadillac/cadillac-p10-02.png",
-        "alt": "Stellar Modular Plates STELLAR Cover Plate White 12M - White",
-        "title": "Stellar Modular Plates STELLAR Cover Plate White 12M - White",
+        "src": "/new-product-img/step-cadillac/Stellar Modular Plates - White/stellar-modular-plates-white-12m.png",
+        "alt": "Stellar Modular Plates - White 12M",
+        "title": "Stellar Modular Plates - White 12M",
         "code": "CAD-ST-008",
         "specs": [
           "STELLAR Cover Plate White 12M",
-          "Category: Stellar Modular Plates",
+          "Category: Stellar Modular Plates - White",
           "Variant: White",
           "Product code: CAD-ST-008"
         ]
       },
       {
-        "src": "/product-images/cadillac/cadillac-p10-03.png",
-        "alt": "Stellar Modular Plates STELLAR Cover Plate White 16M - White",
-        "title": "Stellar Modular Plates STELLAR Cover Plate White 16M - White",
+        "src": "/new-product-img/step-cadillac/Stellar Modular Plates - White/stellar-modular-plates-white-16m.png",
+        "alt": "Stellar Modular Plates - White 16M",
+        "title": "Stellar Modular Plates - White 16M",
         "code": "CAD-ST-009",
         "specs": [
           "STELLAR Cover Plate White 16M",
-          "Category: Stellar Modular Plates",
+          "Category: Stellar Modular Plates - White",
           "Variant: White",
           "Product code: CAD-ST-009"
         ]
       },
       {
-        "src": "/product-images/cadillac/cadillac-p10-04.png",
-        "alt": "Stellar Modular Plates STELLAR Cover Plate White 18M - White",
-        "title": "Stellar Modular Plates STELLAR Cover Plate White 18M - White",
+        "src": "/new-product-img/step-cadillac/Stellar Modular Plates - White/stellar-modular-plates-white-18m.png",
+        "alt": "Stellar Modular Plates - White 18M",
+        "title": "Stellar Modular Plates - White 18M",
         "code": "CAD-ST-010",
         "specs": [
           "STELLAR Cover Plate White 18M",
-          "Category: Stellar Modular Plates",
+          "Category: Stellar Modular Plates - White",
           "Variant: White",
           "Product code: CAD-ST-010"
         ]
       },
       {
         "src": "/product-images/cadillac/cadillac-p09-06.png",
-        "alt": "Stellar Modular Plates STELLAR Cover Plate Chrome 1M - Chrome",
-        "title": "Stellar Modular Plates STELLAR Cover Plate Chrome 1M - Chrome",
+        "alt": "Stellar Modular Plates - Chrome 1M",
+        "title": "Stellar Modular Plates - Chrome 1M",
         "code": "CAD-ST-001",
         "specs": [
           "STELLAR Cover Plate Chrome 1M",
-          "Category: Stellar Modular Plates",
+          "Category: Stellar Modular Plates - Chrome",
           "Variant: Chrome",
           "Product code: CAD-ST-001"
         ]
       },
       {
         "src": "/product-images/cadillac/cadillac-p09-06.png",
-        "alt": "Stellar Modular Plates STELLAR Cover Plate Chrome 2M - Chrome",
-        "title": "Stellar Modular Plates STELLAR Cover Plate Chrome 2M - Chrome",
+        "alt": "Stellar Modular Plates - Chrome 2M",
+        "title": "Stellar Modular Plates - Chrome 2M",
         "code": "CAD-ST-002",
         "specs": [
           "STELLAR Cover Plate Chrome 2M",
-          "Category: Stellar Modular Plates",
+          "Category: Stellar Modular Plates - Chrome",
           "Variant: Chrome",
           "Product code: CAD-ST-002"
         ]
       },
       {
         "src": "/product-images/cadillac/cadillac-p09-06.png",
-        "alt": "Stellar Modular Plates STELLAR Cover Plate Chrome 3M - Chrome",
-        "title": "Stellar Modular Plates STELLAR Cover Plate Chrome 3M - Chrome",
+        "alt": "Stellar Modular Plates - Chrome 3M",
+        "title": "Stellar Modular Plates - Chrome 3M",
         "code": "CAD-ST-003",
         "specs": [
           "STELLAR Cover Plate Chrome 3M",
-          "Category: Stellar Modular Plates",
+          "Category: Stellar Modular Plates - Chrome",
           "Variant: Chrome",
           "Product code: CAD-ST-003"
         ]
       },
       {
         "src": "/product-images/cadillac/cadillac-p09-06.png",
-        "alt": "Stellar Modular Plates STELLAR Cover Plate Chrome 4M - Chrome",
-        "title": "Stellar Modular Plates STELLAR Cover Plate Chrome 4M - Chrome",
+        "alt": "Stellar Modular Plates - Chrome 4M",
+        "title": "Stellar Modular Plates - Chrome 4M",
         "code": "CAD-ST-004",
         "specs": [
           "STELLAR Cover Plate Chrome 4M",
-          "Category: Stellar Modular Plates",
+          "Category: Stellar Modular Plates - Chrome",
           "Variant: Chrome",
           "Product code: CAD-ST-004"
         ]
       },
       {
         "src": "/product-images/cadillac/cadillac-p09-06.png",
-        "alt": "Stellar Modular Plates STELLAR Cover Plate Chrome 6M - Chrome",
-        "title": "Stellar Modular Plates STELLAR Cover Plate Chrome 6M - Chrome",
+        "alt": "Stellar Modular Plates - Chrome 6M",
+        "title": "Stellar Modular Plates - Chrome 6M",
         "code": "CAD-ST-005",
         "specs": [
           "STELLAR Cover Plate Chrome 6M",
-          "Category: Stellar Modular Plates",
+          "Category: Stellar Modular Plates - Chrome",
           "Variant: Chrome",
           "Product code: CAD-ST-005"
         ]
       },
       {
         "src": "/product-images/cadillac/cadillac-p09-06.png",
-        "alt": "Stellar Modular Plates STELLAR Cover Plate Chrome 8M (H) - Chrome",
-        "title": "Stellar Modular Plates STELLAR Cover Plate Chrome 8M (H) - Chrome",
+        "alt": "Stellar Modular Plates - Chrome 8M (H)",
+        "title": "Stellar Modular Plates - Chrome 8M (H)",
         "code": "CAD-ST-006",
         "specs": [
           "STELLAR Cover Plate Chrome 8M (H)",
-          "Category: Stellar Modular Plates",
+          "Category: Stellar Modular Plates - Chrome",
           "Variant: Chrome",
           "Product code: CAD-ST-006"
         ]
       },
       {
         "src": "/product-images/cadillac/cadillac-p09-08.png",
-        "alt": "Stellar Modular Plates STELLAR Cover Plate Chrome 8M (V) - Chrome",
-        "title": "Stellar Modular Plates STELLAR Cover Plate Chrome 8M (V) - Chrome",
+        "alt": "Stellar Modular Plates - Chrome 8M (V)",
+        "title": "Stellar Modular Plates - Chrome 8M (V)",
         "code": "CAD-ST-007",
         "specs": [
           "STELLAR Cover Plate Chrome 8M (V)",
-          "Category: Stellar Modular Plates",
+          "Category: Stellar Modular Plates - Chrome",
           "Variant: Chrome",
           "Product code: CAD-ST-007"
         ]
       },
       {
         "src": "/product-images/cadillac/cadillac-p10-02.png",
-        "alt": "Stellar Modular Plates STELLAR Cover Plate Chrome 12M - Chrome",
-        "title": "Stellar Modular Plates STELLAR Cover Plate Chrome 12M - Chrome",
+        "alt": "Stellar Modular Plates - Chrome 12M",
+        "title": "Stellar Modular Plates - Chrome 12M",
         "code": "CAD-ST-008",
         "specs": [
           "STELLAR Cover Plate Chrome 12M",
-          "Category: Stellar Modular Plates",
+          "Category: Stellar Modular Plates - Chrome",
           "Variant: Chrome",
           "Product code: CAD-ST-008"
         ]
       },
       {
         "src": "/product-images/cadillac/cadillac-p10-03.png",
-        "alt": "Stellar Modular Plates STELLAR Cover Plate Chrome 16M - Chrome",
-        "title": "Stellar Modular Plates STELLAR Cover Plate Chrome 16M - Chrome",
+        "alt": "Stellar Modular Plates - Chrome 16M",
+        "title": "Stellar Modular Plates - Chrome 16M",
         "code": "CAD-ST-009",
         "specs": [
           "STELLAR Cover Plate Chrome 16M",
-          "Category: Stellar Modular Plates",
+          "Category: Stellar Modular Plates - Chrome",
           "Variant: Chrome",
           "Product code: CAD-ST-009"
         ]
       },
       {
         "src": "/product-images/cadillac/cadillac-p10-04.png",
-        "alt": "Stellar Modular Plates STELLAR Cover Plate Chrome 18M - Chrome",
-        "title": "Stellar Modular Plates STELLAR Cover Plate Chrome 18M - Chrome",
+        "alt": "Stellar Modular Plates - Chrome 18M",
+        "title": "Stellar Modular Plates - Chrome 18M",
         "code": "CAD-ST-010",
         "specs": [
           "STELLAR Cover Plate Chrome 18M",
-          "Category: Stellar Modular Plates",
+          "Category: Stellar Modular Plates - Chrome",
           "Variant: Chrome",
           "Product code: CAD-ST-010"
         ]
       },
       {
         "src": "/product-images/cadillac/cadillac-p09-07.png",
-        "alt": "Stellar Modular Plates STELLAR Cover Plate Black 1M - Black",
-        "title": "Stellar Modular Plates STELLAR Cover Plate Black 1M - Black",
+        "alt": "Stellar Modular Plates - Black 1M",
+        "title": "Stellar Modular Plates - Black 1M",
         "code": "CAD-ST-001BL",
         "specs": [
           "STELLAR Cover Plate Black 1M",
-          "Category: Stellar Modular Plates",
+          "Category: Stellar Modular Plates - Black",
           "Variant: Black",
           "Product code: CAD-ST-001BL"
         ]
       },
       {
         "src": "/product-images/cadillac/cadillac-p09-07.png",
-        "alt": "Stellar Modular Plates STELLAR Cover Plate Black 2M - Black",
-        "title": "Stellar Modular Plates STELLAR Cover Plate Black 2M - Black",
+        "alt": "Stellar Modular Plates - Black 2M",
+        "title": "Stellar Modular Plates - Black 2M",
         "code": "CAD-ST-002BL",
         "specs": [
           "STELLAR Cover Plate Black 2M",
-          "Category: Stellar Modular Plates",
+          "Category: Stellar Modular Plates - Black",
           "Variant: Black",
           "Product code: CAD-ST-002BL"
         ]
       },
       {
         "src": "/product-images/cadillac/cadillac-p09-07.png",
-        "alt": "Stellar Modular Plates STELLAR Cover Plate Black 3M - Black",
-        "title": "Stellar Modular Plates STELLAR Cover Plate Black 3M - Black",
+        "alt": "Stellar Modular Plates - Black 3M",
+        "title": "Stellar Modular Plates - Black 3M",
         "code": "CAD-ST-003BL",
         "specs": [
           "STELLAR Cover Plate Black 3M",
-          "Category: Stellar Modular Plates",
+          "Category: Stellar Modular Plates - Black",
           "Variant: Black",
           "Product code: CAD-ST-003BL"
         ]
       },
       {
         "src": "/product-images/cadillac/cadillac-p09-07.png",
-        "alt": "Stellar Modular Plates STELLAR Cover Plate Black 4M - Black",
-        "title": "Stellar Modular Plates STELLAR Cover Plate Black 4M - Black",
+        "alt": "Stellar Modular Plates - Black 4M",
+        "title": "Stellar Modular Plates - Black 4M",
         "code": "CAD-ST-004BL",
         "specs": [
           "STELLAR Cover Plate Black 4M",
-          "Category: Stellar Modular Plates",
+          "Category: Stellar Modular Plates - Black",
           "Variant: Black",
           "Product code: CAD-ST-004BL"
         ]
       },
       {
         "src": "/product-images/cadillac/cadillac-p09-07.png",
-        "alt": "Stellar Modular Plates STELLAR Cover Plate Black 6M - Black",
-        "title": "Stellar Modular Plates STELLAR Cover Plate Black 6M - Black",
+        "alt": "Stellar Modular Plates - Black 6M",
+        "title": "Stellar Modular Plates - Black 6M",
         "code": "CAD-ST-005BL",
         "specs": [
           "STELLAR Cover Plate Black 6M",
-          "Category: Stellar Modular Plates",
+          "Category: Stellar Modular Plates - Black",
           "Variant: Black",
           "Product code: CAD-ST-005BL"
         ]
       },
       {
         "src": "/product-images/cadillac/cadillac-p09-07.png",
-        "alt": "Stellar Modular Plates STELLAR Cover Plate Black 8M (H) - Black",
-        "title": "Stellar Modular Plates STELLAR Cover Plate Black 8M (H) - Black",
+        "alt": "Stellar Modular Plates - Black 8M (H)",
+        "title": "Stellar Modular Plates - Black 8M (H)",
         "code": "CAD-ST-006BL",
         "specs": [
           "STELLAR Cover Plate Black 8M (H)",
-          "Category: Stellar Modular Plates",
+          "Category: Stellar Modular Plates - Black",
           "Variant: Black",
           "Product code: CAD-ST-006BL"
         ]
       },
       {
         "src": "/product-images/cadillac/cadillac-p09-08.png",
-        "alt": "Stellar Modular Plates STELLAR Cover Plate Black 8M (V) - Black",
-        "title": "Stellar Modular Plates STELLAR Cover Plate Black 8M (V) - Black",
+        "alt": "Stellar Modular Plates - Black 8M (V)",
+        "title": "Stellar Modular Plates - Black 8M (V)",
         "code": "CAD-ST-007BL",
         "specs": [
           "STELLAR Cover Plate Black 8M (V)",
-          "Category: Stellar Modular Plates",
+          "Category: Stellar Modular Plates - Black",
           "Variant: Black",
           "Product code: CAD-ST-007BL"
         ]
       },
       {
         "src": "/product-images/cadillac/cadillac-p10-02.png",
-        "alt": "Stellar Modular Plates STELLAR Cover Plate Black 12M - Black",
-        "title": "Stellar Modular Plates STELLAR Cover Plate Black 12M - Black",
+        "alt": "Stellar Modular Plates - Black 12M",
+        "title": "Stellar Modular Plates - Black 12M",
         "code": "CAD-ST-008BL",
         "specs": [
           "STELLAR Cover Plate Black 12M",
-          "Category: Stellar Modular Plates",
+          "Category: Stellar Modular Plates - Black",
           "Variant: Black",
           "Product code: CAD-ST-008BL"
         ]
       },
       {
         "src": "/product-images/cadillac/cadillac-p10-03.png",
-        "alt": "Stellar Modular Plates STELLAR Cover Plate Black 16M - Black",
-        "title": "Stellar Modular Plates STELLAR Cover Plate Black 16M - Black",
+        "alt": "Stellar Modular Plates - Black 16M",
+        "title": "Stellar Modular Plates - Black 16M",
         "code": "CAD-ST-009BL",
         "specs": [
           "STELLAR Cover Plate Black 16M",
-          "Category: Stellar Modular Plates",
+          "Category: Stellar Modular Plates - Black",
           "Variant: Black",
           "Product code: CAD-ST-009BL"
         ]
       },
       {
         "src": "/product-images/cadillac/cadillac-p10-04.png",
-        "alt": "Stellar Modular Plates STELLAR Cover Plate Black 18M - Black",
-        "title": "Stellar Modular Plates STELLAR Cover Plate Black 18M - Black",
+        "alt": "Stellar Modular Plates - Black 18M",
+        "title": "Stellar Modular Plates - Black 18M",
         "code": "CAD-ST-010BL",
         "specs": [
           "STELLAR Cover Plate Black 18M",
-          "Category: Stellar Modular Plates",
+          "Category: Stellar Modular Plates - Black",
           "Variant: Black",
           "Product code: CAD-ST-010BL"
         ]
       },
       {
         "src": "/product-images/cadillac/cadillac-p11-01.png",
-        "alt": "Taycan Modular Plates TAYCAN Cover Plate White 1M - White",
-        "title": "Taycan Modular Plates TAYCAN Cover Plate White 1M - White",
+        "alt": "Taycan Modular Plates - White 1M",
+        "title": "Taycan Modular Plates - White 1M",
         "code": "CAD-TAY-001",
         "specs": [
           "TAYCAN Cover Plate White 1M",
-          "Category: Taycan Modular Plates",
+          "Category: Taycan Modular Plates - White",
           "Variant: White",
           "Product code: CAD-TAY-001"
         ]
       },
       {
         "src": "/product-images/cadillac/cadillac-p11-01.png",
-        "alt": "Taycan Modular Plates TAYCAN Cover Plate White 2M - White",
-        "title": "Taycan Modular Plates TAYCAN Cover Plate White 2M - White",
+        "alt": "Taycan Modular Plates - White 2M",
+        "title": "Taycan Modular Plates - White 2M",
         "code": "CAD-TAY-002",
         "specs": [
           "TAYCAN Cover Plate White 2M",
-          "Category: Taycan Modular Plates",
+          "Category: Taycan Modular Plates - White",
           "Variant: White",
           "Product code: CAD-TAY-002"
         ]
       },
       {
         "src": "/product-images/cadillac/cadillac-p11-01.png",
-        "alt": "Taycan Modular Plates TAYCAN Cover Plate White 3M - White",
-        "title": "Taycan Modular Plates TAYCAN Cover Plate White 3M - White",
+        "alt": "Taycan Modular Plates - White 3M",
+        "title": "Taycan Modular Plates - White 3M",
         "code": "CAD-TAY-003",
         "specs": [
           "TAYCAN Cover Plate White 3M",
-          "Category: Taycan Modular Plates",
+          "Category: Taycan Modular Plates - White",
           "Variant: White",
           "Product code: CAD-TAY-003"
         ]
       },
       {
         "src": "/product-images/cadillac/cadillac-p11-01.png",
-        "alt": "Taycan Modular Plates TAYCAN Cover Plate White 4M - White",
-        "title": "Taycan Modular Plates TAYCAN Cover Plate White 4M - White",
+        "alt": "Taycan Modular Plates - White 4M",
+        "title": "Taycan Modular Plates - White 4M",
         "code": "CAD-TAY-004",
         "specs": [
           "TAYCAN Cover Plate White 4M",
-          "Category: Taycan Modular Plates",
+          "Category: Taycan Modular Plates - White",
           "Variant: White",
           "Product code: CAD-TAY-004"
         ]
       },
       {
         "src": "/product-images/cadillac/cadillac-p11-01.png",
-        "alt": "Taycan Modular Plates TAYCAN Cover Plate White 6M - White",
-        "title": "Taycan Modular Plates TAYCAN Cover Plate White 6M - White",
+        "alt": "Taycan Modular Plates - White 6M",
+        "title": "Taycan Modular Plates - White 6M",
         "code": "CAD-TAY-005",
         "specs": [
           "TAYCAN Cover Plate White 6M",
-          "Category: Taycan Modular Plates",
+          "Category: Taycan Modular Plates - White",
           "Variant: White",
           "Product code: CAD-TAY-005"
         ]
       },
       {
         "src": "/product-images/cadillac/cadillac-p11-01.png",
-        "alt": "Taycan Modular Plates TAYCAN Cover Plate White 8M (H) - White",
-        "title": "Taycan Modular Plates TAYCAN Cover Plate White 8M (H) - White",
+        "alt": "Taycan Modular Plates - White 8M (H)",
+        "title": "Taycan Modular Plates - White 8M (H)",
         "code": "CAD-TAY-006",
         "specs": [
           "TAYCAN Cover Plate White 8M (H)",
-          "Category: Taycan Modular Plates",
+          "Category: Taycan Modular Plates - White",
           "Variant: White",
           "Product code: CAD-TAY-006"
         ]
       },
       {
         "src": "/product-images/cadillac/cadillac-p11-01.png",
-        "alt": "Taycan Modular Plates TAYCAN Cover Plate White 8M (V) - White",
-        "title": "Taycan Modular Plates TAYCAN Cover Plate White 8M (V) - White",
+        "alt": "Taycan Modular Plates - White 8M (V)",
+        "title": "Taycan Modular Plates - White 8M (V)",
         "code": "CAD-TAY-007",
         "specs": [
           "TAYCAN Cover Plate White 8M (V)",
-          "Category: Taycan Modular Plates",
+          "Category: Taycan Modular Plates - White",
           "Variant: White",
           "Product code: CAD-TAY-007"
         ]
       },
       {
         "src": "/product-images/cadillac/cadillac-p11-01.png",
-        "alt": "Taycan Modular Plates TAYCAN Cover Plate White 12M - White",
-        "title": "Taycan Modular Plates TAYCAN Cover Plate White 12M - White",
+        "alt": "Taycan Modular Plates - White 12M",
+        "title": "Taycan Modular Plates - White 12M",
         "code": "CAD-TAY-008",
         "specs": [
           "TAYCAN Cover Plate White 12M",
-          "Category: Taycan Modular Plates",
+          "Category: Taycan Modular Plates - White",
           "Variant: White",
           "Product code: CAD-TAY-008"
         ]
       },
       {
         "src": "/product-images/cadillac/cadillac-p11-01.png",
-        "alt": "Taycan Modular Plates TAYCAN Cover Plate White 16M - White",
-        "title": "Taycan Modular Plates TAYCAN Cover Plate White 16M - White",
+        "alt": "Taycan Modular Plates - White 16M",
+        "title": "Taycan Modular Plates - White 16M",
         "code": "CAD-TAY-009",
         "specs": [
           "TAYCAN Cover Plate White 16M",
-          "Category: Taycan Modular Plates",
+          "Category: Taycan Modular Plates - White",
           "Variant: White",
           "Product code: CAD-TAY-009"
         ]
       },
       {
         "src": "/product-images/cadillac/cadillac-p11-01.png",
-        "alt": "Taycan Modular Plates TAYCAN Cover Plate White 18M - White",
-        "title": "Taycan Modular Plates TAYCAN Cover Plate White 18M - White",
+        "alt": "Taycan Modular Plates - White 18M",
+        "title": "Taycan Modular Plates - White 18M",
         "code": "CAD-TAY-010",
         "specs": [
           "TAYCAN Cover Plate White 18M",
-          "Category: Taycan Modular Plates",
+          "Category: Taycan Modular Plates - White",
           "Variant: White",
           "Product code: CAD-TAY-010"
         ]
       },
       {
         "src": "/product-images/cadillac/cadillac-p11-02.png",
-        "alt": "Taycan Modular Plates TAYCAN Cover Plate Wood Texture 1M - Wooden",
-        "title": "Taycan Modular Plates TAYCAN Cover Plate Wood Texture 1M - Wooden",
+        "alt": "Taycan Modular Plates - Wooden 1M",
+        "title": "Taycan Modular Plates - Wooden 1M",
         "code": "CAD-TAY-001",
         "specs": [
           "TAYCAN Cover Plate Wood Texture 1M",
-          "Category: Taycan Modular Plates",
+          "Category: Taycan Modular Plates - Wooden",
           "Variant: Wooden",
           "Product code: CAD-TAY-001"
         ]
       },
       {
         "src": "/product-images/cadillac/cadillac-p11-02.png",
-        "alt": "Taycan Modular Plates TAYCAN Cover Plate Wood Texture 2M - Wooden",
-        "title": "Taycan Modular Plates TAYCAN Cover Plate Wood Texture 2M - Wooden",
+        "alt": "Taycan Modular Plates - Wooden 2M",
+        "title": "Taycan Modular Plates - Wooden 2M",
         "code": "CAD-TAY-002",
         "specs": [
           "TAYCAN Cover Plate Wood Texture 2M",
-          "Category: Taycan Modular Plates",
+          "Category: Taycan Modular Plates - Wooden",
           "Variant: Wooden",
           "Product code: CAD-TAY-002"
         ]
       },
       {
         "src": "/product-images/cadillac/cadillac-p11-02.png",
-        "alt": "Taycan Modular Plates TAYCAN Cover Plate Wood Texture 3M - Wooden",
-        "title": "Taycan Modular Plates TAYCAN Cover Plate Wood Texture 3M - Wooden",
+        "alt": "Taycan Modular Plates - Wooden 3M",
+        "title": "Taycan Modular Plates - Wooden 3M",
         "code": "CAD-TAY-003",
         "specs": [
           "TAYCAN Cover Plate Wood Texture 3M",
-          "Category: Taycan Modular Plates",
+          "Category: Taycan Modular Plates - Wooden",
           "Variant: Wooden",
           "Product code: CAD-TAY-003"
         ]
       },
       {
         "src": "/product-images/cadillac/cadillac-p11-02.png",
-        "alt": "Taycan Modular Plates TAYCAN Cover Plate Wood Texture 4M - Wooden",
-        "title": "Taycan Modular Plates TAYCAN Cover Plate Wood Texture 4M - Wooden",
+        "alt": "Taycan Modular Plates - Wooden 4M",
+        "title": "Taycan Modular Plates - Wooden 4M",
         "code": "CAD-TAY-004",
         "specs": [
           "TAYCAN Cover Plate Wood Texture 4M",
-          "Category: Taycan Modular Plates",
+          "Category: Taycan Modular Plates - Wooden",
           "Variant: Wooden",
           "Product code: CAD-TAY-004"
         ]
       },
       {
         "src": "/product-images/cadillac/cadillac-p11-02.png",
-        "alt": "Taycan Modular Plates TAYCAN Cover Plate Wood Texture 6M - Wooden",
-        "title": "Taycan Modular Plates TAYCAN Cover Plate Wood Texture 6M - Wooden",
+        "alt": "Taycan Modular Plates - Wooden 6M",
+        "title": "Taycan Modular Plates - Wooden 6M",
         "code": "CAD-TAY-005",
         "specs": [
           "TAYCAN Cover Plate Wood Texture 6M",
-          "Category: Taycan Modular Plates",
+          "Category: Taycan Modular Plates - Wooden",
           "Variant: Wooden",
           "Product code: CAD-TAY-005"
         ]
       },
       {
         "src": "/product-images/cadillac/cadillac-p11-02.png",
-        "alt": "Taycan Modular Plates TAYCAN Cover Plate Wood Texture 8M (H) - Wooden",
-        "title": "Taycan Modular Plates TAYCAN Cover Plate Wood Texture 8M (H) - Wooden",
+        "alt": "Taycan Modular Plates - Wooden 8M (H)",
+        "title": "Taycan Modular Plates - Wooden 8M (H)",
         "code": "CAD-TAY-006",
         "specs": [
           "TAYCAN Cover Plate Wood Texture 8M (H)",
-          "Category: Taycan Modular Plates",
+          "Category: Taycan Modular Plates - Wooden",
           "Variant: Wooden",
           "Product code: CAD-TAY-006"
         ]
       },
       {
         "src": "/product-images/cadillac/cadillac-p11-02.png",
-        "alt": "Taycan Modular Plates TAYCAN Cover Plate Wood Texture 8M (V) - Wooden",
-        "title": "Taycan Modular Plates TAYCAN Cover Plate Wood Texture 8M (V) - Wooden",
+        "alt": "Taycan Modular Plates - Wooden 8M (V)",
+        "title": "Taycan Modular Plates - Wooden 8M (V)",
         "code": "CAD-TAY-007",
         "specs": [
           "TAYCAN Cover Plate Wood Texture 8M (V)",
-          "Category: Taycan Modular Plates",
+          "Category: Taycan Modular Plates - Wooden",
           "Variant: Wooden",
           "Product code: CAD-TAY-007"
         ]
       },
       {
         "src": "/product-images/cadillac/cadillac-p11-02.png",
-        "alt": "Taycan Modular Plates TAYCAN Cover Plate Wood Texture 12M - Wooden",
-        "title": "Taycan Modular Plates TAYCAN Cover Plate Wood Texture 12M - Wooden",
+        "alt": "Taycan Modular Plates - Wooden 12M",
+        "title": "Taycan Modular Plates - Wooden 12M",
         "code": "CAD-TAY-008",
         "specs": [
           "TAYCAN Cover Plate Wood Texture 12M",
-          "Category: Taycan Modular Plates",
+          "Category: Taycan Modular Plates - Wooden",
           "Variant: Wooden",
           "Product code: CAD-TAY-008"
         ]
       },
       {
         "src": "/product-images/cadillac/cadillac-p11-02.png",
-        "alt": "Taycan Modular Plates TAYCAN Cover Plate Wood Texture 16M - Wooden",
-        "title": "Taycan Modular Plates TAYCAN Cover Plate Wood Texture 16M - Wooden",
+        "alt": "Taycan Modular Plates - Wooden 16M",
+        "title": "Taycan Modular Plates - Wooden 16M",
         "code": "CAD-TAY-009",
         "specs": [
           "TAYCAN Cover Plate Wood Texture 16M",
-          "Category: Taycan Modular Plates",
+          "Category: Taycan Modular Plates - Wooden",
           "Variant: Wooden",
           "Product code: CAD-TAY-009"
         ]
       },
       {
         "src": "/product-images/cadillac/cadillac-p11-02.png",
-        "alt": "Taycan Modular Plates TAYCAN Cover Plate Wood Texture 18M - Wooden",
-        "title": "Taycan Modular Plates TAYCAN Cover Plate Wood Texture 18M - Wooden",
+        "alt": "Taycan Modular Plates - Wooden 18M",
+        "title": "Taycan Modular Plates - Wooden 18M",
         "code": "CAD-TAY-010",
         "specs": [
           "TAYCAN Cover Plate Wood Texture 18M",
-          "Category: Taycan Modular Plates",
+          "Category: Taycan Modular Plates - Wooden",
           "Variant: Wooden",
           "Product code: CAD-TAY-010"
         ]

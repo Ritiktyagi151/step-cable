@@ -23,11 +23,15 @@ const quickFooterLinks: Array<[string, string]> = [
   ...topNavLinks.map(([label, href]) => [label, href] as [string, string]),
   ["Contact Us", "/contact"],
   ["Blog", "/blog"],
+  ["Career", "/career"],
+  ["Privacy Policy", "/privacy-policy"],
+  ["Return Policy", "/return-policy"],
+  ["Terms & Conditions", "/terms-and-conditions"],
   ["Manufacturing Plant", "/manufacturing-plant"],
   // ["Manufacturing Plant 2", "/manufacturing-plant-2"],
   // ["Clients", "/clients"],
   // ["Our Satisfied Clients", "/clients1"],
-  ["Clientele", "/clients2"]
+  ["Our Clients", "/clients2"]
 ];
 
 function FooterHeading({ children }: { children: React.ReactNode }) {

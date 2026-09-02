@@ -11,7 +11,7 @@
     "schema": [
       "{\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"WebPage\",\n    \"name\": \"Aerial Bunched Cables - Step Cables\",\n    \"description\": \"STEP Aerial Bunched Cables is a very novel concept for Over Head Power distribution when compared to the conventional bare conductor over head distribution system.\",\n    \"publisher\": {\n        \"@type\": \"ProfilePage\",\n        \"name\": \"Step Cables\"\n    }\n}"
     ],
-    "contentText": "Aerial Bunched Cables (ABC) is a very novel concept for Over Head Power distribution. When compared to the conventional bare conductor over head distribution system. ABC provides higher safety and reliability, lower power losses and ultimate system economy by reducing installation, maintenance and operative cost. This system is ideal for rural distribution and specially attractive for installation in difficult terrains such as hilly areas, forest areas, coastal areas etc. Aerial Bunched Cables is also considered to be the best choice for power distribution congested urban areas with narrow lanes and by � lanes. In developing urban complex, Aerial Bunched Cables is the better choice because of flexibility for rerouting as demanded by changes in urban development plan. CONSTRUCTION OF ABC XLPE/HDPE insulated power conductors of Aluminium (Neutral conductor and street lighting conductor if and when necessary) are laid together (twisted) around a high tensile standard and galvanized steel (Aluminium Alloy may be used) insulated or bare messenger wire to form the Aerial Bunched Cable. This assembly is directly strung on to distribution pole/towers by means of standard hardware available in the market but care shall be taken to render the messenger wire completely insulated from Earthing at any point of distribution in case of HT ABC. The XLPE (Cross-linked Polyethylene) insulation is black in colour and is stabilized against deterioration caused by exposure to direct sunlight and ultraviolet radiation. XLPE is cross-linkable low-density polyethylene, which is made thermo set by special formulation from base polymer of thermoplastic low-density polyethylene. XLPE combines the best electrical properties of LDPE and superior thermo mechanical properties. MATERIALS Aluminium conductors conform to IS:8130(Class-II) Standard high tensile galvanized steel messenger wire conforms to IS:398 (Part � 2). Alternatively Aluminum Alloy messenger wire conforms to IS:398 (Part � 4) XLPE and HDPE insulation of power conductors specify IS:7098 (Part � I & II) and IS:6474 respectively. Since, the tension from the current carrying conductor is totally removed by introduction of messenger wire the operating temperature of the conductor is 90.C as against 75.C of the bare conductor of the same size. APPLICATION Aerial Bunched Cables can be conveniently used: As replacement of bare lines in Rural Areas, in woods and in other localities & narrows streets where the space limited. As replacement of bare lines where reliability of supply is of prime importance. As replacement of bare lines where high degree of stability of supply voltage is of importance. In hilly terrains where cost of erection of overhead lines or under ground cable becomes very high. As reinforcement of existing system without increasing voltage. For temporary supplies. About Step Cables Housing wiring: Electrical Building Wire Z+ Security Wire Single Core/Multicore: Industrial Cables 3 Core PVC Insulated: Flat Cable 3 Core XLPE Insulated: Flat Cable ELEVATOR & ESCALATOR CABLES PVC insulated Power & CONTROL CABLE XLPE insulated Power & CONTROL CABLE Advantages of Insulated Power Cable Aerial Bunched Cables",
+    "contentText": "Aerial Bunched Cables (ABC) is a very novel concept for Over Head Power distribution. When compared to the conventional bare conductor over head distribution system. ABC provides higher safety and reliability, lower power losses and ultimate system economy by reducing installation, maintenance and operative cost. This system is ideal for rural distribution and specially attractive for installation in difficult terrains such as hilly areas, forest areas, coastal areas etc. Aerial Bunched Cables is also considered to be the best choice for power distribution congested urban areas with narrow lanes and by-lanes. In developing urban complex, Aerial Bunched Cables is the better choice because of flexibility for rerouting as demanded by changes in urban development plan. CONSTRUCTION OF ABC XLPE/HDPE insulated power conductors of Aluminium (Neutral conductor and street lighting conductor if and when necessary) are laid together (twisted) around a high tensile standard and galvanized steel (Aluminium Alloy may be used) insulated or bare messenger wire to form the Aerial Bunched Cable. This assembly is directly strung on to distribution pole/towers by means of standard hardware available in the market but care shall be taken to render the messenger wire completely insulated from Earthing at any point of distribution in case of HT ABC. The XLPE (Cross-linked Polyethylene) insulation is black in colour and is stabilized against deterioration caused by exposure to direct sunlight and ultraviolet radiation. XLPE is cross-linkable low-density polyethylene, which is made thermo set by special formulation from base polymer of thermoplastic low-density polyethylene. XLPE combines the best electrical properties of LDPE and superior thermo mechanical properties. MATERIALS Aluminium conductors conform to IS: 8130 (Class-II). Standard high tensile galvanized steel messenger wire conforms to IS: 398 (Part 2). Alternatively, aluminium alloy messenger wire conforms to IS: 398 (Part 4). XLPE and HDPE insulation of power conductors specifies IS: 7098 (Part I & II) and IS: 6474 respectively. Since, the tension from the current carrying conductor is totally removed by introduction of messenger wire the operating temperature of the conductor is 90 deg. C as against 75 deg. C of the bare conductor of the same size. APPLICATION Aerial Bunched Cables can be conveniently used: As replacement of bare lines in Rural Areas, in woods and in other localities & narrows streets where the space limited. As replacement of bare lines where reliability of supply is of prime importance. As replacement of bare lines where high degree of stability of supply voltage is of importance. In hilly terrains where cost of erection of overhead lines or under ground cable becomes very high. As reinforcement of existing system without increasing voltage. For temporary supplies.",
     "contentBlocks": [
       {
         "type": "paragraph",
@@ -19,7 +19,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Aerial Bunched Cables is also considered to be the best choice for power distribution congested urban areas with narrow lanes and by � lanes. In developing urban complex, Aerial Bunched Cables is the better choice because of flexibility for rerouting as demanded by changes in urban development plan."
+        "text": "Aerial Bunched Cables is also considered to be the best choice for power distribution congested urban areas with narrow lanes and by-lanes. In developing urban complex, Aerial Bunched Cables is the better choice because of flexibility for rerouting as demanded by changes in urban development plan."
       },
       {
         "type": "heading",
@@ -42,14 +42,14 @@
       {
         "type": "list",
         "items": [
-          "Aluminium conductors conform to IS:8130(Class-II)",
-          "Standard high tensile galvanized steel messenger wire conforms to IS:398 (Part � 2). Alternatively Aluminum Alloy messenger wire conforms to IS:398 (Part � 4)",
-          "XLPE and HDPE insulation of power conductors specify IS:7098 (Part � I & II) and IS:6474 respectively."
+          "Aluminium conductors conform to IS: 8130 (Class-II).",
+          "Standard high tensile galvanized steel messenger wire conforms to IS: 398 (Part 2). Alternatively, aluminium alloy messenger wire conforms to IS: 398 (Part 4).",
+          "XLPE and HDPE insulation of power conductors specifies IS: 7098 (Part I & II) and IS: 6474 respectively."
         ]
       },
       {
         "type": "paragraph",
-        "text": "Since, the tension from the current carrying conductor is totally removed by introduction of messenger wire the operating temperature of the conductor is 90.C as against 75.C of the bare conductor of the same size."
+        "text": "Since, the tension from the current carrying conductor is totally removed by introduction of messenger wire the operating temperature of the conductor is 90 deg. C as against 75 deg. C of the bare conductor of the same size."
       },
       {
         "type": "heading",
@@ -57,8 +57,7 @@
         "text": "APPLICATION"
       },
       {
-        "type": "heading",
-        "level": 3,
+        "type": "paragraph",
         "text": "Aerial Bunched Cables can be conveniently used:"
       },
       {
@@ -724,7 +723,7 @@
     "schema": [
       "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Product\",\n  \"name\": \"Z+ Fire Safe Non Toxic Electrical Wires\",\n  \"image\": [\n    \"https://www.stepcable.com/wiresforhome/Fire-Proof-Low-Smoke-Non-Toxic-Wires.JPG\"\n   ],\n  \"description\": \"These are eco-friendly wires which are made of multi draw Pure Copper Conductors. Purity of copper offers uniform resistance which makes these wires long lasting. Z+ this value itself suggests that it is flame retardant and Halogen free compound which gives better insulation & Electrical Properties.\",\n  \"sku\": \"8544\",\n  \"mpn\": \"8544\",\n  \"brand\": {\n    \"@type\": \"Thing\",\n    \"name\": \"STEP\"\n  },\n  \"review\": {\n    \"@type\": \"Review\",\n    \"reviewRating\": {\n      \"@type\": \"Rating\",\n      \"ratingValue\": \"4\",\n      \"bestRating\": \"5\"\n    },\n    \"author\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Step Cables\"\n    }\n  },\n  \"aggregateRating\": {\n    \"@type\": \"AggregateRating\",\n    \"ratingValue\": \"4.4\",\n    \"reviewCount\": \"17\"\n  }\n  }\n}"
     ],
-    "contentText": "These are eco-friendly wires which are made of multi draw Pure Copper Conductors. Purity of copper offers uniform resistance which makes these wires long lasting. \"Z+\" this value itself suggests that it is flame retardant and Halogen free compound which gives better insulation & Electrical Properties. Application Wiring in all installations where fire safety is more important. Schools, theaters, commercial complexes, air conditioned apartments, high rise buildings, fire alarm and emergency lighting circuits, electronic and computerized installations, modern offices depending heavily on electronic data preservation etc. FLEXIBLE (Temperature upto 90 C) (Z+) Nominal cross sectional area of conductor Nos & Diameter of Wires Nominal thickness of insulation Approx. Overall Diameter of Wire Current rating 2 cable single phase ac/dc Max DC Resistance at 20 Deg. C sq. mm mm mm mm Amps ohm/km 1 14/0.3 0.7 2.8 13 18.1 1.5 22/0.3 0.7 3.1 16 12.1 2.5 36/0.3 0.8 3.8 22 7.41 4 56/0.3 0.8 4.4 30 4.61 6 84/0.3 0.8 5.1 38 3.08 10 140/0.3 6 6 1.91 1.91 FLEXIBLE (Temperature upto 125 C) (Z+ Thermo Setting) sq. mm mm mm mm Amps ohm/km 1 14/0.3 0.7 2.8 13 18.1 1.5 22/0.3 0.7 3.1 16 12.1 2.5 36/0.3 0.8 3.8 22 7.41 4 56/0.3 0.8 4.4 30 4.61 6 84/0.3 0.8 5.1 38 3.08 10 140/0.3 1 6 51 1.91 A brief comparison of PVC and Z+ Cables is given below. Properties PVC Z+ Halogen Gas (mg/g) >200 Corrosive gas (pH) 2-Jan 6 Smoke Density (Rating) >70 0 Usage Temperature (C) 70 90 0 Low Temperature (C) -20 -50 Dioxin YES NO Toxic Halogen Gas YES NO Lead YES NO Z+ CABLES Single core Unsheathed 1100 V Z+ Insulated Wired with Copper Conductor About Step Cables Housing wiring: Electrical Building Wire Z+ Security Wire Single Core/Multicore: Industrial Cables 3 Core PVC Insulated: Flat Cable 3 Core XLPE Insulated: Flat Cable ELEVATOR & ESCALATOR CABLES PVC insulated Power & CONTROL CABLE XLPE insulated Power & CONTROL CABLE Advantages of Insulated Power Cable Aerial Bunched Cables",
+    "contentText": "These are eco-friendly wires which are made of multi draw Pure Copper Conductors. Purity of copper offers uniform resistance which makes these wires long lasting. \"Z+\" this value itself suggests that it is flame retardant and Halogen free compound which gives better insulation & Electrical Properties. Application Wiring in all installations where fire safety is more important. Schools, theaters, commercial complexes, air conditioned apartments, high rise buildings, fire alarm and emergency lighting circuits, electronic and computerized installations, modern offices depending heavily on electronic data preservation etc. FLEXIBLE (Temperature upto 90 deg. C) (Z+) Nominal cross sectional area of conductor Nos & Diameter of Wires Nominal thickness of insulation Approx. Overall Diameter of Wire Current rating 2 cable single phase ac/dc Max DC Resistance at 20 Deg. C sq. mm mm mm mm Amps ohm/km 1 14/0.3 0.7 2.8 13 18.1 1.5 22/0.3 0.7 3.1 16 12.1 2.5 36/0.3 0.8 3.8 22 7.41 4 56/0.3 0.8 4.4 30 4.61 6 84/0.3 0.8 5.1 38 3.08 10 140/0.3 6 6 1.91 1.91 FLEXIBLE (Temperature upto 125 C) (Z+ Thermo Setting) sq. mm mm mm mm Amps ohm/km 1 14/0.3 0.7 2.8 13 18.1 1.5 22/0.3 0.7 3.1 16 12.1 2.5 36/0.3 0.8 3.8 22 7.41 4 56/0.3 0.8 4.4 30 4.61 6 84/0.3 0.8 5.1 38 3.08 10 140/0.3 1 6 51 1.91 A brief comparison of PVC and Z+ Cables is given below. Properties PVC Z+ Halogen Gas (mg/g) >200 Corrosive gas (pH) 2-Jan 6 Smoke Density (Rating) >70 0 Usage Temperature (C) 70 90 0 Low Temperature (C) -20 -50 Dioxin YES NO Toxic Halogen Gas YES NO Lead YES NO Z+ CABLES Single core Unsheathed 1100 V Z+ Insulated Wired with Copper Conductor About Step Cables Housing wiring: Electrical Building Wire Z+ Security Wire Single Core/Multicore: Industrial Cables 3 Core PVC Insulated: Flat Cable 3 Core XLPE Insulated: Flat Cable ELEVATOR & ESCALATOR CABLES PVC insulated Power & CONTROL CABLE XLPE insulated Power & CONTROL CABLE Advantages of Insulated Power Cable Aerial Bunched Cables",
     "contentBlocks": [
       {
         "type": "paragraph",
@@ -743,7 +742,7 @@
         "type": "table",
         "rows": [
           [
-            "FLEXIBLE (Temperature upto 90 C) (Z+)"
+            "FLEXIBLE (Temperature upto 90 deg. C) (Z+)"
           ],
           [
             "Nominal cross sectional area of conductor",
@@ -994,39 +993,29 @@
     "schema": [
       "{\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"WebPage\",\n    \"name\": \"Elevator & Escalator Cables - Step Cables\",\n    \"description\": \"STEP Elevator Cable is made according to British Standard to meet the long awaited requirement of Indian Elevator Companies who are till now Importing such cables to full-fill their needs.\",\n    \"publisher\": {\n        \"@type\": \"ProfilePage\",\n        \"name\": \"Step Cables\"\n    }\n}"
     ],
-    "contentText": "About Step Cables Housing wiring: Electrical Building Wire Z+ Security Wire Single Core/Multicore: Industrial Cables 3 Core PVC Insulated: Flat Cable 3 Core XLPE Insulated: Flat Cable ELEVATOR & ESCALATOR CABLES PVC insulated Power & CONTROL CABLE XLPE insulated Power & CONTROL CABLE Advantages of Insulated Power Cable Aerial Bunched Cables CONSTRUCTION OF CABLE The Cable shall comprise 3 upto and including 24 flexible conductors with nominal cross-section areas from 0.75 mm2to 2.5 mm2 The Annealed bare copper conductor complying with the requirement of BS: 6360. The conductor may tinned as required by customer. The Insulation consisting of PVC type TI-2 PVC Insulation, complying with the requirement of BS: 6746. The Sheath consists of PVC type TM2 PVC sheath complying with the requirement of BS: 6746. The sheath extruded in a single layer on the cores laid parallel. The Composition of the cable according to the nominal cross-section area of conductors is as follows: static flexibility test. Tensile strength of strain bearing member. Nominal cross-sectional Area Sq. mm Numbers of cores 0.5 6, 9, 12, 16, 20 and 24 0.75 6, 9, 12, 16, 20 and 24 1 3, 4, 5, 6, 9 12, 16, 20 and 24 1.5 3, 4, 5, 6, 9 and 12 2.5 3, 4, 5, 6, 9 and 12 The cores are laid parallel in grouped, closely side by side and covered with sheath comply with the following for cables having the preferred numbers of cores. MECHANICAL PROPERTIES OF SHEATH Elongation at break after ageing in air. Elongation at break before ageing. Tensile strength after ageing in air Tensile strength before ageing. Cold elongation test. Loss of mass test. Cold bend test. Conductor Radial thickness of insulation Thickness of sheath and clearances Minimum Insulation resistance at 70'c nominal cross section area maximum diameter of wire C-1 C-2 C-3 Sq. mm mm mm mm mm mm M£[ /Km 0.5 0.21 0.5 1 0.9 1.5 0.012 0.75 0.21 0.6 1 0.9 1.5 0.011 1 0.21 0.6 1 0.9 1.5 0.01 1.5 0.26 0.7 1 1 1.5 0.01 2.5 0.26 0.8 1.5 1 1.8 0.009 TEST DESCRIPTION Constructional and dimensional test. Check on construction. Measurement of insulation thickness. Measurement of sheath thickness. Mechanical properties on insulation. Tensile strength before ageing. Elongation at break before ageing. Tensile strength after ageing in air. Elongation at break after ageing in air. Loss of mass test. Hot pressure test. Cold bend test. Numbers of cores 6 9 12 16 20 24 Number of Group & Cores in Each Group 2x3 3x3 3x4 4x4 5x4 6x4 A tearing thread is added inside each core group. It shall be possible to separate the cores without damage to the insulation. Stain-bearing thread of textile material may be included in each core group, replacing one or more cores.",
+    "contentText": "Construction of Cable The cable shall comprise 3 up to and including 24 flexible conductors with nominal cross-section areas from 0.75 mm2 to 2.5 mm2. Annealed bare copper conductor complies with BS: 6360. The conductor may be tinned as required by the customer. Insulation consists of PVC Type TI-2 PVC insulation complying with BS: 6746. Sheath consists of PVC Type TM2 PVC sheath complying with BS: 6746. The sheath is extruded in a single layer on the cores laid parallel. The composition of the cable according to the nominal cross-section area of conductors is as follows: Nominal cross-sectional Area Sq. mm Numbers of cores 0.5 6, 9, 12, 16, 20 and 24 0.75 6, 9, 12, 16, 20 and 24 1 3, 4, 5, 6, 9 12, 16, 20 and 24 1.5 3, 4, 5, 6, 9 and 12 2.5 3, 4, 5, 6, 9 and 12 The cores are laid parallel in groups, closely side by side, and covered with sheath for cables having the preferred numbers of cores. Mechanical Properties of Sheath Elongation at break after ageing in air. Elongation at break before ageing. Tensile strength after ageing in air. Tensile strength before ageing. Cold elongation test. Loss of mass test. Cold bend test. Static flexibility test. Tensile strength of strain-bearing member. Conductor Radial thickness of insulation Thickness of sheath and clearances Minimum Insulation resistance at 70 deg. C nominal cross section area maximum diameter of wire C-1 C-2 C-3 Sq. mm mm mm mm mm mm M£[ /Km 0.5 0.21 0.5 1 0.9 1.5 0.012 0.75 0.21 0.6 1 0.9 1.5 0.011 1 0.21 0.6 1 0.9 1.5 0.01 1.5 0.26 0.7 1 1 1.5 0.01 2.5 0.26 0.8 1.5 1 1.8 0.009 Test Description Constructional and dimensional test. Check on construction. Measurement of insulation thickness. Measurement of sheath thickness. Mechanical properties on insulation. Tensile strength before ageing. Elongation at break before ageing. Tensile strength after ageing in air. Elongation at break after ageing in air. Loss of mass test. Hot pressure test. Cold bend test. Numbers of cores 6 9 12 16 20 24 Number of Group & Cores in Each Group 2x3 3x3 3x4 4x4 5x4 6x4 A tearing thread is added inside each core group. It shall be possible to separate the cores without damage to the insulation. Strain-bearing thread of textile material may be included in each core group, replacing one or more cores.",
     "contentBlocks": [
       {
-        "type": "paragraph",
-        "text": "CONSTRUCTION OF CABLE"
+        "type": "heading",
+        "level": 3,
+        "text": "Construction of Cable"
       },
       {
         "type": "paragraph",
-        "text": "The Cable shall comprise 3 upto and including 24 flexible conductors with nominal cross-section areas from 0.75 mm2to 2.5 mm2"
+        "text": "The cable shall comprise 3 up to and including 24 flexible conductors with nominal cross-section areas from 0.75 mm2 to 2.5 mm2."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Annealed bare copper conductor complies with BS: 6360. The conductor may be tinned as required by the customer.",
+          "Insulation consists of PVC Type TI-2 PVC insulation complying with BS: 6746.",
+          "Sheath consists of PVC Type TM2 PVC sheath complying with BS: 6746.",
+          "The sheath is extruded in a single layer on the cores laid parallel."
+        ]
       },
       {
         "type": "paragraph",
-        "text": "The Annealed bare copper conductor complying with the requirement of BS: 6360. The conductor may tinned as required by customer."
-      },
-      {
-        "type": "paragraph",
-        "text": "The Insulation consisting of PVC type TI-2 PVC Insulation, complying with the requirement of BS: 6746."
-      },
-      {
-        "type": "paragraph",
-        "text": "The Sheath consists of PVC type TM2 PVC sheath complying with the requirement of BS: 6746."
-      },
-      {
-        "type": "paragraph",
-        "text": "The sheath extruded in a single layer on the cores laid parallel."
-      },
-      {
-        "type": "paragraph",
-        "text": "The Composition of the cable according to the nominal cross-section area of conductors is as follows:"
-      },
-      {
-        "type": "paragraph",
-        "text": "static flexibility test. Tensile strength of strain bearing member."
+        "text": "The composition of the cable according to the nominal cross-section area of conductors is as follows:"
       },
       {
         "type": "table",
@@ -1064,39 +1053,26 @@
       },
       {
         "type": "paragraph",
-        "text": "The cores are laid parallel in grouped, closely side by side and covered with sheath comply with the following for cables having the preferred numbers of cores."
+        "text": "The cores are laid parallel in groups, closely side by side, and covered with sheath for cables having the preferred numbers of cores."
       },
       {
-        "type": "paragraph",
-        "text": "MECHANICAL PROPERTIES OF SHEATH"
+        "type": "heading",
+        "level": 3,
+        "text": "Mechanical Properties of Sheath"
       },
       {
-        "type": "paragraph",
-        "text": "Elongation at break after ageing in air."
-      },
-      {
-        "type": "paragraph",
-        "text": "Elongation at break before ageing."
-      },
-      {
-        "type": "paragraph",
-        "text": "Tensile strength after ageing in air"
-      },
-      {
-        "type": "paragraph",
-        "text": "Tensile strength before ageing."
-      },
-      {
-        "type": "paragraph",
-        "text": "Cold elongation test."
-      },
-      {
-        "type": "paragraph",
-        "text": "Loss of mass test."
-      },
-      {
-        "type": "paragraph",
-        "text": "Cold bend test."
+        "type": "list",
+        "items": [
+          "Elongation at break after ageing in air.",
+          "Elongation at break before ageing.",
+          "Tensile strength after ageing in air.",
+          "Tensile strength before ageing.",
+          "Cold elongation test.",
+          "Loss of mass test.",
+          "Cold bend test.",
+          "Static flexibility test.",
+          "Tensile strength of strain-bearing member."
+        ]
       },
       {
         "type": "table",
@@ -1105,7 +1081,7 @@
             "Conductor",
             "Radial thickness of insulation",
             "Thickness of sheath and clearances",
-            "Minimum Insulation resistance at 70'c"
+            "Minimum Insulation resistance at 70 deg. C"
           ],
           [
             "nominal cross section area",
@@ -1173,56 +1149,26 @@
         ]
       },
       {
-        "type": "paragraph",
-        "text": "TEST DESCRIPTION"
+        "type": "heading",
+        "level": 3,
+        "text": "Test Description"
       },
       {
-        "type": "paragraph",
-        "text": "Constructional and dimensional test."
-      },
-      {
-        "type": "paragraph",
-        "text": "Check on construction."
-      },
-      {
-        "type": "paragraph",
-        "text": "Measurement of insulation thickness."
-      },
-      {
-        "type": "paragraph",
-        "text": "Measurement of sheath thickness."
-      },
-      {
-        "type": "paragraph",
-        "text": "Mechanical properties on insulation."
-      },
-      {
-        "type": "paragraph",
-        "text": "Tensile strength before ageing."
-      },
-      {
-        "type": "paragraph",
-        "text": "Elongation at break before ageing."
-      },
-      {
-        "type": "paragraph",
-        "text": "Tensile strength after ageing in air."
-      },
-      {
-        "type": "paragraph",
-        "text": "Elongation at break after ageing in air."
-      },
-      {
-        "type": "paragraph",
-        "text": "Loss of mass test."
-      },
-      {
-        "type": "paragraph",
-        "text": "Hot pressure test."
-      },
-      {
-        "type": "paragraph",
-        "text": "Cold bend test."
+        "type": "list",
+        "items": [
+          "Constructional and dimensional test.",
+          "Check on construction.",
+          "Measurement of insulation thickness.",
+          "Measurement of sheath thickness.",
+          "Mechanical properties on insulation.",
+          "Tensile strength before ageing.",
+          "Elongation at break before ageing.",
+          "Tensile strength after ageing in air.",
+          "Elongation at break after ageing in air.",
+          "Loss of mass test.",
+          "Hot pressure test.",
+          "Cold bend test."
+        ]
       },
       {
         "type": "table",
@@ -1249,7 +1195,7 @@
       },
       {
         "type": "paragraph",
-        "text": "A tearing thread is added inside each core group. It shall be possible to separate the cores without damage to the insulation. Stain-bearing thread of textile material may be included in each core group, replacing one or more cores."
+        "text": "A tearing thread is added inside each core group. It shall be possible to separate the cores without damage to the insulation. Strain-bearing thread of textile material may be included in each core group, replacing one or more cores."
       }
     ],
     "links": [
@@ -2805,7 +2751,7 @@
     "schema": [
       "{\n\n  \"@context\": \"https://schema.org/\",\n\n  \"@type\": \"Product\",\n\n  \"name\": \"Fire Retardant House Wires\",\n\n  \"image\": [\n\n    \"https://www.stepcable.com/wiresforhome/Fire-Retardant-House-Wires.JPG\"\n\n   ],\n\n  \"description\": \"STEP earned name & trust in house wires which inspire confidence in consultants, architects and builders. Step has built up a reputation and solid integrity. Step house wires carry a guarantee that far exceeds the ISI Certification they possess. made from high conductivity Copper rods of 8mm diameter and insulations like, FR PVC I FRLS PVC / HR PVC / ZERO HALOGEN & TEFLON (PTFE) With HR PVC.\",\n\n  \"sku\": \"8544\",\n\n  \"mpn\": \"8544\",\n\n  \"brand\": {\n\n    \"@type\": \"Thing\",\n\n    \"name\": \"STEP\"\n\n  },\n\n  \"review\": {\n\n    \"@type\": \"Review\",\n\n    \"reviewRating\": {\n\n      \"@type\": \"Rating\",\n\n      \"ratingValue\": \"4\",\n\n      \"bestRating\": \"5\"\n\n    },\n\n    \"author\": {\n\n      \"@type\": \"Organization\",\n\n      \"name\": \"Step Cables\"\n\n    }\n\n  },\n\n  \"aggregateRating\": {\n\n    \"@type\": \"AggregateRating\",\n\n    \"ratingValue\": \"4.4\",\n\n    \"reviewCount\": \"17\"\n\n  }\n\n  }\n\n}"
     ],
-    "contentText": "About Step Cables Housing wiring: Electrical Building Wire Z+ Security Wire Single Core/Multicore: Industrial Cables 3 Core PVC Insulated: Flat Cable 3 Core XLPE Insulated: Flat Cable ELEVATOR & ESCALATOR CABLES PVC insulated Power & CONTROL CABLE XLPE insulated Power & CONTROL CABLE Advantages of Insulated Power Cable Aerial Bunched Cables We at Step Cables are known for manufacturing excellent quality multicore wire and cable for a wide variety of applications. Due to the multiple numbers of cores, it has become a versatile cable which is utilized in both residential and industrial applications. The increase in the use of these wires and cables has increased their demand in the market. By utilizing the best wire and cable manufacturing techniques, we are producing high-performance multicore wires and cables in India. We are an ISO-certified wire and cable manufacturing brand dealing with reliable quality multicore cables. At Step Cables, we manufacture multicore cables with different cores starting from 2 cores up to 24 cores. The size of these multicore cables varies according to the number of cores. The sheathing of these cables also varies according to the number of cores. Our professionals ensure that they use the best quality wire and sheathing material for manufacturing multicore wires and cables. To help customers recognize the different types of cables, we provide them with proper colour coding. Being one of the bulk manufacturers of multicore wire and cable, we fulfil the varying demands of our clients. At our vast wire and cable manufacturing unit, we fabricate both standard and customized multicore cables. We utilize excellent conducting material to build the cores of the multicore cables. Other than the conductor, we also choose the right quality insulation material for these cables. It helps us in manufacturing multicore cables that are safe to use and offer great performance when utilized. Nominal Area In Sq. Mm No. Of Strands/ Mom. Diameter In Sq. Mm. Max. Dc Resistance Ohm/ At 20â€™C Nominal Insulation Thickness In Mm Outer Diameter (Approx.) Current Rating In Amps. Nominal Area In Sq. Mm No. Of Strands/ Mom. Diameter Max. Dc Resistance Ohm / Km At 20 C Nominal Insulation Thickness In Mm Outer Diameter (Approx.) Current Rating In Amps. 0.5 16/0.20 39 0.6 2.2 4 70 360/0.5 0.272 1.6 15.5 170 0.75 24/0.20 26 0.6 2.25 7 95 485/0.5 0.206 1.8 18.5 210 1 32/0.20 19.5 0.6 2.6 11 120 608/0.5 0.161 2 20.9 235 1.5 48/0.20 13.3 0.6 2.9 13 150 750/0.5 0.129 2 225 295 2.5 80/0.20 7.95 0.7 3.5 18 185 925/0.5 0.106 2.2 24.6 330 4 56/0.30 4.95 0.8 4.3 24 240 1221/0.5 0.0801 2.2 27.6 400 6 84/0.30 3.3 0.8 5.3 33 300 1527/0.5 641 2.4 32.2 475 10 140/0.30 1.91 1 6.7 45 400 2036/0.5 0.0486 2.6 35.7 550 16 126/0.4 1.21 1 8.2 60 500 2540/0.5 0.0384 24 38 625 25 196/0.4 0.78 1.2 10 75 630 3200/0.5 0.287 3 45.5 725 35 276/0.4 0.554 1.2 11.3 95 800 4100/0.5 0.0224 3.4 51 850 Applications and Features of Step Cables Multicore Wire and Cable : Due to the benefits offered by our multicore wire and cable, they are used for multiple applications, including: Electrical appliances at home Power-related applications Audio and Video Signal Transmission Get Digital and Analog Signals Radio Frequency Transmission Data Transfer Applications Our multicore cables are considered best to use for different electrical applications at home, commercial applications, aircraft, marines, and in many industries too. It is possible due to the multiple features it comes with, including: Excellent Insulation and conduction material High voltage rating Varied number of cores Varied core sizes and materials according to their applications Customizable multicore wire and cable Resistant to corrosion, moisture, and UV rays",
+    "contentText": "We at Step Cables are known for manufacturing excellent quality multicore wire and cable for a wide variety of applications. Due to the multiple numbers of cores, it has become a versatile cable which is utilized in both residential and industrial applications. The increase in the use of these wires and cables has increased their demand in the market. By utilizing the best wire and cable manufacturing techniques, we are producing high-performance multicore wires and cables in India. We are an ISO-certified wire and cable manufacturing brand dealing with reliable quality multicore cables. At Step Cables, we manufacture multicore cables with different cores starting from 2 cores up to 24 cores. The size of these multicore cables varies according to the number of cores. The sheathing of these cables also varies according to the number of cores. Our professionals ensure that they use the best quality wire and sheathing material for manufacturing multicore wires and cables. To help customers recognize the different types of cables, we provide them with proper colour coding. Being one of the bulk manufacturers of multicore wire and cable, we fulfil the varying demands of our clients. At our vast wire and cable manufacturing unit, we fabricate both standard and customized multicore cables. We utilize excellent conducting material to build the cores of the multicore cables. Other than the conductor, we also choose the right quality insulation material for these cables. It helps us in manufacturing multicore cables that are safe to use and offer great performance when utilized. Nominal Area In Sq. Mm No. Of Strands/ Nom. Diameter In Sq. Mm. Max. Dc Resistance Ohm/ At 20'C Nominal Insulation Thickness In Mm Outer Diameter (Approx.) Current Rating In Amps. Nominal Area In Sq. Mm No. Of Strands/ Nom. Diameter Max. Dc Resistance Ohm / Km At 20 C Nominal Insulation Thickness In Mm Outer Diameter (Approx.) Current Rating In Amps. 0.5 16/0.20 39 0.6 2.2 4 70 360/0.5 0.272 1.6 15.5 170 0.75 24/0.20 26 0.6 2.25 7 95 485/0.5 0.206 1.8 18.5 210 1 32/0.20 19.5 0.6 2.6 11 120 608/0.5 0.161 2 20.9 235 1.5 48/0.20 13.3 0.6 2.9 13 150 750/0.5 0.129 2 225 295 2.5 80/0.20 7.95 0.7 3.5 18 185 925/0.5 0.106 2.2 24.6 330 4 56/0.30 4.95 0.8 4.3 24 240 1221/0.5 0.0801 2.2 27.6 400 6 84/0.30 3.3 0.8 5.3 33 300 1527/0.5 641 2.4 32.2 475 10 140/0.30 1.91 1 6.7 45 400 2036/0.5 0.0486 2.6 35.7 550 16 126/0.4 1.21 1 8.2 60 500 2540/0.5 0.0384 24 38 625 25 196/0.4 0.78 1.2 10 75 630 3200/0.5 0.287 3 45.5 725 35 276/0.4 0.554 1.2 11.3 95 800 4100/0.5 0.0224 3.4 51 850 Applications Electrical appliances at home Power-related applications Audio and video signal transmission Digital and analog signals Radio frequency transmission Data transfer applications Features Excellent insulation and conduction material High voltage rating Varied number of cores Varied core sizes and materials according to their applications Customizable multicore wire and cable Resistant to corrosion, moisture, and UV rays",
     "contentBlocks": [
       {
         "type": "paragraph",
@@ -2816,13 +2762,13 @@
         "rows": [
           [
             "Nominal Area In Sq. Mm",
-            "No. Of Strands/ Mom. Diameter In Sq. Mm.",
-            "Max. Dc Resistance Ohm/ At 20â€™C",
+            "No. Of Strands/ Nom. Diameter In Sq. Mm.",
+            "Max. Dc Resistance Ohm/ At 20'C",
             "Nominal Insulation Thickness In Mm",
             "Outer Diameter (Approx.)",
             "Current Rating In Amps.",
             "Nominal Area In Sq. Mm",
-            "No. Of Strands/ Mom. Diameter",
+            "No. Of Strands/ Nom. Diameter",
             "Max. Dc Resistance Ohm / Km At 20 C",
             "Nominal Insulation Thickness In Mm",
             "Outer Diameter (Approx.)",
@@ -2985,12 +2931,36 @@
         ]
       },
       {
-        "type": "paragraph",
-        "text": "Applications and Features of Step Cables Multicore Wire and Cable :"
+        "type": "heading",
+        "level": 3,
+        "text": "Applications"
       },
       {
-        "type": "paragraph",
-        "text": "Due to the benefits offered by our multicore wire and cable, they are used for multiple applications, including: Electrical appliances at home Power-related applications Audio and Video Signal Transmission Get Digital and Analog Signals Radio Frequency Transmission Data Transfer Applications Our multicore cables are considered best to use for different electrical applications at home, commercial applications, aircraft, marines, and in many industries too. It is possible due to the multiple features it comes with, including: Excellent Insulation and conduction material High voltage rating Varied number of cores Varied core sizes and materials according to their applications Customizable multicore wire and cable Resistant to corrosion, moisture, and UV rays"
+        "type": "list",
+        "items": [
+          "Electrical appliances at home",
+          "Power-related applications",
+          "Audio and video signal transmission",
+          "Digital and analog signals",
+          "Radio frequency transmission",
+          "Data transfer applications"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Features"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Excellent insulation and conduction material",
+          "High voltage rating",
+          "Varied number of cores",
+          "Varied core sizes and materials according to their applications",
+          "Customizable multicore wire and cable",
+          "Resistant to corrosion, moisture, and UV rays"
+        ]
       }
     ],
     "links": [
@@ -3053,12 +3023,12 @@
     "schema": [
       "{\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"WebPage\",\n    \"name\": \"PVC Power & Control Cable - Step Cables\",\n    \"description\": \"Step PVC Insulated Power Cables not only guarantee a nonstop supply of power but also guarantees total safety against any cable malfunction resulting in severe accidents.\",\n    \"publisher\": {\n        \"@type\": \"ProfilePage\",\n        \"name\": \"Step Cables\"\n    }\n}"
     ],
-    "contentText": "About Step Cables Housing wiring: Electrical Building Wire Z+ Security Wire Single Core/Multicore: Industrial Cables 3 Core PVC Insulated: Flat Cable 3 Core XLPE Insulated: Flat Cable ELEVATOR & ESCALATOR CABLES PVC insulated Power & CONTROL CABLE XLPE insulated Power & CONTROL CABLE Advantages of Insulated Power Cable Aerial Bunched Cables classification of pvr compound type a c st1 st2 APPLICATION insulation insulation sheath sheath MAX. CONDUCTOR TEMPERATURE 70��c 85��c 70��c 90��c core identification for power cables and control cables upto 5 cores, the cores are identified by different colours as per is 1554 : single core : red, black yellow or blue 2 core : red and black 3 core : red, yellow and blue 3&frac12; core : red, yellow, blue, and reduced neutral core in black 4 core : red, yellow, blue and black 5 core : red, yellow, blue, black and grey where the number of cores exceed 5, two adjacent cores are blue for reference and yellow for direction in each layer. The remaining corse in each layer are grey. on specific request we can also provide core numbering for control cables. productcode as per IS 1554/ Part -1/1988, the product is coded by alphabets: Aluminium conductor A (No abberviations are used for copper.) PVC insulation Y Steel round wire armour W Steet strip armour F Steel double round wire armour WW streel double strip armour FF PVC outer sheath Al wire armour AW This product code is stenciled on the surface of the drum flange. Note: Conductor construction classified as: re : single strand rm : multi-stranded circular sm : sector shaped note: The entire range of power and control cables can be supplied with flame retardant low smoke (FRLS) sheathing.",
+    "contentText": "About Step Cables Housing wiring: Electrical Building Wire Z+ Security Wire Single Core/Multicore: Industrial Cables 3 Core PVC Insulated: Flat Cable 3 Core XLPE Insulated: Flat Cable ELEVATOR & ESCALATOR CABLES PVC insulated Power & CONTROL CABLE XLPE insulated Power & CONTROL CABLE Advantages of Insulated Power Cable Aerial Bunched Cables classification of pvr compound type a c st1 st2 APPLICATION insulation insulation sheath sheath MAX. CONDUCTOR TEMPERATURE 70c 85c 70c 90c core identification for power cables and control cables upto 5 cores, the cores are identified by different colours as per is 1554 : single core : red, black yellow or blue 2 core : red and black 3 core : red, yellow and blue 3&frac12; core : red, yellow, blue, and reduced neutral core in black 4 core : red, yellow, blue and black 5 core : red, yellow, blue, black and grey where the number of cores exceed 5, two adjacent cores are blue for reference and yellow for direction in each layer. The remaining corse in each layer are grey. on specific request we can also provide core numbering for control cables. productcode as per IS 1554/ Part -1/1988, the product is coded by alphabets: Aluminium conductor A (No abberviations are used for copper.) PVC insulation Y Steel round wire armour W Steet strip armour F Steel double round wire armour WW streel double strip armour FF PVC outer sheath Al wire armour AW This product code is stenciled on the surface of the drum flange. Note: Conductor construction classified as: re : single strand rm : multi-stranded circular sm : sector shaped note: The entire range of power and control cables can be supplied with flame retardant low smoke (FRLS) sheathing.",
     "contentBlocks": [
       {
         "type": "heading",
         "level": 3,
-        "text": "classification of pvr compound"
+        "text": "Classification of PVC Compound"
       },
       {
         "type": "image",
@@ -3066,33 +3036,33 @@
         "alt": "Power and Control Cable Cores Identification"
       },
       {
-        "type": "heading",
-        "level": 3,
-        "text": "type"
-      },
-      {
-        "type": "list",
-        "items": [
-          "st1",
-          "st2"
-        ]
-      },
-      {
-        "type": "list",
-        "items": [
-          "insulation",
-          "insulation",
-          "sheath",
-          "sheath"
-        ]
-      },
-      {
-        "type": "list",
-        "items": [
-          "70��c",
-          "85��c",
-          "70��c",
-          "90��c"
+        "type": "table",
+        "rows": [
+          [
+            "Type",
+            "Application",
+            "Max. Conductor Temperature"
+          ],
+          [
+            "ST1",
+            "Insulation",
+            "70 deg. C"
+          ],
+          [
+            "ST2",
+            "Insulation",
+            "85 deg. C"
+          ],
+          [
+            "ST1",
+            "Sheath",
+            "70 deg. C"
+          ],
+          [
+            "ST2",
+            "Sheath",
+            "90 deg. C"
+          ]
         ]
       },
       {
@@ -3103,108 +3073,136 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "core identification"
+        "text": "Core Identification"
       },
       {
         "type": "paragraph",
-        "text": "for power cables and control cables upto 5 cores, the cores are identified by different colours as per is 1554 :"
+        "text": "For power cables and control cables up to 5 cores, the cores are identified by different colours as per IS 1554:"
       },
       {
-        "type": "paragraph",
-        "text": "single core"
-      },
-      {
-        "type": "paragraph",
-        "text": ": red, black yellow or blue"
-      },
-      {
-        "type": "paragraph",
-        "text": "2 core"
-      },
-      {
-        "type": "paragraph",
-        "text": ": red and black"
-      },
-      {
-        "type": "paragraph",
-        "text": "3 core"
-      },
-      {
-        "type": "paragraph",
-        "text": ": red, yellow and blue"
-      },
-      {
-        "type": "paragraph",
-        "text": "3&frac12; core"
-      },
-      {
-        "type": "paragraph",
-        "text": ": red, yellow, blue, and reduced neutral core in black"
-      },
-      {
-        "type": "paragraph",
-        "text": "4 core"
-      },
-      {
-        "type": "paragraph",
-        "text": ": red, yellow, blue and black"
-      },
-      {
-        "type": "paragraph",
-        "text": "5 core"
-      },
-      {
-        "type": "paragraph",
-        "text": ": red, yellow, blue, black and grey"
-      },
-      {
-        "type": "paragraph",
-        "text": "where the number of cores exceed 5, two adjacent cores are blue for reference and yellow for direction in each layer. The remaining corse in each layer are grey."
-      },
-      {
-        "type": "paragraph",
-        "text": "on specific request we can also provide core numbering for control cables."
-      },
-      {
-        "type": "heading",
-        "level": 3,
-        "text": "productcode"
-      },
-      {
-        "type": "paragraph",
-        "text": "as per IS 1554/ Part -1/1988, the product is coded by alphabets:"
-      },
-      {
-        "type": "list",
-        "items": [
-          "Aluminium conductor A",
-          "(No abberviations are used for copper.)",
-          "PVC insulation Y",
-          "Steel round wire armour W",
-          "Steet strip armour F",
-          "Steel double round wire armour WW",
-          "streel double strip armour FF",
-          "PVC outer sheath",
-          "Al wire armour AW",
-          "This product code is stenciled on the surface of the drum flange.",
-          "Note: Conductor construction classified as:"
+        "type": "table",
+        "rows": [
+          [
+            "No. of Cores",
+            "Core Colours"
+          ],
+          [
+            "Single core",
+            "Red, black, yellow or blue"
+          ],
+          [
+            "2 core",
+            "Red and black"
+          ],
+          [
+            "3 core",
+            "Red, yellow and blue"
+          ],
+          [
+            "3.5 core",
+            "Red, yellow, blue, and reduced neutral core in black"
+          ],
+          [
+            "4 core",
+            "Red, yellow, blue and black"
+          ],
+          [
+            "5 core",
+            "Red, yellow, blue, black and grey"
+          ]
         ]
       },
       {
         "type": "paragraph",
-        "text": "re : single strand"
+        "text": "Where the number of cores exceeds 5, two adjacent cores are blue for reference and yellow for direction in each layer. The remaining cores in each layer are grey."
       },
       {
         "type": "paragraph",
-        "text": "rm : multi-stranded circular"
+        "text": "On specific request, core numbering can also be provided for control cables."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Product Code"
       },
       {
         "type": "paragraph",
-        "text": "sm : sector shaped"
+        "text": "As per IS 1554 / Part 1 / 1988, the product is coded by alphabets:"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Description",
+            "Code"
+          ],
+          [
+            "Aluminium conductor",
+            "A"
+          ],
+          [
+            "Copper conductor",
+            "No abbreviation"
+          ],
+          [
+            "PVC insulation",
+            "Y"
+          ],
+          [
+            "Steel round wire armour",
+            "W"
+          ],
+          [
+            "Steel strip armour",
+            "F"
+          ],
+          [
+            "Steel double round wire armour",
+            "WW"
+          ],
+          [
+            "Steel double strip armour",
+            "FF"
+          ],
+          [
+            "Aluminium wire armour",
+            "AW"
+          ]
+        ]
       },
       {
         "type": "paragraph",
-        "text": "note: The entire range of power and control cables can be supplied with flame retardant low smoke (FRLS) sheathing."
+        "text": "This product code is stenciled on the surface of the drum flange."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Conductor Construction"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Code",
+            "Construction"
+          ],
+          [
+            "re",
+            "Single strand"
+          ],
+          [
+            "rm",
+            "Multi-stranded circular"
+          ],
+          [
+            "sm",
+            "Sector shaped"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Note: The entire range of power and control cables can be supplied with flame retardant low smoke (FRLS) sheathing."
       }
     ],
     "links": [
@@ -3276,20 +3274,20 @@
     "schema": [
       "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Product\",\n  \"name\": \"Step Multicore Industrial Cables\",\n  \"image\": [\n    \"https://www.stepcable.com/wiresforhome/Best-Multicore-3core-4core-Cables.JPG\"\n   ],\n  \"description\": \"The Step Multicore Round Cables are an eco-friendly choice and are manufactured by India's largest producer of cables in a high technology production facility. We produce these cables in 100 mitre length for different core congurations including 2 core, 3 core, 4 core, 7 core, 8 core, 10 core, and so on.\",\n  \"sku\": \"8544\",\n  \"mpn\": \"8544\",\n  \"brand\": {\n    \"@type\": \"Thing\",\n    \"name\": \"STEP\"\n  },\n  \"review\": {\n    \"@type\": \"Review\",\n    \"reviewRating\": {\n      \"@type\": \"Rating\",\n      \"ratingValue\": \"4\",\n      \"bestRating\": \"5\"\n    },\n    \"author\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Step Cables\"\n    }\n  },\n  \"aggregateRating\": {\n    \"@type\": \"AggregateRating\",\n    \"ratingValue\": \"4.4\",\n    \"reviewCount\": \"17\"\n  }\n  }\n}"
     ],
-    "contentText": "About Step Cables Housing wiring: Electrical Building Wire Z+ Security Wire Single Core/Multicore: Industrial Cables 3 Core PVC Insulated: Flat Cable 3 Core XLPE Insulated: Flat Cable ELEVATOR & ESCALATOR CABLES PVC insulated Power & CONTROL CABLE XLPE insulated Power & CONTROL CABLE Advantages of Insulated Power Cable Aerial Bunched Cables Nominal Area In Sq. Mm No. Of Strands/ Mom. Diameter In Sq. Mm. Max. Dc Resistance Ohm/ At 20’C Nominal Insulation Thickness In Mm Outer Diameter (Approx.) Current Rating In Amps. Nominal Area In Sq. Mm No. Of Strands/ Mom. Diameter Max. Dc Resistance Ohm / Km At 20 C Nominal Insulation Thickness In Mm Outer Diameter (Approx.) Current Rating In Amps. 0.5 16/0.20 39 0.6 2.2 4 70 360/0.5 0.272 1.6 15.5 170 0.75 24/0.20 26 0.6 2.25 7 95 485/0.5 0.206 1.8 18.5 210 1 32/0.20 19.5 0.6 2.6 11 120 608/0.5 0.161 2 20.9 235 1.5 48/0.20 13.3 0.6 2.9 13 150 750/0.5 0.129 2 225 295 2.5 80/0.20 7.95 0.7 3.5 18 185 925/0.5 0.106 2.2 24.6 330 4 56/0.30 4.95 0.8 4.3 24 240 1221/0.5 0.0801 2.2 27.6 400 6 84/0.30 3.3 0.8 5.3 33 300 1527/0.5 641 2.4 32.2 475 10 140/0.30 1.91 1 6.7 45 400 2036/0.5 0.0486 2.6 35.7 550 16 126/0.4 1.21 1 8.2 60 500 2540/0.5 0.0384 24 38 625 25 196/0.4 0.78 1.2 10 75 630 3200/0.5 0.287 3 45.5 725 35 276/0.4 0.554 1.2 11.3 95 800 4100/0.5 0.0224 3.4 51 850 NOTE : Industrial cables above 50 sq. Mm are not covered by is: 694 but are as per is: 1554 The conductor construction given above is indicative only and will be such that all requirements. Of strand diameter and conductor resistance as per is: 694 and is: 1554 are met. TECHNICAL DATA: Working Voltage Upto 1100 V. TEMPERATURE RANGE: -15 deg. C to + 70 deg. C. SIZE: 0.5 to 4.0 sq. Mm in two cores to 24 cores 6.0 to 120 sq mm in three and four cores. COLOR CODE: Black and grey, white outer sheath 2 core cable-red, black 3 core cables-red, yellow, blue, black and grey only required colours on specific request. SPECIFICATION: IS 6947: 1990. PACKING: In 90 mtr. Coils, Higher sizes on drums.",
+    "contentText": "Nominal Area In Sq. Mm No. Of Strands/ Nom. Diameter In Sq. Mm. Max. Dc Resistance Ohm/ At 20’C Nominal Insulation Thickness In Mm Outer Diameter (Approx.) Current Rating In Amps. Nominal Area In Sq. Mm No. Of Strands/ Nom. Diameter Max. Dc Resistance Ohm / Km At 20 C Nominal Insulation Thickness In Mm Outer Diameter (Approx.) Current Rating In Amps. 0.5 16/0.20 39 0.6 2.2 4 70 360/0.5 0.272 1.6 15.5 170 0.75 24/0.20 26 0.6 2.25 7 95 485/0.5 0.206 1.8 18.5 210 1 32/0.20 19.5 0.6 2.6 11 120 608/0.5 0.161 2 20.9 235 1.5 48/0.20 13.3 0.6 2.9 13 150 750/0.5 0.129 2 225 295 2.5 80/0.20 7.95 0.7 3.5 18 185 925/0.5 0.106 2.2 24.6 330 4 56/0.30 4.95 0.8 4.3 24 240 1221/0.5 0.0801 2.2 27.6 400 6 84/0.30 3.3 0.8 5.3 33 300 1527/0.5 641 2.4 32.2 475 10 140/0.30 1.91 1 6.7 45 400 2036/0.5 0.0486 2.6 35.7 550 16 126/0.4 1.21 1 8.2 60 500 2540/0.5 0.0384 24 38 625 25 196/0.4 0.78 1.2 10 75 630 3200/0.5 0.287 3 45.5 725 35 276/0.4 0.554 1.2 11.3 95 800 4100/0.5 0.0224 3.4 51 850 Note Industrial cables above 50 sq. mm are not covered by IS: 694 but are as per IS: 1554. The conductor construction given above is indicative only and will be such that all requirements of strand diameter and conductor resistance as per IS: 694 and IS: 1554 are met. Technical Data Property Details Working voltage Up to 1100 V Temperature range -15 deg. C to +70 deg. C Size 0.5 to 4.0 sq. mm in two cores to 24 cores; 6.0 to 120 sq. mm in three and four cores Colour code Black and grey, white outer sheath. 2 core cable: red, black. 3 core cables: red, yellow, blue, black and grey. Other colours on specific request. Specification IS 6947: 1990 Packing In 90 mtr. coils; higher sizes on drums",
     "contentBlocks": [
       {
         "type": "table",
         "rows": [
           [
             "Nominal Area In Sq. Mm",
-            "No. Of Strands/ Mom. Diameter In Sq. Mm.",
+            "No. Of Strands/ Nom. Diameter In Sq. Mm.",
             "Max. Dc Resistance Ohm/ At 20’C",
             "Nominal Insulation Thickness In Mm",
             "Outer Diameter (Approx.)",
             "Current Rating In Amps.",
             "Nominal Area In Sq. Mm",
-            "No. Of Strands/ Mom. Diameter",
+            "No. Of Strands/ Nom. Diameter",
             "Max. Dc Resistance Ohm / Km At 20 C",
             "Nominal Insulation Thickness In Mm",
             "Outer Diameter (Approx.)",
@@ -3452,44 +3450,54 @@
         ]
       },
       {
-        "type": "paragraph",
-        "text": "NOTE :"
+        "type": "heading",
+        "level": 3,
+        "text": "Note"
       },
       {
-        "type": "paragraph",
-        "text": "Industrial cables above 50 sq. Mm are not covered by is: 694 but are as per is: 1554"
+        "type": "list",
+        "items": [
+          "Industrial cables above 50 sq. mm are not covered by IS: 694 but are as per IS: 1554.",
+          "The conductor construction given above is indicative only and will be such that all requirements of strand diameter and conductor resistance as per IS: 694 and IS: 1554 are met."
+        ]
       },
       {
-        "type": "paragraph",
-        "text": "The conductor construction given above is indicative only and will be such that all requirements."
+        "type": "heading",
+        "level": 3,
+        "text": "Technical Data"
       },
       {
-        "type": "paragraph",
-        "text": "Of strand diameter and conductor resistance as per is: 694 and is: 1554 are met."
-      },
-      {
-        "type": "paragraph",
-        "text": "TECHNICAL DATA: Working Voltage Upto 1100 V."
-      },
-      {
-        "type": "paragraph",
-        "text": "TEMPERATURE RANGE: -15 deg. C to + 70 deg. C."
-      },
-      {
-        "type": "paragraph",
-        "text": "SIZE: 0.5 to 4.0 sq. Mm in two cores to 24 cores 6.0 to 120 sq mm in three and four cores."
-      },
-      {
-        "type": "paragraph",
-        "text": "COLOR CODE: Black and grey, white outer sheath 2 core cable-red, black 3 core cables-red, yellow, blue, black and grey only required colours on specific request."
-      },
-      {
-        "type": "paragraph",
-        "text": "SPECIFICATION: IS 6947: 1990."
-      },
-      {
-        "type": "paragraph",
-        "text": "PACKING: In 90 mtr. Coils, Higher sizes on drums."
+        "type": "table",
+        "rows": [
+          [
+            "Property",
+            "Details"
+          ],
+          [
+            "Working voltage",
+            "Up to 1100 V"
+          ],
+          [
+            "Temperature range",
+            "-15 deg. C to +70 deg. C"
+          ],
+          [
+            "Size",
+            "0.5 to 4.0 sq. mm in two cores to 24 cores; 6.0 to 120 sq. mm in three and four cores"
+          ],
+          [
+            "Colour code",
+            "Black and grey, white outer sheath. 2 core cable: red, black. 3 core cables: red, yellow, blue, black and grey. Other colours on specific request."
+          ],
+          [
+            "Specification",
+            "IS 6947: 1990"
+          ],
+          [
+            "Packing",
+            "In 90 mtr. coils; higher sizes on drums"
+          ]
+        ]
       }
     ],
     "links": [
@@ -3818,12 +3826,12 @@
     "schema": [
       "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Product\",\n  \"name\": \"Step XLPE Insulated Submersible Pump Cables\",\n  \"image\": [\n    \"https://www.stepcable.com/wiresforhome/Best-Strong-Submersible-Cable-For-Pump.JPG\"\n   ],\n  \"description\": \"STEP 3 core flat submersible cables insulated with thermoset types cross linked polyethylene (XLPE) insulation with uniform thickness with each of the core colours in red, yellow and blue by using most modern machinery and extrusion techniques. The sheath with uniform thickness of heat and moisture resistant type PVC (Grade ST2) compound formulated and manufactured in-house, is extruded over these coloured cores in a flat formation.\",\n  \"sku\": \"8544\",\n  \"mpn\": \"8544\",\n  \"brand\": {\n    \"@type\": \"Thing\",\n    \"name\": \"STEP\"\n  },\n  \"review\": {\n    \"@type\": \"Review\",\n    \"reviewRating\": {\n      \"@type\": \"Rating\",\n      \"ratingValue\": \"4\",\n      \"bestRating\": \"5\"\n    },\n    \"author\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Step Cables\"\n    }\n  },\n  \"aggregateRating\": {\n    \"@type\": \"AggregateRating\",\n    \"ratingValue\": \"4.4\",\n    \"reviewCount\": \"17\"\n  }\n  }\n}"
     ],
-    "contentText": "About Step Cables Housing wiring: Electrical Building Wire Z+ Security Wire Single Core/Multicore: Industrial Cables 3 Core PVC Insulated: Flat Cable 3 Core XLPE Insulated: Flat Cable ELEVATOR & ESCALATOR CABLES PVC insulated Power & CONTROL CABLE XLPE insulated Power & CONTROL CABLE Advantages of Insulated Power Cable Aerial Bunched Cables tecnical data conductor: Flexible annealed electrolytic grade bare copper insulation: cross linked polyethylene (XLPE) sheath: PVC type ST2 (as per IS 5831 1984) voltage grade: upto and including 1 1 00V AC 50Hz 3Ph temperature: Max conductor temperature of 90 �C specification: generally as per IS 7098 (Part 1) 1988 3 core flat specialised cables as per is 694 : 1990 with isi mark conductor insulation shealth overall dismensions conductor resistance @ 20 C (Max) OHMS/KM. Area No. / Dia. of thickness thickness width height Sq. mm. strands mm. (Nom.) mm. (Nom.) mm. (Approx.) �W� mm. (Approx.) �H� mm. 1.5 22/0.30 0.7 0.9 12.5 5.6 12.10 2.5 36/0.30 0.7 1.0 12.7 6.0 7.41 4 56/0.30 0.7 1.0 14.9 6.6 4.95 6 84/0.30 0.7 1.1 16.9 7.4 3.30 10 140/0.30 0.7 1.2 20.3 9.1 1.91 Remark: Number / size of strand mentioned above are for information purpose only, Actual Number/ size of stand will be taken to fulfill the resistance of the conductor the number of wires and its diameter in the conductor will be such as to satisfy requirement of the conductor resistance as per IS 8130 : 1984. current carrying capacity (Amps) Sr. Size (Sq. mm) No Cable type 1.5 2.5 4.0 6.0 10.0 1 PVC Insulation 14 18 26 31 42 2 XLPE Insulation 22 30 37 46 66 step cable make three core flat cables are best suited of submersible application and manufactured with conductor using annealed bare copper wires of electrolytic grade, bunched properly to ensure desired flexibility. The conductor is further insulated with thermoset types cross linked polyethylene (XLPE) insulation with uniform thickness with each of the core colours in red, yellow and blue by using most modern machinery and extrusion techniques. The sheath with uniform thickness of heat and moisture resistanttype PVC (Grade ST2) compound formulated and manufactured inhouse, is extruded over these coloured cores in aflat formation. The colour of the sheath is white black. The cables undergo stringent quality checks during raw materials, in process and final testing as per the laid down specification and the quality norms. The cables are available progressive sequential marking, company name, size & voltage printed on sheath",
+    "contentText": "Technical Data conductor: Flexible annealed electrolytic grade bare copper insulation: cross linked polyethylene (XLPE) sheath: PVC type ST2 (as per IS 5831 1984) voltage grade: upto and including 1 1 00V AC 50Hz 3Ph temperature: Max conductor temperature of 90 deg. C specification: generally as per IS 7098 (Part 1) 1988 3 core flat specialised cables as per IS 694: 1990 with ISI mark Area Sq. mm No. / Dia. of strands mm Insulation thickness (Nom.) mm Sheath thickness (Nom.) mm Width (Approx.) W mm Height (Approx.) H mm Conductor resistance @ 20 deg. C (Max.) Ohms/Km 1.5 22/0.30 0.7 0.9 12.5 5.6 12.10 2.5 36/0.30 0.7 1.0 12.7 6.0 7.41 4 56/0.30 0.7 1.0 14.9 6.6 4.95 6 84/0.30 0.7 1.1 16.9 7.4 3.30 10 140/0.30 0.7 1.2 20.3 9.1 1.91 Remark: Number / size of strand mentioned above are for information purpose only, Actual Number/ size of stand will be taken to fulfill the resistance of the conductor the number of wires and its diameter in the conductor will be such as to satisfy requirement of the conductor resistance as per IS 8130 : 1984. current carrying capacity (Amps) Sr. No. Cable type 1.5 Sq. mm 2.5 Sq. mm 4.0 Sq. mm 6.0 Sq. mm 10.0 Sq. mm 1 PVC Insulation 14 18 26 31 42 2 XLPE Insulation 22 30 37 46 66 step cable make three core flat cables are best suited of submersible application and manufactured with conductor using annealed bare copper wires of electrolytic grade, bunched properly to ensure desired flexibility. The conductor is further insulated with thermoset types cross linked polyethylene (XLPE) insulation with uniform thickness with each of the core colours in red, yellow and blue by using most modern machinery and extrusion techniques. The sheath with uniform thickness of heat and moisture resistanttype PVC (Grade ST2) compound formulated and manufactured inhouse, is extruded over these coloured cores in aflat formation. The colour of the sheath is white black. The cables undergo stringent quality checks during raw materials, in process and final testing as per the laid down specification and the quality norms. The cables are available progressive sequential marking, company name, size & voltage printed on sheath",
     "contentBlocks": [
       {
         "type": "heading",
         "level": 3,
-        "text": "tecnical data"
+        "text": "Technical Data"
       },
       {
         "type": "list",
@@ -3837,7 +3845,7 @@
         "type": "list",
         "items": [
           "voltage grade: upto and including 1 1 00V AC 50Hz 3Ph",
-          "temperature: Max conductor temperature of 90 �C",
+          "temperature: Max conductor temperature of 90 deg. C",
           "specification: generally as per IS 7098 (Part 1) 1988"
         ]
       },
@@ -3845,30 +3853,16 @@
         "type": "table",
         "rows": [
           [
-            "3 core flat specialised cables as per is 694 : 1990 with isi mark"
+            "3 core flat specialised cables as per IS 694: 1990 with ISI mark"
           ],
           [
-            "conductor",
-            "insulation",
-            "shealth",
-            "overall dismensions",
-            "conductor resistance @ 20 C (Max) OHMS/KM."
-          ],
-          [
-            "Area",
-            "No. / Dia. of",
-            "thickness",
-            "thickness",
-            "width",
-            "height"
-          ],
-          [
-            "Sq. mm.",
-            "strands mm.",
-            "(Nom.) mm.",
-            "(Nom.) mm.",
-            "(Approx.) �W� mm.",
-            "(Approx.) �H� mm."
+            "Area Sq. mm",
+            "No. / Dia. of strands mm",
+            "Insulation thickness (Nom.) mm",
+            "Sheath thickness (Nom.) mm",
+            "Width (Approx.) W mm",
+            "Height (Approx.) H mm",
+            "Conductor resistance @ 20 deg. C (Max.) Ohms/Km"
           ],
           [
             "1.5",
@@ -3934,17 +3928,13 @@
         "type": "table",
         "rows": [
           [
-            "Sr.",
-            "Size (Sq. mm)"
-          ],
-          [
-            "No",
+            "Sr. No.",
             "Cable type",
-            "1.5",
-            "2.5",
-            "4.0",
-            "6.0",
-            "10.0"
+            "1.5 Sq. mm",
+            "2.5 Sq. mm",
+            "4.0 Sq. mm",
+            "6.0 Sq. mm",
+            "10.0 Sq. mm"
           ],
           [
             "1",
@@ -4391,131 +4381,134 @@
     "schema": [
       "{\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"WebPage\",\n    \"name\": \"XLPE Power & Control Cable - Step Cables\",\n    \"description\": \"This is a thermoset type of polymer enriched with a cross-linking agent. This is extruded over the conductor using modern extruders and is thoroughly cross-linked under controlled conditions.\",\n    \"publisher\": {\n        \"@type\": \"ProfilePage\",\n        \"name\": \"Step Cables\"\n    }\n}"
     ],
-    "contentText": "About Step Cables Housing wiring: Electrical Building Wire Z+ Security Wire Single Core/Multicore: Industrial Cables 3 Core PVC Insulated: Flat Cable 3 Core XLPE Insulated: Flat Cable ELEVATOR & ESCALATOR CABLES PVC insulated Power & CONTROL CABLE XLPE insulated Power & CONTROL CABLE Advantages of Insulated Power Cable Aerial Bunched Cables This is a thermoset type of polymer enriched with a cross-linking agent. This is extruded over the conductor using modern extruders and is thoroughly cross-linked under controlled conditions. This XLPE insulation overcomes the drawbacks of PVC, hitherto extensively used as an insulating material, without losing any of PVC's desirable properties. CONDUCTOR: Conductors are made from Electrolytic grade high pure aluminium conforming to IS 8130/1984 and are compact circular or compact sector-shaped. Copper conductor cables can also be offered against specific requests. INSULATION: XLPE cables are specially manufactured with high dielectric grade cross-linked polyethylene for insulation and are applied by the extrusion process. CORE IDENTIFICATION: The cores are identified by different colours as mentioned below: One-core : Red/ Natural Two-core : Red and Black Three-core : Red, Yellow, and Blue Four-core : Red, Yellow, Blue, and Black Three and half core : Red, Yellow, Blue, and reduced neutral core in Black. LAYING UP: In multi-core cables, cores are laid up as per the above colour scheme. INNER SHEATH: Laid up cores are bedded over with thermoplastic material for protection against mechanical damage. ARMOURING: Armouring is provided over the inner sheath to guard against mechanical damage. Armouring is generally of galvanized steel wires or strips. In single-core cables, used in the AC system, armouring is by non-magnetic hard drawn aluminium wires. Round steel wires are used where the diameter over the inner sheath does not exceed 13 mm, above 13 mm. flat steel strip armour is used. Round wire of different sizes can also be provided against specific requests. PVC JACKET: Specially formulated heat resistant black PVC compound ST2 type as per IS 583 I: 1984 and is extruded to form the jacket. Step also offers specially formulated Flame Retardant TESTS: In addition to all tests required as per IS 7098 (Part I) 1988, STEP cables are subjected to several in-house tests at every stage of production. Incoming raw material is also tested thoroughly to ensure consistency of quality. The cables are marked with ISI mark. PRODUCT CODE: As per IS 7098 (Part I) 1988, the codes are as below: Aluminium Conductor : A XLPE Insulation : 2X Steel Round Wire Armour : W Steel Strip Armour : F Steel Double Round Wire Armour : WW Steel Double Strip Armour : FF PVC Jacket : Y",
+    "contentText": "This is a thermoset type of polymer enriched with a cross-linking agent. It is extruded over the conductor using modern extruders and thoroughly cross-linked under controlled conditions. XLPE insulation overcomes the drawbacks of PVC without losing PVC's desirable properties. Construction Part Details Conductor Conductors are made from electrolytic grade high purity aluminium conforming to IS 8130: 1984 and are compact circular or compact sector-shaped. Copper conductor cables can also be offered against specific requests. Insulation XLPE cables are manufactured with high dielectric grade cross-linked polyethylene insulation applied by the extrusion process. Laying up In multi-core cables, cores are laid up as per the colour scheme. Inner sheath Laid up cores are bedded over with thermoplastic material for protection against mechanical damage. Armouring Armouring is provided over the inner sheath to guard against mechanical damage. It is generally of galvanized steel wires or strips. In single-core AC system cables, armouring is by non-magnetic hard drawn aluminium wires. PVC jacket Specially formulated heat resistant black PVC compound ST2 type as per IS 5831: 1984 is extruded to form the jacket. Core Identification No. of Cores Core Colours One-core Red / natural Two-core Red and black Three-core Red, yellow and blue Four-core Red, yellow, blue and black Three and half core Red, yellow, blue, and reduced neutral core in black Tests In addition to all tests required as per IS 7098 (Part I): 1988, STEP cables are subjected to several in-house tests at every stage of production. Incoming raw material is also tested thoroughly to ensure consistency of quality. The cables are marked with ISI mark. Product Code Description Code Aluminium conductor A XLPE insulation 2X Steel round wire armour W Steel strip armour F Steel double round wire armour WW Steel double strip armour FF PVC jacket Y",
     "contentBlocks": [
       {
         "type": "paragraph",
-        "text": "This is a thermoset type of polymer enriched with a cross-linking agent. This is extruded over the conductor using modern extruders and is thoroughly cross-linked under controlled conditions. This XLPE insulation overcomes the drawbacks of PVC, hitherto extensively used as an insulating material, without losing any of PVC's desirable properties."
+        "text": "This is a thermoset type of polymer enriched with a cross-linking agent. It is extruded over the conductor using modern extruders and thoroughly cross-linked under controlled conditions. XLPE insulation overcomes the drawbacks of PVC without losing PVC's desirable properties."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Construction"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Part",
+            "Details"
+          ],
+          [
+            "Conductor",
+            "Conductors are made from electrolytic grade high purity aluminium conforming to IS 8130: 1984 and are compact circular or compact sector-shaped. Copper conductor cables can also be offered against specific requests."
+          ],
+          [
+            "Insulation",
+            "XLPE cables are manufactured with high dielectric grade cross-linked polyethylene insulation applied by the extrusion process."
+          ],
+          [
+            "Laying up",
+            "In multi-core cables, cores are laid up as per the colour scheme."
+          ],
+          [
+            "Inner sheath",
+            "Laid up cores are bedded over with thermoplastic material for protection against mechanical damage."
+          ],
+          [
+            "Armouring",
+            "Armouring is provided over the inner sheath to guard against mechanical damage. It is generally of galvanized steel wires or strips. In single-core AC system cables, armouring is by non-magnetic hard drawn aluminium wires."
+          ],
+          [
+            "PVC jacket",
+            "Specially formulated heat resistant black PVC compound ST2 type as per IS 5831: 1984 is extruded to form the jacket."
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Core Identification"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "No. of Cores",
+            "Core Colours"
+          ],
+          [
+            "One-core",
+            "Red / natural"
+          ],
+          [
+            "Two-core",
+            "Red and black"
+          ],
+          [
+            "Three-core",
+            "Red, yellow and blue"
+          ],
+          [
+            "Four-core",
+            "Red, yellow, blue and black"
+          ],
+          [
+            "Three and half core",
+            "Red, yellow, blue, and reduced neutral core in black"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Tests"
       },
       {
         "type": "paragraph",
-        "text": "CONDUCTOR:"
+        "text": "In addition to all tests required as per IS 7098 (Part I): 1988, STEP cables are subjected to several in-house tests at every stage of production. Incoming raw material is also tested thoroughly to ensure consistency of quality. The cables are marked with ISI mark."
       },
       {
-        "type": "paragraph",
-        "text": "Conductors are made from Electrolytic grade high pure aluminium conforming to IS 8130/1984 and are compact circular or compact sector-shaped. Copper conductor cables can also be offered against specific requests."
+        "type": "heading",
+        "level": 3,
+        "text": "Product Code"
       },
       {
-        "type": "paragraph",
-        "text": "INSULATION:"
-      },
-      {
-        "type": "paragraph",
-        "text": "XLPE cables are specially manufactured with high dielectric grade cross-linked polyethylene for insulation and are applied by the extrusion process."
-      },
-      {
-        "type": "paragraph",
-        "text": "CORE IDENTIFICATION:"
-      },
-      {
-        "type": "paragraph",
-        "text": "The cores are identified by different colours as mentioned below:"
-      },
-      {
-        "type": "paragraph",
-        "text": "One-core : Red/ Natural"
-      },
-      {
-        "type": "paragraph",
-        "text": "Two-core : Red and Black"
-      },
-      {
-        "type": "paragraph",
-        "text": "Three-core : Red, Yellow, and Blue"
-      },
-      {
-        "type": "paragraph",
-        "text": "Four-core : Red, Yellow, Blue, and Black"
-      },
-      {
-        "type": "paragraph",
-        "text": "Three and half core : Red, Yellow, Blue, and reduced neutral core in Black."
-      },
-      {
-        "type": "paragraph",
-        "text": "LAYING UP:"
-      },
-      {
-        "type": "paragraph",
-        "text": "In multi-core cables, cores are laid up as per the above colour scheme."
-      },
-      {
-        "type": "paragraph",
-        "text": "INNER SHEATH:"
-      },
-      {
-        "type": "paragraph",
-        "text": "Laid up cores are bedded over with thermoplastic material for protection against mechanical damage."
-      },
-      {
-        "type": "paragraph",
-        "text": "ARMOURING:"
-      },
-      {
-        "type": "paragraph",
-        "text": "Armouring is provided over the inner sheath to guard against mechanical damage. Armouring is generally of galvanized steel wires or strips. In single-core cables, used in the AC system, armouring is by non-magnetic hard drawn aluminium wires. Round steel wires are used where the diameter over the inner sheath does not exceed 13 mm, above 13 mm. flat steel strip armour is used. Round wire of different sizes can also be provided against specific requests."
-      },
-      {
-        "type": "paragraph",
-        "text": "PVC JACKET:"
-      },
-      {
-        "type": "paragraph",
-        "text": "Specially formulated heat resistant black PVC compound ST2 type as per IS 583 I: 1984 and is extruded to form the jacket. Step also offers specially formulated Flame Retardant"
-      },
-      {
-        "type": "paragraph",
-        "text": "TESTS:"
-      },
-      {
-        "type": "paragraph",
-        "text": "In addition to all tests required as per IS 7098 (Part I) 1988, STEP cables are subjected to several in-house tests at every stage of production. Incoming raw material is also tested thoroughly to ensure consistency of quality. The cables are marked with ISI mark."
-      },
-      {
-        "type": "paragraph",
-        "text": "PRODUCT CODE:"
-      },
-      {
-        "type": "paragraph",
-        "text": "As per IS 7098 (Part I) 1988, the codes are as below:"
-      },
-      {
-        "type": "paragraph",
-        "text": "Aluminium Conductor : A"
-      },
-      {
-        "type": "paragraph",
-        "text": "XLPE Insulation : 2X"
-      },
-      {
-        "type": "paragraph",
-        "text": "Steel Round Wire Armour : W"
-      },
-      {
-        "type": "paragraph",
-        "text": "Steel Strip Armour : F"
-      },
-      {
-        "type": "paragraph",
-        "text": "Steel Double Round Wire Armour : WW"
-      },
-      {
-        "type": "paragraph",
-        "text": "Steel Double Strip Armour : FF"
-      },
-      {
-        "type": "paragraph",
-        "text": "PVC Jacket : Y"
+        "type": "table",
+        "rows": [
+          [
+            "Description",
+            "Code"
+          ],
+          [
+            "Aluminium conductor",
+            "A"
+          ],
+          [
+            "XLPE insulation",
+            "2X"
+          ],
+          [
+            "Steel round wire armour",
+            "W"
+          ],
+          [
+            "Steel strip armour",
+            "F"
+          ],
+          [
+            "Steel double round wire armour",
+            "WW"
+          ],
+          [
+            "Steel double strip armour",
+            "FF"
+          ],
+          [
+            "PVC jacket",
+            "Y"
+          ]
+        ]
       }
     ],
     "links": [

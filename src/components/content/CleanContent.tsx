@@ -43,29 +43,56 @@ export function CleanContent({ blocks }: CleanContentProps) {
 
         if (block.type === "form") {
           return (
-            <div key={index} className="rounded-[20px] border border-brand-teal/15 bg-white/78 p-4 shadow-xl shadow-slate-900/5 backdrop-blur-lg sm:p-6">
+            <form key={index} action="/api/contact" method="post" encType="multipart/form-data" className="rounded-[8px] border border-brand-teal/15 bg-white p-4 shadow-xl shadow-slate-900/5 sm:p-6">
               <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-                {block.fields.map((field) => (
-                  <div key={`${field.name}-${field.label}`} className="rounded-2xl border border-brand-teal/15 bg-white/70 p-4">
-                    <p className="text-sm font-black uppercase tracking-wide text-slate-900">{field.label}</p>
-                    <p className="mt-2 text-sm text-slate-600">
-                      {field.type}
-                      {field.required ? " / required" : ""}
-                    </p>
-                    {field.placeholder ? <p className="mt-1 text-xs text-slate-500">{field.placeholder}</p> : null}
-                  </div>
-                ))}
+                {block.fields.map((field) => {
+                  const commonClass = "mt-2 w-full rounded-[8px] border border-slate-200 bg-slate-50 px-4 py-3 text-sm text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-brand-teal focus:bg-white focus:ring-4 focus:ring-brand-teal/10";
+                  const inputType = ["f_name", "l_name", "input"].includes(field.type) ? "text" : field.type;
+
+                  if (field.type === "checkbox") {
+                    return (
+                      <label key={`${field.name}-${field.label}`} className="flex min-h-[92px] items-start gap-3 rounded-[8px] border border-slate-200 bg-slate-50 p-4 text-sm leading-6 text-slate-700 lg:col-span-2">
+                        <input name={field.name} type="checkbox" required={field.required} className="mt-1 h-4 w-4 rounded border-slate-300 text-brand-teal focus:ring-brand-teal" />
+                        <span>{field.label}</span>
+                      </label>
+                    );
+                  }
+
+                  return (
+                    <div key={`${field.name}-${field.label}`} className={field.type === "textarea" ? "sm:col-span-2 lg:col-span-3" : ""}>
+                      <label htmlFor={field.name} className="text-xs font-black uppercase tracking-[0.14em] text-slate-900">
+                        {field.label}
+                        {field.required ? <span className="text-brand-teal"> *</span> : null}
+                      </label>
+                      {field.type === "textarea" ? (
+                        <textarea id={field.name} name={field.name} placeholder={field.placeholder} required={field.required} rows={5} className={commonClass} />
+                      ) : field.type === "select" ? (
+                        <select id={field.name} name={field.name} required={field.required} className={commonClass} defaultValue="">
+                          <option value="" disabled>
+                            Select an option
+                          </option>
+                          <option value="Sales">Sales</option>
+                          <option value="Production">Production</option>
+                          <option value="Quality">Quality</option>
+                          <option value="Operations">Operations</option>
+                        </select>
+                      ) : (
+                        <input id={field.name} name={field.name} type={inputType} placeholder={field.placeholder} required={field.required} className={commonClass} />
+                      )}
+                    </div>
+                  );
+                })}
               </div>
               {block.buttons.length ? (
-                <div className="mt-5 flex flex-wrap gap-3">
+                <div className="mt-6 flex flex-wrap gap-3">
                   {block.buttons.map((button) => (
-                    <span key={button} className="inline-block rounded-full bg-gradient-to-r from-brand-teal to-brand-dark px-5 py-3 text-sm font-black uppercase tracking-wide text-white shadow-lg shadow-brand-teal/25 transition duration-300 hover:-translate-y-0.5">
+                    <button key={button} type="submit" className="inline-flex min-h-12 items-center justify-center rounded-[8px] bg-brand-teal px-6 py-3 text-sm font-black uppercase tracking-[0.12em] text-white shadow-lg shadow-brand-teal/20 transition duration-300 hover:-translate-y-0.5 hover:bg-brand-dark">
                       {button}
-                    </span>
+                    </button>
                   ))}
                 </div>
               ) : null}
-            </div>
+            </form>
           );
         }
 

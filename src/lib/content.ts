@@ -87,7 +87,8 @@ const pageDataFiles = [
 function readJson<T>(file: string, fallback: T): T {
   const target = path.join(dataDir, file);
   if (!fs.existsSync(target)) return fallback;
-  return JSON.parse(fs.readFileSync(target, "utf8")) as T;
+  const content = fs.readFileSync(target, "utf8").replace(/^\uFEFF/, "");
+  return JSON.parse(content) as T;
 }
 
 export function getPages() {

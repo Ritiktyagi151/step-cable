@@ -68,6 +68,7 @@ export const pageRegistry = {
     "clients2",
   ],
   career: [
+    "career",
     "application-form",
     "current-openings",
     "hr-philosophy",
