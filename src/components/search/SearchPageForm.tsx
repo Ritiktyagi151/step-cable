@@ -31,7 +31,7 @@ export function SearchPageForm({ query }: SearchPageFormProps) {
         id="search-page-input"
         {...register("q")}
         type="search"
-        placeholder="Search products, pages, blogs"
+        placeholder="Search cables, wires & electrical products"
         className="min-w-0 flex-1 rounded-full border border-brand-teal/15 bg-white px-4 py-3 text-sm text-slate-900 outline-none focus:border-brand-teal/35"
       />
       <button type="submit" className="rounded-full bg-gradient-to-r from-brand-teal to-brand-dark px-6 py-3 text-sm font-bold text-white shadow-lg shadow-brand-teal/25 transition duration-300 hover:-translate-y-0.5">

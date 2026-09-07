@@ -588,7 +588,7 @@ export function SiteHeader() {
               type="search"
               onFocus={() => setSearchFocused(true)}
               onBlur={() => setTimeout(() => setSearchFocused(false), 120)}
-              placeholder="Search products, pages, blogs"
+              placeholder="Search cables, wires & electrical products"
               className="h-12 w-full rounded-full border border-brand-teal/20 bg-white pl-11 pr-4 text-sm text-slate-700 outline-none transition duration-300 placeholder:text-slate-400 focus:border-brand-teal/50 focus:shadow-[0_0_0_4px_rgba(91,192,187,0.12)]"
             />
             <FaSearch aria-hidden="true" className="absolute left-4 top-1/2 -translate-y-1/2 text-sm text-brand-dark" />
@@ -611,7 +611,7 @@ export function SiteHeader() {
               type="search"
               onFocus={() => setSearchFocused(true)}
               onBlur={() => setTimeout(() => setSearchFocused(false), 120)}
-              placeholder="Search products, pages, blogs"
+              placeholder="Search cables, wires & electrical products"
               className="h-11 min-w-0 flex-1 rounded-full border border-brand-teal/15 bg-white pl-10 pr-3 text-sm text-slate-700 outline-none transition placeholder:text-slate-400 focus:border-brand-teal/50"
             />
             <FaSearch aria-hidden="true" className="absolute left-4 top-1/2 -translate-y-1/2 text-sm text-brand-dark" />
