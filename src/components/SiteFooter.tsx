@@ -138,7 +138,7 @@ export function SiteFooter() {
 
         <div className="col-span-2 sm:col-span-1 lg:col-span-1">
           <FooterHeading>Business</FooterHeading>
-          <div className="mt-5 grid gap-2">
+          <div className="mt-5 grid grid-cols-2 gap-x-4 gap-y-2 sm:grid-cols-1">
             {businessLinks.map(([label, href]) => (
               <FooterLink key={href} href={href} label={label} />
             ))}
@@ -181,7 +181,7 @@ export function SiteFooter() {
       <div className="relative border-t border-white/15 bg-black/45 px-4 py-5 backdrop-blur">
         <div className="mx-auto flex max-w-[88rem] flex-col gap-3 text-xs text-white/72 sm:flex-row sm:items-center sm:justify-between">
           <p>© {new Date().getFullYear()} Step Cables. All rights reserved.</p>
-          <p className="font-semibold text-white/82">Design and develop by <a href="https://www.jaikvik.com" target="_blank" rel="noopener noreferrer" className="hover:text-brand-teal">
+          <p className="font-semibold text-white/82">Design and developed by <a href="https://www.jaikvik.com" target="_blank" rel="noopener noreferrer" className="hover:text-brand-teal">
             Jaikvik Technology India Pvt Ltd
           </a> </p>
         </div>

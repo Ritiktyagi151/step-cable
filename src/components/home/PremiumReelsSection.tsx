@@ -49,11 +49,11 @@ export function PremiumReelsSection() {
           </a>
         </div>
 
-        <div className="mt-8 grid gap-5 sm:mt-10 sm:grid-cols-2 xl:grid-cols-4">
+        <div className="-mx-4 mt-7 flex snap-x snap-mandatory gap-4 overflow-x-auto px-4 pb-4 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:mx-0 sm:mt-10 sm:grid sm:grid-cols-2 sm:gap-5 sm:overflow-visible sm:px-0 sm:pb-0 xl:grid-cols-4">
           {homeReels.map((reel) => (
             <article
               key={reel.src}
-              className="group overflow-hidden rounded-[8px] border border-black/10 bg-[#f5f4f1] shadow-xl shadow-black/5 transition duration-300 hover:-translate-y-1 hover:border-[#0877ff]/30 hover:shadow-2xl hover:shadow-blue-500/10"
+              className="group w-[76vw] max-w-[285px] shrink-0 snap-start overflow-hidden rounded-[8px] border border-black/10 bg-[#f5f4f1] shadow-xl shadow-black/5 transition duration-300 hover:-translate-y-1 hover:border-[#0877ff]/30 hover:shadow-2xl hover:shadow-blue-500/10 sm:w-auto sm:max-w-none sm:shrink sm:snap-none"
             >
               <div className="aspect-[9/16] overflow-hidden bg-black">
                 <video
@@ -69,9 +69,9 @@ export function PremiumReelsSection() {
                   <source src={reel.src} type={getVideoType(reel.src)} />
                 </video>
               </div>
-              <div className="p-4">
-                <h3 className="text-base font-black leading-snug text-[#171717]">{reel.title}</h3>
-                <p className="mt-1 text-sm font-medium leading-6 text-slate-600">{reel.label}</p>
+              <div className="p-3 sm:p-4">
+                <h3 className="text-sm font-black leading-snug text-[#171717] sm:text-base">{reel.title}</h3>
+                <p className="mt-1 text-xs font-medium leading-5 text-slate-600 sm:text-sm sm:leading-6">{reel.label}</p>
               </div>
             </article>
           ))}

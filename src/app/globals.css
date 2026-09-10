@@ -1223,7 +1223,7 @@ main {
 
 .network-news-marquee {
   animation: network-news-marquee 36s linear infinite;
-  left: 100%;
+  left: 0;
   max-width: none;
   min-width: max-content;
   will-change: transform;
@@ -1354,7 +1354,7 @@ main {
     transform: translateX(0);
   }
   to {
-    transform: translateX(calc(-100% - 100vw));
+    transform: translateX(calc(-100% - 1rem));
   }
 }
 
