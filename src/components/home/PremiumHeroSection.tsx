@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { type CSSProperties, useEffect, useRef, useState } from "react";
 
 const slides = [
   {
@@ -13,18 +13,22 @@ const slides = [
   {
     type: "image",
     src: "/home-banner/wire-cables-banner.png",
+    mobileSrc: "/home-banner/wire-cables-bannermobile.png",
     label: "Step Cable banner 1",
     objectPosition: "58% center",
+    mobileObjectPosition: "center center",
   },
   {
     type: "image",
     src: "/home-banner/swtichesand-accessories.png",
+    mobileSrc: "/home-banner/switches-and-accessoriesmobile.png",
     label: "Step Cable banner 2",
     objectPosition: "center center",
   },
   {
     type: "image",
     src: "/home-banner/conductor-banner.png",
+    mobileSrc: "/home-banner/conductor-mobile.png",
     label: "Step Cable banner 3",
     objectPosition: "center center",
   },
@@ -93,21 +97,34 @@ export function PremiumHeroSection() {
                   <source src={slide.src} type="video/mp4" />
                 </video>
               ) : (
-                <img
+                <picture
                   key={isActive ? `${slide.src}-${activeSlide}` : slide.src}
-                  src={slide.src}
-                  alt={slide.label}
-                  loading="lazy"
-                  className="absolute inset-0 h-full w-full object-cover will-change-transform"
+                  className="absolute inset-0 block h-full w-full"
                   style={{
                     animation: isActive
                       ? "bannerZoomOut 5000ms ease-out forwards"
                       : undefined,
-                    objectPosition: slide.objectPosition,
                     transform: isActive ? undefined : "scale(1)",
                     transformOrigin: "center center",
                   }}
-                />
+                >
+                  {"mobileSrc" in slide ? (
+                    <source media="(max-width: 639px)" srcSet={slide.mobileSrc} />
+                  ) : null}
+                  <img
+                    src={slide.src}
+                    alt={slide.label}
+                    loading="lazy"
+                    className="hero-slide-media h-full w-full object-cover"
+                    style={{
+                      "--hero-desktop-object-position": slide.objectPosition,
+                      "--hero-mobile-object-position":
+                        "mobileObjectPosition" in slide
+                          ? slide.mobileObjectPosition
+                          : slide.objectPosition,
+                    } as CSSProperties}
+                  />
+                </picture>
               )}
             </div>
           );
@@ -121,6 +138,16 @@ export function PremiumHeroSection() {
 
           to {
             transform: scale(1);
+          }
+        }
+
+        .hero-slide-media {
+          object-position: var(--hero-mobile-object-position);
+        }
+
+        @media (min-width: 640px) {
+          .hero-slide-media {
+            object-position: var(--hero-desktop-object-position);
           }
         }
       `}</style>

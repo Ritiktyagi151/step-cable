@@ -79,10 +79,10 @@ export function NetworkStats() {
         >
           What&apos;s New
         </h2>
-        <div className="relative flex min-h-11 min-w-0 flex-1 items-center overflow-hidden whitespace-nowrap">
-         <p className="network-news-marquee py-3 text-sm font-semibold leading-6 text-slate-600 sm:py-4 sm:text-base">
-  STEP Cable delivers a comprehensive range of high-quality wires, cables and conductors engineered for reliable performance, superior durability and safe power transmission across residential, commercial, industrial, utility, infrastructure and EPC projects. Our products are designed to meet diverse electrical requirements while ensuring consistent quality, efficiency and long-lasting performance.
-</p>
+        <div className="relative h-11 min-w-0 flex-1 overflow-hidden whitespace-nowrap sm:h-14">
+          <p className="network-news-marquee absolute top-0 flex h-full items-center text-sm font-semibold leading-6 text-slate-600 sm:text-base">
+            STEP Cable delivers a comprehensive range of high-quality wires, cables and conductors engineered for reliable performance, superior durability and safe power transmission across residential, commercial, industrial, utility, infrastructure and EPC projects. Our products are designed to meet diverse electrical requirements while ensuring consistent quality, efficiency and long-lasting performance.
+          </p>
         </div>
       </div>
 
