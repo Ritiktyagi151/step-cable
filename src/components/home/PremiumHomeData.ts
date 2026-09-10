@@ -18,7 +18,7 @@ export const premiumAdvantages = [
 
 export const premiumFeaturedProducts = [
   ["Cadillac FR Wires", "/product-images/cadillac/cadillac-p01-01.png", "Studio"],
-  ["Lincoln House Wires", "/product-images/lincoln/lincoln-p02-01.jpg", "Best seller"],
+  ["Lincoln House Wires", "/new-product-img/step-lincoln/optimus-10a-1-way-switch.png", "Best seller"],
   ["Power Control Cable", "/assets/img/Power-Control-Cable-Core.png", "Demo"],
   ["Submersible Cable", "/wiresforhome/Best-Submersible-Cable-For-Pump.JPG", "Spin view"],
 ] as const;
