@@ -16,7 +16,7 @@ export function WireAndCableListingPage({ page }: WireAndCableListingPageProps) 
 
         <div className="relative mx-auto max-w-7xl">
           <div className="wire-page-rise max-w-4xl">
-            <p className="text-xs font-black uppercase tracking-[0.28em] text-[#5BC0BB]">Wire & Cable Catalogue</p>
+            <p className="text-xs font-black uppercase tracking-[0.28em] text-[#2486FE]">Wire & Cable Catalogue</p>
             <h1 className="mt-4 text-4xl font-black leading-[1.04] sm:text-5xl lg:text-6xl">Wire and Cable Products</h1>
             {page.description ? <p className="mt-6 max-w-3xl text-base font-medium leading-8 text-white/78 sm:text-lg">{page.description}</p> : null}
           </div>
@@ -28,7 +28,7 @@ export function WireAndCableListingPage({ page }: WireAndCableListingPageProps) 
               [FaBolt, "Power Grade"],
             ].map(([Icon, label], index) => (
               <div key={label as string} style={{ animationDelay: `${(index + 1) * 90}ms` }} className="wire-page-rise rounded-[8px] border border-white/15 bg-white/10 p-5 shadow-xl shadow-black/10 backdrop-blur">
-                <Icon aria-hidden="true" className="text-2xl text-[#5BC0BB]" />
+                <Icon aria-hidden="true" className="text-2xl text-[#2486FE]" />
                 <p className="mt-5 text-lg font-black">{label as string}</p>
               </div>
             ))}
@@ -40,12 +40,12 @@ export function WireAndCableListingPage({ page }: WireAndCableListingPageProps) 
         <div className="mx-auto max-w-7xl">
           <div className="wire-page-rise flex flex-col justify-between gap-4 lg:flex-row lg:items-end">
             <div>
-              <p className="text-xs font-black uppercase tracking-[0.24em] text-[#5BC0BB]">Wire & Cable Range</p>
+              <p className="text-xs font-black uppercase tracking-[0.24em] text-[#2486FE]">Wire & Cable Range</p>
               <h2 className="mt-3 max-w-3xl text-3xl font-black leading-tight sm:text-5xl">
                 Select a wire or cable to view complete details.
               </h2>
             </div>
-            <a href="/contact" className="inline-flex w-fit items-center gap-2 rounded-full bg-[#5BC0BB] px-5 py-3 text-xs font-black uppercase tracking-[0.16em] text-white shadow-lg shadow-[#5BC0BB]/20 transition hover:-translate-y-0.5 hover:bg-[#3AA9A4]">
+            <a href="/contact" className="inline-flex w-fit items-center gap-2 rounded-full bg-[#2486FE] px-5 py-3 text-xs font-black uppercase tracking-[0.16em] text-white shadow-lg shadow-[#2486FE]/20 transition hover:-translate-y-0.5 hover:bg-[#0B6FE8]">
               Ask for Quote <FaArrowRight aria-hidden="true" />
             </a>
           </div>
@@ -56,18 +56,18 @@ export function WireAndCableListingPage({ page }: WireAndCableListingPageProps) 
                 key={product.href}
                 href={product.href}
                 style={{ animationDelay: `${Math.min(index, 8) * 70}ms` }}
-                className="wire-page-rise group overflow-hidden rounded-[8px] border border-slate-200 bg-white shadow-xl shadow-slate-900/5 transition duration-300 hover:-translate-y-1 hover:border-[#5BC0BB]/35 hover:shadow-2xl hover:shadow-[#5BC0BB]/10"
+                className="wire-page-rise group overflow-hidden rounded-[8px] border border-slate-200 bg-white shadow-xl shadow-slate-900/5 transition duration-300 hover:-translate-y-1 hover:border-[#2486FE]/35 hover:shadow-2xl hover:shadow-[#2486FE]/10"
               >
                 <div className="relative flex aspect-[4/3] items-center justify-center overflow-hidden bg-slate-50 p-4">
                   <img src={product.image} alt={product.title} loading="lazy" className="h-full w-full object-contain transition duration-500 group-hover:scale-105" />
-                  <span className="absolute left-4 top-4 rounded-full bg-[#5BC0BB] px-3 py-1 text-xs font-black uppercase tracking-wide text-white">
+                  <span className="absolute left-4 top-4 rounded-full bg-[#2486FE] px-3 py-1 text-xs font-black uppercase tracking-wide text-white">
                     {product.shortName}
                   </span>
                 </div>
                 <div className="p-5">
                   <h3 className="text-xl font-black leading-tight text-slate-950">{product.title}</h3>
                   <p className="mt-3 text-sm leading-6 text-slate-600">{product.description}</p>
-                  <span className="mt-5 inline-flex items-center gap-2 text-sm font-black uppercase tracking-wide text-[#5BC0BB]">
+                  <span className="mt-5 inline-flex items-center gap-2 text-sm font-black uppercase tracking-wide text-[#2486FE]">
                     View Details <FaArrowRight aria-hidden="true" className="transition group-hover:translate-x-1" />
                   </span>
                 </div>

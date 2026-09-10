@@ -52,7 +52,7 @@ export function PageHero({ slug, title, description, image }: PageHeroProps) {
         </picture>
       </div>
       <div className="absolute inset-0 bg-gradient-to-r from-black/30 via-transparent to-transparent" />
-      <div className="absolute inset-0 bg-[linear-gradient(rgba(91,192,187,0.08)_1px,transparent_1px),linear-gradient(90deg,rgba(91,192,187,0.08)_1px,transparent_1px)] bg-[size:44px_44px]" />
+      <div className="absolute inset-0 bg-[linear-gradient(rgba(36,134,254,0.08)_1px,transparent_1px),linear-gradient(90deg,rgba(36,134,254,0.08)_1px,transparent_1px)] bg-[size:44px_44px]" />
       <div className="relative mx-auto max-w-7xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8 lg:py-20">
         <div className="max-w-5xl rounded-[20px] border border-brand-teal/15 bg-white/76 p-5 shadow-2xl shadow-slate-900/10 backdrop-blur-lg sm:p-8 lg:p-10">
           <p className="text-xs font-semibold uppercase tracking-[0.22em] text-brand-dark sm:text-sm sm:tracking-[0.32em]">Step Cables</p>

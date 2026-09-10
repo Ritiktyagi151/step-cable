@@ -26,7 +26,7 @@ export function ConnectPossibilities() {
   return (
     <section
       ref={sectionRef}
-      className="bg-[linear-gradient(rgba(91,192,187,0.08)_1px,transparent_1px),linear-gradient(90deg,rgba(91,192,187,0.08)_1px,transparent_1px)] bg-[size:44px_44px] relative overflow-hidden border-y border-brand-teal/15 bg-white text-slate-900"
+      className="bg-[linear-gradient(rgba(36,134,254,0.08)_1px,transparent_1px),linear-gradient(90deg,rgba(36,134,254,0.08)_1px,transparent_1px)] bg-[size:44px_44px] relative overflow-hidden border-y border-brand-teal/15 bg-white text-slate-900"
       aria-labelledby="connect-section-title"
     >
       {/* Bottom Accent Bar in Brand Gradient */}

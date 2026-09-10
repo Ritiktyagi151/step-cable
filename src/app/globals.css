@@ -2,18 +2,18 @@
 
 @theme {
   --color-brand-mint: #e8f8f7;
-  --color-brand-teal: #5bc0bb;
-  --color-brand-teal: #5bc0bb;
-  --color-brand-dark: #3fa8a3;
+  --color-brand-teal: #2486fe;
+  --color-brand-teal: #2486fe;
+  --color-brand-dark: #0b6fe8;
 }
 
 :root {
   --background: #ffffff;
   --foreground: #1e293b;
-  --primary: #5bc0bb;
-  --primary-hover: #3fa8a3;
+  --primary: #2486fe;
+  --primary-hover: #0b6fe8;
   --text-muted: #64748b;
-  --glass-border: rgba(91, 192, 187, 0.15);
+  --glass-border: rgba(36, 134, 254, 0.15);
   --glass-shadow: 0 24px 70px rgba(15, 23, 42, 0.08);
 }
 
@@ -44,7 +44,7 @@ img {
 }
 
 ::selection {
-  background: rgba(91, 192, 187, 0.22);
+  background: rgba(36, 134, 254, 0.22);
   color: #0f172a;
 }
 
@@ -1120,7 +1120,7 @@ main {
   border-radius: 999px;
   background: linear-gradient(135deg, var(--primary), var(--primary-hover));
   color: #ffffff;
-  box-shadow: 0 14px 34px rgba(91, 192, 187, 0.28);
+  box-shadow: 0 14px 34px rgba(36, 134, 254, 0.28);
   transition:
     transform 300ms ease,
     box-shadow 300ms ease,
@@ -1135,8 +1135,8 @@ main {
 
 .premium-subtle-grid {
   background-image:
-    linear-gradient(rgba(91, 192, 187, 0.08) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(91, 192, 187, 0.08) 1px, transparent 1px);
+    linear-gradient(rgba(36, 134, 254, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(36, 134, 254, 0.08) 1px, transparent 1px);
   background-size: 44px 44px;
 }
 

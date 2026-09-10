@@ -206,7 +206,7 @@ function HeaderDropdown({ group }: { group: (typeof navGroups)[number] }) {
             <>
               <Link
                 href={group.href}
-                className="group/head relative flex items-center justify-between overflow-hidden rounded-[10px] bg-[#5BC0BB] px-4 py-3 text-sm font-black !text-white transition duration-300 hover:bg-[#3AA9A4]"
+                className="group/head relative flex items-center justify-between overflow-hidden rounded-[10px] bg-[#2486FE] px-4 py-3 text-sm font-black !text-white transition duration-300 hover:bg-[#0B6FE8]"
               >
                 <span className="absolute inset-y-0 left-0 w-1 bg-white/40" />
                 <span className="!text-white">{group.label}</span>
@@ -453,16 +453,16 @@ export function SiteHeader() {
                   <input
                     {...registerReach(field.name, { required: field.required })}
                     type={field.type}
-                    className="rounded-2xl border border-brand-teal/15 bg-white px-4 py-3 text-base font-normal text-slate-900 outline-none transition focus:border-brand-teal/35 focus:shadow-[0_0_0_4px_rgba(91,192,187,0.12)]"
+                    className="rounded-2xl border border-brand-teal/15 bg-white px-4 py-3 text-base font-normal text-slate-900 outline-none transition focus:border-brand-teal/35 focus:shadow-[0_0_0_4px_rgba(36,134,254,0.12)]"
                   />
                 </label>
               ))}
             </div>
             <label className="grid gap-2 text-sm font-bold text-slate-900">
               Message *
-              <textarea {...registerReach("message", { required: true })} rows={4} className="rounded-2xl border border-brand-teal/15 bg-white px-4 py-3 text-base font-normal text-slate-900 outline-none transition focus:border-brand-teal/35 focus:shadow-[0_0_0_4px_rgba(91,192,187,0.12)]" />
+              <textarea {...registerReach("message", { required: true })} rows={4} className="rounded-2xl border border-brand-teal/15 bg-white px-4 py-3 text-base font-normal text-slate-900 outline-none transition focus:border-brand-teal/35 focus:shadow-[0_0_0_4px_rgba(36,134,254,0.12)]" />
             </label>
-            <button type="submit" className="w-fit rounded-full bg-[#5BC0BB] px-6 py-3 text-sm font-black uppercase tracking-wide text-white shadow-lg shadow-[#5BC0BB]/25 transition duration-300 hover:-translate-y-0.5 hover:bg-[#3AA9A4]">
+            <button type="submit" className="w-fit rounded-full bg-[#2486FE] px-6 py-3 text-sm font-black uppercase tracking-wide text-white shadow-lg shadow-[#2486FE]/25 transition duration-300 hover:-translate-y-0.5 hover:bg-[#0B6FE8]">
               Submit
             </button>
           </form>
@@ -542,7 +542,7 @@ export function SiteHeader() {
           >
             {desktopSearchOpen ? <FaTimes aria-hidden="true" className="text-sm" /> : <FaSearch aria-hidden="true" className="text-sm" />}
           </button>
-          <button type="button" onClick={openReachForm} className="rounded-full bg-[#5BC0BB] px-4 py-2 text-sm font-semibold text-white shadow-lg shadow-[#5BC0BB]/25 transition duration-300 hover:-translate-y-0.5 hover:bg-[#3AA9A4] xl:px-5">
+          <button type="button" onClick={openReachForm} className="rounded-full bg-[#2486FE] px-4 py-2 text-sm font-semibold text-white shadow-lg shadow-[#2486FE]/25 transition duration-300 hover:-translate-y-0.5 hover:bg-[#0B6FE8] xl:px-5">
             Reach Us
           </button>
         </div>
@@ -589,7 +589,7 @@ export function SiteHeader() {
               onFocus={() => setSearchFocused(true)}
               onBlur={() => setTimeout(() => setSearchFocused(false), 120)}
               placeholder="Search cables, wires & electrical products"
-              className="h-12 w-full rounded-full border border-brand-teal/20 bg-white pl-11 pr-4 text-sm text-slate-700 outline-none transition duration-300 placeholder:text-slate-400 focus:border-brand-teal/50 focus:shadow-[0_0_0_4px_rgba(91,192,187,0.12)]"
+              className="h-12 w-full rounded-full border border-brand-teal/20 bg-white pl-11 pr-4 text-sm text-slate-700 outline-none transition duration-300 placeholder:text-slate-400 focus:border-brand-teal/50 focus:shadow-[0_0_0_4px_rgba(36,134,254,0.12)]"
             />
             <FaSearch aria-hidden="true" className="absolute left-4 top-1/2 -translate-y-1/2 text-sm text-brand-dark" />
             <div className="[&>div]:max-h-80 [&>div]:overflow-y-auto">
@@ -721,7 +721,7 @@ export function SiteHeader() {
                 ))}
               </div>
             </div>
-            <button type="button" onClick={openReachForm} className="mt-2 rounded-full bg-[#5BC0BB] px-4 py-3 text-center text-sm font-semibold text-white shadow-lg shadow-[#5BC0BB]/25 transition duration-300 hover:-translate-y-0.5 hover:bg-[#3AA9A4]">
+            <button type="button" onClick={openReachForm} className="mt-2 rounded-full bg-[#2486FE] px-4 py-3 text-center text-sm font-semibold text-white shadow-lg shadow-[#2486FE]/25 transition duration-300 hover:-translate-y-0.5 hover:bg-[#0B6FE8]">
               Reach Us
             </button>
           </div>

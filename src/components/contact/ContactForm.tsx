@@ -63,14 +63,14 @@ export function ContactForm() {
             <input
               {...register(field.name, { required: field.required })}
               type={field.type}
-              className="rounded-2xl border border-brand-teal/15 bg-white/80 px-4 py-3 text-base font-normal text-slate-900 outline-none transition focus:border-brand-teal/35 focus:shadow-[0_0_0_4px_rgba(91,192,187,0.12)]"
+              className="rounded-2xl border border-brand-teal/15 bg-white/80 px-4 py-3 text-base font-normal text-slate-900 outline-none transition focus:border-brand-teal/35 focus:shadow-[0_0_0_4px_rgba(36,134,254,0.12)]"
             />
           </label>
         ))}
       </div>
       <label className="grid gap-2 text-sm font-bold text-slate-900">
         Message *
-        <textarea {...register("message", { required: true })} rows={6} className="rounded-2xl border border-brand-teal/15 bg-white/80 px-4 py-3 text-base font-normal text-slate-900 outline-none transition focus:border-brand-teal/35 focus:shadow-[0_0_0_4px_rgba(91,192,187,0.12)]" />
+        <textarea {...register("message", { required: true })} rows={6} className="rounded-2xl border border-brand-teal/15 bg-white/80 px-4 py-3 text-base font-normal text-slate-900 outline-none transition focus:border-brand-teal/35 focus:shadow-[0_0_0_4px_rgba(36,134,254,0.12)]" />
       </label>
       <button type="submit" disabled={status === "sending"} className="w-full rounded-full bg-gradient-to-r from-brand-teal to-brand-dark px-6 py-3 text-sm font-black uppercase tracking-wide text-white shadow-lg shadow-brand-teal/25 transition duration-300 hover:-translate-y-0.5 disabled:cursor-not-allowed disabled:opacity-70 sm:w-fit">
         {status === "sending" ? "Sending..." : "Submit"}

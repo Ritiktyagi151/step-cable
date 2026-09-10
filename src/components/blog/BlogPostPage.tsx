@@ -31,7 +31,7 @@ export function BlogPostPage({ post }: BlogPostPageProps) {
     <article className="bg-[#f7faf9] text-slate-900">
       <header className="relative isolate overflow-hidden border-b border-brand-teal/15 bg-slate-950 text-white">
         {post.image ? <img src={post.image} alt="" className="absolute inset-0 -z-20 h-full w-full object-cover opacity-45" /> : null}
-        <div className="absolute inset-0 -z-10 bg-[linear-gradient(105deg,rgba(6,24,31,0.94),rgba(6,24,31,0.76)_48%,rgba(91,192,187,0.38))]" />
+        <div className="absolute inset-0 -z-10 bg-[linear-gradient(105deg,rgba(6,24,31,0.94),rgba(6,24,31,0.76)_48%,rgba(36,134,254,0.38))]" />
         <div className="absolute inset-0 -z-10 bg-[linear-gradient(rgba(255,255,255,0.08)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.08)_1px,transparent_1px)] bg-[size:48px_48px]" />
 
         <div className="mx-auto grid max-w-7xl gap-8 px-4 pb-10 pt-28 sm:px-6 sm:pb-14 lg:grid-cols-[minmax(0,1fr)_360px] lg:px-8 lg:pb-16 lg:pt-32">
@@ -114,7 +114,7 @@ export function BlogPostPage({ post }: BlogPostPageProps) {
           <div className="rounded-[18px] border border-brand-teal/20 bg-[#06222a] p-5 text-white shadow-xl shadow-slate-900/10">
             <p className="text-xs font-black uppercase tracking-[0.22em] text-[#7ee0da]">Need Product Help?</p>
             <p className="mt-3 text-sm leading-6 text-white/78">Talk to Step Cables for wires, cables, conductors, switches, and accessories.</p>
-            <Link href="/contact" className="mt-5 inline-flex items-center gap-2 rounded-full bg-[#5BC0BB] px-4 py-2.5 text-sm font-black text-white transition hover:bg-[#3AA9A4]">
+            <Link href="/contact" className="mt-5 inline-flex items-center gap-2 rounded-full bg-[#2486FE] px-4 py-2.5 text-sm font-black text-white transition hover:bg-[#0B6FE8]">
               <FaEnvelope aria-hidden="true" className="text-xs" />
               Reach Us
             </Link>

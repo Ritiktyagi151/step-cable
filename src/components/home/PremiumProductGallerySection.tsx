@@ -35,7 +35,7 @@ function GalleryGrid({ categories, layout = "mosaic" }: { categories: GalleryCat
             <a key={category.href} href={category.href} className="group grid overflow-hidden rounded-[8px] bg-white shadow-xl shadow-black/5 sm:min-h-[150px] sm:grid-cols-[0.9fr_1.1fr]">
               <img src={category.image} alt={category.title} loading="lazy" className="h-44 w-full object-cover sm:h-full sm:min-h-[150px]" />
               <div className="flex flex-col justify-end p-4 sm:p-5">
-                <p className="font-mono text-[10px] font-black uppercase tracking-[0.14em] text-[#5BC0BB] sm:text-[11px] sm:tracking-[0.16em]">{category.eyebrow}</p>
+                <p className="font-mono text-[10px] font-black uppercase tracking-[0.14em] text-[#2486FE] sm:text-[11px] sm:tracking-[0.16em]">{category.eyebrow}</p>
                 <h3 className="font-display mt-2 text-lg font-black leading-tight text-[#171717] sm:text-xl">{category.title}</h3>
               </div>
             </a>
@@ -54,7 +54,7 @@ function GalleryGrid({ categories, layout = "mosaic" }: { categories: GalleryCat
               <img src={category.image} alt={category.title} loading="lazy" className="h-full w-full object-fill" />
             </div>
             <div className="p-4">
-              <p className="font-mono text-[10px] font-black uppercase tracking-[0.12em] text-[#5BC0BB] sm:tracking-[0.16em]">{category.eyebrow}</p>
+              <p className="font-mono text-[10px] font-black uppercase tracking-[0.12em] text-[#2486FE] sm:tracking-[0.16em]">{category.eyebrow}</p>
               <h3 className="font-display mt-2 text-lg font-black leading-tight text-[#171717]">{category.title}</h3>
             </div>
           </a>
@@ -122,7 +122,7 @@ export function PremiumProductGallerySection({
     <div className={showDivider ? "border-b border-black/10 pb-10 sm:pb-14" : ""}>
       <div className="mb-7 flex flex-col gap-5 sm:mb-10 sm:flex-row sm:items-end sm:justify-between">
         <div>
-          <p className="font-mono text-[10px] font-black uppercase tracking-[0.18em] text-[#5BC0BB] sm:text-[11px] sm:tracking-[0.28em]">
+          <p className="font-mono text-[10px] font-black uppercase tracking-[0.18em] text-[#2486FE] sm:text-[11px] sm:tracking-[0.28em]">
             {eyebrow}
           </p>
           <h2 className="font-display mt-3 max-w-2xl text-3xl font-black leading-[1.08] tracking-normal text-[#171717] sm:text-5xl lg:text-[3.1rem]">
@@ -132,7 +132,7 @@ export function PremiumProductGallerySection({
 
         <a
           href={href}
-          className="font-mono group inline-flex w-fit max-w-full items-center gap-2 rounded-full bg-[#5BC0BB] px-4 py-3 text-[11px] font-black uppercase tracking-[0.1em] text-white shadow-lg shadow-[#5BC0BB]/20 transition hover:-translate-y-0.5 hover:bg-[#3AA9A4] sm:px-5 sm:text-xs sm:tracking-[0.16em]"
+          className="font-mono group inline-flex w-fit max-w-full items-center gap-2 rounded-full bg-[#2486FE] px-4 py-3 text-[11px] font-black uppercase tracking-[0.1em] !text-white shadow-lg shadow-[#2486FE]/20 transition hover:-translate-y-0.5 hover:bg-[#0B6FE8] sm:px-5 sm:text-xs sm:tracking-[0.16em]"
         >
           {cta}
           <FaArrowRight

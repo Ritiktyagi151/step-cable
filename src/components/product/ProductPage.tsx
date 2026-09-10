@@ -99,7 +99,7 @@ export function ProductPage({ page }: ProductPageProps) {
               <div className="mt-7">
                 <ProductQuoteButton
                   productName={page.h1 || page.title}
-                  className="inline-flex w-fit items-center justify-center gap-2 rounded-full bg-[#5BC0BB] px-6 py-3 text-sm font-black text-white shadow-lg shadow-[#5BC0BB]/20 transition hover:-translate-y-0.5 hover:bg-[#3AA9A4]"
+                  className="inline-flex w-fit items-center justify-center gap-2 rounded-full bg-[#2486FE] px-6 py-3 text-sm font-black text-white shadow-lg shadow-[#2486FE]/20 transition hover:-translate-y-0.5 hover:bg-[#0B6FE8]"
                 />
               </div>
             </div>

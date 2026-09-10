@@ -53,7 +53,7 @@ export function PremiumAboutSection() {
     (leftInView ? "translate-x-0 opacity-100" : "-translate-x-16 opacity-0");
 
   const ctaClass =
-    "mt-8 inline-flex items-center gap-2 rounded-full bg-[#0877ff] px-5 py-3 text-xs font-black uppercase tracking-wide text-white shadow-lg shadow-blue-500/20 transition-all duration-700 ease-out hover:-translate-y-0.5 hover:bg-[#005fd0] " +
+    "mt-8 inline-flex items-center gap-2 rounded-full bg-[#0877ff] px-5 py-3 text-xs font-black uppercase tracking-wide !text-white shadow-lg shadow-blue-500/20 transition-all duration-700 ease-out hover:-translate-y-0.5 hover:bg-[#005fd0] " +
     (leftInView ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0");
 
   const videoCardClass =

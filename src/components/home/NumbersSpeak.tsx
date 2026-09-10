@@ -32,7 +32,7 @@ export function NumbersSpeak() {
     <section ref={sectionRef} className="relative overflow-hidden bg-white pt-20" aria-labelledby="numbers-speak-title">
       <div className="absolute inset-x-0 top-0 h-32 bg-white" />
       <div className="relative mx-auto max-w-[94rem] px-4 sm:px-6 lg:px-8">
-        <div className="bg-[linear-gradient(rgba(91,192,187,0.08)_1px,transparent_1px),linear-gradient(90deg,rgba(91,192,187,0.08)_1px,transparent_1px)] bg-[size:44px_44px] relative overflow-hidden rounded-[20px] border border-brand-teal/15 bg-gradient-to-br from-brand-teal to-brand-dark px-6 pb-12 pt-24 text-white shadow-2xl shadow-brand-teal/20 sm:px-10 lg:min-h-[520px] lg:px-16 lg:pb-16">
+        <div className="bg-[linear-gradient(rgba(36,134,254,0.08)_1px,transparent_1px),linear-gradient(90deg,rgba(36,134,254,0.08)_1px,transparent_1px)] bg-[size:44px_44px] relative overflow-hidden rounded-[20px] border border-brand-teal/15 bg-gradient-to-br from-brand-teal to-brand-dark px-6 pb-12 pt-24 text-white shadow-2xl shadow-brand-teal/20 sm:px-10 lg:min-h-[520px] lg:px-16 lg:pb-16">
 
           <div className={`relative z-10 max-w-xl transition-all duration-700 ease-out ${isVisible ? "translate-x-0 opacity-100" : "-translate-x-12 opacity-0"}`}>
             <h2 id="numbers-speak-title" className="mt-4 text-[1.75rem] font-black leading-[1.2] text-white sm:text-4xl">

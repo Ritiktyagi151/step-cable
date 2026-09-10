@@ -25,7 +25,7 @@ export function LincolnGroupSelect({ groups }: LincolnGroupSelectProps) {
               window.location.hash = event.target.value;
             }
           }}
-          className="h-12 w-full appearance-none rounded-[8px] border border-slate-200 bg-white px-4 pr-11 text-sm font-black text-slate-900 shadow-sm outline-none transition hover:border-[#5BC0BB]/40 focus:border-[#5BC0BB] focus:ring-4 focus:ring-[#5BC0BB]/10"
+          className="h-12 w-full appearance-none rounded-[8px] border border-slate-200 bg-white px-4 pr-11 text-sm font-black text-slate-900 shadow-sm outline-none transition hover:border-[#2486FE]/40 focus:border-[#2486FE] focus:ring-4 focus:ring-[#2486FE]/10"
         >
           <option value="" disabled>
             Choose a group

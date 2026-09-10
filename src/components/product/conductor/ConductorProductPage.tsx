@@ -50,7 +50,7 @@ function ConductorContentBlock({ block }: { block: ContentBlock }) {
       <ul className="grid gap-3 sm:grid-cols-2">
         {block.items.map((item) => (
           <li key={item} className="flex gap-3 rounded-[8px] border border-slate-200 bg-white p-4 text-sm font-bold leading-6 text-slate-700 shadow-sm">
-            <FaBolt aria-hidden="true" className="mt-1 shrink-0 text-[#5BC0BB]" />
+            <FaBolt aria-hidden="true" className="mt-1 shrink-0 text-[#2486FE]" />
             <span>{item}</span>
           </li>
         ))}
@@ -110,12 +110,12 @@ export function ConductorProductPage({ page }: ConductorProductPageProps) {
           </div>
 
           <div className="flex flex-col justify-center p-6 sm:p-8 lg:p-12">
-            <p className="text-xs font-black uppercase tracking-[0.28em] text-[#5BC0BB]">Aluminium Conductor</p>
+            <p className="text-xs font-black uppercase tracking-[0.28em] text-[#2486FE]">Aluminium Conductor</p>
             <h1 className="mt-4 max-w-3xl text-3xl font-black leading-tight text-slate-950 sm:text-5xl">{productName}</h1>
             {page.description ? <p className="mt-6 max-w-2xl text-base leading-8 text-slate-600">{page.description}</p> : null}
             <div className="mt-7 flex flex-wrap gap-3">
               {heroBadges.map((item) => (
-                <span key={item} className="rounded-full border border-[#5BC0BB]/20 bg-[#5BC0BB]/8 px-4 py-2 text-xs font-black uppercase tracking-[0.14em] text-[#5BC0BB]">
+                <span key={item} className="rounded-full border border-[#2486FE]/20 bg-[#2486FE]/8 px-4 py-2 text-xs font-black uppercase tracking-[0.14em] text-[#2486FE]">
                   {item}
                 </span>
               ))}
@@ -124,7 +124,7 @@ export function ConductorProductPage({ page }: ConductorProductPageProps) {
               <ProductQuoteButton
                 productName={productName}
                 productCode={product?.shortName}
-                className="inline-flex w-fit items-center justify-center gap-2 rounded-full bg-[#5BC0BB] px-6 py-3 text-sm font-black text-white shadow-lg shadow-[#5BC0BB]/20 transition hover:-translate-y-0.5 hover:bg-[#3AA9A4]"
+                className="inline-flex w-fit items-center justify-center gap-2 rounded-full bg-[#2486FE] px-6 py-3 text-sm font-black text-white shadow-lg shadow-[#2486FE]/20 transition hover:-translate-y-0.5 hover:bg-[#0B6FE8]"
               />
             </div>
           </div>
@@ -141,7 +141,7 @@ export function ConductorProductPage({ page }: ConductorProductPageProps) {
                 [FaLayerGroup, "Multiple conductor types"],
               ].map(([Icon, label]) => (
                 <div key={label as string} className="rounded-[8px] border border-slate-200 bg-white p-5 shadow-lg shadow-slate-900/5">
-                  <Icon aria-hidden="true" className="text-xl text-[#5BC0BB]" />
+                  <Icon aria-hidden="true" className="text-xl text-[#2486FE]" />
                   <p className="mt-4 text-sm font-black text-slate-950">{label as string}</p>
                 </div>
               ))}
@@ -173,14 +173,14 @@ export function ConductorProductPage({ page }: ConductorProductPageProps) {
 
           <aside className="space-y-5 lg:sticky lg:top-24 lg:self-start">
             <div className="rounded-[8px] border border-slate-200 bg-white p-5 shadow-xl shadow-slate-900/5">
-              <p className="text-xs font-black uppercase tracking-[0.22em] text-[#5BC0BB]">Explore</p>
+              <p className="text-xs font-black uppercase tracking-[0.22em] text-[#2486FE]">Explore</p>
               <h2 className="mt-2 text-lg font-black text-slate-950">Conductor Range</h2>
               <div className="mt-4 flex flex-wrap gap-2">
                 {conductorProducts.map((item) => (
                   <a
                     key={item.href}
                     href={item.href}
-                    className={`rounded-full px-3 py-2 text-xs font-black uppercase tracking-wide transition ${item.href === page.url ? "bg-[#5BC0BB] text-white" : "bg-[#eef4fb] text-slate-700 hover:bg-[#5BC0BB]/10 hover:text-[#5BC0BB]"}`}
+                    className={`rounded-full px-3 py-2 text-xs font-black uppercase tracking-wide transition ${item.href === page.url ? "bg-[#2486FE] text-white" : "bg-[#eef4fb] text-slate-700 hover:bg-[#2486FE]/10 hover:text-[#2486FE]"}`}
                   >
                     <span>{item.shortName}</span>
                   </a>
@@ -189,7 +189,7 @@ export function ConductorProductPage({ page }: ConductorProductPageProps) {
             </div>
 
             <div className="rounded-[8px] border border-slate-200 bg-slate-950 p-5 text-white shadow-xl shadow-slate-900/10">
-              <p className="text-xs font-black uppercase tracking-[0.22em] text-[#5BC0BB]">Need Pricing?</p>
+              <p className="text-xs font-black uppercase tracking-[0.22em] text-[#2486FE]">Need Pricing?</p>
               <h2 className="mt-3 text-xl font-black">Request conductor quote</h2>
               <p className="mt-2 text-sm leading-6 text-white/70">Share your requirement and our team will connect with details.</p>
               <div className="mt-5">
@@ -202,7 +202,7 @@ export function ConductorProductPage({ page }: ConductorProductPageProps) {
                 <h2 className="text-lg font-black text-slate-950">Downloads</h2>
                 <div className="mt-4 grid gap-3">
                   {pdfLinks.map((link) => (
-                    <a key={link.href} href={link.href} target="_blank" className="inline-flex items-center justify-between gap-3 rounded-[8px] border border-slate-200 bg-[#f7f8fb] px-4 py-3 text-sm font-bold text-slate-700 transition hover:border-[#5BC0BB]/35 hover:text-[#5BC0BB]">
+                    <a key={link.href} href={link.href} target="_blank" className="inline-flex items-center justify-between gap-3 rounded-[8px] border border-slate-200 bg-[#f7f8fb] px-4 py-3 text-sm font-bold text-slate-700 transition hover:border-[#2486FE]/35 hover:text-[#2486FE]">
                       {link.text || "View Details"}
                       <FaDownload aria-hidden="true" className="shrink-0 text-xs" />
                     </a>

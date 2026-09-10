@@ -42,7 +42,7 @@ export function PremiumReelsSection() {
           </div>
           <a target="_blank"
             href="https://www.instagram.com/stepcables/"
-            className="inline-flex w-fit max-w-full items-center gap-2 rounded-full bg-[#0877ff] px-4 py-3 text-[11px] font-black uppercase tracking-[0.1em] text-white shadow-lg shadow-blue-500/20 transition hover:-translate-y-0.5 hover:bg-[#005fd0] sm:px-5 sm:text-xs sm:tracking-[0.16em]"
+            className="inline-flex w-fit max-w-full items-center gap-2 rounded-full bg-[#0877ff] px-4 py-3 text-[11px] font-black uppercase tracking-[0.1em] !text-white shadow-lg shadow-blue-500/20 transition hover:-translate-y-0.5 hover:bg-[#005fd0] sm:px-5 sm:text-xs sm:tracking-[0.16em]"
           >
             <FaInstagram aria-hidden="true" />
             Connect With Us

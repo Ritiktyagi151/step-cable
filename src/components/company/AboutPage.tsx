@@ -288,7 +288,7 @@ export function AboutPage({ page }: AboutPageProps) {
     <>
       <section className="relative isolate min-h-[420px] overflow-hidden bg-slate-950 text-white">
         <img src={heroImage} alt="" className="about-hero-image absolute inset-0 -z-30 h-full w-full object-cover" />
-        <div className="absolute inset-0 -z-20 bg-[radial-gradient(circle_at_72%_28%,rgba(91,192,187,0.34),transparent_34%),linear-gradient(105deg,rgba(5,18,24,0.96),rgba(5,18,24,0.78)_48%,rgba(5,18,24,0.36))]" />
+        <div className="absolute inset-0 -z-20 bg-[radial-gradient(circle_at_72%_28%,rgba(36,134,254,0.34),transparent_34%),linear-gradient(105deg,rgba(5,18,24,0.96),rgba(5,18,24,0.78)_48%,rgba(5,18,24,0.36))]" />
         <div className="absolute inset-0 -z-10 bg-[linear-gradient(rgba(255,255,255,0.08)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.08)_1px,transparent_1px)] bg-[size:52px_52px]" />
 
         <div className="mx-auto grid min-h-[420px] max-w-7xl items-end gap-8 px-4 pb-8 pt-24 sm:px-6 sm:pb-10 lg:grid-cols-[minmax(0,1fr)_330px] lg:px-8 lg:pb-12">
