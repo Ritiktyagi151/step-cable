@@ -31,25 +31,25 @@ function getVideoType(src: string) {
 
 export function PremiumReelsSection() {
   return (
-    <section className="bg-white px-4 py-16 text-[#171717] sm:px-6 sm:py-20 lg:px-10">
+    <section className="bg-white px-4 py-14 text-[#171717] sm:px-6 sm:py-20 lg:px-10">
       <div className="mx-auto max-w-7xl">
         <div className="flex flex-col gap-5 border-b border-black/10 pb-8 sm:flex-row sm:items-end sm:justify-between">
           <div>
-            <p className="text-xs font-black uppercase tracking-[0.28em] text-[#0877ff]">Reels</p>
+            <p className="text-xs font-black uppercase tracking-[0.18em] text-[#0877ff] sm:tracking-[0.28em]">Reels</p>
             <h2 className="mt-3 max-w-2xl text-3xl font-black leading-tight text-[#171717] sm:text-4xl lg:text-5xl">
               Step Cable in motion
             </h2>
           </div>
           <a target="_blank"
             href="https://www.instagram.com/stepcables/"
-            className="inline-flex w-fit items-center gap-2 rounded-full bg-[#0877ff] px-5 py-3 text-xs font-black uppercase tracking-[0.16em] text-white shadow-lg shadow-blue-500/20 transition hover:-translate-y-0.5 hover:bg-[#005fd0]"
+            className="inline-flex w-fit max-w-full items-center gap-2 rounded-full bg-[#0877ff] px-4 py-3 text-[11px] font-black uppercase tracking-[0.1em] text-white shadow-lg shadow-blue-500/20 transition hover:-translate-y-0.5 hover:bg-[#005fd0] sm:px-5 sm:text-xs sm:tracking-[0.16em]"
           >
             <FaInstagram aria-hidden="true" />
             Connect With Us
           </a>
         </div>
 
-        <div className="mt-10 grid gap-5 sm:grid-cols-2 xl:grid-cols-4">
+        <div className="mt-8 grid gap-5 sm:mt-10 sm:grid-cols-2 xl:grid-cols-4">
           {homeReels.map((reel) => (
             <article
               key={reel.src}

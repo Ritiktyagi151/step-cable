@@ -72,15 +72,15 @@ export function NetworkStats() {
 
   return (
     <section className="bg-white text-slate-900" aria-labelledby="network-stats-title">
-      <div className="flex min-h-14 items-center overflow-hidden border-y border-brand-teal/15 bg-slate-50 text-slate-900">
+      <div className="flex flex-col overflow-hidden border-y border-brand-teal/15 bg-slate-50 text-slate-900 sm:min-h-14 sm:flex-row sm:items-center">
         <h2
           id="network-stats-title"
-          className="flex h-14 shrink-0 items-center bg-brand-teal px-6 text-base font-black uppercase text-white sm:px-8"
+          className="flex h-10 shrink-0 items-center justify-center bg-brand-teal px-4 text-xs font-black uppercase tracking-[0.12em] text-white sm:h-14 sm:px-8 sm:text-base sm:tracking-normal"
         >
           What&apos;s New
         </h2>
-        <div className="relative flex min-w-0 flex-1 overflow-hidden whitespace-nowrap">
-         <p className="network-news-marquee py-4 text-base font-semibold text-slate-600">
+        <div className="relative flex min-h-11 min-w-0 flex-1 items-center overflow-hidden whitespace-nowrap">
+         <p className="network-news-marquee py-3 text-sm font-semibold leading-6 text-slate-600 sm:py-4 sm:text-base">
   STEP Cable delivers a comprehensive range of high-quality wires, cables and conductors engineered for reliable performance, superior durability and safe power transmission across residential, commercial, industrial, utility, infrastructure and EPC projects. Our products are designed to meet diverse electrical requirements while ensuring consistent quality, efficiency and long-lasting performance.
 </p>
         </div>

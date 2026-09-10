@@ -57,21 +57,21 @@ export function PremiumAboutSection() {
     (leftInView ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0");
 
   const videoCardClass =
-    "absolute left-0 top-0 w-[78%] overflow-hidden rounded-[8px] border border-white/70 bg-white shadow-2xl shadow-black/15 transition-all duration-1000 ease-out " +
+    "relative w-full overflow-hidden rounded-[8px] border border-white/70 bg-white shadow-2xl shadow-black/15 transition-all duration-1000 ease-out md:absolute md:left-0 md:top-0 md:w-[78%] " +
     (rightInView ? "translate-x-0 opacity-100" : "translate-x-16 opacity-0");
 
   const imageCardClass =
-    "absolute bottom-0 right-0 w-[54%] overflow-hidden rounded-[8px] border border-white/70 bg-white shadow-2xl shadow-black/15 transition-all duration-1000 ease-out " +
+    "relative w-full overflow-hidden rounded-[8px] border border-white/70 bg-white shadow-2xl shadow-black/15 transition-all duration-1000 ease-out md:absolute md:bottom-0 md:right-0 md:w-[54%] " +
     (rightInView ? "translate-y-0 opacity-100" : "translate-y-16 opacity-0");
 
   return (
-    <section className="overflow-hidden bg-[#f5f4f1] px-4 py-16 text-[#171717] sm:px-6 sm:py-20 lg:px-10 lg:py-28">
+    <section className="overflow-hidden bg-[#f5f4f1] px-4 py-14 text-[#171717] sm:px-6 sm:py-20 lg:px-10 lg:py-28">
       <div className="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-[0.92fr_1.08fr]">
         <div ref={leftRef} className={leftBoxClass}>
-          <p className="mb-4 text-xs font-black uppercase tracking-[0.28em] text-[#0877ff]">
+          <p className="mb-4 text-xs font-black uppercase tracking-[0.18em] text-[#0877ff] sm:tracking-[0.28em]">
             About Step Cable
           </p>
-          <h2 className="max-w-3xl text-2xl font-black md:text-4xl">
+          <h2 className="max-w-3xl text-2xl font-black leading-tight md:text-4xl">
             Reliable electrical products with quality-led supply support.
           </h2>
           <p className="mt-6 max-w-xl text-base leading-8 text-[#55514b] sm:text-lg">
@@ -106,7 +106,7 @@ export function PremiumAboutSection() {
           </a>
         </div>
 
-        <div ref={rightRef} className="relative min-h-[540px] lg:min-h-[620px]">
+        <div ref={rightRef} className="grid gap-4 md:relative md:block md:min-h-[540px] lg:min-h-[620px]">
           <div className={videoCardClass}>
             <img
               src={aboutImage}
@@ -116,10 +116,10 @@ export function PremiumAboutSection() {
             />
           </div>
 
-          <div className="absolute right-0 top-[18%] z-10 grid gap-3">
+          <div className="relative z-10 grid gap-3 md:absolute md:right-0 md:top-[18%]">
             {process.map(([Icon, label], index) => {
               const badgeClass =
-                "flex min-w-44 items-center gap-3 rounded-full border border-[#0877ff]/10 bg-white/80 px-4 py-3 text-xs font-black uppercase tracking-[0.12em] shadow-xl shadow-black/10 backdrop-blur transition-all duration-700 ease-out hover:-translate-y-1 " +
+                "flex w-full items-center gap-3 rounded-full border border-[#0877ff]/10 bg-white/80 px-4 py-3 text-xs font-black uppercase tracking-[0.1em] shadow-xl shadow-black/10 backdrop-blur transition-all duration-700 ease-out hover:-translate-y-1 md:min-w-44 md:tracking-[0.12em] " +
                 (rightInView ? "translate-x-0 opacity-100" : "translate-x-16 opacity-0");
               const badgeDelay = rightInView ? (400 + index * 180) + "ms" : "0ms";
 

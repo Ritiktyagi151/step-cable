@@ -82,7 +82,7 @@ export function PremiumWhyChooseSection() {
   const { ref: gridRef, inView: gridInView } = useInView<HTMLDivElement>(0.1);
 
   const headingClass =
-    "max-w-3xl text-3xl font-black text-white leading-[0.98] tracking-normal transition-all duration-1000 ease-out  md:text-5xl " +
+    "max-w-3xl text-3xl font-black text-white leading-tight tracking-normal transition-all duration-1000 ease-out md:text-5xl md:leading-[0.98] " +
     (sectionInView ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0");
 
   const subTextClass =
@@ -92,7 +92,7 @@ export function PremiumWhyChooseSection() {
   return (
     <section
       ref={sectionRef}
-      className="relative overflow-hidden px-4 py-16 text-[#171717]   md:px-10 md:py-14"
+      className="relative overflow-hidden px-4 py-14 text-[#171717] sm:py-16 md:px-10 md:py-14"
     >
       {/* Background image */}
       <div className="absolute inset-0 z-0">
@@ -110,7 +110,7 @@ export function PremiumWhyChooseSection() {
           <div>
             <p
               className={
-                "mb-3 text-xs font-black uppercase tracking-[0.28em] text-[#0877ff] transition-all duration-700 ease-out " +
+                "mb-3 text-xs font-black uppercase tracking-[0.18em] text-[#0877ff] transition-all duration-700 ease-out sm:tracking-[0.28em] " +
                 (sectionInView ? "translate-y-0 opacity-100" : "translate-y-6 opacity-0")
               }
             >
@@ -128,7 +128,7 @@ export function PremiumWhyChooseSection() {
         <div ref={gridRef} className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {advantages.map(({ Icon, title, text, image }, index) => {
             const cardClass =
-              "group relative min-h-72 overflow-hidden rounded-[8px] border border-white/20 bg-slate-950 p-6 text-white shadow-xl shadow-black/10 transition-all duration-700 ease-out hover:-translate-y-1 hover:border-[#0877ff]/40 hover:shadow-2xl hover:shadow-black/20 " +
+              "group relative min-h-64 overflow-hidden rounded-[8px] border border-white/20 bg-slate-950 p-5 text-white shadow-xl shadow-black/10 transition-all duration-700 ease-out hover:-translate-y-1 hover:border-[#0877ff]/40 hover:shadow-2xl hover:shadow-black/20 sm:min-h-72 sm:p-6 " +
               (gridInView ? "translate-y-0 opacity-100" : "translate-y-12 opacity-0");
             const cardDelay = gridInView ? index * 110 + "ms" : "0ms";
 
@@ -141,7 +141,7 @@ export function PremiumWhyChooseSection() {
                 {/* <div className="absolute inset-0 bg-black/48 transition duration-500 group-hover:bg-black/42" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/35 to-black/10" /> */}
 
-                <div className="relative z-10 flex min-h-60 flex-col justify-between">
+                <div className="relative z-10 flex min-h-56 flex-col justify-between sm:min-h-60">
                 <span className="absolute right-0 top-0 text-5xl font-black leading-none text-white/10">
                   {String(index + 1).padStart(2, "0")}
                 </span>

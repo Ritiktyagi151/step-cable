@@ -8,21 +8,25 @@ const slides = [
     src: "/video/stepcables.mp4",
     // poster: "/home-banner/banner1.png",
     label: "Step Cable presence video",
+    objectPosition: "center center",
   },
   {
     type: "image",
     src: "/home-banner/wire-cables-banner.png",
     label: "Step Cable banner 1",
+    objectPosition: "58% center",
   },
   {
     type: "image",
     src: "/home-banner/swtichesand-accessories.png",
     label: "Step Cable banner 2",
+    objectPosition: "center center",
   },
   {
     type: "image",
     src: "/home-banner/conductor-banner.png",
     label: "Step Cable banner 3",
+    objectPosition: "center center",
   },
 ] as const;
 
@@ -58,8 +62,8 @@ export function PremiumHeroSection() {
   }, [activeSlide]);
 
   return (
-    <section className="relative min-h-[81vh] overflow-hidden bg-[#f5f4f1]">
-      <div className="relative min-h-[81vh]">
+    <section className="relative h-[clamp(300px,48vh,430px)] overflow-hidden bg-[#f5f4f1] sm:h-[56vh] lg:min-h-[81vh]">
+      <div className="relative h-full">
         {slides.map((slide, index) => {
           const isActive = index === activeSlide;
 
@@ -83,7 +87,8 @@ export function PremiumHeroSection() {
                   onEnded={() => {
                     setActiveSlide((current) => (current + 1) % slides.length);
                   }}
-                  className="absolute inset-0 h-full w-full object-fill"
+                  className="absolute inset-0 h-full w-full object-cover"
+                  style={{ objectPosition: slide.objectPosition }}
                 >
                   <source src={slide.src} type="video/mp4" />
                 </video>
@@ -93,11 +98,12 @@ export function PremiumHeroSection() {
                   src={slide.src}
                   alt={slide.label}
                   loading="lazy"
-                  className="absolute inset-0 h-full w-full object-fill"
+                  className="absolute inset-0 h-full w-full object-cover will-change-transform"
                   style={{
                     animation: isActive
                       ? "bannerZoomOut 5000ms ease-out forwards"
                       : undefined,
+                    objectPosition: slide.objectPosition,
                     transform: isActive ? undefined : "scale(1)",
                     transformOrigin: "center center",
                   }}
@@ -110,7 +116,7 @@ export function PremiumHeroSection() {
       <style jsx global>{`
         @keyframes bannerZoomOut {
           from {
-            transform: scale(1.15);
+            transform: scale(1.08);
           }
 
           to {

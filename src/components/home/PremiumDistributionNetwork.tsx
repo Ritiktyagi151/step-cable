@@ -46,12 +46,12 @@ export function PremiumDistributionNetwork() {
   const { ref: pointsRef, inView: pointsInView } = useInView<HTMLDivElement>();
 
   return (
-    <section className="bg-white px-4 py-14 text-[#171717] sm:px-6 sm:py-16 lg:px-10 lg:py-20">
+    <section className="bg-white px-4 py-12 text-[#171717] sm:px-6 sm:py-16 lg:px-10 lg:py-20">
       <div className="mx-auto grid max-w-7xl overflow-hidden rounded-[8px] border border-black/10 bg-white shadow-2xl shadow-black/5 lg:grid-cols-[0.78fr_1.08fr]">
         {/* Video panel — slides in from the left */}
         <div
           ref={videoRef}
-          className={`relative min-h-[420px] overflow-hidden bg-[#d9d8d4] transition-all duration-1000 ease-out lg:min-h-[640px] ${
+          className={`relative min-h-[300px] overflow-hidden bg-[#d9d8d4] transition-all duration-1000 ease-out sm:min-h-[420px] lg:min-h-[640px] ${
             videoInView
               ? "translate-x-0 opacity-100"
               : "-translate-x-16 opacity-0"
@@ -71,7 +71,7 @@ export function PremiumDistributionNetwork() {
           </video>
         </div>
 
-        <div className="grid content-center gap-8 p-6 sm:p-8 lg:p-12">
+        <div className="grid content-center gap-7 p-5 sm:gap-8 sm:p-8 lg:p-12">
           {/* Heading block — slides up */}
           <div
             ref={textRef}
@@ -81,15 +81,15 @@ export function PremiumDistributionNetwork() {
                 : "translate-y-10 opacity-0"
             }`}
           >
-            <p className="text-xs font-black uppercase tracking-[0.36em] text-[#0877ff]">
+            <p className="text-xs font-black uppercase tracking-[0.2em] text-[#0877ff] sm:tracking-[0.36em]">
               Our Reach
             </p>
             <span className="mt-4 block h-1 w-14 bg-[#0877ff]" />
-            <h2 className="mt-8 max-w-3xl text-4xl font-black leading-tight sm:text-5xl">
+            <h2 className="mt-7 max-w-3xl text-3xl font-black leading-tight sm:mt-8 sm:text-5xl">
               Our Distribution Network in <span className="text-[#0877ff]">India</span>
             </h2>
 
-            <div className="mt-8 grid gap-5 text-base leading-8 text-[#2f2f2f] sm:text-lg">
+            <div className="mt-6 grid gap-4 text-base leading-7 text-[#2f2f2f] sm:mt-8 sm:gap-5 sm:leading-8 sm:text-lg">
               <p>
                 Step Cable supplies quality electrical products across India through a growing network of dealers, retailers, distributors and channel partners.
               </p>
@@ -99,16 +99,16 @@ export function PremiumDistributionNetwork() {
             </div>
           </div>
 
-          <div className="pt-6">
+          <div className="pt-2 sm:pt-6">
             <div
               ref={pointsRef}
-              className="relative grid gap-5 sm:grid-cols-2 lg:grid-cols-4"
+              className="relative grid grid-cols-2 gap-4 sm:gap-5 lg:grid-cols-4"
             >
               <span className="pointer-events-none absolute left-[12%] right-[12%] top-8 hidden h-px bg-gradient-to-r from-transparent via-[#0877ff]/45 to-transparent lg:block" />
               {reachPoints.map(([Icon, label], index) => (
                 <div
                   key={label}
-                  className={`relative z-10 grid justify-items-center gap-4 text-center transition-all duration-700 ease-out ${
+                  className={`relative z-10 grid justify-items-center gap-3 text-center transition-all duration-700 ease-out sm:gap-4 ${
                     pointsInView
                       ? "translate-y-0 opacity-100"
                       : "translate-y-12 opacity-0"

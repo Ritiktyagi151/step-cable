@@ -101,27 +101,27 @@ function GalleryImageCard({
 
 export function PremiumPromoGrid() {
   return (
-    <section className="premium-reveal bg-white px-4 py-12 sm:px-6 sm:py-16 lg:px-10 lg:py-20">
-      <div className="mx-auto grid max-w-[92rem] gap-6 lg:grid-cols-3 lg:items-stretch">
+    <section className="premium-reveal bg-white px-4 py-10 sm:px-6 sm:py-16 lg:px-10 lg:py-20">
+      <div className="mx-auto grid max-w-[92rem] gap-4 sm:gap-6 lg:grid-cols-3 lg:items-stretch">
         <GalleryImageCard
           {...galleryCards[0]}
-          className="h-[420px] sm:h-[560px] lg:h-[690px]"
+          className="h-[280px] sm:h-[560px] lg:h-[690px]"
         />
 
-        <div className="grid gap-6">
+        <div className="grid gap-4 sm:gap-6">
           <GalleryImageCard
             {...galleryCards[1]}
-            className="h-[220px] sm:h-[300px] lg:h-[333px]"
+            className="h-[190px] sm:h-[300px] lg:h-[333px]"
           />
           <GalleryImageCard
             {...galleryCards[2]}
-            className="h-[220px] sm:h-[300px] lg:h-[333px]"
+            className="h-[190px] sm:h-[300px] lg:h-[333px]"
           />
         </div>
 
         <GalleryImageCard
           {...galleryCards[3]}
-          className="h-[420px] sm:h-[560px] lg:h-[690px]"
+          className="h-[280px] sm:h-[560px] lg:h-[690px]"
         />
       </div>
     </section>
