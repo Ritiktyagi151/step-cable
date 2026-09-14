@@ -1,3 +1,4 @@
+import { ConductorCategorySection } from "./ConductorCategorySection";
 import { NetworkStats } from "./NetworkStats";
 import { PremiumAboutSection } from "./PremiumAboutSection";
 import { PremiumContactCta } from "./PremiumContactCta";
@@ -5,13 +6,14 @@ import { PremiumDealerBanner } from "./PremiumDealerBanner";
 import { PremiumDistributionNetwork } from "./PremiumDistributionNetwork";
 import { PremiumFeaturedProducts } from "./PremiumFeaturedProducts";
 import { PremiumHeroSection } from "./PremiumHeroSection";
-import { PremiumProductCategories } from "./PremiumProductCategories";
 import { PremiumPromoGrid } from "./PremiumPromoGrid";
 import { PremiumReelsSection } from "./PremiumReelsSection";
 import { PremiumScrollReveal } from "./PremiumScrollReveal";
 import { PremiumTestimonials } from "./PremiumTestimonials";
 import { PremiumTrustSection } from "./PremiumTrustSection";
 import { PremiumWhyChooseSection } from "./PremiumWhyChooseSection";
+import { SwitchAccessoryCategorySection } from "./SwitchAccessoryCategorySection";
+import { WireCableCategorySection } from "./WireCableCategorySection";
 
 export function HomePage() {
   return (
@@ -19,7 +21,9 @@ export function HomePage() {
       <PremiumScrollReveal />
       <PremiumHeroSection />
       <NetworkStats />
-      <PremiumProductCategories />
+      <WireCableCategorySection />
+      <SwitchAccessoryCategorySection />
+      <ConductorCategorySection />
       <PremiumAboutSection />
       <PremiumPromoGrid />
       <PremiumDistributionNetwork />
