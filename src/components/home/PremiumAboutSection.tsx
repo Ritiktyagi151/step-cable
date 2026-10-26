@@ -65,7 +65,7 @@ export function PremiumAboutSection() {
     (rightInView ? "translate-y-0 opacity-100" : "translate-y-16 opacity-0");
 
   return (
-    <section className="overflow-hidden bg-[#f5f4f1] px-4 py-14 text-[#171717] sm:px-6 sm:py-20 lg:px-10 lg:py-28">
+    <section className="overflow-hidden bg-[#f5f4f1] px-4 py-14 text-[#171717] sm:px-6 sm:py-20 lg:px-10 lg:py-14">
       <div className="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-[0.92fr_1.08fr]">
         <div ref={leftRef} className={leftBoxClass}>
           <p className="mb-4 text-xs font-black uppercase tracking-[0.18em] text-[#0877ff] sm:tracking-[0.28em]">

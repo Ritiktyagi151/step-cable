@@ -15,7 +15,7 @@ const switchAccessoryCategories: SwitchAccessoryCategory[] = [
     title: "Modular Switches",
     eyebrow: "Switch Range",
     href: "/modular-switches",
-    image: "/homepage-img/switchs-banner/modularswitches.png",
+    image: "/homepage-img/switchs-banner/modularswitches.webp",
   },
   {
     title: "STEP Lincoln",
@@ -27,13 +27,13 @@ const switchAccessoryCategories: SwitchAccessoryCategory[] = [
     title: "STEP Cadillac",
     eyebrow: "Switches & Plates",
     href: "/step-cadillac",
-    image: "/homepage-img/switchs-banner/switches-plates.png",
+    image: "/homepage-img/switchs-banner/switches-plates.webp",
   },
   {
     title: "MCB & Switchgear",
     eyebrow: "Protection",
     href: "/mcb",
-    image: "/homepage-img/switchs-banner/mcb-switchgear.png",
+    image: "/homepage-img/switchs-banner/mcb-switchgear.webp",
   },
   // {
   //   title: "Switch Plates",

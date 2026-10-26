@@ -434,8 +434,8 @@ export function SiteHeader() {
               <a href="tel:+918448819330" className="rounded-2xl border border-white/15 bg-white/10 px-4 py-3 backdrop-blur transition duration-300 hover:bg-white/15">
                 +91 8448819330
               </a>
-              <a href="mailto:info@stepcable.com" className="rounded-2xl border border-white/15 bg-white/10 px-4 py-3 backdrop-blur transition duration-300 hover:bg-white/15">
-                info@stepcable.com
+              <a href="mailto:contact@stepcable.com" className="rounded-2xl border border-white/15 bg-white/10 px-4 py-3 backdrop-blur transition duration-300 hover:bg-white/15">
+                contact@stepcable.com
               </a>
             </div>
           </div>

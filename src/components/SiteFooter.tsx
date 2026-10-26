@@ -5,7 +5,7 @@ import { footerLinks, mainNavLinks, navGroups, topNavLinks } from "@/lib/navigat
 
 const socialLinks = [
   { label: "Phone", href: "tel:01206849500", Icon: FaPhoneAlt, className: "text-brand-dark" },
-  { label: "E-mail", href: "mailto:info@stepcable.com", Icon: FaEnvelope, className: "text-[#EA4335]" },
+  { label: "E-mail", href: "mailto:contact@stepcable.com", Icon: FaEnvelope, className: "text-[#EA4335]" },
   { label: "WhatsApp", href: "https://wa.me/918448819330", Icon: FaWhatsapp, className: "text-[#25D366]" },
   { label: "X", href: "https://x.com/stepcablesindia?lang=ar", Icon: FaXTwitter, className: "text-black" },
   { label: "Facebook", href: "https://www.facebook.com/StepCablesPrivateLimited/", Icon: FaFacebookF, className: "text-[#1877F2]" },
@@ -167,8 +167,8 @@ export function SiteFooter() {
               <a href="tel:+918448819330" className="hover:text-brand-teal">
                 Mobile: +91 8448819330
               </a>
-              <a href="mailto:info@stepcable.com" className="hover:text-brand-teal">
-                E-mail: info@stepcable.com
+              <a href="mailto:contact@stepcable.com" className="hover:text-brand-teal">
+                E-mail: contact@stepcable.com
               </a>
               <Link href="/contact" className="rounded-full bg-gradient-to-r from-brand-teal to-brand-dark text-white shadow-lg shadow-brand-teal/25 transition duration-300 hover:-translate-y-0.5 mt-2 inline-flex w-fit px-4 py-2 text-xs font-semibold uppercase tracking-[0.14em]">
                 Contact Us

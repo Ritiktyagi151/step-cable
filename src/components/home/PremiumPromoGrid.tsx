@@ -3,7 +3,7 @@ const galleryCards = [
     title: "House & Building Wires",
     subtitle: "FR, FRLS and Z+ wiring options for safer electrical installations.",
     href: "/housing-wiring-electrical-building-wire",
-    image: "/homepage-img/grid-image-range/wiring-range.png",
+    image: "/homepage-img/grid-image-range/wiring-range.webp",
     eyebrow: "WIRING RANGE",
     badge: { text: "FR / FRLS", tone: "blue" as const },
   },
@@ -19,7 +19,7 @@ const galleryCards = [
     title: "Power & Control Cables",
     subtitle: "PVC and XLPE cable options for dependable power distribution.",
     href: "/pvc-insulated-power-control-cable",
-    image: "/homepage-img/grid-image-range/power-cable-range.png",
+    image: "/homepage-img/grid-image-range/power-cable-range.webp",
     eyebrow: "CABLE SOLUTIONS",
     badge: { text: "PVC / XLPE", tone: "dark" as const },
   },
@@ -27,7 +27,7 @@ const galleryCards = [
     title: "Conductors",
     subtitle: "AAC, AAAC and ACSR conductors for transmission and distribution needs.",
     href: "/conductor",
-    image: "/homepage-img/grid-image-range/conductor-range.png",
+    image: "/homepage-img/grid-image-range/conductor-range.webp",
     eyebrow: "CONDUCTOR RANGE",
     badge: { text: "AAC / ACSR", tone: "blue" as const },
   },
@@ -101,28 +101,42 @@ function GalleryImageCard({
 
 export function PremiumPromoGrid() {
   return (
-    <section className="premium-reveal bg-white px-4 py-10 sm:px-6 sm:py-16 lg:px-10 lg:py-20">
-      <div className="mx-auto grid max-w-[92rem] gap-4 sm:gap-6 lg:grid-cols-3 lg:items-stretch">
-        <GalleryImageCard
-          {...galleryCards[0]}
-          className="h-[280px] sm:h-[560px] lg:h-[690px]"
-        />
-
-        <div className="grid gap-4 sm:gap-6">
-          <GalleryImageCard
-            {...galleryCards[1]}
-            className="h-[190px] sm:h-[300px] lg:h-[333px]"
-          />
-          <GalleryImageCard
-            {...galleryCards[2]}
-            className="h-[190px] sm:h-[300px] lg:h-[333px]"
-          />
+    <section className="premium-reveal bg-[#f5f4f1] px-4 py-10 sm:px-6 sm:py-16 lg:px-10 lg:py-10">
+      <div className="mx-auto max-w-[92rem]">
+        <div className="mb-7 flex flex-col gap-5 sm:mb-10 sm:flex-row sm:items-end sm:justify-between">
+          <div>
+            <p className="font-mono text-[10px] font-black uppercase tracking-[0.18em] text-[#2486FE] sm:text-[11px] sm:tracking-[0.28em]">
+              Industries
+            </p>
+            <h2 className="font-display mt-3 max-w-4xl text-3xl font-black leading-[1.08] tracking-normal text-[#171717] sm:text-5xl lg:text-[2rem]">
+              Our Electrical Solutions — <span className="text-[#2486FE]">industry-focused .</span>
+            </h2>
+          </div>
         </div>
 
-        <GalleryImageCard
-          {...galleryCards[3]}
-          className="h-[280px] sm:h-[560px] lg:h-[690px]"
-        />
+        {/* Cards grid */}
+        <div className="grid gap-4 sm:gap-6 lg:grid-cols-3 lg:items-stretch">
+          <GalleryImageCard
+            {...galleryCards[0]}
+            className="h-[280px] sm:h-[560px] lg:h-[690px]"
+          />
+
+          <div className="grid gap-4 sm:gap-6">
+            <GalleryImageCard
+              {...galleryCards[1]}
+              className="h-[190px] sm:h-[300px] lg:h-[333px]"
+            />
+            <GalleryImageCard
+              {...galleryCards[2]}
+              className="h-[190px] sm:h-[300px] lg:h-[333px]"
+            />
+          </div>
+
+          <GalleryImageCard
+            {...galleryCards[3]}
+            className="h-[280px] sm:h-[560px] lg:h-[690px]"
+          />
+        </div>
       </div>
     </section>
   );

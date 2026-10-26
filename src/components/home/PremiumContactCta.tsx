@@ -41,7 +41,7 @@ function ContactCard() {
           </a>
 
           <a
-            href="mailto:info@stepcable.com"
+            href="mailto:contact@stepcable.com"
             className="group/btn flex items-center gap-3.5 rounded-2xl border border-white/15 bg-slate-950/50 p-2.5 pr-5 text-sm font-semibold text-white backdrop-blur-xl transition-all duration-300 hover:border-blue-400/50 hover:bg-slate-950/70 hover:shadow-lg hover:shadow-blue-500/10"
           >
             <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-blue-500/20 text-blue-400 transition-transform group-hover/btn:scale-110">
@@ -49,7 +49,7 @@ function ContactCard() {
             </span>
             <div className="flex flex-col">
               <span className="text-[10px] font-medium uppercase tracking-wider text-white/60">Email Support</span>
-              <span className="text-sm font-bold text-white">info@stepcable.com</span>
+              <span className="text-sm font-bold text-white">contact@stepcable.com</span>
             </div>
           </a>
         </div>

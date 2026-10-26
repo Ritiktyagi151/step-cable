@@ -9,7 +9,7 @@ const offices = [
       "Address: K-10/40, Lower Ground Floor DLF City Phase-II Gurugram, Haryana-122008 India.",
       "Phone: 011-49771108-09-10",
       "Phone: 0120 6849500-99 (100 lines)",
-      "E-mail: info@stepcable.com"
+      "E-mail: contact@stepcable.com"
     ]
   },
   {
@@ -18,7 +18,7 @@ const offices = [
       "Address: G-1/52 to 59, RIICO Industrial Area Shahjahanpur, Distt-Alwar Rajasthan- 301706",
       "Phone: 01494235422",
       "Phone: 0120 6849500-99 (100 lines)",
-      "E-mail: info@stepcable.com"
+      "E-mail: contact@stepcable.com"
     ]
   },
   {
@@ -26,7 +26,7 @@ const offices = [
     details: [
       "Address: 1/61, Lane No-1, Delhi-110032",
       "Phone: 0120 6849500-99 (100 lines)",
-      "E-mail: info@stepcable.com"
+      "E-mail: contact@stepcable.com"
     ]
   }
 ];
@@ -34,7 +34,7 @@ const offices = [
 const quickDetails = [
   ["Sales Enquiry", "0120 6849500-99 (100 lines)"],
   ["Direct Support", "+91 8448819330"],
-  ["Email Support", "info@stepcable.com"],
+  ["Email Support", "contact@stepcable.com"],
   ["Response", "Quick email assistance"]
 ] as const;
 
