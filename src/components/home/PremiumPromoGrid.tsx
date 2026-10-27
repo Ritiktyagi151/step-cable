@@ -11,7 +11,7 @@ const galleryCards = [
     title: "Switches & Accessories",
     subtitle: "Modular switches, MCBs, plates and everyday electrical essentials.",
     href: "/modular-switches",
-    image: "/homepage-img/grid-image-range/swtiches-range.png",
+    image: "/homepage-img/grid-image-range/swtiches-range.webp",
     eyebrow: "RETAIL ESSENTIALS",
     badge: { text: "MCB", tone: "blue" as const },
   },
@@ -66,7 +66,7 @@ function GalleryImageCard({
         src={image}
         alt={title}
         loading="lazy"
-        className="h-full w-full object-fill transition duration-700 group-hover:scale-105"
+        className="block h-full w-full object-fill transition duration-700 group-hover:scale-105"
       />
 
       {/* bottom gradient scrim for text legibility */}
@@ -101,7 +101,7 @@ function GalleryImageCard({
 
 export function PremiumPromoGrid() {
   return (
-    <section className="premium-reveal bg-[#f5f4f1] px-4 py-10 sm:px-6 sm:py-16 lg:px-10 lg:py-10">
+    <section className="premium-reveal bg-[#f5f4f1] px-4 py-10 sm:px-6 sm:py-16 lg:px-10 lg:pt-10 lg:pb-0">
       <div className="mx-auto max-w-[92rem]">
         <div className="mb-7 flex flex-col gap-5 sm:mb-10 sm:flex-row sm:items-end sm:justify-between">
           <div>
